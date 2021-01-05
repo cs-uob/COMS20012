@@ -28,17 +28,17 @@ The lab cover material seen in the previous week lecture (e.g. Lab 1 cover mater
 
 | Week | Lecture      | Lab          | Independent Work           |
 |------|--------------|--------------|----------------------------|
-| 13   | Lecture 1 - Software Security I      | No Lab | TBD |
-| 14   | Lecture 2 - Software Security II     | Lab 1 - TBC  | TBD |
-| 15   | Lecture 3 - Web and Network Security | Lab 2 - TBC  | TBD |
-| 16   | Lecture 4 - Authentication Methods   | Lab 3 - SQL Injection  | TBD |
-| 17   | Lecture 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | TBD |
+| 13   | Lecture 1 - Software Security I      | No Lab | [Exercise Sheet](exercises/EXERCISES1.md) |
+| 14   | Lecture 2 - Software Security II     | Lab 1 - TBC  | [Exercise Sheet](exercises/EXERCISES2.md) |
+| 15   | Lecture 3 - Web and Network Security | Lab 2 - TBC  | [Exercise Sheet](exercises/EXERCISES3.md) |
+| 16   | Lecture 4 - Authentication Methods   | Lab 3 - SQL Injection  | [Exercise Sheet](exercises/EXERCISES4.md) |
+| 17   | Lecture 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | [Exercise Sheet](exercises/EXERCISES5.md) |
 | 18   | Break | Break  | Break |
-| 19   | Lecture 6 - Threads and Synchronizations      | No Lab  | TBD |
-| 20   | Lecture 7 - Process Management                | Lab 5 - TBC  | TBD |
-| 21   | Lecture 8 - Memory Management                 | Lab 6 - TBC  | TBD |
-| 22   | Lecture 9 - File Systems                      | Lab 7 - TBC  | TBD |
-| 23   | Lecture 10 - OS Security                      | Lab 8 - TBC  | TBD |
+| 19   | Lecture 6 - Threads and Synchronizations      | No Lab  | [Exercise Sheet](exercises/EXERCISES6.md) |
+| 20   | Lecture 7 - Process Management                | Lab 5 - TBC  | [Exercise Sheet](exercises/EXERCISES7.md) |
+| 21   | Lecture 8 - Memory Management                 | Lab 6 - TBC  | [Exercise Sheet](exercises/EXERCISES8.md) |
+| 22   | Lecture 9 - File Systems                      | Lab 7 - TBC  | [Exercise Sheet](exercises/EXERCISES9.md) |
+| 23   | Lecture 10 - OS Security                      | Lab 8 - TBC  | [Exercise Sheet](exercises/EXERCISES10.md) |
 | 24   | Revision Week                      | Revision Week   | Revision Week  |
 
 ## Reading Material
