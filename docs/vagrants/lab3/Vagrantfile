@@ -1,0 +1,101 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  # VM3 - Server
+  config.vm.define "vm3s" do |vm3s|
+    vm3s.vm.box = "hashicorp/precise32"
+    vm3s.vm.hostname = "vm3s"
+    vm3s.vm.network "private_network", ip: "192.168.255.33"
+    vm3s.vm.provider "virtualbox" do |virtualbox|
+       virtualbox.name = "SS-Server"
+    end
+
+  # File Provision
+  vm3s.vm.provision "file", source: "patch.tar.gz", destination: "/tmp/patch.tar.gz"
+  vm3s.vm.provision "file", source: "sql_collabtive.tar.gz", destination: "/tmp/sql_collabtive.tar.gz"
+
+  # Network Provision
+  vm3s.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
+  # documentation for more information about their specific syntax and use.
+  vm3s.vm.provision "shell", inline: <<-SHELL
+        set -ex
+
+        echo "-----------------"
+        echo "Installing prerequisites..."
+        debconf-set-selections <<< 'mysql-server mysql-server/root_password password seedubuntu'
+        debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password seedubuntu'
+        apt-get update
+        apt-get install -y apache2 git vim python-pip socat gdb mysql-server-5.5 curl php5 php5-mysql openbsd-inetd p7zip-full
+        apt-get autoremove -y
+        update-rc.d mysql defaults
+        update-rc.d openbsd-inetd defaults
+
+        # Git Clone the Labs
+        echo ""
+        echo "-----------------"
+        echo "Preparing labs..."
+        sudo -H -u vagrant bash -c "cd /home/vagrant; git clone https://github.com/bris-sys-sec/labs.git;"
+    #     sudo -H -u vagrant bash -c "pip install pexpect;"
+
+        # Setup the Vulnerable Machine for SQL
+        echo ""
+        echo "-----------------"
+        echo "Preparing the SQL injection application..."
+        cd /tmp/; tar -xzvf /tmp/patch.tar.gz; cd patch; chmod a+x bootstrap.sh; ./bootstrap.sh;
+
+        # Install SQL Collabtive
+        mkdir /tmp/collabtive
+        cd /tmp/collabtive
+        cp /tmp/sql_collabtive.tar.gz /tmp/collabtive
+    #     tar -xvzf sql_collabtive.tar.gz -C . # This seems to fail, so we use 7zip instead
+        7z x sql_collabtive.tar.gz
+        7z x sql_collabtive.tar
+        mv var/www/SQL /var/www/SQL
+        chown -R www-data:www-data /var/www/SQL
+        echo 'DROP DATABASE IF EXISTS sql_collabtive_db; CREATE DATABASE sql_collabtive_db' | mysql -uroot -pseedubuntu
+        mysql -uroot -pseedubuntu sql_collabtive_db < sql_collabtive_db.sqldump
+        cp apache2.conf /etc/apache2/sites-available/default
+        service apache2 restart
+
+        echo ""
+        echo "-----------------"
+        echo "Cleaning up..."
+        rm -rf /tmp/collabtive
+    SHELL
+  end
+
+  # Creating two more machines for Lab4
+  # VM2 - Client and VM1 - Attacker
+  config.vm.define "vm2c" do |vm2c|
+    vm2c.vm.box = "hashicorp/precise32"
+    vm2c.vm.hostname = "vm2c"
+    vm2c.vm.network "private_network", ip: "192.168.255.22"
+    vm2c.vm.provider "virtualbox" do |virtualbox|
+       virtualbox.name = "SS-Client"
+    end
+  end
+
+
+  config.vm.define "vm1a" do |vm1a|
+    vm1a.vm.box = "hashicorp/precise32"
+    vm1a.vm.hostname = "vm1a"
+    vm1a.vm.network "private_network", ip: "192.168.255.11"
+    vm1a.vm.provider "virtualbox" do |virtualbox|
+        # Enable promiscuous mode
+        virtualbox.customize ["modifyvm", :id, "--nicpromisc2", "allow-all"]
+        virtualbox.name="SS-Attacker"
+    end
+    # Enable provisioning with a shell script.
+    vm1a.vm.provision "shell", inline: <<-SHELL
+      apt-get update
+      apt-get install -y netwox telnet tshark
+      apt-get autoremove -y
+    SHELL
+
+ end
+end
