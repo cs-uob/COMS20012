@@ -4,6 +4,13 @@
 
 ## People
 
+| Person          | Role               | Contact                                                               |
+|-----------------|--------------------|-----------------------------------------------------------------------|
+| [Thomas Pasquier](https://tfjmp.org/) | Unit Director           | [thomas.pasquier@bristol.ac.uk](mailto:thomas.pasquier@bristol.ac.uk) |
+| [Sanjay Rawat](https://research-information.bris.ac.uk/en/persons/sanjay-rawat)    | Lecturer      | [sanjay.rawat@bristol.ac.uk](mailto:sanjay.rawat@bristol.ac.uk)       |
+| Soo Yee Lim     | Head Teaching Assistant | [sooyee.lim@bristol.ac.uk](mailto:sooyee.lim@bristol.ac.uk)           |
+| Priyanka Badva  | Teaching Assistant | [priyanka.badva@bristol.ac.uk](mailto:priyanka.badva@bristol.ac.uk)   |
+
 ## Support
 
 ## Course Structure
