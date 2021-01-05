@@ -40,6 +40,7 @@ Any part of this unit can be examined.
 | 18   | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md)  | [Lab 4 - Brute Forcing Passwords](labs/LAB4.md)  | [Exercise Sheet](exercises/EXERCISES5.md) |
 | 19   | [Lecture 6 - Threads and Synchronizations](lectures/LECTURE6.md)       | No Lab  | [Exercise Sheet](exercises/EXERCISES6.md) |
 | 20   | [Lecture 7 - Process Management](lectures/LECTURE7.md)                | [Lab 5 - TBC](labs/LAB5.md)  | [Exercise Sheet](exercises/EXERCISES7.md) |
+| Easter Break  | Easter Break | Easter Break  | Easter Break |
 | 21   | [Lecture 8 - Memory Management](lectures/LECTURE8.md)                 | [Lab 6 - TBC](labs/LAB6.md)  | [Exercise Sheet](exercises/EXERCISES8.md) |
 | 22   | [Lecture 9 - File Systems](lectures/LECTURE9.md)                      | [Lab 7 - TBC](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
 | 23   | [Lecture 10 - OS Security](lectures/LECTURE10.md)                      | [Lab 8 - TBC](labs/LAB8.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
