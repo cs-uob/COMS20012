@@ -1,4 +1,4 @@
-# Lab 3: XXX
+# Lab 3 - SQL Injection
 
 ## Preparation
 
