@@ -32,8 +32,8 @@ The lab cover material seen in the previous week lecture (e.g. Lab 1 cover mater
 | 14   | Lecture 2 - Software Security II     | Lab 1 - TBC  | [Exercise Sheet](exercises/EXERCISES2.md) |
 | 15   | Lecture 3 - Web and Network Security | Lab 2 - TBC  | [Exercise Sheet](exercises/EXERCISES3.md) |
 | 16   | Lecture 4 - Authentication Methods   | Lab 3 - SQL Injection  | [Exercise Sheet](exercises/EXERCISES4.md) |
-| 17   | Lecture 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | [Exercise Sheet](exercises/EXERCISES5.md) |
-| 18   | Break | Break  | Break |
+| 17  | Reading Week | Reading Week  | Reading Week |
+| 18   | Lecture 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | [Exercise Sheet](exercises/EXERCISES5.md) |
 | 19   | Lecture 6 - Threads and Synchronizations      | No Lab  | [Exercise Sheet](exercises/EXERCISES6.md) |
 | 20   | Lecture 7 - Process Management                | Lab 5 - TBC  | [Exercise Sheet](exercises/EXERCISES7.md) |
 | 21   | Lecture 8 - Memory Management                 | Lab 6 - TBC  | [Exercise Sheet](exercises/EXERCISES8.md) |
