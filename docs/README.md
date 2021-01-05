@@ -2,6 +2,10 @@
 
 ## Schedule
 
+| Tuesday 14:00-17:00 | Friday 9:00-10:00 |
+|---------------------|-------------------|
+| Lab Session         | Q&A Session       |
+
 ## People
 
 | Person          | Role               | Contact                                                               |
