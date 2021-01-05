@@ -24,21 +24,25 @@ The most effective way to get the help you need is to:
 
 ## Course Structure
 
+Every week, you are expected to watch the videos and do the exercise sheet before the Q&A session.
+Q&A sessions should be used to ask questions about the material seen in videos and the exercise sheets.
 The lab cover material seen in the previous week lecture (e.g. Lab 1 cover material from Week 1, Lab 2 from week 2 etc.).
+Questions about the lab should be asked during the lab sessions.
+Any part of this unit can be examined.
 
 | Week | Lecture      | Lab          | Independent Work           |
 |------|--------------|--------------|----------------------------|
 | 13   | Lecture 1 - Software Security I      | No Lab | [Exercise Sheet](exercises/EXERCISES1.md) |
-| 14   | Lecture 2 - Software Security II     | Lab 1 - TBC  | [Exercise Sheet](exercises/EXERCISES2.md) |
-| 15   | Lecture 3 - Web and Network Security | Lab 2 - TBC  | [Exercise Sheet](exercises/EXERCISES3.md) |
-| 16   | Lecture 4 - Authentication Methods   | Lab 3 - SQL Injection  | [Exercise Sheet](exercises/EXERCISES4.md) |
+| 14   | Lecture 2 - Software Security II     | [Lab 1 - TBC](labs/LAB1.md)  | [Exercise Sheet](exercises/EXERCISES2.md) |
+| 15   | Lecture 3 - Web and Network Security | [Lab 2 - TBC](labs/LAB2.md)  | [Exercise Sheet](exercises/EXERCISES3.md) |
+| 16   | Lecture 4 - Authentication Methods   | [Lab 3 - SQL Injection](labs/LAB3.md)  | [Exercise Sheet](exercises/EXERCISES4.md) |
 | 17  | Reading Week | Reading Week  | Reading Week |
-| 18   | Lecture 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | [Exercise Sheet](exercises/EXERCISES5.md) |
+| 18   | Lecture 5 - Introduction to Operating Systems | [Lab 4 - Brute Forcing Passwords](labs/LAB4.md)  | [Exercise Sheet](exercises/EXERCISES5.md) |
 | 19   | Lecture 6 - Threads and Synchronizations      | No Lab  | [Exercise Sheet](exercises/EXERCISES6.md) |
-| 20   | Lecture 7 - Process Management                | Lab 5 - TBC  | [Exercise Sheet](exercises/EXERCISES7.md) |
-| 21   | Lecture 8 - Memory Management                 | Lab 6 - TBC  | [Exercise Sheet](exercises/EXERCISES8.md) |
-| 22   | Lecture 9 - File Systems                      | Lab 7 - TBC  | [Exercise Sheet](exercises/EXERCISES9.md) |
-| 23   | Lecture 10 - OS Security                      | Lab 8 - TBC  | [Exercise Sheet](exercises/EXERCISES10.md) |
+| 20   | Lecture 7 - Process Management                | [Lab 5 - TBC](labs/LAB5.md)  | [Exercise Sheet](exercises/EXERCISES7.md) |
+| 21   | Lecture 8 - Memory Management                 | [Lab 6 - TBC](labs/LAB6.md)  | [Exercise Sheet](exercises/EXERCISES8.md) |
+| 22   | Lecture 9 - File Systems                      | [Lab 7 - TBC](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
+| 23   | Lecture 10 - OS Security                      | [Lab 8 - TBC](labs/LAB8.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
 | 24   | Revision Week                      | Revision Week   | Revision Week  |
 
 ## Reading Material
