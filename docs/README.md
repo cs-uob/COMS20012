@@ -28,17 +28,17 @@ The lab cover material seen in the previous week lecture (e.g. Lab 1 cover mater
 
 | Week | Lecture      | Lab          | Independent Work           |
 |------|--------------|--------------|----------------------------|
-| 13   | Week 1 - Software Security I      | No Lab | TBD |
-| 14   | Week 2 - Software Security II     | Lab 1 - TBC  | TBD |
-| 15   | Week 3 - Web and Network Security | Lab 2 - TBC  | TBD |
-| 16   | Week 4 - Authentication Methods   | Lab 3 - SQL Injection  | TBD |
-| 17   | Week 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | TBD |
+| 13   | Lecture 1 - Software Security I      | No Lab | TBD |
+| 14   | Lecture 2 - Software Security II     | Lab 1 - TBC  | TBD |
+| 15   | Lecture 3 - Web and Network Security | Lab 2 - TBC  | TBD |
+| 16   | Lecture 4 - Authentication Methods   | Lab 3 - SQL Injection  | TBD |
+| 17   | Lecture 5 - Introduction to Operating Systems | Lab 4 - Brute Forcing Passwords  | TBD |
 | 18   | Break | Break  | Break |
-| 19   | Week 6 - Threads and Synchronizations      | No Lab  | TBD |
-| 20   | Week 7 - Process Management                | Lab 5 - TBC  | TBD |
-| 21   | Week 8 - Memory Management                 | Lab 6 - TBC  | TBD |
-| 22   | Week 9 - File Systems                      | Lab 7 - TBC  | TBD |
-| 23   | Week 10 - OS Security                      | Lab 8 - TBC  | TBD |
+| 19   | Lecture 6 - Threads and Synchronizations      | No Lab  | TBD |
+| 20   | Lecture 7 - Process Management                | Lab 5 - TBC  | TBD |
+| 21   | Lecture 8 - Memory Management                 | Lab 6 - TBC  | TBD |
+| 22   | Lecture 9 - File Systems                      | Lab 7 - TBC  | TBD |
+| 23   | Lecture 10 - OS Security                      | Lab 8 - TBC  | TBD |
 | 24   | Revision Week                      | Revision Week   | Revision Week  |
 
 ## Reading Material
