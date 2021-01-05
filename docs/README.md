@@ -39,7 +39,7 @@ The lab cover material seen in the previous week lecture (e.g. Lab 1 cover mater
 | 21   | Week 8 - Memory Management                 | Lab 6 - TBC  | TBD |
 | 22   | Week 9 - File Systems                      | Lab 7 - TBC  | TBD |
 | 23   | Week 10 - OS Security                      | Lab 8 - TBC  | TBD |
-| 23   | Revision Week                      | Revision Week   | Revision Week  |
+| 24   | Revision Week                      | Revision Week   | Revision Week  |
 
 ## Reading Material
 
