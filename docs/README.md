@@ -13,6 +13,15 @@
 
 ## Support
 
+You may need help at different stages of this unit.
+The most effective way to get the help you need is to:
+
+1. Check unit website/handsout/slides.
+2. Ask your question on XXX.
+3. Contact the TA assigned to your lab group.
+4. Contact the head TA [Soo Yee](mailto:sooyee.lim@bristol.ac.uk).
+5. Contact [Sanjay](mailto:sanjay.rawat@bristol.ac.uk) or [Thomas](mailto:thomas.pasquier@bristol.ac.uk).
+
 ## Course Structure
 
 ## Reading Material
