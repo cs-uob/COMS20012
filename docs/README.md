@@ -25,3 +25,8 @@ The most effective way to get the help you need is to:
 ## Course Structure
 
 ## Reading Material
+
+As part of the unit, you will be referred to chapter in books to read.
+We give full reference bellow.
+
+- Doeppner, Thomas W., **Operating Systems in Depth** (Wiley, 2010) ISBN 978-0-471-68723-8
