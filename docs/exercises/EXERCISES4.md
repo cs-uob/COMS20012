@@ -3,9 +3,9 @@
 ## Authentication Methods
 
 1. Explain in your own words what:
-    a. authentication means;
-    b. authorization means;
-    c. accountability means.
+* authentication means;
+* authorization means;
+* accountability means.
 
 2. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf) provided as lecture material. Discuss why it is difficult to replace passwords.
 
