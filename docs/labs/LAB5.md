@@ -55,11 +55,6 @@ First you need to `ssh` in your guest virtual machine:
 vagrant ssh
 ```
 
-Then you need to move to the `shared` folder which is synced with your host machine:
-```
-cd shared
-```
-
 Now all that is left for you to do is to access the OS/161 source code:
 ```
 git clone https://github.com/tfjmp/os161.git
