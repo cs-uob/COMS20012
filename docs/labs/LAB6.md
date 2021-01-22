@@ -1,5 +1,7 @@
 # Lab 6: Synchronization
 
+You need to complete [LAB 5](../LAB5.html) in order to do this lab.
+
 ## Setup
 
 To successfully run the LAB 6 tests you will need to configure your
@@ -135,3 +137,8 @@ to get a list of commands. Remember to specify a seed to use in the random
 number generator by editing your `sys161.conf` file. It is much easier to debug
 initial problems when the sequence of execution and context
 switches is reproducible.
+
+## Acknowledgement
+
+This lab was developed thanks to material available at [Harvard 0S/161](http://os161.eecs.harvard.edu/),
+[ops-class](https://ops-class.org/) and [OS/161 at UBC](https://sites.google.com/site/os161ubc/home).
