@@ -1,1 +1,1 @@
-# Lab 7: System Calls
+# Lab 7: System Calls and Processes
