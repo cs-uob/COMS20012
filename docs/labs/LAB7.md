@@ -1,1 +1,1 @@
-# Lab 7: XXX
+# Lab 7: System Calls
