@@ -353,9 +353,9 @@ On your first terminal you should see the following message:
 sys161: New debugger connection
 ```
 
-### Trying DBG
+### Trying GDB
 
-We are going to set our first breakpoint within the DBG prompt:
+We are going to set our first breakpoint within the `gdb` prompt:
 ```
 break kmain
 ```
