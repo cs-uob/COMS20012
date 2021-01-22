@@ -47,7 +47,7 @@ vagrant up
 
 ## Getting the source
 
-OS/161 has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
+[OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
 We sorted the dependencies you will need in git repositories.
 
 First you need to `ssh` in your guest virtual machine:
