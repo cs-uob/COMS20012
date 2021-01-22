@@ -19,6 +19,8 @@ If you spot errors in the lab instructions, please, do drop an e-mail at
 [thomas.pasquier@bristol.ac.uk](emailto:thomas.pasquier@bristol.ac.uk). We will
 endeavor to fix any issue quickly.
 
+Finally, make sure you do the **exercises** properly.
+
 ## Tools
 
 You are second year computer science students and we expect some autonomy
@@ -122,13 +124,114 @@ environment to run OS-161. Apart from floating point support and certain issues
 relating to RAM cache management, it provides an accurate emulation of a
 MIPS processor.
 
-You need a configuration file that we are going to place in `~/os161/root/`:
+You need a [configuration file](./sys161.conf) that we are going to place in `~/os161/root/`:
 ```
 cd ~/os161/root/
-wget
+wget https://cs-uob.github.io/COMS20012/labs/sys161.conf
 ```
 
 Have a look through this file, it should
 be self explanatory if you ever have to modify it.
 
 Now let's run our kernel:
+```
+sys161 kernel
+```
+
+What just happened? You ran one computer program (sys161) that loaded your
+kernel (from the kernel) file. Your kernel is itself a program expressed as
+a series of MIPS r3000 instructions, which were interpreted by sys161 and
+simulated as if they had executed on real hardware. Of course, this includes
+the ability read from and write to a console device, allowing you to
+interact with your running kernel.
+
+Your kernel should now be up and running! Play around a bit in the menu and see
+what you can do. Once you are done, you can shut it down simply by typing
+`exit`.
+
+### Exercises
+
+Examine the output produced by your kernel as it boots and shuts down.
+You should be able to answer the following questions:
+1. Which version of System/161 and OS/161 are you using?
+2. Where was OS/161 developed and copyrighted?
+3. How much memory and how many CPU cores was System/161 configured to use?
+4. What configuration was used by your running kernel?
+5. How many times has your kernel been compiled?
+
+Now let's try to play with configuration:
+1. Boot your OS/161 kernel with 8 cores.
+2. Try booting with 256K of memory. What happens?
+3. Configure System/161 to use a fixed value to initialize its random number
+    generator. (This can be helpful when debugging non-deterministic
+    kernel behavior.)
+
+## Exploring OS-161
+
+One of the challenges in this series of lab is working with a relatively large
+and unfamiliar code base. Worry not, we are now going to try to understand it
+a bit better.
+
+OS-161 contains around 40,000 lines of codes, 25,000 lines of comments spread
+across 570 C, headers and assembly files. It would take too much time to looks
+through all of it let alone understand it.
+
+Luckily, you do not need to understand most of the code. There is only a small
+fraction that you need to be familiar with and an even smaller fraction that you
+need to understand in details. Being able to distinguish between those categories
+is a very important skills. It will serve you for the next few labs,
+in [COMSM0049 in year 4](https://cs-uob.github.io/COMSM0049/) where you will
+do some Linux kernel development, but maybe also in your future career.
+
+To become familiar with a code base, there is no substitute for actually
+poking around. Browse through the tree a bit to get a sense of how things are
+structured. Glance through some source code for files that look interesting.
+OS-161 is also very well commented, as befits a pedagogical code base.
+
+Some parts of the code may seem confusing since we have not discussed how any
+OS-161 subsystems work. However, it is still useful to review the code now and
+get a high-level idea of what is happening in each subsystem. If you do not
+understand the low-level details now, that is fine.
+
+### The top of the source directory
+
+Your OS/161 source directory contains the following files:
+* `CHANGES`: describes the evolution of OS/161 and changes in previous versions.
+* `configure`: the top-level configuration script that you ran previously.
+* `Makefile`: the top-level Makefile used to build the user space binaries.
+
+The source directory contains the following subdirectories:
+* `common/`: code used both by the kernel and user programs, mostly standard C library functions.
+* `design/`: contains design documents describing several OS/161 components.
+* `kern/`: the kernel source code, and the subdirectory where you will spend most of your time.
+* `man/`: the OS/161 man pages appear here. The man pages document (or specify) every program, every function in the C library, and every system call. You will use the system call man pages for reference in the course of [LAB6](./LAB6.html). The man pages are HTML and can be read with any browser.
+* `mk/`: fragments of Makefiles used to build the system.
+* `userland/`: user space libraries and program code.
+
+If you have previously configured and built in this directory there are also some additional files and directories that have been created, such as `defs.mk` and `build/`.
+
+### User Land
+
+In the `userland/` source subdirectory, you will find:
+* `bin/`: all the utilities that are typically found in `/bin/` such as `cat`, `cp`, `ls`, etc.
+Programs in `/bin/` are considered fundamental utilities that the system needs to run.
+* `include/`: these are the include files that you would typically find in /usr/include (in our case, a subset of them). These are user include files, not kernel include files.
+* `lib/`: library code lives here. We have only two libraries: `libc`, the C standard library, and `hostcompat`, which is for recompiling OS/161 programs for the host UNIX system. There is also a `crt0` directory, which contains the startup code for user programs.
+* `sbin/`: this is the source code for the utilities typically found in `/sbin` on a typical UNIX installation. In our case, there are some utilities that let you halt the machine, power it off, and reboot it, among other things.
+* `testbin/`: you can ignore this subdirectory.
+
+You don’t need to understand the files in `userland/bin/`, `userland/sbin/` now, but you certainly will later on. Eventually, you will want to modify these or write your own utilities and these are good models. Similarly, you need not read and understand everything in `userland/lib` and `userland/include` but you should know enough about what’s there to be able to get around the source tree easily.
+
+### Kernel Sources
+
+Now let’s navigate to the kern/ source subdirectory. Once again, there is a
+Makefile. This Makefile installs header files but does not build anything.
+In addition, we have more subdirectories for each component of the kernel as
+well as some utility directories and configuration files.
+
+#### kern/arch
+
+## Acknowledgement
+
+This lab was developed thanks to material available at [Harvard 0S/161](http://os161.eecs.harvard.edu/),
+[ops-class](https://ops-class.org/) and [OS/161 at UBC](https://sites.google.com/site/os161ubc/home).
