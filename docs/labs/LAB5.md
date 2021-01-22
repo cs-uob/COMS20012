@@ -446,10 +446,10 @@ board. At that point System/161 will exit, and GDB will print
 
 ### Exercises
 
-* Set a breakpoint on the panic function. Initiate a panic from the kernel menu and confirm that GDB hits the break point. Inspect the call stack and step up and down a few times before allowing the kernel to continue and sys161 to exit.
-* Create a panic by modifying your OS/161 source code. Use GDB to find the source of the panic. If you are working with a partner, have your partner hide a panic in the source code and use GDB to find it. Then hide one for them.
-* Step through kernel boot, stepping in to and over a few of the boot helper functions that initialize various subsystems.
-* Put a breakpoint on the kernel exception handler and step through it when it fires. Use it to determine what generates exceptions when your kernel is sitting idly at the menu.
+1. Set a breakpoint on the panic function. Initiate a panic from the kernel menu and confirm that GDB hits the break point. Inspect the call stack and step up and down a few times before allowing the kernel to continue and sys161 to exit.
+2. Create a panic by modifying your OS/161 source code. Use GDB to find the source of the panic. If you are working with a partner, have your partner hide a panic in the source code and use GDB to find it. Then hide one for them.
+3. Step through kernel boot, stepping in to and over a few of the boot helper functions that initialize various subsystems.
+4. Put a breakpoint on the kernel exception handler and step through it when it fires. Use it to determine what generates exceptions when your kernel is sitting idly at the menu.
 
 ## Acknowledgement
 
