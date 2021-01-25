@@ -43,19 +43,19 @@ Any part of this unit can be examined.
 
 | Week | Lecture      | Lab          | Independent Work           |
 |------|--------------|--------------|----------------------------|
-| 13   | [Lecture 1 - Software Security I](lectures/LECTURE1.md)      | No Lab | [Exercise Sheet](exercises/EXERCISES1.md) |
-| 14   | [Lecture 2 - Software Security II](lectures/LECTURE2.md)      | [Lab 1 - Understanding Assembly Code](labs/LAB1.md)  | [Exercise Sheet](exercises/EXERCISES2.md) |
-| 15   | [Lecture 3 - Web Security](lectures/LECTURE3.md)  | [Lab 2 - TBC](labs/LAB2.md)  | [Exercise Sheet](exercises/EXERCISES3.md) |
-| 16   | [Lecture 4 - Authentication Methods & Network Security](lectures/LECTURE4.md)    | [Lab 3 - SQL Injection](labs/LAB3.md)  | [Exercise Sheet](exercises/EXERCISES4.md) |
-| 17  | Reading Week | Reading Week  | Reading Week |
-| 18   | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md)  | [Lab 4 - Brute Forcing Passwords](labs/LAB4.md)  | [Exercise Sheet](exercises/EXERCISES5.md) |
-| 19   | [Lecture 6 - Threads and Synchronizations](lectures/LECTURE6.md)       | No Lab  | [Exercise Sheet](exercises/EXERCISES6.md) |
-| 20   | [Lecture 7 - Process Management](lectures/LECTURE7.md)                | [Lab 5 - Introduction to OS/161](labs/LAB5.md)  | [Exercise Sheet](exercises/EXERCISES7.md) |
+| 13 (Feb 1)   | [Lecture 1 - Software Security I](lectures/LECTURE1.md)      | No Lab | [Exercise Sheet](exercises/EXERCISES1.md) |
+| 14 (Feb 8)   | [Lecture 2 - Software Security II](lectures/LECTURE2.md)      | [Lab 1 - Understanding Assembly Code](labs/LAB1.md)  | [Exercise Sheet](exercises/EXERCISES2.md) |
+| 15 (Feb 15)   | [Lecture 3 - Web Security](lectures/LECTURE3.md)  | [Lab 2 - TBC](labs/LAB2.md)  | [Exercise Sheet](exercises/EXERCISES3.md) |
+| 16 (Feb 22)   | [Lecture 4 - Authentication Methods & Network Security](lectures/LECTURE4.md)    | [Lab 3 - SQL Injection](labs/LAB3.md)  | [Exercise Sheet](exercises/EXERCISES4.md) |
+| 17 (Mar 1)  | Reading Week | Reading Week  | Reading Week |
+| 18 (Mar 8)   | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md)  | [Lab 4 - Brute Forcing Passwords](labs/LAB4.md)  | [Exercise Sheet](exercises/EXERCISES5.md) |
+| 19 (Mar 15)   | [Lecture 6 - Threads and Synchronizations](lectures/LECTURE6.md)       | No Lab  | [Exercise Sheet](exercises/EXERCISES6.md) |
+| 20  (Mar 22)   | [Lecture 7 - Process Management](lectures/LECTURE7.md)                | [Lab 5 - Introduction to OS/161](labs/LAB5.md)  | [Exercise Sheet](exercises/EXERCISES7.md) |
 | Easter Break  | Easter Break | Easter Break  | Easter Break |
-| 21   | [Lecture 8 - Memory Management](lectures/LECTURE8.md)                 | [Lab 6 - Synchronization](labs/LAB6.md)  | [Exercise Sheet](exercises/EXERCISES8.md) |
-| 22   | [Lecture 9 - File Systems](lectures/LECTURE9.md)                      | [Lab 7 - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
-| 23   | [Lecture 10 - OS Security](lectures/LECTURE10.md)                      | [Lab 8 - Virtual Memory](labs/LAB8.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
-| 24   | Revision Week                      | Revision Week   | Revision Week  |
+| 21 (Apr 19)   | [Lecture 8 - Memory Management](lectures/LECTURE8.md)                 | [Lab 6 - Synchronization](labs/LAB6.md)  | [Exercise Sheet](exercises/EXERCISES8.md) |
+| 22 (Mar 26)   | [Lecture 9 - File Systems](lectures/LECTURE9.md)                      | [Lab 7 - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
+| 23 (May 3)    | [Lecture 10 - OS Security](lectures/LECTURE10.md)                      | [Lab 8 - Virtual Memory](labs/LAB8.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
+| 24 (May 10)   | Revision Week                      | Revision Week   | Revision Week  |
 
 ## Reading Material
 
