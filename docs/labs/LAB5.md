@@ -199,7 +199,7 @@ The source directory contains the following subdirectories:
 * `common/`: code used both by the kernel and user programs, mostly standard C library functions.
 * `design/`: contains design documents describing several OS/161 components.
 * `kern/`: the kernel source code, and the subdirectory where you will spend most of your time.
-* `man/`: the OS/161 man pages appear here. The man pages document (or specify) every program, every function in the C library, and every system call. You will use the system call man pages for reference in the course of [LAB6](./LAB6.html). The man pages are HTML and can be read with any browser.
+* `man/`: the OS/161 man pages appear here. The man pages document (or specify) every program, every function in the C library, and every system call. You will use the system call man pages for reference in the course of [LAB 7](./LAB7.html). The man pages are HTML and can be read with any browser.
 * `mk/`: fragments of Makefiles used to build the system.
 * `userland/`: user space libraries and program code.
 
@@ -274,11 +274,6 @@ menu are implemented.
 
 This directory contains the code implementing the thread abstraction and
 synchronization primitives.
-
-#### `kern/synchprobs/``
-
-This is the directory that contains the starter code that you will need to
-complete [LAB 6](./LAB6.html).
 
 #### `kern/syscall/`
 
