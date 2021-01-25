@@ -50,8 +50,11 @@ vagrant up
 ## Getting the source
 
 [OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
-We sorted the dependencies you will need in git repositories.
+It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) for use in her famous Harvard course on operating systems, CS161.
+Since then, OS/161 has been adopted for teaching in many universities around the world.
+Operating systems courses that use OS/161 are known to be demanding, yet incredibly enriching and rewarding.
 
+We sorted the dependencies you will need in git repositories.
 First you need to `ssh` in your guest virtual machine:
 ```
 vagrant ssh
