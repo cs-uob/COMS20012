@@ -1,4 +1,4 @@
-# Lab 1: Assembly Code Understanding
+# Lab 1: Understanding Assembly Code
 
 ## 1. Setting up Vagrant
 As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
