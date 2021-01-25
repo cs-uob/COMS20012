@@ -116,9 +116,7 @@ bmake install
 ## Running OS/161 kernel
 
 Now that your kernel is built, we are going to run it. To do so we are going to
-use [Sys-161](http://os161.eecs.harvard.edu/) maintained by
-[David Holland](http://www.hcs.harvard.edu/~dholland/) from
-[Harvard University](http://os161.eecs.harvard.edu/).
+use [Sys-161](http://os161.eecs.harvard.edu/).
 System/161 is a machine simulator that provides a simplified but still realistic
 environment to run OS/161. Apart from floating point support and certain issues
 relating to RAM cache management, it provides an accurate emulation of a
