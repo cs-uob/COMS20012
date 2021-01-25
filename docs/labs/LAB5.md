@@ -1,5 +1,7 @@
 # Lab 5: Introduction to OS/161
 
+You need to complete [LAB 1](./LAB1.html) in order to do this lab.
+
 ## Some notes
 
 Please, make sure you understand what the commands you are using in this lab do.
