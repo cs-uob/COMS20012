@@ -28,7 +28,37 @@ the constraints inherent to each problem (while not deadlocking).
 
 ### Built-In Tests
 
-When you boot OS/161 you should see options to run various thread tests. The
+When you boot OS/161 you should see options to run various thread tests:
+
+```
+OS/161 kernel [? for menu]: ?t
+
+OS/161 tests menu
+    [at]  Array test                    [cvt1] CV test 1             (1)
+    [at2] Large array test              [cvt2] CV test 2             (1)
+    [bt]  Bitmap test                   [cvt3] CV test 3             (1*)
+    [tlt] Threadlist test               [cvt4] CV test 4             (1*)
+    [km1] Kernel malloc test            [cvt5] CV test 5             (1)
+    [km2] kmalloc stress test           [rwt1] RW lock test          (1?)
+    [km3] Large kmalloc test            [rwt2] RW lock test 2        (1?)
+    [km4] Multipage kmalloc test        [rwt3] RW lock test 3        (1?)
+    [km5] kmalloc coremap alloc test    [rwt4] RW lock test 4        (1?)
+    [tt1] Thread test 1                 [rwt5] RW lock test 5        (1?)
+    [tt2] Thread test 2                 [semu1-22] Semaphore unit tests
+    [tt3] Thread test 3                 [fs1] Filesystem test
+    [sem1] Semaphore test               [fs2] FS read stress
+    [lt1]  Lock test 1           (1)    [fs3] FS write stress
+    [lt2]  Lock test 2           (1*)   [fs4] FS write stress 2
+    [lt3]  Lock test 3           (1*)   [fs5] FS long stress
+    [lt4]  Lock test 4           (1*)   [fs6] FS create stress
+    [lt5]  Lock test 5           (1*)   [hm1] HMAC unit test
+
+    (1) These tests will fail until you finish the synch assignment.
+    (*) These tests will panic on success.
+    (?) These tests are left to you to implement.
+```
+
+The
 thread test code uses the semaphore synchronization primitive. You should trace
 the execution of one of these thread tests in GDB to see how the scheduler acts,
 how threads are created, and what exactly happens in a context switch. You
