@@ -119,25 +119,6 @@ waiting on the condition variable but will not block.
 Please implement Mesa semantics. When you are done you should repeatedly
 pass the provided `cvt{1,2,3,4}` condition variable tests.
 
-## Synchronization Problem
-
-The following problems will give you the opportunity to solve some fairly
-straightforward synchronization problems. You may want to go back to your
-notes from Computer Systems A. Before solving this problem you may want to
-finish implementing your synchronization primitive.
-
-We have provided you with basic driver code in `kern/tests/synchprobs.c` that
-starts a predefined number of threads which call functions in `whalemating.c`.
-You are responsible for implementing those functions which determine what those
-threads do. You can—​and should—​make changes to the driver code in `synchprobs.c`.
-
-When you configure your kernel the driver code and extra menu options
-for executing your solutions are automatically compiled in. Type ? at the menu
-to get a list of commands. Remember to specify a seed to use in the random
-number generator by editing your `sys161.conf` file. It is much easier to debug
-initial problems when the sequence of execution and context
-switches is reproducible.
-
 ## Acknowledgement
 
 This lab was developed thanks to material available at [Harvard 0S/161](http://os161.eecs.harvard.edu/),
