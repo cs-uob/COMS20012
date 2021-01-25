@@ -29,7 +29,7 @@ You should be familiar (or familiarize yourself) with the following tools:
 1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started);
 2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html);
 3. [git](https://git-scm.com/docs/gittutorial);
-4. [GDB]().
+4. GDB, see [LAB 1](./LAB1.html).
 
 Please, make sure those tools are installed and that you know how to use them.
 You should have used them in previous labs in this unit, and others.
@@ -314,7 +314,7 @@ searching through your OS/161 source code.
 ## Using GDB
 
 We are reaching the end of the lab. We are going to see how to use GDB to debug
-our kernel. You should be familiar with GDB from [LAB X]().
+our kernel. You should be familiar with GDB from [LAB 1](./LAB1.html).
 
 First you need to boot your kernel and wait for a GDB connection:
 ```
