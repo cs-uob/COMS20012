@@ -1,5 +1,7 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
+Join the [unit teams](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+
 ## Schedule
 
 | Tuesday 14:00-17:00 | Friday 9:00-10:00 |
