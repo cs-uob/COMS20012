@@ -444,6 +444,66 @@ board. At that point System/161 will exit, and GDB will print
 3. Step through kernel boot, stepping in to and over a few of the boot helper functions that initialize various subsystems.
 4. Put a breakpoint on the kernel exception handler and step through it when it fires. Use it to determine what generates exceptions when your kernel is sitting idly at the menu.
 
+## Extra content
+
+This is extra content if you finished the lab and early and you want to go further.
+
+### Building the Linux Kernel
+
+We learned how to build the OS/161 kernel. Let's see now how to build the world
+most popular kernel and the world largest open source project. You will see that
+it is surprisingly easy.
+
+First you need to ensure some dependencies are installed:
+```
+apt-get update -qq
+apt-get install -y build-essential
+apt-get install -y libncurses-dev wget
+apt-get install -y git libssl-dev bc patch libedit-dev libelf-dev
+apt-get install -y module-init-tools
+```
+
+As before we need to download the Linux kernel source code:
+```
+cd ~/build && git clone -b v5.10.10 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+```
+You could replace "v5.10.10" by the kernel release of your choice. You can check
+the longterm and stable releases on this [website](https://www.kernel.org/).
+
+The next step is to configure the kernel:
+```
+cd linux-stable
+make localmodconfig
+make menuconfig
+```
+The second line generate a configuration based of your current kernel configuration.
+The last line open an interactive menu to configure your kernel. In a first instance,
+you should left the configuration untouched (feel free to explore the options later).
+
+Now, we need to build and install the kernel (this will take a while):
+```
+make -j 16
+sudo make headers_install INSTALL_HDR_PATH=/usr
+sudo make modules_install
+sudo make install
+```
+The first line compile the kernel over 16 threads. You can change this option
+to align with the number of cores available on the machine you are running the
+compilation. The following lines install headers, modules (e.g. drivers) and the
+kernel.
+
+Reboot your machine with `sudo reboot now` and make sure you pick the right kernel
+in the boot menu when the machine starts. You can check the version of the kernel
+currently running using the command `uname -r`
+
+### Exercises
+
+1. It has taken significantly longer to build the Linux kernel. Research how large the project is.
+2. Based on the directory structure of OS/161, can you understand Linux kernel directory structure?
+
+We hope you enjoyed this short introduction to Linux.
+You will have the opportunity to dive into a bit more Linux kernel programming in [year 4](https://cs-uob.github.io/COMSM0049/).
+
 ## Acknowledgement
 
 This lab was developed thanks to material available at [Harvard 0S/161](http://os161.eecs.harvard.edu/),
