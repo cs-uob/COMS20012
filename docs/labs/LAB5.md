@@ -177,9 +177,7 @@ through all of it let alone understand it.
 Luckily, you do not need to understand most of the code. There is only a small
 fraction that you need to be familiar with and an even smaller fraction that you
 need to understand in details. Being able to distinguish between those categories
-is a very important skills. It will serve you for the next few labs,
-in [COMSM0049 in year 4](https://cs-uob.github.io/COMSM0049/) where you will
-do some Linux kernel development, but maybe also in your future career.
+is a very important skills.
 
 To become familiar with a code base, there is no substitute for actually
 poking around. Browse through the tree a bit to get a sense of how things are
@@ -503,7 +501,6 @@ currently running using the command `uname -r`
 2. Based on the directory structure of OS/161, can you understand Linux kernel directory structure?
 
 We hope you enjoyed this short introduction to Linux.
-You will have the opportunity to dive into a bit more Linux kernel programming in [year 4](https://cs-uob.github.io/COMSM0049/).
 
 ## Acknowledgement
 
