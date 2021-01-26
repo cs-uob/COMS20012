@@ -447,6 +447,7 @@ board. At that point System/161 will exit, and GDB will print
 ## Extra content
 
 This is extra content if you finished the lab and early and you want to go further.
+This will not be examined.
 
 ### Building the Linux Kernel
 

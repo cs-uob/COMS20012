@@ -153,6 +153,7 @@ pass the provided `cvt{1,2,3,4}` condition variable tests.
 ## Extra content
 
 This is extra content if you finished the lab and early and you want to go further.
+This will not be examined.
 
 ### Implement Reader-Writer Locks
 
