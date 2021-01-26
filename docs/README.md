@@ -62,4 +62,9 @@ Any part of this unit can be examined.
 As part of the unit, you will be referred to chapter in books to read.
 We give full reference bellow.
 
-- Doeppner, Thomas W., **Operating Systems in Depth** (Wiley, 2010) ISBN 978-0-471-68723-8
+- [OS part] Doeppner, Thomas W., **Operating Systems in Depth** (Wiley, 2010) ISBN 978-0-471-68723-8
+
+- [Security part] Michael Goodrich and Roberto Tamassia, Brown University, "**Introduction to Computer Security**, Pearson New International Edition, 2014.
+
+
+
