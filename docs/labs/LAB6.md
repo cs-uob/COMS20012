@@ -150,6 +150,34 @@ waiting on the condition variable but will not block.
 Please implement Mesa semantics. When you are done you should repeatedly
 pass the provided `cvt{1,2,3,4}` condition variable tests.
 
+## Extra content
+
+This is extra content if you finished the lab and early and you want to go further.
+
+### Implement Reader-Writer Locks
+
+**WARNING:** This task is significantly harder than the previous ones. There is
+less hand holding and you will need to think about your design from start to
+finish.
+
+Implement reader-writer locks for OS/161. A reader-writer lock is a lock that
+threads can acquire in one of two ways: read mode or write mode. Read mode does
+not conflict with read mode, but read mode conflicts with write mode and write
+mode conflicts with write mode. The result is that many threads can acquire the
+lock in read mode, or one thread can acquire the lock in write mode.
+
+Your solution must also ensure that no thread waits to acquire the lock
+indefinitely, called starvation. Your implementation must solve many readers,
+one writer problem and ensure that no writers are starved even in the presence
+of many readers. Build something you will be comfortable using later. Implement
+your interface in `synch.h` and your code in `synch.c`, conforming to the interface
+that we have provided.
+
+Unlike locks and condition variables, where we have provided you with a test
+suite, we are leaving it to you to develop a test that exercises your
+reader-writer locks. You will want to edit `kern/main/menu.c` to allow yourself
+to run your test as `rwt{x}` from the kernel menu or command line.
+
 ## Acknowledgement
 
 This lab was developed thanks to material available at [Harvard 0S/161](http://os161.eecs.harvard.edu/),
