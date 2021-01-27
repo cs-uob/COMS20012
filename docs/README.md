@@ -53,8 +53,8 @@ Any part of this unit can be examined.
 | 20  (Mar 22)   | [Lecture 7 - Scheduling](lectures/LECTURE7.md)                | [Lab 5 - Introduction to OS/161](labs/LAB5.md)  | [Exercise Sheet](exercises/EXERCISES7.md) |
 | Break  | Easter Break | Easter Break  | Easter Break |
 | 21 (Apr 19)   | [Lecture 8 - Memory Management](lectures/LECTURE8.md)                 | [Lab 6 - Synchronization](labs/LAB6.md)  | [Exercise Sheet](exercises/EXERCISES8.md) |
-| 22 (Mar 26)   | [Lecture 9 - File Systems](lectures/LECTURE9.md)                      | [Lab 7 - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
-| 23 (May 3)    | [Lecture 10 - OS Security](lectures/LECTURE10.md)                      | [Lab 8 - Virtual Memory](labs/LAB8.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
+| 22 (Mar 26)   | [Lecture 9 - File Systems](lectures/LECTURE9.md)                      | [Lab 7a - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
+| 23 (May 3)    | [Lecture 10 - OS Security](lectures/LECTURE10.md)                      | [Lab 7b - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
 | 24 (May 10)   | Revision Week                      | Revision Week   | Revision Week  |
 
 ## Reading Material
@@ -65,6 +65,3 @@ We give full reference bellow.
 - [OS part] Doeppner, Thomas W., **Operating Systems in Depth** (Wiley, 2010) ISBN 978-0-471-68723-8
 
 - [Security part] Michael Goodrich and Roberto Tamassia, Brown University, "**Introduction to Computer Security**, Pearson New International Edition, 2014.
-
-
-

@@ -285,8 +285,7 @@ In [LAB 7](./LAB7.html), you’ll implement this support.
 
 #### `kern/vm/`
 
-This directory is also fairly vacant. In [LAB 8](./LAB8.html), you’ll implement
-virtual memory and most of your code will go in here.
+This directory is also fairly vacant at the moment.
 
 #### `kern/vfs/`
 
