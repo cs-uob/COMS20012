@@ -1,6 +1,8 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
-Join the [unit teams](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/19108844-350e-4383-b7fb-0e82b9ab5bf4?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
 ## Schedule
 
@@ -28,7 +30,7 @@ You may need help at different stages of this unit.
 The most effective way to get the help you need is to:
 
 1. Check unit website/handsout/slides.
-2. Ask your question on [the Unit Teams](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+2. Ask your question on [the Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
 3. Contact the TA assigned to your lab group.
 4. Contact the head TA [Soo Yee](mailto:sooyee.lim@bristol.ac.uk).
 5. Contact [Sanjay](mailto:sanjay.rawat@bristol.ac.uk) or [Thomas](mailto:thomas.pasquier@bristol.ac.uk).
