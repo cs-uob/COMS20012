@@ -2,6 +2,10 @@
 
 You need to complete [LAB 1](./LAB1.html) in order to do this lab.
 
+**Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+If you experience difficulty contact IT service.
+
 ## Some notes
 
 Please, make sure you understand what the commands you are using in this lab do.

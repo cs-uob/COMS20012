@@ -5,6 +5,10 @@ to do this lab.
 
 **Note:** this lab runs over two weeks (Week 22 and 23).
 
+**Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+If you experience difficulty contact IT service.
+
 ## Introduction
 
 In this assignment you will add process and system call support to your

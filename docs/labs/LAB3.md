@@ -1,5 +1,9 @@
 # Lab 3 - SQL Injection
 
+**Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+If you experience difficulty contact IT service.
+
 ## Preparation
 
 Download the following files [Vagrantfile](../vagrants/lab3/Vagrantfile), [patch.tar.gz](../vagrants/lab3/patch.tar.gz) and [sql_collabtive.tag.gz](../vagrants/lab3/sql_collabtive.tar.gz).

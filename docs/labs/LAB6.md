@@ -3,6 +3,10 @@
 You need to complete [LAB 5](./LAB5.html) in order to do this lab.
 You may also want to look back at [Computer Systems A](https://uob-csa.github.io/website/).
 
+**Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+If you experience difficulty contact IT service.
+
 ## Setup
 
 To successfully run the LAB 6 tests you will need to configure your
