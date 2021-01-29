@@ -18,11 +18,11 @@ Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b
 | [Sanjay Rawat](https://research-information.bris.ac.uk/en/persons/sanjay-rawat)    | Lecturer      | [sanjay.rawat@bristol.ac.uk](mailto:sanjay.rawat@bristol.ac.uk)       |
 | Soo Yee Lim     | Head Teaching Assistant | [sooyee.lim@bristol.ac.uk](mailto:sooyee.lim@bristol.ac.uk)           |
 | Priyanka Badva  | Teaching Assistant | [priyanka.badva@bristol.ac.uk](mailto:priyanka.badva@bristol.ac.uk)   |
-| Bogdan Stelea  | Teaching Assistant | [bs17580@bristol.ac.uk](bs17580@bristol.ac.uk)   |
-| Emil Centiu  | Teaching Assistant | [zl18810@bristol.ac.uk](zl18810@bristol.ac.uk)   |
-| Ruairi Fox  | Teaching Assistant | [rf17160@bristol.ac.uk](rf17160@bristol.ac.uk)   |
-| Stefan Pruna  | Teaching Assistant | [mc18112@bristol.ac.uk](mc18112@bristol.ac.uk)   |
-| Valentin Popescu  | Teaching Assistant | [bk18529@bristol.ac.uk](bk18529@bristol.ac.uk)   |
+| Josh Turner  | Teaching Assistant | [jt17624@bristol.ac.uk](mailto:jt17624@bristol.ac.uk)   |
+| Emil Centiu  | Teaching Assistant | [zl18810@bristol.ac.uk](mailto:zl18810@bristol.ac.uk)   |
+| Ruairi Fox  | Teaching Assistant | [rf17160@bristol.ac.uk](mailto:rf17160@bristol.ac.uk)   |
+| Stefan Pruna  | Teaching Assistant | [mc18112@bristol.ac.uk](mailto:mc18112@bristol.ac.uk)   |
+| Valentin Popescu  | Teaching Assistant | [bk18529@bristol.ac.uk](mailto:bk18529@bristol.ac.uk)   |
 
 ## Support
 
