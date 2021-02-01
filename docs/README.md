@@ -67,3 +67,5 @@ We give full reference bellow.
 - [OS part] Doeppner, Thomas W., **Operating Systems in Depth** (Wiley, 2010) ISBN 978-0-471-68723-8
 
 - [Security part] Michael Goodrich and Roberto Tamassia, Brown University, "**Introduction to Computer Security**, Pearson New International Edition, 2014.
+
+**NOTE:** The security book is available in eBook format from the the Library catalogue (http://www.bris.ac.uk/library/) by running a quick author/title search. **Imp:** If you download a copy on your device then it takes one of the copies out of circulation for a time so I encourage you to read what you need online and then exit the book that would be great as that way it will move around the class better. Please get in touch with the library staff if access to the book is getting difficult.
