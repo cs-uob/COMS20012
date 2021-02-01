@@ -12,7 +12,8 @@ Please, make sure you understand what the commands you are using in this lab do.
 The objective of this lab is to get you familiar with the development environment
 that you will be using for the next three labs.
 
-You should work setup groups of two students from within the groups that were setup at the beginning of the unit. Please,
+You should work setup groups of two students from within the groups that were
+setup at the beginning of the unit. Please,
 for your own benefit do not simply copy solutions from other groups, but instead
 understand what is going on. The labs are entirely formative this year, but it
 remains important to understand their content and to develop the related skills.
