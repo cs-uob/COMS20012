@@ -9,7 +9,7 @@
 * authorization means;
 * accountability means.
 
-2. Pick your favourite online service (Google, Twitter, Facebook etc.)
+2. Pick on of your favourite online services (Google, Twitter, Facebook etc.)
 Check and discuss their recovery mechanism.
 
 3. Research on Goolge why SMS recovery is not suitable anymore to protect against targeted attack.
