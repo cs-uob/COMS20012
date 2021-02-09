@@ -11,7 +11,7 @@
 1. Exaplain the difference between design flaw and programming error by giving one example.
 2. What is a spatial memory safety violation?
 3. Is buffer overflow error an example of *spatial* or *temporal* safety  violation? Explain your answer.
-4. In the reading [article](http://www.pl-enthusiast.net/2014/07/21/memory-safety/)  by Prof. hicks, he provides a definition of memory safety as *No accesses to undefined memory*. Later he argues that it does not cover buffer overflows. Can you explain why so?
+4. In the [article](http://www.pl-enthusiast.net/2014/07/21/memory-safety/)  by Prof. Hicks, he provides a definition of memory safety as *no accesses to undefined memory*. Later he argues that it does not cover buffer overflows. Can you explain why it is so?
 5. Consider the following code:  
     ```
     void main(){
@@ -51,9 +51,9 @@
         return 0;
     }
     ```
-     Compile the code with `gcc -m32 -fno-stack-protector loop.c -o loop32` and run. on my machine, the code goes in an infinite loop. Can you find a probable cause for that?
+     Compile the code with `gcc -m32 -fno-stack-protector loop.c -o loop32` and run it. On my machine, the code goes in an infinite loop. Can you find a probable cause for thiq?
 
-7. What is control hijacking in the context of exploitation? Exaplain one possible way to hijack control in the presence of stack overflow bug?
+7. What is control hijacking in the context of exploitation? Explain one possible way to hijack control in the presence of stack overflow bug?
 
 8. Dr. Blahbah claims that buffer overflow attacks via stack smashing are made possible by the fact that stacks grow downwards (to-wards smaller addresses) on most popular modern architectures. Therefore, future architectures should ensure that the stack grows upwards; this would provide a good defense against buffer over-flow. Do you agree or disagree? Why?
 
