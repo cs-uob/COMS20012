@@ -26,7 +26,7 @@
     	return 0;
     }
     ```
-    **Assume that variables are allocated on the stack in the same order as they are declared in the code, i.e. x will be near `rbp (ebp)` and z wil be near `rsp (esp)`. **
+    **Assume that variables are allocated on the stack in the same order as they are declared in the code, i.e. x will be near `rbp (ebp)` and z wil be near `rsp (esp)`.**
     Answer the following questions.
      a. What memory error does this code have?
      b. What is the source of that memory error?
