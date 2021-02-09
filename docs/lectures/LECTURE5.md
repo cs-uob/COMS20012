@@ -8,4 +8,4 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Title | [video]() [pdf]() [ppt]() | Link |
+| A brief history of operating systems | [video]() [pdf]() [ppt]() | Text book 1.2 (page 4) |
