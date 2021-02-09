@@ -3,7 +3,7 @@
 **There will be no written corrections. Exercises will be discussed during the recorded live Q&A. Come and prepare questions.**
 
 ## A. Intro to CIA/AAA/Threat/Security Principles
-1. Let us assume tha mayor of Bristol wants to release a public notice on an important issue. Which of the CIA properties should be enforced and why?
+1. Let us assume that the mayor of Bristol wants to release a public notice on an important issue. Which of the CIA properties should be enforced and why?
 2. Explain why someone need not worry about being a victim of a social engineering attack through their cell phone if they are inside of a Faraday cage.
 3. With respect to the C.I.A. and A.A.A. concepts, what risks are posed by Trojan horses?
 4. With respect to the C.I.A. and A.A.A. concepts, what risks are posed by someone making so many download requests from an online music store that it prevents other users from being able to download any songs?
@@ -19,7 +19,7 @@
 4. For a x86-32 ISA, what are `cdecle` and `fastcall` calling conventions?
 5. For Intel x86 ISA, consider a function **A** calls another function **B**. We denote base/frame point RBP of **A** (resp. of **B**) as RBP~A~ (resp. as RBP~B~). Which of the following holds and why:
 	RBP~A~ > RBP~B~; RBP~A~ < RBP~B~; RBP~A~ = RBP~B~.
-	
+
 6. What  is a *saved return address* and why is it used?
 7. Which general purpose register is used for return value?
 8. Consider the following C code:
@@ -52,7 +52,7 @@ And its disassembly as follows:
 		 65f:	48 89 e5             	mov    %rsp,%rbp
 		 662:	48 83 ec 40          	sub    $0x40,%rsp
 		 666:	48 b8 53 6f 6d 65 74 	movabs $0x6e696874656d6f53,%rax
-		 66d:	68 69 6e 
+		 66d:	68 69 6e
 		 670:	48 89 45 d6          	mov    %rax,-0x2a(%rbp)
 		 674:	66 c7 45 de 67 00    	movw   $0x67,-0x22(%rbp)
 		 67a:	c7 45 fc 0a 00 00 00 	movl   $0xa,-0x4(%rbp)
@@ -82,11 +82,9 @@ And its disassembly as follows:
 		 6e1:	b8 00 00 00 00       	mov    $0x0,%eax
 		 6e6:	e8 35 fe ff ff       	callq  520 <printf@plt>
 		 6eb:	90                   	nop
-		 6ec:	c9                   	leaveq 
+		 6ec:	c9                   	leaveq
 		 6ed:	c3                   	retq   
 		 6ee:	66 90                	xchg   %ax,%ax
-		 
+
 Can you identify in the assembly which memory locations (of the form `-0xN(%ebp)`) correspond to which variables in the main function?
 9. In the C code above, if you compile the code for x86-32 system, at the line `x=sum(n3,n4);`which argument will be pushed onto the stack 1st?
-
-
