@@ -39,7 +39,7 @@ In this part of the lab, we will learn about using GDB to understand the few art
 3. compile `gcc memory_layout.c -o memory_layout`
 4. run the resulting binary. It will halt with a message "Press any key...."
 5. On a different terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the PID, say P.
-6. On TermB, run `gdb -p P`. GDB will be attached to the running process on TermA. You will be in GDB shell. Now on enter commands within gdb shell.  
+6. On TermB, run `gdb -p P`. GDB will be attached to the running process on TermA. You will be in GDB shell. Now on enter commands within gdb shell. NOTE: if GDB does not attach, run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope` 
 
 ```
 (gdb) disassem main
