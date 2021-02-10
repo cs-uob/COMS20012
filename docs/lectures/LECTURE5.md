@@ -13,3 +13,4 @@ Reading material from **Doeppner, Thomas W., Operating Systems in Depth** unless
 | A brief history of operating systems | [video]() [pdf]() [ppt]() | Textbook 1.2 (page 4) |
 | Labs Introduction | [video]() [pdf]() [ppt]() | N/A |
 | OS Structure | [video]() [pdf]() [ppt]() | Textbook 1.3.1 (page 12) |
+| Synchronization Primitives | [video]() [pdf]() [ppt]() | Textbook 2.2.3 (page 56) and 2.2.4 (page 76) |
