@@ -10,6 +10,6 @@
 ## OS structure
 
 1. Explain in your own words the concept of interrupt and trap.
-3. Explain the concept of ring on Intel architecture. Compare to privilege level on MIPS architecture.
+3. Explain the concept of rings on Intel architecture. Compare to privilege level on MIPS architecture.
 2. Explain what is a Privilege Level and the Current Privilege Level.
 4. What is a trap handler?
