@@ -51,7 +51,7 @@
         return 0;
     }
     ```
-     Compile the code with `gcc -m32 -fno-stack-protector loop.c -o loop32` and run it. On my machine, the code goes in an infinite loop. Can you find a probable cause for thiq?
+     Compile the code with `gcc -m32 -fno-stack-protector loop.c -o loop32` and run it. On my machine, the code goes in an infinite loop. Can you find a probable cause for this?
 
 7. What is control hijacking in the context of exploitation? Explain one possible way to hijack control in the presence of stack overflow bug?
 
