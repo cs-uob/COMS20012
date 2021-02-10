@@ -41,6 +41,7 @@ You should be familiar (or familiarize yourself) with the following tools:
 Please, make sure those tools are installed and that you know how to use them.
 You should have used them in previous labs in this unit, and others.
 Do get in touch with your TA if you are facing issues.
+You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html).
 
 ## Setting up vagrant image
 

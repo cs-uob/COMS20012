@@ -10,6 +10,7 @@ If you experience difficulty contact IT service.
 
 ## 1. Setting up Vagrant
 As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
+You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html).
 1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
 3. `cd seclabs`
