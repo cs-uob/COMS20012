@@ -10,4 +10,6 @@ Reading material from **Doeppner, Thomas W., Operating Systems in Depth** unless
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A brief history of operating systems | [video]() [pdf]() [ppt]() | Text book 1.2 (page 4) |
+| A brief history of operating systems | [video]() [pdf]() [ppt]() | Textbook 1.2 (page 4) |
+| Labs Introduction | [video]() [pdf]() [ppt]() | N/A |
+| OS Structure | [video]() [pdf]() [ppt]() | Textbook 1.3.1 (page 12) |
