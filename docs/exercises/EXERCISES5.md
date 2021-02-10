@@ -15,7 +15,7 @@
 4. What is a trap handler?
 
 
-## Synchronization primitive
+## Synchronization primitives
 
 1. What does it mean for an instruction to be atomic?
 2. Write pseudocode for the TAS instruction.
