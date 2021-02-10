@@ -14,4 +14,3 @@ Reading material from **Doeppner, Thomas W., Operating Systems in Depth** unless
 | Labs Introduction | [video]() [pdf]() [ppt]() | N/A |
 | OS Structure | [video]() [pdf]() [ppt]() | Textbook 1.3.1 (page 12) |
 | Synchronization Primitives | [video]() [pdf]() [ppt]() | Textbook 2.2.3 (page 56) and 2.2.4 (page 76) |
-| Implementing Synchronization Primitives | [video]() [pdf]() [ppt]() | N/A |

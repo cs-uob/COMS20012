@@ -1,4 +1,4 @@
-# Lecture 6 - Threads and Synchronizations
+# Lecture 6 - Processes
 
 The material is subdivided in small videos.
 
@@ -10,7 +10,7 @@ Reading material from **Doeppner, Thomas W., Operating Systems in Depth** unless
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Title | [video]() [pdf]() [ppt]() | Link |
+| Implementing Synchronization Primitives | [video]() [pdf]() [ppt]() | N/A |
 
 ## Fill our survey
 

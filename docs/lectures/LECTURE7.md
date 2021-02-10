@@ -1,4 +1,4 @@
-# Lecture 7 - Threads and Synchronizations
+# Lecture 7 - Scheduling
 
 The material is subdivided in small videos.
 
