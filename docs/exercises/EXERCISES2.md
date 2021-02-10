@@ -8,7 +8,7 @@
 
 **There will be no written corrections. Exercises will be discussed during the recorded live Q&A. Come and prepare questions.**
 
-1. Exaplain the difference between design flaw and programming error by giving one example.
+1. Explain the difference between design flaw and programming error by giving one example.
 2. What is a spatial memory safety violation?
 3. Is buffer overflow error an example of *spatial* or *temporal* safety  violation? Explain your answer.
 4. In the [article](http://www.pl-enthusiast.net/2014/07/21/memory-safety/)  by Prof. Hicks, he provides a definition of memory safety as *no accesses to undefined memory*. Later he argues that it does not cover buffer overflows. Can you explain why it is so?
