@@ -78,4 +78,5 @@ int catvars(char *buf1, char *buf2, unsigned int len1,
 }
 ```
     As is discussed in this [article](http://phrack.org/issues/60/10.html), there is a integer overflow in the above code which will overflow `mybuf` at line [4] and/or [5]. The problem is at line [3]. what value to `len1` and `len2` you will use to trigger the bug?
-    11. What is a format string bug? Explain by example which of the CIA properties can be violated by a format string bug.
+
+11. What is a format string bug? Explain by example which of the CIA properties can be violated by a format string bug.
