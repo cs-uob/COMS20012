@@ -18,6 +18,7 @@ Introduction to Format String Error | [video](https://web.microsoftstream.com/vi
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/1f4a3710-17fb-43f8-ae5f-aae86913aff9?autoplay=false&amp;showinfo=true&amp;st=470" allowfullscreen style="border:none;"></iframe>
 
 First 7 minutes audio had problem, the point covered were:
+- hello and thanks to everyone!
 - it is a 20 credits unit work accordingly;
 - come prepared to the labs (i.e. don't start the lab at 2pm on Tuesday get at least the environment setup before that);
 - first lab was a bit chaotic (this is expected), we have asked the department an extra session to help you setup your machine. Cohort-level TA(s) should be in touch with you.
