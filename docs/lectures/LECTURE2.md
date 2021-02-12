@@ -13,6 +13,10 @@ Introduction to Buffer Overflow | [video](https://web.microsoftstream.com/video/
 Introduction to Integer Overflow | [video](https://web.microsoftstream.com/video/88821526-0d0b-4b78-b5d2-d9a950c1cc26) [pdf](../slides/W2/W2-L3-IntroSoftVul.pdf) | Text book Chapter 3-- Section 4.2; [Phrack Basic Integer Overflows](http://phrack.org/issues/60/10.html) By blexim, First two sections.|
 Introduction to Format String Error | [video](https://web.microsoftstream.com/video/8cb448fc-7fb4-4c1f-b61c-c2021d998a63) [pdf](../slides/W2/W2-L4-IntroSoftVul.pdf) | Text book Chapter 3-- Section 4.5|
 
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/1f4a3710-17fb-43f8-ae5f-aae86913aff9?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 ## Fill our survey
 
 <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG5N9pWWUNd5Khd6GR62JgsZURFFGVlRYNjFDTDVUWjlQUFpZNFJXVE9NMC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
