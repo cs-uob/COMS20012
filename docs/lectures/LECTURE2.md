@@ -15,7 +15,7 @@ Introduction to Format String Error | [video](https://web.microsoftstream.com/vi
 
 ## Q&A
 
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/1f4a3710-17fb-43f8-ae5f-aae86913aff9?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/1f4a3710-17fb-43f8-ae5f-aae86913aff9?autoplay=false&amp;showinfo=true&amp;st=470" allowfullscreen style="border:none;"></iframe>
 
 ## Fill our survey
 
