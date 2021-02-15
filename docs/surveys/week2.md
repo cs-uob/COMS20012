@@ -1,6 +1,6 @@
 # Survey Week 2 results
 
-Out of 177 students registered on the unit, 72 (~40%) of you took the time to
+Out of 177 students registered on the unit 72 (~40%) of you took the time to
 fill the survey (thanks!). This is not perfect, but give us
 some insights on how you feel about the unit.
 
