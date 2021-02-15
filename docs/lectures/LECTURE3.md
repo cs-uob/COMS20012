@@ -13,3 +13,7 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 | Web Security Part 1  | [video](https://web.microsoftstream.com/video/665e8709-b8ec-4fef-90b1-23a3df90a343) [pdf](../slides/W3/W3-L3-Intro-WebSec1.pdf) | Text Book Chapter 7-- sections 1.4, 2.1, 2.2, 2.3|
 | Web Security Part 2 (XSS, CSRF)  | [video](https://web.microsoftstream.com/video/fed8db95-363e-4a5c-b0ef-816f1cea7e47) [pdf](../slides/W3/W3-L4-Intro-WebSec2.pdf) | Text Book Chapter 7-- sections 2.6, 2.7|
 | Web Security Part 3 (SQLi)  | [video](https://web.microsoftstream.com/video/c2af5b32-8652-40cd-8474-9340237d3fb7) [pdf](../slides/W3/W3-L5-Intro-WebSec4.pdf) | Text Book Chapter 7-- section 3.3|
+
+## Last week survey results
+
+The results from last week survey are [available](../surveys/week2.html).
