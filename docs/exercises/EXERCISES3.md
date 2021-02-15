@@ -4,9 +4,9 @@
 
 1. Barack often sends funny jokes to Hillary. He does not care about confidentiality of these messages but wants to get credit for the jokes and prevent Bill from claiming authorship of or modifying them. How can this be achieved using public-key cryptography?
 
-2. As public-key cryptography is computationally intensive and drains the battery of Barack’s device, he comes up with an alternative approach. First, he shares a secret key k with Hillary but not with Bill. Next, together with a joke x, he sends over the value d = h(k||x), where h is a cryptographic hash function. Does value d provide assurance to Hillary that Barack is the author of x and that xwas not modified by Bill? Justify your answer.
+2. As public-key cryptography is computationally intensive and drains the battery of Barack’s device, he comes up with an alternative approach. First, he shares a secret key k with Hillary but not with Bill. Next, together with a joke x, he sends over the value d = h(k\|\|x), where h is a cryptographic hash function. Does value d provide assurance to Hillary that Barack is the author of x and that xwas not modified by Bill? Justify your answer.
 
-3. Barack periodically comes up with brilliant ideas to stop the financial crisis, provide health care to every citizen, and save the polar bears. He wants to share these ideas with all the cabinet members but also get credit for the ideas. Extending the above approach, he shares a secret key k with all the cabinet members. Next, he broadcasts each idea z followed by value h(k||z). Does this approach work or can Tim claim that he came up with the ideas instead of Barack? Justify your answer. 
+3. Barack periodically comes up with brilliant ideas to stop the financial crisis, provide health care to every citizen, and save the polar bears. He wants to share these ideas with all the cabinet members but also get credit for the ideas. Extending the above approach, he shares a secret key k with all the cabinet members. Next, he broadcasts each idea z followed by value h(k\|\|z). Does this approach work or can Tim claim that he came up with the ideas instead of Barack? Justify your answer. 
 
 4. Suppose that you accedently visit a malicious site www.evil.com, which contains a JavaScript to access cookies related to your e-shopping site buy-all.bz as follows:
 
