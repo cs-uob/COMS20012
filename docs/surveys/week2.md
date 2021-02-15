@@ -1,8 +1,8 @@
 # Survey Week 2 results
 
 Out of 177 students registered on the unit, 72 (~40%) of you took the time to
-fill the survey. This is not perfect, but give us some insights on how you feel
-about the unit.
+fill the survey (thanks for taking the time). This is not perfect, but give us
+some insights on how you feel about the unit.
 
 * 76% of those who responded are keeping up with the unit.
 * 74% like the balance between videos, labs and exercises.
