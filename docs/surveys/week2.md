@@ -13,7 +13,7 @@ to keep up do not hesitate to get in touch with us or the lead TA.
 We also received 30 written comments (thanks for those who took the time). We
 addressed a few of them:
 * videos are now shorter.
-* we explained why we don't give written solutions and why we prefer to correct
+* we explained why we don't give written solutions and why we think it is better to correct
 exercises during the Q&A ([see the video here](https://cs-uob.github.io/COMS20012/lectures/LECTURE2.html#qa)).
 * we explained why this unit is content rich compared to other units this term,
 it is worth 20 credits, keep that in mind when planning your work ([see the video here](https://cs-uob.github.io/COMS20012/lectures/LECTURE2.html#qa)).
