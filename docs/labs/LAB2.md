@@ -25,6 +25,7 @@ Few tips/steps are as follow:
 1. Compile the code as follows
 
 		$ gcc -fno-stack-protector bof-admin.c -o bof
+	Note: you can also add option `-ggdb` to make easier to work with gdb.
 		
 2. Switch off ASLR (we will lear about later in the course) by running the following command:
 
