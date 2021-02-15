@@ -19,6 +19,6 @@ A general audience article from Forbes can be found [here](https://www.forbes.co
 
 5. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf) and [Cheon et al. S&P paper](../materials/lecture4/2020-sp.pdf) suggest a (simple) framework to compare authentication via pin code and gesture on smartphone.
 **Discuss your frameworks within your lab groups**.
-You should agree on a lab-group level framework, **be ready to discuss your group framework during Friday Q&A**.
+You should agree on a lab-group level framework, **be ready to discuss your frameworks during Friday Q&A**.
 
 ## Network
