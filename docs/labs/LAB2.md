@@ -4,6 +4,10 @@
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
 If you experience difficulty contact IT service.
 
+<!-- the below video link should be removed for the next TB -->
+### Part B help:
+A video that explains part B of the lab is [here](https://web.microsoftstream.com/video/ee2d229d-0955-4eee-9f4f-3106d9e6dfb7).
+<!-- the above video link should be removed for the next TB -->
 
 **Tips:** As you use ssh to login to your VM, you are able to use only one terminal at a time. In order to get another terminal, you need to login to VM in a separate ssh sesssion. You can use another utility that allows you to get another terminal with the same ssh session. Use the command `tmux`. You will see a status bar at the bottom which tells that tmux is running. Now you press `ctrl + b` followed by `%`. you will see your terminal is devided  into two panes. You can use `ctrl + b` followed by right/left arrows to nevigate between the panes. See [this](https://tmuxcheatsheet.com/) for more tmux commands.
 
