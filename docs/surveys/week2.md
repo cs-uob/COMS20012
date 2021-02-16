@@ -11,7 +11,7 @@ Those results are really positive! However, for those of you who are struggling
 to keep up do not hesitate to get in touch with us or the lead TA.
 
 We also received 30 written comments (thanks for those who took the time). We
-addressed a few of them:
+addressed them:
 * videos are now shorter.
 * we explained why we don't give written solutions and why we think it is better to correct
 exercises during the Q&A ([see the video here](https://cs-uob.github.io/COMS20012/lectures/LECTURE2.html#qa)).
