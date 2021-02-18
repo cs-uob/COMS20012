@@ -183,7 +183,7 @@ through all of it let alone understand it.
 Luckily, you do not need to understand most of the code. There is only a small
 fraction that you need to be familiar with and an even smaller fraction that you
 need to understand in details. Being able to distinguish between those categories
-is a very important skills.
+is a very important skill.
 
 To become familiar with a code base, there is no substitute for actually
 poking around. Browse through the tree a bit to get a sense of how things are
