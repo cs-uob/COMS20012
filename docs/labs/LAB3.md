@@ -13,12 +13,12 @@ Also, you need to use X2go client to access lab machines as we will require a GU
 2. This will ask you to save a jar file `webgoat-server-8.1.0.jar`.
 3. Open a terminal and go to the folder where you saved `webgoat-server-8.1.0.jar`
 4. Enter the following commands:
-````
+```console
 export PATH=/usr/lib/jvm/java-11/bin:$PATH
 export WEBGOAT_PORT=18080
 export WEBGOAT_HSQLPORT=19001
 java -jar webgoat-server-8.1.0.jar
-````
+```
 5. It will start the vulnerable server on your machine.
 6. Open you browser and type the following URL:
     127.0.0.1:18080/WebGoat
