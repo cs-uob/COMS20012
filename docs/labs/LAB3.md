@@ -13,18 +13,20 @@ Also, you need to use X2go client to access lab machines as we will require a GU
 2. This will ask you to save a jar file `webgoat-server-8.1.0.jar`.
 3. Open a terminal and go to the folder where you saved `webgoat-server-8.1.0.jar`
 4. Enter the following commands:
-		export PATH=/usr/lib/jvm/java-11/bin:$PATH
-		export WEBGOAT_PORT=18080
-		export WEBGOAT_HSQLPORT=19001
-		java -jar webgoat-server-8.1.0.jar
+````
+export PATH=/usr/lib/jvm/java-11/bin:$PATH
+export WEBGOAT_PORT=18080
+export WEBGOAT_HSQLPORT=19001
+java -jar webgoat-server-8.1.0.jar
+````
 5. It will start the vulnerable server on your machine.
 6. Open you browser and type the following URL:
-	127.0.0.1:18080/WebGoat
+    127.0.0.1:18080/WebGoat
 7. You will see the WebGoat login page. Register with some dummy account.
 8. On the left pane, you will see several topics that are covered in WebGoat server labs (tutorials and exercises). We will cover only the following:
-	a. A1: Injection
-	b. A3: Sensitive data Exposure
-	c. A7: Cross-Site Scripting (XSS)
+    a. A1: Injection
+    b. A3: Sensitive data Exposure
+    c. A7: Cross-Site Scripting (XSS)
 9. Before starting the exercise, Click on the **General** option in the left menu and select *Developer Tools*. Complete the lession. You will notice that the lesson takes example of Chrome browser. The similar options are also available on Firefox. For Firefox, press F12 or click *menu button* (on right top corner) *-> Web Developer -> Toggle*
 9. For **A1: SQL injection**, we will be completing the Part 1 "**SQL Injection (intro)**". Follow the instructions on the page and complee the exercises (from 1 to 13). **Remark:** *As you move on solving the exercise, you will be asked to change something in a DB table. It will save you time, if you take a screenshot of the table that you print first time so that you remember its structure for the following exercises.*
 10. Optionally, you can try Part 2 (SQL Injection (advanced) at your own time.
