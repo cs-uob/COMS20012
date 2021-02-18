@@ -8,9 +8,9 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AAA | [video]() [pdf]() [ppt]() | N/A |
-| Passwords | [video]() [pdf]() [ppt]() | N/A |
-| The password recovery problem | [video]() [pdf]() [ppt]() | N/A |
-| Man in the middle & password hammering | [video]() [pdf]() [ppt]() | N/A |
-| Better than password? | [video]() [pdf]() [ppt]() | [Bonneau et al. The Quest to Replace Passwords: A Framework for Comparative Evaluation of Web Authentication Schemes. IEEE S&P 2012](../materials/lecture4/2012-sp.pdf) |
+| AAA (6min) | [video](https://web.microsoftstream.com/video/a9fee09c-70ed-477d-8aca-37cc5bec9942) [pdf](../slides/W4/notes1.pdf) [ppt](../slides/W4/password1.odp) | N/A |
+| Passwords (18min) | [video](https://web.microsoftstream.com/video/0e77188d-b561-4adf-87af-63286d0808e8) [pdf](../slides/W4/notes1.pdf) [ppt](../slides/W4/password2.odp) | N/A |
+| The password recovery problem (17min) | [video](https://web.microsoftstream.com/video/8efdfcc2-8709-492d-8b15-f49626c9d22a) [pdf](../slides/W4/notes1.pdf) [ppt](../slides/W4/password3.odp) | N/A |
+| Man in the middle & password hammering (12min) | [video](https://web.microsoftstream.com/video/07b291f5-c240-41cd-be32-0d9b47cab81e) [pdf](../slides/W4/notes1.pdf) [ppt](../slides/W4/password4.odp) | N/A |
+| Better than password? (5min) | [video](https://web.microsoftstream.com/video/0bf1dc0a-cba7-4cc8-8478-46088ebdef57) [pdf](../slides/W4/notes1.pdf) [ppt](../slides/W4/password5.odp) | [Bonneau et al. The Quest to Replace Passwords: A Framework for Comparative Evaluation of Web Authentication Schemes. IEEE S&P 2012](../materials/lecture4/2012-sp.pdf) |
 | Bonus video: Starbug’s Touch ID Attack | [video](https://vimeo.com/75324765) | N/A |
