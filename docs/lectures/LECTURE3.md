@@ -17,3 +17,7 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 ## Last week survey results
 
 The results from last week survey are [available](../surveys/week2.html).
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/6b66ca13-12ab-4bde-9f97-1150234ae3aa?autoplay=false&amp;showinfo=true&amp;st=4" allowfullscreen style="border:none;"></iframe>
