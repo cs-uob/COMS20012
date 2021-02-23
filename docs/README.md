@@ -1,6 +1,6 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
-Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){:target="_blank"}.
 
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/19108844-350e-4383-b7fb-0e82b9ab5bf4?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
@@ -8,7 +8,7 @@ Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b
 
 | Tuesday 14:00-17:00 | Friday 9:00-10:00 |
 |---------------------|-------------------|
-| [Lab Session](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b)         | [Q&A Session](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b)       |
+| [Lab Session](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){:target="_blank"}         | [Q&A Session](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){:target="_blank"}       |
 
 ## People
 
@@ -30,7 +30,7 @@ You may need help at different stages of this unit.
 The most effective way to get the help you need is to:
 
 1. Check unit website/handsout/slides.
-2. Ask your question on [the Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
+2. Ask your question on [the Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){:target="_blank"}.
 3. Contact the TA assigned to your lab group.
 4. Contact the head TA [Soo Yee](mailto:sooyee.lim@bristol.ac.uk).
 5. Contact [Sanjay](mailto:sanjay.rawat@bristol.ac.uk) or [Thomas](mailto:thomas.pasquier@bristol.ac.uk).
@@ -68,4 +68,4 @@ We give full reference bellow.
 
 - [Security part] Michael Goodrich and Roberto Tamassia, Brown University, "**Introduction to Computer Security**, Pearson New International Edition, 2014.
 
-**NOTE:** The security book is available in eBook format from the the Library catalogue (http://www.bris.ac.uk/library/) by running a quick author/title search. **Imp:** If you download a copy on your device then it takes one of the copies out of circulation for a time so I encourage you to read what you need online and then exit the book that would be great as that way it will move around the class better. Please get in touch with the library staff if access to the book is getting difficult.
+**NOTE:** The security book is available in eBook format from the [library catalogue](http://www.bris.ac.uk/library/){:target="_blank"} by running a quick author/title search. **Imp:** If you download a copy on your device then it takes one of the copies out of circulation for a time so I encourage you to read what you need online and then exit the book that would be great as that way it will move around the class better. Please get in touch with the library staff if access to the book is getting difficult.
