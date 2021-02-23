@@ -138,7 +138,7 @@ questions, you will have to look in other files.
 
 #### `kern/syscall/loadelf.c`
 
-This file contains the functions responsible for loading an [ELF 4](https://linuxhint.com/understanding_elf_file_format/) executable
+This file contains the functions responsible for loading an [ELF 4](https://linuxhint.com/understanding_elf_file_format/){:target="_blank"} executable
 from the file system and into virtual memory space. Of course, at this point
 this virtual memory space does not provide what is normally meant by virtual
 memory—​although there is translation between virtual and physical addresses,

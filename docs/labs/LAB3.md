@@ -2,10 +2,10 @@
 
 ## Description
 
-In this lab, we will explore some of the web vulnerabilities that we discussed in the lecture. We will use a well known educational web application, called [WebGoat](https://owasp.org/www-project-webgoat/), which contains vulnerable web pages. It also has some basic introduction to web vulnerabilities and related hands-on exercises to complete. You will complete some of those exercises.
+In this lab, we will explore some of the web vulnerabilities that we discussed in the lecture. We will use a well known educational web application, called [WebGoat](https://owasp.org/www-project-webgoat/){:target="_blank"}, which contains vulnerable web pages. It also has some basic introduction to web vulnerabilities and related hands-on exercises to complete. You will complete some of those exercises.
 
-**NOTE:** Those students who are using personal computers, make sure you have recent version of JDK (e.g. jdk-12.0.2) installed on your machine. You can get one from [here](https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/tag/jdk12u-2019-11-21-10-04). For those accessing university lab machine, JDK is already installed  (see the instructions below for setting it properly).
-Also, you need to use X2go client to access lab machines as we will require a GUI based access. [link](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx)
+**NOTE:** Those students who are using personal computers, make sure you have recent version of JDK (e.g. jdk-12.0.2) installed on your machine. You can get one from [here](https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/tag/jdk12u-2019-11-21-10-04){:target="_blank"}. For those accessing university lab machine, JDK is already installed  (see the instructions below for setting it properly).
+Also, you need to use X2go client to access lab machines as we will require a GUI based access. [link](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 
 ## Lab Instructions
 

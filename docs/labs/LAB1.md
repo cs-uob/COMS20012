@@ -1,7 +1,7 @@
 # Lab 1: Understanding Assembly Code
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
-Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 If you experience difficulty contact IT service.
 
 ## Fill our survey
@@ -10,7 +10,7 @@ If you experience difficulty contact IT service.
 
 ## 1. Setting up Vagrant
 As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
-You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html).
+You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html){:target="_blank"}.
 1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
 3. `cd seclabs`
@@ -33,13 +33,13 @@ You may also want to watch videos from [David's COMS10012](https://cs-uob.github
 ## 2. Understanding Memory layout with GDB
 
 In this part of the lab, we will learn about using GDB to understand the few artifacts of x86 ISA.
-0. Do some hands-on by following this documents first [lab1-gdb.pdf](../materials/lecture1/lab1-gdb.pdf). You will need [call-convention.c](../code/call-convention.c) and [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf)
+0. Do some hands-on by following this documents first [lab1-gdb.pdf](../materials/lecture1/lab1-gdb.pdf){:target="_blank"}. You will need [call-convention.c](../code/call-convention.c){:target="_blank"} and [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}.
 1. Copy c code [memory_layout.c](../code/memory_layout.c) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
 2. \[run `vagrant up` to start you VM.\]
 3. compile `gcc memory_layout.c -o memory_layout`
 4. run the resulting binary. It will halt with a message "Press any key...."
 5. On a different terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the PID, say P.
-6. On TermB, run `gdb -p P`. GDB will be attached to the running process on TermA. You will be in GDB shell. Now on enter commands within gdb shell. NOTE: if GDB does not attach, run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope` 
+6. On TermB, run `gdb -p P`. GDB will be attached to the running process on TermA. You will be in GDB shell. Now on enter commands within gdb shell. NOTE: if GDB does not attach, run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope`
 
 ```
 (gdb) disassem main

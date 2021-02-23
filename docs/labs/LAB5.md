@@ -3,7 +3,7 @@
 You need to complete [LAB 1](./LAB1.html) in order to do this lab.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
-Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 If you experience difficulty contact IT service.
 
 ## Some notes
@@ -33,15 +33,15 @@ Finally, make sure you do the **exercises** properly.
 You are second year computer science students and we expect some autonomy
 in using the "tools of the trade".
 You should be familiar (or familiarize yourself) with the following tools:
-1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started);
-2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html);
-3. [git](https://git-scm.com/docs/gittutorial);
-4. GDB, see [LAB 1](./LAB1.html).
+1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started){:target="_blank"};
+2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html){:target="_blank"};
+3. [git](https://git-scm.com/docs/gittutorial){:target="_blank"};
+4. GDB, see [LAB 1](./LAB1.html){:target="_blank"}.
 
 Please, make sure those tools are installed and that you know how to use them.
 You should have used them in previous labs in this unit, and others.
 Do get in touch with your TA if you are facing issues.
-You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html).
+You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html){:target="_blank"}.
 
 ## Setting up vagrant image
 
@@ -55,8 +55,8 @@ vagrant up
 
 ## Getting the source
 
-[OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
-It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) for use in her famous Harvard course on operating systems, CS161.
+[OS/161](http://os161.eecs.harvard.edu/){:target="_blank"} has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/){:target="_blank"} from [Harvard University](http://os161.eecs.harvard.edu/){:target="_blank"}.
+It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/){:target="_blank"} for use in her famous Harvard course on operating systems, CS161.
 Since then, OS/161 has been adopted for teaching in many universities around the world.
 Operating systems courses that use OS/161 are known to be demanding, yet incredibly enriching and rewarding.
 
@@ -122,13 +122,13 @@ bmake install
 ## Running OS/161 kernel
 
 Now that your kernel is built, we are going to run it. To do so we are going to
-use [Sys-161](http://os161.eecs.harvard.edu/).
+use [Sys-161](http://os161.eecs.harvard.edu/){:target="_blank"}.
 System/161 is a machine simulator that provides a simplified but still realistic
 environment to run OS/161. Apart from floating point support and certain issues
 relating to RAM cache management, it provides an accurate emulation of a
 MIPS processor.
 
-You need a [configuration file](./sys161.conf) that we are going to place in `~/os161/root/`:
+You need a [configuration file](./sys161.conf){:target="_blank"} that we are going to place in `~/os161/root/`:
 ```
 cd ~/os161/root/
 wget https://cs-uob.github.io/COMS20012/labs/sys161.conf
@@ -314,7 +314,7 @@ searching through your OS/161 source code.
 1. What function initializes the kernel during boot, and what subsystems are currently initialized?
 2. OS/161 ships with two working synchronization primitives. What are they?
 3. OS/161 has a system for printing debugging messages to the console. How does it work? How could it be useful?
-4. What do copyin and copyout do? What is special about these functions compared to other approaches to copying memory in C, like [memmove](http://www.cplusplus.com/reference/cstring/memmove/)?
+4. What do copyin and copyout do? What is special about these functions compared to other approaches to copying memory in C, like [memmove](http://www.cplusplus.com/reference/cstring/memmove/){:target="_blank"}?
 5. Explain the difference between machine dependent and machine independent code. Where would you put both in the OS/161 source tree?
 
 ## Using GDB
@@ -472,7 +472,7 @@ As before we need to download the Linux kernel source code:
 cd ~/build && git clone -b v5.10.10 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 ```
 You could replace "v5.10.10" by the kernel release of your choice. You can check
-the longterm and stable releases on this [website](https://www.kernel.org/).
+the longterm and stable releases on this [website](https://www.kernel.org/){:target="_blank"}.
 
 The next step is to configure the kernel:
 ```

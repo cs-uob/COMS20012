@@ -1,10 +1,10 @@
 # Lab 6: Synchronization
 
 You need to complete [LAB 5](./LAB5.html) in order to do this lab.
-You may also want to look back at [Computer Systems A](https://uob-csa.github.io/website/).
+You may also want to look back at [Computer Systems A](https://uob-csa.github.io/website/){:target="_blank"}.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
-Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 If you experience difficulty contact IT service.
 
 ## Fill our survey
