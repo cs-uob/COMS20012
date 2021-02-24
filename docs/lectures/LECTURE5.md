@@ -10,7 +10,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A brief history of operating systems | [video (35min)](https://web.microsoftstream.com/video/0e8dcf69-5384-4cc8-84e5-2ee6265016eb) [pdf](../slides/W5/notes1.pdf) [ppt](../slides/W5/intro1.odp) | Textbook 1.2 (page 4) |
+| A brief history of operating systems | [video (35min)](https://web.microsoftstream.com/video/0e8dcf69-5384-4cc8-84e5-2ee6265016eb){:target="_blank"} [pdf](../slides/W5/notes1.pdf){:target="_blank"} [ppt](../slides/W5/intro1.odp){:target="_blank"} | Textbook 1.2 (page 4) |
 | Labs Introduction | [video]() [pdf]() [ppt]() | N/A |
 | OS Structure | [video]() [pdf]() [ppt]() | Textbook 1.3.1 (page 12) |
 | Synchronization Primitives | [video]() [pdf]() [ppt]() | Textbook 2.2.3 (page 56) and 2.2.4 (page 76) |
