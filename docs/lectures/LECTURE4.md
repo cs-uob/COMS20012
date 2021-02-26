@@ -24,3 +24,8 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 ## Q&A
 
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/45aed09d-2339-40ec-afc8-259a799dca9b?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+**Announcement we forgot to make:** In order to help everyone to take a breath,
+we have removed one of the security lab, and rescheduled the OS labs to give you
+a bit more time to do the labs. There is more detail in the OS labs organization
+in [Week 5 videos](./LECTURE5.md).
