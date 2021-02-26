@@ -19,3 +19,8 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 | Introdcution to Firewalls | [video (23min)](https://web.microsoftstream.com/video/5654dbe7-5d02-44d3-99df-e61d6742230f){:target="_blank"} [pdf](../slides/W4/W4-L2-Intro-Firewalls.pdf){:target="_blank"} [Handouts](../slides/W4/W4-L2-Intro-Firewalls-handouts.pdf){:target="_blank"} | Book chapter 6- section 2 (entire) |
 | Introdcution to Intrusion Detection Systems | [video (31min)](https://web.microsoftstream.com/video/2a053471-0a4c-4a10-875c-ef889eef1966){:target="_blank"} [pdf](../slides/W4/W4-L3-Intro-IDS.pdf){:target="_blank"} [Handouts](../slides/W4/W4-L3-Intro-IDS-handouts.pdf){:target="_blank"} | Book chapter 6- section 4, 4.1, 4.2, 4.3 |
 | Introdcution to SSL/TLS| [video (24min)](https://web.microsoftstream.com/video/f1782095-a5c9-4e4c-84e0-aa0a2dc98fbe){:target="_blank"} [pdf](../slides/W4/W4-L4-Intro-SSL.pdf){:target="_blank"} [Handouts](../slides/W4/W4-L4-Intro-SSL-handouts.pdf){:target="_blank"} | Book chapter 7- section 1.2, [SANS article](https://www.sans.org/reading-room/whitepapers/protocols/ssl-tls-beginners-guide-1029){:target="_blank"} |
+
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/45aed09d-2339-40ec-afc8-259a799dca9b?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
