@@ -11,7 +11,7 @@
 1. Explain the difference between design flaw and programming error by giving one example.
 2. What is a spatial memory safety violation?
 3. Is buffer overflow error an example of *spatial* or *temporal* safety  violation? Explain your answer.
-4. In the [article](http://www.pl-enthusiast.net/2014/07/21/memory-safety/)  by Prof. Hicks, he provides a definition of memory safety as *no accesses to undefined memory*. Later he argues that it does not cover buffer overflows. Can you explain why it is so?
+4. In the [article](http://www.pl-enthusiast.net/2014/07/21/memory-safety/){:target="_blank"}  by Prof. Hicks, he provides a definition of memory safety as *no accesses to undefined memory*. Later he argues that it does not cover buffer overflows. Can you explain why it is so?
 5. Consider the following code:  
     ```
     void main(){
@@ -77,6 +77,6 @@ int catvars(char *buf1, char *buf2, unsigned int len1,
     return 0;
 }
 ```
-    As is discussed in this [article](http://phrack.org/issues/60/10.html), there is a integer overflow in the above code which will overflow `mybuf` at line [4] and/or [5]. The problem is at line [3]. what value to `len1` and `len2` you will use to trigger the bug?
+    As is discussed in this [article](http://phrack.org/issues/60/10.html){:target="_blank"}, there is a integer overflow in the above code which will overflow `mybuf` at line [4] and/or [5]. The problem is at line [3]. what value to `len1` and `len2` you will use to trigger the bug?
 
 11. What is a format string bug? Explain by example which of the CIA properties can be violated by a format string bug.

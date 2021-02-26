@@ -13,11 +13,11 @@
 Check and discuss their recovery mechanism.
 
 3. Research on Goolge why SMS recovery is not suitable anymore to protect against targeted attack.
-A general audience article from Forbes can be found [here](https://www.forbes.com/sites/zakdoffman/2020/10/11/apple-iphone-imessage-and-android-messages-sms-passcode-security-update/).
+A general audience article from Forbes can be found [here](https://www.forbes.com/sites/zakdoffman/2020/10/11/apple-iphone-imessage-and-android-messages-sms-passcode-security-update/){:target="_blank"}.
 
-4. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf) provided as lecture material. Discuss why it is difficult to replace passwords.
+4. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf){:target="_blank"} provided as lecture material. Discuss why it is difficult to replace passwords.
 
-5. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf) and [Cheon et al. S&P paper](../materials/lecture4/2020-sp.pdf) suggest a (simple) framework to compare authentication via pin code and gesture on smartphone.
+5. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf){:target="_blank"} and [Cheon et al. S&P paper](../materials/lecture4/2020-sp.pdf){:target="_blank"} suggest a (simple) framework to compare authentication via pin code and gesture on smartphone.
 **Discuss your frameworks within your lab groups**.
 You should agree on a lab-group level framework, **be ready to discuss your frameworks during Friday Q&A**.
 
