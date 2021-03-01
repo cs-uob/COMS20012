@@ -72,6 +72,7 @@ vagrant ssh
 
 Now all that is left for you to do is to access the OS/161 source code:
 ```
+cd ~
 git clone https://github.com/tfjmp/os161.git
 ```
 
@@ -95,6 +96,7 @@ on your lab VM.
 
 You first need to build a bunch of userland dependencies:
 ```
+cd os161
 bmake
 bmake install
 ```
