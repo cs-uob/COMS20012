@@ -118,6 +118,16 @@ it is not necessarily a good idea. You should definitely read and understanding
 the existing semaphore implementation since that can be used as a model for
 several of the other primitives we ask you to implement below.
 
+### (Re)watch videos
+
+There are two videos from [Lecture 5](../lectures/LECTURE5.html){:target="_blank"} that you should have in
+mind when starting to work on this lab.
+Please, watch them again before going further.
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4d068d22-3221-440e-8dfe-4d5e2bc6ea85?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/239dbda0-0d3c-4528-8a25-5d18f50ccdcc?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 ### Implement Locks
 
 Implement locks for OS/161. The interface for the lock structure is defined

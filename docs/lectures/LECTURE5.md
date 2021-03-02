@@ -14,7 +14,8 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Labs Introduction | [video (41min)](https://web.microsoftstream.com/video/48527b9d-21e9-4265-9410-4a2ce224a45d){:target="_blank"} [pdf](../slides/W5/notes2.pdf){:target="_blank"} [ppt](../slides/W5/intro2.odp){:target="_blank"} | N/A |
 | OS Structure | [video (21min)](https://web.microsoftstream.com/video/65b2e1a3-1d1f-4bee-8633-6dfb0ac7d4a6){:target="_blank"} [pdf](../slides/W5/notes3.pdf){:target="_blank"} [ppt](../slides/W5/intro3.odp){:target="_blank"} | Textbook 1.3.1 (page 12) |
 | Synchronization Primitives | [video (15min)](https://web.microsoftstream.com/video/e57f4607-3e8d-4a48-bb29-103ab90296df){:target="_blank"} [pdf](../slides/W5/notes4.pdf){:target="_blank"} [ppt](../slides/W5/intro4.odp){:target="_blank"} | Textbook 2.2.3 (page 56) and 2.2.4 (page 76) |
-| Implementing Synchronization Primitives | [video](){:target="_blank"} [pdf](){:target="_blank"} [ppt](){:target="_blank"} | N/A |
+| Implementing spinlocks | [video (8min)](https://web.microsoftstream.com/video/4d068d22-3221-440e-8dfe-4d5e2bc6ea85){:target="_blank"} [pdf](../slides/W5/notes5.pdf){:target="_blank"} [ppt](../slides/W5/intro5.odp){:target="_blank"} | N/A |
+| Implementing semaphores | [video (7min)](){:target="_blank"} [pdf](../slides/W5/notes6.pdf){:target="_blank"} [ppt](../slides/W5/intro6.odp){:target="_blank"} | N/A |
 
 ## Fill our survey
 
