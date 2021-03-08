@@ -23,7 +23,7 @@
 	**ANS:** It is simple desigin, thus *economy of mechanism* prnciple is followed. However, proprietary encryption shceme is a bad idea (*Open design* principle). Protecting it with a PIN is good (confidentiality and Assurance). However, 4-digit PIN may be a weak protection. 
 7. Suppose an Internet service provider (ISP) has a voice over IP (VoIP) telephone system that it manages and sells. Suppose further that this ISP is deliberately dropping 25% of the packets used in its competitors VoIP system when those packets are going through this ISP’s routers. Describe how a user could discover that his ISP is doing this. 
 	
-	**ANS:** Using a recorded message, play it on VoIP when calling your friend from *this* ISP and repeat the same activity, but from a different provider and measure the received packets in both of the cases. 
+	**ANS:** Using a recorded message, play it on VoIP when calling your friend from *this* ISP and repeat the same activity, but from a different provider and measure the difference between received packets in both of the cases. 
 
 ## B. Intro to Assembly
 
