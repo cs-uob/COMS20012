@@ -25,7 +25,7 @@
 2. Write pseudocode for the TAS instruction.
 3. Write pseudocode for the CAS instruction.
 4. Why spinlock should only be used when resource will be held for a very short time?
-5. This problem demonstrates the use of semaphores to coordinate three types of processes [there will be a solution video uploaded on week 7]. Santa Claus sleeps in his shop at the North Pole and can only be wakened by either
+5. This problem demonstrates the use of semaphores to coordinate three types of processes [there will be a solution video uploaded on week 8]. Santa Claus sleeps in his shop at the North Pole and can only be wakened by either
 
     a. all nine reindeer being back from their vacation in the South Pacific, or
 
