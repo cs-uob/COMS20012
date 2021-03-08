@@ -9,7 +9,7 @@
 * authorization means;
 * accountability means.
 
-    **ANS:** authentication: verifying the identify of a user; authorization: verifying the privileges of an identified user; accountability: keeping track of the action performed by a user.
+    **ANS:** authentication: verifying the identify of a user; authorization: verifying the privileges of an identified user; accountability: keeping track of the actions/accesses performed by a user.
 
 2. Pick on of your favourite online services (Google, Twitter, Facebook etc.)
 Check and discuss their recovery mechanism.
