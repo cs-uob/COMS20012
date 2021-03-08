@@ -38,15 +38,19 @@
     **Assume that variables are allocated on the stack in the same order as they are declared in the code, i.e. x will be near `rbp (ebp)` and z wil be near `rsp (esp)`.**
 
     Answer the following questions.
+    
     	a. What memory error does this code have?
  	
 	**ANS:** stack buffer overflow.
+	
  	b. What is the source of that memory error?
  	
 	**ANS:** `gets(name)`
+	
  	c. Which variables may be corrupted by that error?
  	
 	**ANS:** `count` and `x`
+	
  	d. How can you fix that error?
  	
 	**ANS:** use safe functions, like fgets, scanf.
