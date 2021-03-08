@@ -115,7 +115,8 @@ And its disassembly as follows:
 		 
 a. Can you identify in the assembly which memory locations (of the form `-0xN(%ebp)`) correspond to which variables in the main function?
 	
-	**ANS:** `n1=-0x4(%rbp)`; `n2= -0x10(%rbp)`, `n3=-0xc(%rbp)`; `n4=-0x18(%rbp)`; `x=-0x1c(%rbp)`; `y=-0x20(%rbp)`; `a =-0x8(%rbp)` or `-0x14(%rbp)`; `b = -0x14(%rbp)` or `-0x8(%rbp)`
+**ANS:** `n1=-0x4(%rbp)`; `n2= -0x10(%rbp)`, `n3=-0xc(%rbp)`; `n4=-0x18(%rbp)`; `x=-0x1c(%rbp)`; `y=-0x20(%rbp)`; `a =-0x8(%rbp)` or `-0x14(%rbp)`; `b = -0x14(%rbp)` or `-0x8(%rbp)`
+
 b. . In the C code above, if you compile the code for x86-32 system, at the line `x=sum(n3,n4);`which argument will be pushed onto the stack first?
 	
-	**ANS:** `n4`.
+**ANS:** `n4`.
