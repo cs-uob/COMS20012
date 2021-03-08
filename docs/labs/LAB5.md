@@ -449,9 +449,9 @@ board. At that point System/161 will exit, and GDB will print
 ### Exercises
 
 1. Set a breakpoint on the panic function. Initiate a panic from the kernel menu and confirm that GDB hits the break point. Inspect the call stack and step up and down a few times before allowing the kernel to continue and sys161 to exit.
-2. Create a panic by modifying your OS/161 source code. Use GDB to find the source of the panic. If you are working with a partner, have your partner hide a panic in the source code and use GDB to find it. Then hide one for them.
+2. Create a panic by modifying your OS/161 source code. Use GDB to find the source of the panic. If you are working with a partner, have your partner hide a panic in the source code and use GDB to find it. Then hide one for them. **Note:** Do not forget to recompile the kernel when you modify the code.
 3. Step through kernel boot, stepping in to and over a few of the boot helper functions that initialize various subsystems.
-4. Put a breakpoint on the kernel exception handler and step through it when it fires. Use it to determine what generates exceptions when your kernel is sitting idly at the menu. **Hint:** watch [Week 5 Video 3](https://web.microsoftstream.com/video/65b2e1a3-1d1f-4bee-8633-6dfb0ac7d4a6){:target="_blank"} again. Exception handling is architecture dependent. Consequently, you are likely to find the function handling exception in `kern/arch/mips`.
+4. Put a breakpoint on the kernel exception handler and step through it when it fires. Use it to determine what generates exceptions when your kernel is sitting idly at the menu. **Hint:** watch [Week 5 Video 3](https://web.microsoftstream.com/video/65b2e1a3-1d1f-4bee-8633-6dfb0ac7d4a6){:target="_blank"} again. Exception handling is architecture dependent. Consequently, you are likely to find the function handling exceptions in `kern/arch/mips`.
 
 ## Extra content
 
