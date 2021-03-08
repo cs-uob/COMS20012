@@ -33,7 +33,7 @@ You should agree on a lab-group level framework, **be ready to discuss your fram
 
 1. Can two network interfaces have the same MAC address? Why or why not?
 
-	**ANS:** If they are in the same subnet, no as this will cause confusion, which results in the disruption of the network services. On the different subnet, this *may* not cause a problem as the network level router/switch will fisrt route the packet to the subnet and only then a ARP request will be made for the final recipent of the packet.
+	**ANS:** If they are in the same subnet, no as this will cause confusion, which results in the disruption of the network services. On the different subnet, this *may* not cause a problem as the network level router/switch will first route the packet to the subnet and only then a ARP request will be made for the final recipient of the packet.
 
 2. Discuss why installing static ARP tables on the machines of a local-area network does not prevent a malicious machine from intercept-ing traffic not intended for it.
 
@@ -41,7 +41,7 @@ You should agree on a lab-group level framework, **be ready to discuss your fram
 
 3. TCP connections require a lot of overhead, as compared to UDP. Explain why web sites and file transfers are nevertheless typically transmitted over TCP instead of UDP.
 
-	**ANS:** TCP is more reliable than UDP. If you expect large data exchange, using TCP makes more sense as such data need to be sent over several packets. In the case of UDP, it may be hcallenging to keep track of which packets have arrived/acknowledged.
+	**ANS:** TCP is more reliable than UDP. If you expect large data exchange, using TCP makes more sense as such data need to be sent over several packets. In the case of UDP, it may be challenging to keep track of which packets have arrived/acknowledged.
 
 4. How is it that a machine of a private network behind a NAT router can make a connection with a web server on the public Internet?
 
@@ -65,4 +65,4 @@ You should agree on a lab-group level framework, **be ready to discuss your fram
 
 9. During TLS enabled connection, why do we use DH key exchange for sharing a session key, given the fact that we use a public-key crypto systems that can be used to share the session key?
 
-	**ANS:** see slides on forward secrecy and ephimeral keys.
+	**ANS:** see slides on forward secrecy and ephemeral keys.
