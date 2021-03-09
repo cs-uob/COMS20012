@@ -23,7 +23,7 @@
 	**ANS:** It is simple desigin, thus *economy of mechanism* prnciple is followed. However, proprietary encryption shceme is a bad idea (*Open design* principle). Protecting it with a PIN is good (confidentiality and Assurance). However, 4-digit PIN may be a weak protection. 
 7. Suppose an Internet service provider (ISP) has a voice over IP (VoIP) telephone system that it manages and sells. Suppose further that this ISP is deliberately dropping 25% of the packets used in its competitors VoIP system when those packets are going through this ISP’s routers. Describe how a user could discover that his ISP is doing this. 
 	
-	**ANS:** Using a recorded message, play it on VoIP when calling your friend and same activity, but from a different provider and measure the received packets. 
+	**ANS:** Using a recorded message, play it on VoIP when calling your friend from *this* ISP and repeat the same activity, but from a different provider and measure the difference between received packets in both of the cases. 
 
 ## B. Intro to Assembly
 
@@ -115,7 +115,8 @@ And its disassembly as follows:
 		 
 a. Can you identify in the assembly which memory locations (of the form `-0xN(%ebp)`) correspond to which variables in the main function?
 	
-	**ANS:** `n1=-0x4(%rbp)`; `n2= -0x10(%rbp)`, `n3=-0xc(%rbp)`; `n4=-0x18(%rbp)`; `x=-0x1c(%rbp)`; `y=-0x20(%rbp)`; `a =-0x8(%rbp)` or `-0x14(%rbp)`; `b = -0x14(%rbp)` or `-0x8(%rbp)`
+**ANS:** `n1=-0x4(%rbp)`; `n2= -0x10(%rbp)`, `n3=-0xc(%rbp)`; `n4=-0x18(%rbp)`; `x=-0x1c(%rbp)`; `y=-0x20(%rbp)`; `a =-0x8(%rbp)` or `-0x14(%rbp)`; `b = -0x14(%rbp)` or `-0x8(%rbp)`
+
 b. . In the C code above, if you compile the code for x86-32 system, at the line `x=sum(n3,n4);`which argument will be pushed onto the stack first?
 	
-	**ANS:** `n4`.
+**ANS:** `n4`.
