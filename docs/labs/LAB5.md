@@ -86,7 +86,7 @@ to track your changes and share your code with classmates and TA.
 This step is necessary to setup the location where your kernels and various
 binaries will be created in later stages. It should run fairly quickly and need
 to be done only once (or when you completely deleted your source tree).
-Run `./configure --help` to fidn our more including available options.
+Run `./configure --help` to find more including available options.
 
 ## Building userland
 
