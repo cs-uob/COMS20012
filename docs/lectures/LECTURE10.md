@@ -8,7 +8,7 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Title | [video]() [pdf]() [ppt]() | Link |
+| Title | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
 
 ## Fill our survey
 

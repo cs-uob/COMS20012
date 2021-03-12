@@ -10,4 +10,4 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Title | [video]() [pdf]() [ppt]() | Link |
+| Title | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
