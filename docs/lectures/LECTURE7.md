@@ -10,4 +10,6 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Title | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
+| Scheduling: some definitions | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| Scheduling: strategies and tactics | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 5.3.1 (page 193) and 5.3.2 (page 204) |
+
