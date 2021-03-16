@@ -25,3 +25,5 @@ and more generally on [study skills](https://www.bristol.ac.uk/students/your-stu
 useful to some of you.
 Finally, if you are not taking notes and preparing your own revision material you should. Students who do so will perform much better.
 This is something you should do as you read and attend/watch audio-video material.
+
+Thanks to everyone who participated and we hope you continue to enjoy the unit!
