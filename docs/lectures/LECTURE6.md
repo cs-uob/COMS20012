@@ -15,3 +15,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Threads | [video (17min)](https://web.microsoftstream.com/video/df74ed3d-d192-4c86-acbc-a96cd1e51724){:target="_blank"}  [pdf](../slides/W6/notes3.pdf){:target="_blank"}  [ppt](../slides/W6/process3.odp){:target="_blank"}  | Textbook 3.1 (page 93) skip 3.1.1.2  |
 | Thread Switch | [video (13min)](https://web.microsoftstream.com/video/74ade2c7-60a6-4232-93f7-64c50abf85fe){:target="_blank"}  [pdf](../slides/W6/notes4.pdf){:target="_blank"}  [ppt](../slides/W6/process4.odp){:target="_blank"}  | Textbook 5.1.2 (page 170)  |
 | Trap Handling, Domain Crossing and System Calls| [video (27min)](https://web.microsoftstream.com/video/4bf750d6-6201-4196-9abd-f9865b72fd4d){:target="_blank"}  [pdf](../slides/W6/notes5.pdf){:target="_blank"}  [ppt](../slides/W6/process5.odp){:target="_blank"}  | Textbook 5.2 (page 177) |
+
+## Last week survey results
+
+The results from last week survey are [available](../surveys/week5.html).
