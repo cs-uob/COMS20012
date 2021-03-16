@@ -7,7 +7,7 @@ some insights on how you feel about the unit.
 * 67% of those who responded are keeping up with the unit.
 * 81% know that the exam will be an MCQ and 74% know that consequently the exercise sheets do not reflect the exam structure.
 * 60% find the Q&A to be useful.
-* 59% emjoyed the security part of the unit.
+* 59% enjoyed the security part of the unit.
 
 We also received 14 written comments (thanks for those who took the time). We
 addressed them:
