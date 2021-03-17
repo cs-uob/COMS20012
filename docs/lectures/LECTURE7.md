@@ -11,7 +11,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Scheduling: some definitions | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| FCFC, SJF, SRTF, Round Robin | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 5.3.1 (page 193) and 5.3.2 (page 204) |
-| Threads, zombies and scheduling | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| MLQ and Linux CFS | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| Scheduling across multiple cores | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| FCFC, SJF, SRTF, Round Robin | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 5.3.1 (page 193) |
+| Threads, zombies and scheduling | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 4.1.3 (page 137) |
+| MLQ and Linux CFS | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 5.3.3 (page 206) |
+| Scheduling across multiple cores | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 5.3.2.3 (page 205) |
