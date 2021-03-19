@@ -17,10 +17,10 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Implementing spinlocks | [video (8min)](https://web.microsoftstream.com/video/4d068d22-3221-440e-8dfe-4d5e2bc6ea85){:target="_blank"} [pdf](../slides/W5/notes5.pdf){:target="_blank"} [ppt](../slides/W5/intro5.odp){:target="_blank"} | N/A |
 | Implementing semaphores | [video (7min)](https://web.microsoftstream.com/video/239dbda0-0d3c-4528-8a25-5d18f50ccdcc){:target="_blank"} [pdf](../slides/W5/notes6.pdf){:target="_blank"} [ppt](../slides/W5/intro6.odp){:target="_blank"} | N/A |
 
-## Q&A
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5f8ff511-68f2-4059-a824-627a91cc6b25?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-
 ## Fill our survey
 
 <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG5N9pWWUNd5Khd6GR62JgsZUQjhUWlZOQ1c2V1A5WExWU0hUVjdZMldBSC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/5f8ff511-68f2-4059-a824-627a91cc6b25?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
