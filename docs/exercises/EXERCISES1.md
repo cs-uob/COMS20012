@@ -1,5 +1,7 @@
 # Exercises sheet 1
 
+**Correction after reading week.**
+
 ## A. Intro to CIA/AAA/Threat/Security Principles
 1. Let us assume tha mayor of Bristol wants to release a public notice on an important issue. Which of the CIA properties should be enforced and why?
 

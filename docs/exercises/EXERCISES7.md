@@ -1,5 +1,7 @@
 # Exercises sheet 7
 
+**Correction after around Easter.**
+
 1. Explain what preemptable and non-preemptable mean.
 2. What are the three metrics to consider when designing a scheduling policy?
 3. Explain FCFS, SJF, SRTF and Round Robin scheduling algorithms.

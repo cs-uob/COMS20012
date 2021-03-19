@@ -1,5 +1,7 @@
 # Exercises sheet 3
 
+**Correction after reading week.**
+
 1. Barack often sends funny jokes to Hillary. He does not care about confidentiality of these messages but wants to get credit for the jokes and prevent Bill from claiming authorship of or modifying them. How can this be achieved using public-key cryptography?
 
 	**ANS:** Barack can sign jokes with his private key.
