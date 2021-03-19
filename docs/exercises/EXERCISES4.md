@@ -1,7 +1,5 @@
 # Exercises sheet 4
 
-**There will be no written corrections. Exercises will be discussed during the recorded live Q&A. Come and prepare questions.**
-
 ## Authentication Methods
 
 1. Explain in your own words what:
