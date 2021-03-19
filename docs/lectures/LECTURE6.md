@@ -8,6 +8,8 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 
 Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated otherwise.
 
+**Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/2yrm4w4fh1osjzgt?utm_source=new_remake&utm_medium=email&utm_content=padlet_url&utm_campaign=remake){:target="_blank"}!**
+
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The Process Abstraction | [video (19min)](https://web.microsoftstream.com/video/e0ec97d9-8465-4161-bad8-329a9a24e37f){:target="_blank"} [pdf](../slides/W6/notes1.pdf){:target="_blank"} [ppt](../slides/W6/process1.odp){:target="_blank"} | Textbook 1.3.2 (page 14) 1.3.3 (page 16) 1.3.4 (page 19) |
