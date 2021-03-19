@@ -116,6 +116,10 @@ The contents of your design document should include (but not be limited to):
 3. Indications of what, if any, existing code you may model your solution off of.
 4. A description of how accesses to shared state will be synchronized, if necessary.
 
+## (Re)watch Week 6 video 5
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4bf750d6-6201-4196-9abd-f9865b72fd4d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 ## Code reading
 
 To help you get started designing, we have provided the following questions as
