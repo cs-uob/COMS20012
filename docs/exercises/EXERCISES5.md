@@ -1,6 +1,6 @@
 # Exercises sheet 5
 
-**Correction after around Easter.**
+**Correction around Easter.**
 
 ## Fill our survey
 

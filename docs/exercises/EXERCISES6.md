@@ -1,6 +1,6 @@
 # Exercises sheet 6
 
-**Correction after around Easter.**
+**Correction around Easter.**
 
 **Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/2yrm4w4fh1osjzgt?utm_source=new_remake&utm_medium=email&utm_content=padlet_url&utm_campaign=remake){:target="_blank"}!**
 

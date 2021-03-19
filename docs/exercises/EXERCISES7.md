@@ -1,6 +1,6 @@
 # Exercises sheet 7
 
-**Correction after around Easter.**
+**Correction around Easter.**
 
 1. Explain what preemptable and non-preemptable mean.
 2. What are the three metrics to consider when designing a scheduling policy?
