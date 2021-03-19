@@ -21,3 +21,9 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 ## Last week survey results
 
 The results from last week survey are [available](../surveys/week5.html).
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/f658f54c-6c8d-492b-8897-0c8ea0c1a55f?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/ae501fe9-9a76-4041-8145-132bd968e7de?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
