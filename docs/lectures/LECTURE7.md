@@ -10,6 +10,8 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 **Warning:** during the videos you will need to look through code. This means watching the videos may take significantly more time than their nominal time.
 
+**Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/zkt0fig30cjaqmoa){:target="_blank"}!**
+
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Some definitions | [video (10min)](https://web.microsoftstream.com/video/fb9d9f92-4bf3-4d8d-994c-d77202d9a9f7){:target="_blank"}  [pdf](../slides/W7/notes1.pdf){:target="_blank"}  [ppt](../slides/W7/scheduling1.odp){:target="_blank"}  | N/A |
