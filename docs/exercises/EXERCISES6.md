@@ -2,7 +2,7 @@
 
 **Correction around Easter.**
 
-**Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/2yrm4w4fh1osjzgt?utm_source=new_remake&utm_medium=email&utm_content=padlet_url&utm_campaign=remake){:target="_blank"}!**
+**Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/2yrm4w4fh1osjzgt){:target="_blank"}!**
 
 1. Explain in your own words why abstractions are necessary.
 2. Explain in your own the difference between policy and mechanism. How does this relate to abstractions?

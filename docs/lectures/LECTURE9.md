@@ -8,6 +8,8 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 
 Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated otherwise.
 
+**Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/nndaw2bef7vf8jgr){:target="_blank"}!**
+
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Title | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
