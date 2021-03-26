@@ -22,3 +22,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Scheduling across multiple cores | [video (10min)](https://web.microsoftstream.com/video/6ae8ccc0-7447-405f-a029-9c299bdb874a){:target="_blank"}  [pdf](../slides/W7/notes6.pdf){:target="_blank"}  [ppt](../slides/W7/scheduling6.odp){:target="_blank"}  | Textbook 5.3.2.3 (page 205) |
 
 * little error on slide 8 in the video, T2 vruntime should be 12.5 (as before) and not 12. This is corrected in the slide.
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/1c42cf85-34e8-4692-986c-dfcb3c9c286d?autoplay=false&amp;showinfo=true&amp;st=315" allowfullscreen style="border:none;"></iframe>
