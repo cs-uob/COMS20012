@@ -44,7 +44,6 @@
 13. Explain: thread switch, process switch and domain crossing.
 
     **Answer:** thread switch: change from one thread of execution to another, process switch: change from one process to another; domain switch: change the privilege level at which a process is executing (user -> kernel or kernel -> user).
-
 14. What happened if you set a timer to switch between thread/process too often?
 
     **Answer:** if the timer used to trigger your scheduling logic is too short you will spend more time selecting the next thread to run and performing context switch than you would be making progress.
