@@ -12,12 +12,13 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Previously | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
-| Why Virtual Memory | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
-| Segmented Virtual Memory | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
-| Translation Lookaside Buffer (TLB) | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
-| Page Faults | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
-| A look at OS161 Implementation | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Link |
+| Previously | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| Why Virtual Memory | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 7.1 (page 287) |
+| Segmented Virtual Memory | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| Paging | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 7.2 (<7.2.4) (page 289) |
+| Translation Lookaside Buffer (TLB) | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 7.2.4 (page 296) |
+| Page Faults | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| A look at OS161 Implementation | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
 
 ## Fill our survey
 
