@@ -12,3 +12,7 @@
 1. In the context of segment memory allocation research and explain the best fit algorithm.
 2. In the context of segment memory allocation research and explain the worst fit algorithm.
 3. In the context of segment memory allocation research and explain the first fit algorithm.
+4. Explain the advantage of using multi-level page tables.
+5. Research how many level are used in a modern Linux.
+6. Why do you need TLB when implementing page tables?
+7. If you wanted to innovate in the implementation of virtual pages, would x86 architecture or MIPS architecture be more advantageous?
