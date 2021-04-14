@@ -12,13 +12,13 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Previously | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| Why Virtual Memory | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 7.1 (page 287) |
-| Segmented Virtual Memory | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| Paging | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 7.2 (<7.2.4) (page 289) |
-| Translation Lookaside Buffer (TLB) | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 7.2.4 (page 296) |
-| Swapping | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| OS161 | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| Previously | [video](){:target="_blank"}  [pdf](../slides/W7/notes1.pdf){:target="_blank"}  [ppt](../slides/W7/memory1.odp){:target="_blank"}  | N/A |
+| Why Virtual Memory | [video](){:target="_blank"}  [pdf](../slides/W7/notes2.pdf){:target="_blank"}  [ppt](../slides/W7/memory2.odp){:target="_blank"}  | Textbook 7.1 (page 287) |
+| Segmented Virtual Memory | [video](){:target="_blank"}  [pdf](../slides/W7/notes3.pdf){:target="_blank"}  [ppt](../slides/W7/memory3.odp){:target="_blank"}  | N/A |
+| Paging | [video](){:target="_blank"}  [pdf](../slides/W7/notes4.pdf){:target="_blank"}  [ppt](../slides/W7/memory4.odp){:target="_blank"}  | Textbook 7.2 (<7.2.4) (page 289) |
+| Translation Lookaside Buffer (TLB) | [video](){:target="_blank"}  [pdf](../slides/W7/notes5.pdf){:target="_blank"}  [ppt](../slides/W7/memory5.odp){:target="_blank"}  | Textbook 7.2.4 (page 296) |
+| Swapping | [video](){:target="_blank"}  [pdf](../slides/W7/notes6.pdf){:target="_blank"}  [ppt](../slides/W7/memory6.odp){:target="_blank"}  | N/A |
+| OS161 | [video](){:target="_blank"}  [pdf](../slides/W7/notes7.pdf){:target="_blank"}  [ppt](../slides/W7/memory7.odp){:target="_blank"}  | N/A |
 
 ## Fill our survey
 
