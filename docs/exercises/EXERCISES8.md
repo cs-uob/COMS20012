@@ -17,6 +17,7 @@
 6. Why do you need TLB when implementing page tables?
 7. If you wanted to innovate in the implementation of virtual pages, would x86 architecture or MIPS architecture be more advantageous?
 8. Complete the following table using:
+
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 | Ref    | a | b | c | d | e | a | b | a | b | d  | e  | d  |
@@ -24,6 +25,7 @@
 | PP2    |   |   |   |   |   |   |   |   |   |    |    |    |
 | PP3    |   |   |   |   |   |   |   |   |   |    |    |    |
 | Fault? |   |   |   |   |   |   |   |   |   |    |    |    |
+
 	a. FIFO replacement policy
 	b. MIN replacement policy
 	c. LRU replacement policy
