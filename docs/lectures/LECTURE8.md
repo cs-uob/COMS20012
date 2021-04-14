@@ -18,7 +18,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Paging | [video (12min)](https://web.microsoftstream.com/video/fd11b7b7-40ba-45ba-b9ff-d4ccaf05c949){:target="_blank"}  [pdf](../slides/W7/notes4.pdf){:target="_blank"}  [ppt](../slides/W7/memory4.odp){:target="_blank"}  | Textbook 7.2 (<7.2.4) (page 289) |
 | Translation Lookaside Buffer (TLB) | [video (12min)](https://web.microsoftstream.com/video/e9bcff70-e196-4bfc-a386-b06a08001ffe){:target="_blank"}  [pdf](../slides/W7/notes5.pdf){:target="_blank"}  [ppt](../slides/W7/memory5.odp){:target="_blank"}  | Textbook 7.2.4 (page 296) |
 | Swapping | [video (17min)](https://web.microsoftstream.com/video/6e6f8704-6924-49e3-9001-710d9f5ef495){:target="_blank"}  [pdf](../slides/W7/notes6.pdf){:target="_blank"}  [ppt](../slides/W7/memory6.odp){:target="_blank"}  | N/A |
-| OS161 | [video](){:target="_blank"}  [pdf](../slides/W7/notes7.pdf){:target="_blank"}  [ppt](../slides/W7/memory7.odp){:target="_blank"}  | N/A |
+| OS161 | [video (12min)](https://web.microsoftstream.com/video/560e7b66-2dfa-41bd-b155-2b92cf27b940){:target="_blank"}  [pdf](../slides/W7/notes7.pdf){:target="_blank"}  [ppt](../slides/W7/memory7.odp){:target="_blank"}  | N/A |
 
 ## Fill our survey
 
