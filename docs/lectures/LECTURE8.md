@@ -12,10 +12,10 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Previously | [video](){:target="_blank"}  [pdf](../slides/W7/notes1.pdf){:target="_blank"}  [ppt](../slides/W7/memory1.odp){:target="_blank"}  | N/A |
-| Why Virtual Memory | [video](){:target="_blank"}  [pdf](../slides/W7/notes2.pdf){:target="_blank"}  [ppt](../slides/W7/memory2.odp){:target="_blank"}  | Textbook 7.1 (page 287) |
-| Segmented Virtual Memory | [video](){:target="_blank"}  [pdf](../slides/W7/notes3.pdf){:target="_blank"}  [ppt](../slides/W7/memory3.odp){:target="_blank"}  | N/A |
-| Paging | [video](){:target="_blank"}  [pdf](../slides/W7/notes4.pdf){:target="_blank"}  [ppt](../slides/W7/memory4.odp){:target="_blank"}  | Textbook 7.2 (<7.2.4) (page 289) |
+| Previously | [video (3min)](https://web.microsoftstream.com/video/5c81835c-48a4-45cb-81f3-6db18d79025e){:target="_blank"}  [pdf](../slides/W7/notes1.pdf){:target="_blank"}  [ppt](../slides/W7/memory1.odp){:target="_blank"}  | N/A |
+| Why Virtual Memory | [video (9min)](https://web.microsoftstream.com/video/dbb10a6e-6d61-44de-b47f-896feb65338d){:target="_blank"}  [pdf](../slides/W7/notes2.pdf){:target="_blank"}  [ppt](../slides/W7/memory2.odp){:target="_blank"}  | Textbook 7.1 (page 287) |
+| Segmented Virtual Memory | [video (15min)](https://web.microsoftstream.com/video/682f03d1-dfae-4f68-b708-086795073044){:target="_blank"}  [pdf](../slides/W7/notes3.pdf){:target="_blank"}  [ppt](../slides/W7/memory3.odp){:target="_blank"}  | N/A |
+| Paging | [video (12min)](https://web.microsoftstream.com/video/fd11b7b7-40ba-45ba-b9ff-d4ccaf05c949){:target="_blank"}  [pdf](../slides/W7/notes4.pdf){:target="_blank"}  [ppt](../slides/W7/memory4.odp){:target="_blank"}  | Textbook 7.2 (<7.2.4) (page 289) |
 | Translation Lookaside Buffer (TLB) | [video](){:target="_blank"}  [pdf](../slides/W7/notes5.pdf){:target="_blank"}  [ppt](../slides/W7/memory5.odp){:target="_blank"}  | Textbook 7.2.4 (page 296) |
 | Swapping | [video](){:target="_blank"}  [pdf](../slides/W7/notes6.pdf){:target="_blank"}  [ppt](../slides/W7/memory6.odp){:target="_blank"}  | N/A |
 | OS161 | [video](){:target="_blank"}  [pdf](../slides/W7/notes7.pdf){:target="_blank"}  [ppt](../slides/W7/memory7.odp){:target="_blank"}  | N/A |
