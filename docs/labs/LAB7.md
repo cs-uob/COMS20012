@@ -120,9 +120,14 @@ The contents of your design document should include (but not be limited to):
 3. Indications of what, if any, existing code you may model your solution off of.
 4. A description of how accesses to shared state will be synchronized, if necessary.
 
-## (Re)watch Week 6 video 5
+## (Re)watch Videos
 
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4bf750d6-6201-4196-9abd-f9865b72fd4d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/560e7b66-2dfa-41bd-b155-2b92cf27b940?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+**Note:** if you forgot some of the concepts, you my want to (re)watch the 
+associated video series (or have look in the textbook).
 
 ## Code reading
 
