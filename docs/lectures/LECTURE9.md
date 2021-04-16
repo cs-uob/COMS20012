@@ -12,9 +12,9 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I/O Devices | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 6.1.2 (page 223) |
-| Files on Disk | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
-| Naming | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 6.3.1 (page 254) |
+| I/O Devices | [video (21 minutes)](https://web.microsoftstream.com/video/dce9428c-ac82-43a5-a986-a882a0797301){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 6.1.2 (page 223) |
+| Files on Disk | [video (22 minutes)](https://web.microsoftstream.com/video/44de2f37-bf32-43ea-a042-cd76bca3d0ea){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A |
+| Naming | [video (17 minutes)](https://web.microsoftstream.com/video/91a8d9bc-fc5e-410d-9a8f-3f236ff2a5ea){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | Textbook 6.3.1 (page 254) |
 | Files and System Calls | [video](){:target="_blank"}  [pdf](){:target="_blank"}  [ppt](){:target="_blank"}  | N/A|
 | Use case: S5FS | N/A  | Textbook 6.1.1 (page 218) |
 

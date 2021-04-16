@@ -122,11 +122,13 @@ The contents of your design document should include (but not be limited to):
 
 ## (Re)watch Videos
 
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/d9879d11-4174-4df8-accc-6e927277ab09?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4bf750d6-6201-4196-9abd-f9865b72fd4d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/560e7b66-2dfa-41bd-b155-2b92cf27b940?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
-**Note:** if you forgot some of the concepts, you my want to (re)watch the 
+**Note:** if you forgot some of the concepts, you my want to (re)watch the
 associated video series (or have look in the textbook).
 
 ## Code reading
