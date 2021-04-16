@@ -285,9 +285,9 @@ OS/161 puts them all together to simplify the build.
 The full range of system calls that we think you might want is listed in
 `kern/include/kern/syscall.h`. For this assignment you should implement:
 
-File system support: `open`, `read`, `write`, `lseek`, `close`, `dup2`, `chdir`, and `__getcwd`.
-
 Process support: `getpid`, `fork`, `execv`, `waitpid`, and `_exit`.
+
+File system support: `open`, `read`, `write`, `lseek`, `close`, `dup2`, `chdir`, and `__getcwd`.
 
 It’s crucial that your system calls handle all error conditions gracefully
 without crashing your kernel. You should consult the OS/161 man pages included
