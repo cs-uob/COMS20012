@@ -54,7 +54,7 @@
 4. Why spinlock should only be used when resource will be held for a very short time?
 
     **Answer:** spinlock is an active lock, the "waiting" thread is busy waiting (i.e. using CPU cycle checking the "lock value"). It is useful when switching context (i.e. picking another thread to execute), would take longer than waiting. If the lock is likely to be held for a long time, it is better to sleep.
-5. This problem demonstrates the use of semaphores to coordinate three types of processes. Santa Claus sleeps in his shop at the North Pole and can only be wakened by either
+5. This problem demonstrates the use of semaphores to coordinate three types of threads: Santa Claus sleeps in his shop at the North Pole and can only be wakened by either
 
     a. all nine reindeer being back from their vacation in the South Pacific, or
 
