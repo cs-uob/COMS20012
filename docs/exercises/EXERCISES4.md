@@ -23,11 +23,21 @@ A general audience article from Forbes can be found [here](https://www.forbes.co
 
 4. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf){:target="_blank"} provided as lecture material. Discuss why it is difficult to replace passwords.
 
+		**ANS:** The paper is relatively self explanatory. It discusses the various dimension to consider when selecting an authentication scheme. This is neately summarized in Table 1.
+		In comporary time (the paper is nearly 10 years old) you can still see that a lot in there still hold true.
+		For example, you are not using biometrics for remote authentication.
+		It will be either used to connect locally (e.g., your smartphone) or as part of a two factors authentication scheme to generate a one time code on your smartphone to be used on a website to authenticate.
+		The concept behind the paper, and this type of reasoning around security concepts, are quite important.
+
 5. Building on [Bonneau et al. S&P paper](../materials/lecture4/2012-sp.pdf){:target="_blank"} and [Cheon et al. S&P paper](../materials/lecture4/2020-sp.pdf){:target="_blank"} suggest a (simple) framework to compare authentication via pin code and gesture on smartphone.
 **Discuss your frameworks within your lab groups**.
 You should agree on a lab-group level framework, **be ready to discuss your frameworks during Friday Q&A**.
 
-    **ANS:** To be discussed in Q&A.
+    **ANS:** The second paper discusses gesture password for smartphone authentication.
+		The idea is to think of a table equivalent to table 1 in the precedent paper to draw a comparison with pin code approach. Both approaches have draw-back.
+		Further, the paper highlight that "free form" passwords may not be as one would naively think.
+		This is again to reinforce that authentication is a complex problem that needs to be carefully considered.
+		If you enjoy this sort of content and the Computer Society unit, you may want to consider the Year 3 Unit [Security Behaviour](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=22%2F23&unitCode=COMS30038).
 
 ## Network Security
 
