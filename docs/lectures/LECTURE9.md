@@ -19,3 +19,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Use case: S5FS | N/A  | Textbook 6.1.1 (page 218) |
 
 ** There is a bit less video this week use the extra time to dig through the last lab.**
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/f7f24034-674c-4cdf-893e-99b5b714fc90?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
