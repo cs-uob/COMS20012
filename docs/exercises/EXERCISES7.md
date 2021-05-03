@@ -5,8 +5,8 @@
 **Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/zkt0fig30cjaqmoa){:target="_blank"}!**
 
 1. Explain what preemptable and non-preemptable mean.
-    **Answer:** a preemptable resource is a resource that can be taken away from a process with no ill effect (e.g. memory), non-preemptable one is a resource that cannot be taken (i.e. printer).
 
+    **Answer:** a preemptable resource is a resource that can be taken away from a process with no ill effect (e.g. memory), non-preemptable one is a resource that cannot be taken (i.e. printer).
 2. What are the three metrics to consider when designing a scheduling policy?
 
     **Answer:** throughput, latency and fairness.
