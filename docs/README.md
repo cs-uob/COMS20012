@@ -57,7 +57,7 @@ Any part of this unit can be examined.
 | 21 (Apr 19)   | [Lecture 8 - Memory Management](lectures/LECTURE8.md)                 | [Lab 7a - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES8.md) |
 | 22 (Apr 26)   | [Lecture 9 - File Systems](lectures/LECTURE9.md)                      | [Lab 7b - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES9.md) |
 | 23 (May 3)    | [Lecture 10 - OS Security](lectures/LECTURE10.md)                      | [Lab 7c - System Calls and Processes](labs/LAB7.md)  | [Exercise Sheet](exercises/EXERCISES10.md) |
-| 24 (May 10)   | Revision Week                      | Revision Week   | Revision Week  |
+| 24 (May 10)   | Revision Week [Padlet OS](https://uob.padlet.org/sanjayrawat/778vy00bidmm1i8o){:target="_blank"}; [Padlet Sec](https://uob.padlet.org/sanjayrawat/j9gdkhn4u5rdv2qn){:target="_blank"}                       | Revision Week   | Revision Week  |
 
 ## Reading Material
 
