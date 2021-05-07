@@ -17,3 +17,7 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 ## Fill our survey
 
 <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG5N9pWWUNd5Khd6GR62JgsZUMVc1WlRQMjhOMUNEWlA5WDNaUEVTNTNPVi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+## Q&A
+
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/1c8bca32-aca4-4979-86df-c5b53cf9d4a1?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
