@@ -14,7 +14,7 @@
 	**Answer:** Best fit allocates the process to a partition which is the smallest sufficient partition among the free available partitions.
 2. In the context of segment memory allocation research and explain the worst fit algorithm.
 
-	**Answer:** Best fit allocates the process to a partition which is the smallest sufficient partition among the free available partitions.
+	**Answer:** Best fit allocates the process to a partition which is the largest partition among the free available partitions.
 3. In the context of segment memory allocation research and explain the first fit algorithm.
 
 	**Answer:** In the first fit approach is to allocate the first free partition or hole large enough which can accommodate the process. It finishes after finding the first suitable free partition.
