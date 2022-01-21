@@ -1,10 +1,10 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
-Course information via the Teams Group
 
-<!-- 
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/19108844-350e-4383-b7fb-0e82b9ab5bf4?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
--->
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/d1571fe1-f7c7-4538-acb0-599ed081318e?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+- Course information via the Teams Group
+- No lab session in the first week (2022-01-24)
 
 ## Schedule
 
