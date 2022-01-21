@@ -1,6 +1,6 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
-Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b4a6b88345c818e0020ce%40thread.tacv2/conversations?groupId=864bfa2b-91ca-4439-b9cf-c33e7d2d3fcb&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){:target="_blank"}.
+Course information via the Teams Group
 
 <!-- 
 <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/19108844-350e-4383-b7fb-0e82b9ab5bf4?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
@@ -11,6 +11,7 @@ Join the [Unit Teams Group](https://teams.microsoft.com/l/team/19%3aff191de5355b
 | Monday 14:00-16:00     | Friday 12:00-13:00  |
 |------------------------|---------------------|
 | Lab Session (MVB 2.11) | Q&A Session (Teams) |
+
 ## People
 
 | Person               | Role     | Contact                      |
