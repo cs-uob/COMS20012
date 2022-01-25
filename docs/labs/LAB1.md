@@ -2,11 +2,7 @@
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
-If you experience difficulty contact IT service.
-
-## Fill our survey
-
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG5N9pWWUNd5Khd6GR62JgsZURFFGVlRYNjFDTDVUWjlQUFpZNFJXVE9NMC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+If you experience difficulties contact IT service.
 
 ## 1. Setting up Vagrant
 As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
@@ -32,7 +28,7 @@ You may also want to watch videos from [David's COMS10012](https://cs-uob.github
 
 ## 2. Understanding Memory layout with GDB
 
-In this part of the lab, we will learn about using GDB to understand the few artifacts of x86 ISA.
+In this part of the lab, we will learn about using GDB to understand the few artefacts of x86 ISA.
 0. Do some hands-on by following this documents first [lab1-gdb.pdf](../materials/lecture1/lab1-gdb.pdf){:target="_blank"}. You will need [call-convention.c](../code/call-convention.c){:target="_blank"} and [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}.
 1. Copy c code [memory_layout.c](../code/memory_layout.c) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
 2. \[run `vagrant up` to start you VM.\]
