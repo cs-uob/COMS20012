@@ -9,7 +9,7 @@ If you experience any difficulties contact IT services.
 
 **Description:** The code [format.c](../code/format.c){:target="_blank"} contains a format string bug when it calls `printf(welcome)` at line 30. It then asks to enter a pin (line 31-32). If the entered pin equals a randomly generated number (created by calling `rand()`), you are authenticated properly. The secret pin is stored in the `spin` variable, which is on the stack. Your job is to get this pin by using the format string bug. Steps to follow:
 1. Start your VM (same vagrant steps, but you don't have to install the VM. Just go to the directory where your Vagrantfile is and `vagrant up` followed by `vagrant ssh`. )
-2. `cd /vagrant`. Use `tmux` and split the terminal, you can do this by first running `tmux` and then pressing `Ctrl+B` followed by `%` (i.e., not at the same time), you navigate between the terminals (or 'panes') with `Ctrl+B` and then the left or right key. See [this](https://tmuxcheatsheet.com/){:target="_blank"} for more tmux commands. It is also possible to use `vagrant ssh` in another video as in the previous lab.
+2. `cd /vagrant`. Use `tmux` and split the terminal, you can do this by first running `tmux` and then pressing `Ctrl+B` followed by `%`, you navigate between the terminals (or 'panes') with `Ctrl+B` and then the left or right key. See [this](https://tmuxcheatsheet.com/){:target="_blank"} for more tmux commands. It is also possible to use `vagrant ssh` in another video as in the previous lab.
 3. In one pane, compile the program `gcc format.c -o format`
 4. Run the program `./format`
 5. It will ask to enter your name. Use `%x-%x-%x ...` as your name.
