@@ -10,8 +10,8 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Introduction to Cryptography | [video](https://web.microsoftstream.com/video/1fdf3361-4fbe-4f2b-9f8a-9212ff7ec097?list=studio)  [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/W3-L1-Intro-Crypto.pdf) | Text Book Chapter 1-- sections 3.1, 3.2, 3.4, 3.5 |
 | Introduction to Web Security  | [video](https://web.microsoftstream.com/video/fab39743-9d8d-4727-a09e-389d9349c535?list=studio) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/W3-L2-Intro-BasicWebA.pdf) | Text Book Chapter 7-- sections 1.1|
-| Web Security Part 1 (XSS, CSRF) | [video ()](https://web.microsoftstream.com/video/0f9d40b7-89fd-4774-88db-b1ea3ae61e51?list=studio) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/W3-L3-Intro-WebSec2-.pdf)| Text Book Chapter 7-- sections 2.6, 2.7|
-| Web Security Part 2 (SQLi)  | [video ()]() [pdf]() | Text Book Chapter 7-- section 3.3|
+| Web Security Part 1 (XSS, CSRF) | [video](https://web.microsoftstream.com/video/0f9d40b7-89fd-4774-88db-b1ea3ae61e51?list=studio) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/W3-L3-Intro-WebSec2-.pdf)| Text Book Chapter 7-- sections 2.6, 2.7|
+| Web Security Part 2 (SQLi)  | [video (to be added tomorrow) ] [pdf]| Text Book Chapter 7-- section 3.3|
 
 ## Last week survey results
 
