@@ -1,21 +1,21 @@
-/* This is an example cde to demonstrate control hijacking via over-writing
+/* This is example code to demonstrate control hijacking via over-writing
  * the saved return address on the stack */
 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
-int admin_pin=2468;//This is admin pin (Yeah, not a good practice to hardcode!)
+int admin_pin=2468; // This is admin pin (Yeah, not a good practice to hardcode!)
 void foo(char * input)
 {
     int random=50;
     char buf[20];
-    strcpy(buf, input);// this is where the overflow happen
+    strcpy(buf, input);// this is where the overflow happens
     /* if the input length is greater than buf (20), it will start overflowing 
      * the adjacent memory including the saved return address. You need to find
      * how long the input string should be to precisely overwrite the 8 byte 
      * long saved return address. Then you need to find from which offset in 
-     * the input, you start overflowing return address. For example, if you use
+     * the input, you start overflowing the return address. For example, if you use
      * AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIHHHHJJJJKKKKLLLLMMMM as the input, you
      * need to find from which letter, you start overflow return address. let us 
      * assume it is HHHHIIII which overflow the return address memory. The you 
