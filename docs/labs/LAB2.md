@@ -5,7 +5,7 @@ Lab Machines remotely. To do so follow [the online instructions](https://uob.sha
 
 If you experience any difficulties contact IT services.
 
-If you're working on the labs at home and you get stuck... feel free to stick questions on the Teams channel!
+If you're working on the labs at home and you get stuck... feel free to stick questions on the Teams channel, or ask in the weekly Q&A session.
 
 ## A. Format String Error
 
