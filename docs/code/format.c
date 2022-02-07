@@ -4,10 +4,10 @@
 
 int get_pin()
 {
-    return rand();// assume that this is a secret number retrieve from some DB
-                // Also as it is called without a seed, it will print the same
-                // random number, which is intentional. this works as a hint
-                // for your lab.
+    return rand();// assume that this is a secret number retrieved from some DB
+                  // Also as it is called without a seed, it will print the same
+                  // random number, which is intentional. this works as a hint
+                  // for your lab.
 }
 
 
