@@ -5,6 +5,8 @@ Lab Machines remotely. To do so follow [the online instructions](https://uob.sha
 
 If you experience any difficulties contact IT services.
 
+If you're working on the labs at home and you get stuck... feel free to stick questions on the Teams channel!
+
 ## A. Format String Error
 
 **Description:** The code [format.c](../code/format.c){:target="_blank"} contains a format string bug when it calls `printf(welcome)` at line 30. It then asks to enter a pin (line 31-32). If the entered pin equals a randomly generated number (created by calling `rand()`), you are authenticated properly. The secret pin is stored in the `spin` variable, which is on the stack. Your job is to get this pin by using the format string bug. Steps to follow:
