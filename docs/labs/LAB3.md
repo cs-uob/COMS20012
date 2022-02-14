@@ -2,10 +2,23 @@
 
 ## Description
 
-In this lab, we will explore some of the web vulnerabilities that we discussed in the lecture. We will use a well known educational web application, called [WebGoat](https://owasp.org/www-project-webgoat/){:target="_blank"}, which contains vulnerable web pages. It also has some basic introduction to web vulnerabilities and related hands-on exercises to complete. You will complete some of those exercises.
+In this lab, we will explore some of the web vulnerabilities that we discussed in the lecture. We will use a well known educational web application, called [WebGoat](https://owasp.org/www-project-webgoat/){:target="_blank"}, which contains vulnerable web pages. It also has some basic introductions to web vulnerabilities and related hands-on exercises to complete. You will complete some of those exercises.
 
-**NOTE:** Those students who are using personal computers, make sure you have recent version of JDK (e.g. jdk-12.0.2) installed on your machine. You can get one from [here](https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/tag/jdk12u-2019-11-21-10-04){:target="_blank"}. For those accessing university lab machine, JDK is already installed  (see the instructions below for setting it properly).
-Also, you need to use X2go client to access lab machines as we will require a GUI based access. [link](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
+**NOTE:** Those students who are using personal computers, make sure you have recent version of JDK (e.g. jdk-12.0.2) installed on your machine. You can get one from [here](https://github.com/AdoptOpenJDK/openjdk12-binaries/releases/tag/jdk12u-2019-11-21-10-04){:target="_blank"}. For those accessing university lab machine, JDK is already installed  (see the lab instructions below for setting it properly).
+
+If you are not working directly at a lab machine, you can SSH into one from your own computer using the following:
+
+```bash
+# ssh into the lab machine and forward the port
+# -L specify the mapped port and -J specify the jump server
+# Please change ab12345 to your username
+ssh -L18080:localhost:18080 -J ab12345@seis.bris.ac.uk ab12345@rd-mvb-linuxlab.bristol.ac.uk
+cd <your working directory>
+# Download the jar file for the lab
+wget https://github.com/WebGoat/WebGoat/releases/download/v8.1.0/webgoat-server-8.1.0.jar
+```
+
+If you would prefer to have a full graphical session remotely, you can use X2Go (not recommended): [see here](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 
 ## Lab Instructions
 
@@ -27,8 +40,8 @@ java -jar webgoat-server-8.1.0.jar
     - A1: Injection
     - A3: Sensitive data Exposure
     - A7: Cross-Site Scripting (XSS)
-9. Before starting the exercise, Click on the **General** option in the left menu and select *Developer Tools*. Complete the lession. You will notice that the lesson takes example of Chrome browser. The similar options are also available on Firefox. For Firefox, press F12 or click *menu button* (on right top corner) *-> Web Developer -> Toggle*
-9. For **A1: SQL injection**, we will be completing the Part 1 "**SQL Injection (intro)**". Follow the instructions on the page and complee the exercises (from 1 to 13). **Remark:** *As you move on solving the exercise, you will be asked to change something in a DB table. It will save you time, if you take a screenshot of the table that you print first time so that you remember its structure for the following exercises.*
-10. Optionally, you can try Part 2 (SQL Injection (advanced) at your own time.
-11. For **A3: Sensitive data exposure**, we will be completing the part *insecure login*. Click on that exercise on your left pane. You will notice that the exercise asks you to use a network sniffer. As we don't have it, you can use a Firefox/chrome utility. Once on the exercise page, open your developer tool pane. You will see the "Network" tab in the menu. Click that. Now, you can see the request/response of each action you do on the page. Use this utility to complete the exercise. This exercise shows the importance of HTTPS!
-12. For **A7: Cross-Site Scriptng (XSS)**, click the respective menu item on the left pane. Complete the steps 1 to 7.
+9. Before starting the exercise, Click on the **General** option in the left menu and select **Developer Tools**. Complete the lesson. You will notice that the lesson uses the Chrome browser. Similar options are also available on Firefox. For Firefox, press F12 or click the *menu button* (on right top corner) *-> Web Developer -> Toggle*
+10. For **A1: SQL injection**, we will be completing the Part 1 "**SQL Injection (intro)**". Follow the instructions on the page and complete the exercises (from 1 to 13). **Remark:** *As you move on solving the exercise, you will be asked to change something in a DB table. It will save you time, if you take a screenshot of the table that you print first time so that you remember its structure for the following exercises.*
+11. Optionally, you can try Part 2: SQL Injection (advanced) at your own time.
+12. For **A3: Sensitive data exposure**, we will be completing the part *insecure login*. Click on that exercise on your left pane. You will notice that the exercise asks you to use a network sniffer. As we don't have one, you can use a Firefox/Chrome utility. Once on the exercise page, open your developer tool pane. You will see the "Network" tab in the menu. Click that. Now, you can see the request/response of each action you do on the page. Use this utility to complete the exercise. This exercise shows the importance of HTTPS!
+13. For **A7: Cross-Site Scriptng (XSS)**, click the respective menu item on the left pane. Complete the steps 1 to 7.
