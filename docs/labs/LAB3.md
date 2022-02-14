@@ -12,7 +12,7 @@ If you are not working directly at a lab machine, you can SSH into one from your
 # ssh into the lab machine and forward the port
 # -L specify the mapped port and -J specify the jump server
 # Please change ab12345 to your username
-ssh -L18080:localhost:18080 -J ab12345@seis.bris.ac.uk ab12345@rd-mvb-linuxlab.bristol.ac.uk
+ssh -L 18080:localhost:18080 -J ab12345@seis.bris.ac.uk ab12345@rd-mvb-linuxlab.bristol.ac.uk
 cd <your working directory>
 # Download the jar file for the lab
 wget https://github.com/WebGoat/WebGoat/releases/download/v8.1.0/webgoat-server-8.1.0.jar
