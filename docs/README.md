@@ -51,7 +51,7 @@ Any part of this unit can be examined.
 | 13 | [Lecture 1 - Software Security I](lectures/LECTURE1.md) | No Lab | [Exercise Sheet](exercises/EXERCISES1.md) |
 | 14 | [Lecture 2 - Software Security II](lectures/LECTURE2.md) | [Lab 1 - Understanding Assembly Code](labs/LAB1.md) | [Exercise Sheet](exercises/EXERCISES2.md) | 
 | 15 | [Lecture 3 - Web Security](lectures/LECTURE3.md) | [Lab 2 - BoF/Format exploit](labs/LAB2.md) | [Exercise Sheet](exercises/EXERCISES3.md) |
-| 16 | Lecture 4 - Authentication Methods & Network Security | [Lab 3 - Web Security](labs/LAB3.md) | [Exercise Sheet](exercises/EXERCISES4.md) |
+| 16 | [Lecture 4 - Authentication Methods & Network Security](lectures/LECTURE4.md) | [Lab 3 - Web Security](labs/LAB3.md) | [Exercise Sheet](exercises/EXERCISES4.md) |
 
 
 <!--
