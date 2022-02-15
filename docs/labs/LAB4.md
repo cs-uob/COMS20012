@@ -2,8 +2,8 @@
 
 This weeks lab is a little *crackme*... a program where you have to
 figure out how to get to the victory condition.  Source code for all
-the files is given at the bottom alongside a [https://cs-uob.github.io/COMS20012/materials/lab4.tar.gz](tarball of the source
-code) if you prefer.
+the files is given at the bottom alongside a (https://cs-uob.github.io/COMS20012/materials/lab4.tar.gz)[tarball of the source
+code] if you prefer.
 
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
