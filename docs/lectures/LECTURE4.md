@@ -13,13 +13,7 @@ Also remember to work on the accompanying [exercises sheet](../exercises/EXERCIS
 | Introdcution to Firewalls | [video](https://web.microsoftstream.com/video/96b5b7f5-acab-407a-8e0b-93f35bcc0162) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/W4-L3-Intro-FirewallsF.pdf) | Book chapter 6- section 2 (entire)|
 | Introdcution to Intrusion Detection Systems | [video](https://web.microsoftstream.com/video/7713011e-24e0-4b8e-839b-21afb6598c64) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/W4-L4-Intro-IDS%20.pdf) | Book chapter 6- section 4, 4.1, 4.2, 4.3|
 
-
-
-## Q&A
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/45aed09d-2339-40ec-afc8-259a799dca9b?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-
-**Announcement we forgot to make:** In order to help everyone to take a breath,
+**Announcement we forgot to make:** ~~In order to help everyone to take a breath,
 we have removed one of the security lab, and rescheduled the OS labs to give you
 a bit more time to do the labs. There is more detail in the OS labs organization
-in [Week 5 videos](./LECTURE5.md).
+in [Week 5 videos](./LECTURE5.md).~~ There definitely will be a lab next week. Sorry forget to edit away messages from last year!  
