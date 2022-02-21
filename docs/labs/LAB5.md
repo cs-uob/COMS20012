@@ -529,7 +529,7 @@ If you are doing this lab remotely, you can use the `ssh` command from [lab 3](h
 ssh -J ab12345@seis.bris.ac.uk ab12345@rd-mvb-linuxlab.bristol.ac.uk
 ```
 
-But since vagrant will write files to tmp directory, which is not shared between different lab machines, vagrant will redownload and reinstall everything which will take ~5 min every time you are on a new machine, so it might save some time if you stick on one lab machine. Here is how to do it:
+But since IT has configured vagrant on the lab machines to store VMs in the `/tmp` directory (according to [COMS10012](https://cs-uob.github.io/COMS10012/exercises/part1/posix1/install.html#warning-about-lab-machines---read-carefully)), which is not shared between different lab machines, vagrant will redownload and reinstall everything which will take ~5 min every time you are on a new machine, so it might save some time if you stick on one lab machine. Here is how to do it:
 
 1. When you use the above command to `ssh` into the lab, you will be rondamly allocated a machine.
 
