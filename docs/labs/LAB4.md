@@ -1,6 +1,6 @@
 ---
 
-**NOTE:** Appologies all, the storms have left me stranded in Devon with minimal internet.  There will be TAs in the labs for those who wish to still try and attend, otherwise I'll try and answer any questions posted there ASAP if anyone has any questions.  Thankyou for baring with us! -- Joseph
+**NOTE:** Apologies all, the storms have left me stranded in Devon with minimal internet.  There will be TAs in the labs for those who wish to still try and attend, otherwise I'll try and answer any questions posted there ASAP if anyone has any questions.  Thankyou for baring with us! -- Joseph
 
 ---
 
@@ -26,11 +26,12 @@ been given to let you have a look at how it works without having to
 resort to assembly (if you'd like a bit more of a challenge... don't
 look at the source code).
 
-Compile the code with `make` or if you enjoy typing things out:
+Compile the code with `CFLAGS=--std=c99 make` or if you enjoy typing things out:
 
 ```sh
-cc -o sha512.o sha512.c
-cc -o crackme crackme.c sha512.o
+CFLAGS=--std=c99
+cc -o sha512.o ${CFLAGS} sha512.c
+cc -o crackme ${CFLAGS} crackme.c sha512.o
 ```
 
 The crackme will ask you for a password on standard input.  That
@@ -66,7 +67,7 @@ Is it *really* as simple as?:
 
 ```sh
 echo 'int memcmp(const void *s1, const void *s2, int n) { return 0; }' >preload.c
-cc -shared -o preload.so preload.c
+cc ${CFLAGS} -shared -o preload.so preload.c
 LD_PRELOAD=$PWD/preload.so ./crackme
 ```
 
@@ -142,8 +143,8 @@ look at the source code).
 Compile the code with `make` or if you enjoy typing things out:
 
 ```sh
-cc -o sha512.o sha512.c
-cc -o crackme crackme.c sha512.o
+cc ${CFLAGS} -o sha512.o sha512.c
+cc ${CFLAGS} -o crackme crackme.c sha512.o
 ```
 
 The crackme will ask you for a password on standard input.  That
