@@ -1,3 +1,9 @@
+---
+
+**NOTE:** Appologies all, the storms have left me stranded in Devon with minimal internet.  There will be TAs in the labs for those who wish to still try and attend, otherwise I'll try and answer any questions posted there ASAP if anyone has any questions.  Thankyou for baring with us! -- Joseph
+
+---
+
 # Lab 4: Passwords
 
 This weeks lab is a little *crackme*... a program where you have to
