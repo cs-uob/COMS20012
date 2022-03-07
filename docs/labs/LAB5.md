@@ -480,7 +480,7 @@ the longterm and stable releases on this [website](https://www.kernel.org/){:tar
 The next step is to configure the kernel:
 ```
 cd linux-stable
-make localmodconfig
+make defconfig
 make menuconfig
 ```
 The second line generate a configuration based of your current kernel configuration.
