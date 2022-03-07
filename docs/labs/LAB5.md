@@ -4,11 +4,7 @@ You need to complete [LAB 1](./LAB1.html) in order to do this lab.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
-If you experience difficulty contact IT service.
-
-## Fill our survey
-
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG5N9pWWUNd5Khd6GR62JgsZUQjhUWlZOQ1c2V1A5WExWU0hUVjdZMldBSC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+If you experience difficulty contact the IT service.
 
 ## Some notes
 
@@ -26,8 +22,7 @@ how you will share code with the lecturers, your TA and your colleagues. When
 asking technical questions provide links to this repository, ideally pointing
 to the relevant portion of code.
 
-If you spot errors in the lab instructions, please, do drop an e-mail at
-[thomas.pasquier@bristol.ac.uk](emailto:thomas.pasquier@bristol.ac.uk). We will
+If you spot errors in the lab instructions, please, do drop a message in the Teams group. We will
 endeavor to fix any issue quickly.
 
 Finally, make sure you do the **exercises** properly.
@@ -49,12 +44,13 @@ You may also want to watch videos from [David's COMS10012](https://cs-uob.github
 
 ## Setting up vagrant image
 
-It is recommended to setup a virtual environment to go through the lab. To do
+It is *strongly recommended* to setup a virtual environment to go through the lab, and to use the lab machines for this one. To do
 so, follow this instructions:
 ```
-git clone https://github.com/tfjmp/vagrant-os161.git
+git clone https://github.com/uob-jh/vagrant-os161.git
 cd vagrant-os161
 vagrant up
+vagrant reload
 ```
 
 ## Getting the source
@@ -73,7 +69,7 @@ vagrant ssh
 Now all that is left for you to do is to access the OS/161 source code:
 ```
 cd ~
-git clone https://github.com/tfjmp/os161.git
+git clone https://github.com/uob-jh/os161.git
 ```
 
 ### Exercise
@@ -170,7 +166,7 @@ You should be able to answer the following questions:
 5. How many times has your kernel been compiled?
 
 Now let's try to play with configuration:
-1. Boot your OS/161 kernel with 8 cores.
+1. Boot your OS/161 kernel with a different number of cores (say... 4)
 2. Try booting with 256K of memory. What happens?
 3. Configure System/161 to use a fixed value to initialize its random number
     generator. (This can be helpful when debugging non-deterministic
@@ -468,6 +464,7 @@ First you need to ensure some dependencies are installed:
 ```
 apt-get update -qq
 apt-get install -y build-essential
+apt-get install -y flex bison bc 
 apt-get install -y libncurses-dev wget
 apt-get install -y git libssl-dev bc patch libedit-dev libelf-dev
 apt-get install -y module-init-tools
@@ -475,9 +472,9 @@ apt-get install -y module-init-tools
 
 As before we need to download the Linux kernel source code:
 ```
-cd ~/build && git clone -b v5.10.10 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+cd ~/build && git clone -b v5.16.12 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 ```
-You could replace "v5.10.10" by the kernel release of your choice. You can check
+You could replace "v5.16.12" by the kernel release of your choice. You can check
 the longterm and stable releases on this [website](https://www.kernel.org/){:target="_blank"}.
 
 The next step is to configure the kernel:
