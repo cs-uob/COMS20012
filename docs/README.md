@@ -53,12 +53,13 @@ Any part of this unit can be examined.
 | 15 | [Lecture 3 - Web Security](lectures/LECTURE3.md) | [Lab 2 - BoF/Format exploit](labs/LAB2.md) | [Exercise Sheet](exercises/EXERCISES3.md) |
 | 16 | [Lecture 4 - Authentication Methods & Network Security](lectures/LECTURE4.md) | [Lab 3 - Web Security](labs/LAB3.md) | [Exercise Sheet](exercises/EXERCISES4.md) |
 | 17 | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md) | [Lab 4 Passwords and a crackme](labs/LAB4.md) | [Exercise Sheet](exercises/EXERCISES5.md) |
+| 18 | [Lecture 6 - Introduction to Operating Systems](lectures/LECTURE5.md) | [Lab 5 - Introduction to OS/161](labs/LAB5.md) | [Exercise Sheet](exercises/EXERCISES5.md) |
+
 
 
 
 <!--
 | 17 | Reading Week | Reading Week | Reading Week |
-| 18 | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md) | [Lab 5 - Introduction to OS/161](labs/LAB5.md) | [Exercise Sheet](exercises/EXERCISES5.md) |
 | 19 | [Lecture 6 - Processes](lectures/LECTURE6.md) | No Lab | [Exercise Sheet](exercises/EXERCISES6.md) |
 | 20 | [Lecture 7 - Scheduling](lectures/LECTURE7.md) | [Lab 6 - Synchronization](labs/LAB6.md) | [Exercise Sheet](exercises/EXERCISES7.md) |
 | Break | Easter Break | Easter Break | Easter Break |
