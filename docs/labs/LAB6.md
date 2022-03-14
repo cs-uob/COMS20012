@@ -3,10 +3,14 @@
 You need to complete [LAB 5](./LAB5.html) in order to do this lab.
 You may also want to look back at [Computer Systems A](https://uob-csa.github.io/website/){:target="_blank"}.
 
+If you are working from home or are not in the lab feel free to stick messages in the Teams channel and we'll try and support!  
+
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 If you experience difficulty contact IT service.
 
+
+If you want to run without a GUI you can update the Vagrant file for this VM and set `v.gui = false`.
 ## Setup
 
 To successfully run the LAB 6 tests you will need to configure your
