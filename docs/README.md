@@ -54,6 +54,7 @@ Any part of this unit can be examined.
 | 16 | [Lecture 4 - Authentication Methods & Network Security](lectures/LECTURE4.md) | [Lab 3 - Web Security](labs/LAB3.md) | [Exercise Sheet](exercises/EXERCISES4.md) |
 | 17 | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md) | [Lab 4 Passwords and a crackme](labs/LAB4.md) | [Exercise Sheet](exercises/EXERCISES5.md) |
 | 18 | [Lecture 6 - Processes](lectures/LECTURE6.md) | [Lab 5 - Introduction to OS/161](labs/LAB5.md) | [Exercise Sheet](exercises/EXERCISES6.md) |
+| 19 | Lectures to come imminently | [Lab 6 - Synchronization](labs/LAB6.md) | Exercises to come imminently |
 
 
 
