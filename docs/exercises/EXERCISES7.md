@@ -1,8 +1,6 @@
 # Exercises sheet 7
 
-**Correction around Easter.**
-
-**Ask questions on [padlet](https://uob.padlet.org/sanjayrawat/zkt0fig30cjaqmoa){:target="_blank"}!**
+**Ask questions on Teams if you get stuck!**
 
 1. Explain what preemptable and non-preemptable mean.
 
