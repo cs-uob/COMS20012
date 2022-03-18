@@ -12,7 +12,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Memory Management| (https://web.microsoftstream.com/video/bb68a796-8a75-4223-93cc-44c1b9b075ef)  [ppt](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%208%20-%20Memory%20management.pptx) | Textbook 7.1 (page 287) |
+| Memory Management| [video] (https://web.microsoftstream.com/video/bb68a796-8a75-4223-93cc-44c1b9b075ef)  [ppt](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%208%20-%20Memory%20management.pptx) | Textbook 7.1 (page 287) |
 
 
 ## Fill our survey
