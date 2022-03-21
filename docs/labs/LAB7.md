@@ -3,15 +3,11 @@
 You need to complete [LAB 6](./LAB6.html)  in order
 to do this lab.
 
-**Note:** this lab runs over two weeks (Week 22 and 23).
+**Note:** this lab runs over two weeks.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
 If you experience difficulty contact IT service.
-
-## Fill our survey
-
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG5N9pWWUNd5Khd6GR62JgsZUMEZKRUhXRklNT1VKMTJaV0taWkFZUlhPSC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 ## Organization
 
@@ -25,14 +21,6 @@ Within your TA group find another pair of students. You should schedule time
 review and discuss each other work. The goal is to: help each other, be critical
 but friendly. You will get the most out of this lab if you do all of it seriously
 including the peer reviews.
-
-We make the following suggestions on when to meet:
-
-|         | Lab (Tuesday)         | Review (Friday)                          |
-|---------|-----------------------|------------------------------------------|
-| Week 22 | Code Reading & Design | Review design document                   |
-| Week 23 | Start implementation  | Review Menu Change & File System Support |
-| Week 24 | N/A                   | Review Process Support                   |
 
 We also invite you to have discussions with your TA during the scheduled lab
 time.
@@ -60,13 +48,13 @@ together. We just care that your system calls meet the interface specification.
 As a final piece of advice, you will produce code bases that are
 large, complex, and potentially very difficult to debug. You do not want to
 introduce bugs into your kernel because they will be very hard to remove. Our
-advice—​slow down, design, think, design again, discuss with your partner,
+advice—slow down, design, think, design again, discuss with your partner,
 and slow down again. Then write some code.
 
 ## Lab objectives
 
-In this lab, you must implement the interface between user-mode programs—​or user
-land—​and the kernel. As usual, we provide part of the code you will need.
+In this lab, you must implement the interface between user-mode programs—or user
+land—and the kernel. As usual, we provide part of the code you will need.
 Your job is to identify, design and build the missing pieces.
 
 The first step is to read and understand the parts of the system that we have
@@ -88,7 +76,7 @@ programs except that it is the first program that gets to run.
 
 The design document is a very important part of this lab. You should discuss it
 in depth with your partner, discuss among the tuples within your TA groups, and
-with your TA. While the lab are not assessed this year, doing this exercise properly
+with your TA. While the labs are not assessed this year, doing this exercise properly
 is extremely important to get the most out of this unit.
 
 A design document should clearly reflect the development of your solution, not
@@ -119,19 +107,6 @@ The contents of your design document should include (but not be limited to):
 2. A list and brief description of any new data structures you will have to add to the system.
 3. Indications of what, if any, existing code you may model your solution off of.
 4. A description of how accesses to shared state will be synchronized, if necessary.
-
-## (Re)watch Videos
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/d9879d11-4174-4df8-accc-6e927277ab09?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4bf750d6-6201-4196-9abd-f9865b72fd4d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/560e7b66-2dfa-41bd-b155-2b92cf27b940?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/4dd69f84-d864-4c1a-a72c-9515b7ec2678?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-
-**Note:** if you forgot some of the concepts, you my want to (re)watch the
-associated video series (or have look in the textbook).
 
 ## Code reading
 
