@@ -17,7 +17,7 @@
 
 2. **ANS:** If I promote an employee from _minion_ to _senior minion_ I just need to change the role they have active rather than redefining all the permissions for that employee.  When I feed them to the sharks later I can just revoke their access to that role just in case they escape and the sharks don't finish them off.
 
-3. **ANS:** `chmod o-w my-data.txt
+3. **ANS:** `chmod o-w my-data.txt`
 
 _Note from Joseph:_ some clever person will say I should just set the permissions to `744` but for normal people who haven't internalised the relationship between octal numbers and the UNIX DAC this is just confusing and error prone… (especially when you start to deal with *masks*—we didn't even mention them here! See `man umask` and cry)  Luckily since the 90's there are *symbolic* permissions available which do all the translation between octal and masks for you.
 
