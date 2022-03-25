@@ -56,7 +56,7 @@ Any part of this unit can be examined.
 | 18 | [Lecture 6 - Processes](lectures/LECTURE6.md) | [Lab 5 - Introduction to OS/161](labs/LAB5.md) | [Exercise Sheet](exercises/EXERCISES6.md) |
 | 19 | [Lecture 7 - Scheduling](lectures/LECTURE7.md) | [Lab 6 - Synchronization](labs/LAB6.md) | [Exercise Sheet](exercises/EXERCISES7.md) |
 | 20 | [Lecture 8 - Memory Management](lectures/LECTURE8.md) | [Lab 7a - System Calls and Processes](labs/LAB7.md) | [Exercise Sheet](exercises/EXERCISES8.md) |
-| 20 | [Lecture 10 - OS Security](lectures/LECTURE10.md) | [Lab 7b - System Calls and Processes](labs/LAB7.md) | [Exercise Sheet](exercises/EXERCISES10.md) |
+| 20 | [Lecture ~~10~~ 9 - OS Security](lectures/LECTURE10.md) | [Lab 7b - System Calls and Processes](labs/LAB7.md) | [Exercise Sheet](exercises/EXERCISES10.md) |
 
 
 <!--
