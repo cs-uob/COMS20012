@@ -13,6 +13,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Memory Management| [video](https://web.microsoftstream.com/video/bb68a796-8a75-4223-93cc-44c1b9b075ef)  [ppt](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%208%20-%20Memory%20management.pptx) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%208%20-%20Memory%20management.pdf) | Textbook 7.1 (page 287) | 
+|Simplest replacement policy Examples | [video](https://web.microsoftstream.com/video/7c40151b-0d51-4dc2-9c15-a306c7aa3e30?list=studio|
 
 
 ## Fill our survey
