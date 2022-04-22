@@ -4,7 +4,7 @@ The material is subdivided in small videos.
 
 Please, watch the videos and go through the reading material in your own time.
 
-Also remember to work on the accompanying [exercises sheet](https://github.com/cs-uob/COMS20012/edit/master/docs/exercises/EXERCISES9.md)
+Also remember to work on the accompanying [exercises sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXERCISES9.md)
 
 Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated otherwise.
 
