@@ -12,7 +12,7 @@ Textbook is **Doeppner, Thomas W., Operating Systems in Depth** unless stated ot
 
 | Video                   | Links                     |        Reading Material                                                                                                                                                                                      |
 |-------------------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| File Systems | [Video](https://web.microsoftstream.com/video/e925d773-ef98-4f44-b8a1-b73656005224?list=studio) [pdf](../slides/W9/notes1.pdf) | Textbook 6.1.2 onward (page 223) |
+| File Systems | [Video](https://web.microsoftstream.com/video/e925d773-ef98-4f44-b8a1-b73656005224?list=studio) [pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%209%20-%20File%20Systems.pdf) | Textbook 6.1.2 onward (page 223) |
 
 ** There is a bit less video this week use the extra time to dig through the last lab.**
 
