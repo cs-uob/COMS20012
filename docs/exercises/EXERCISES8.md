@@ -73,9 +73,9 @@ b. MIN replacement policy
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 | Ref    | a | b | c | d | e | a | b | a | b | d  | e  | d  |
-| PP1    | a | a | a | a | a | a | a | a | a | a  | a  | a  |
+| PP1    | a | a | a | a | a | a | a | a | a | d  | d  | d  |
 | PP2    |   | b | b | b | b | b | b | b | b | b  | b  | b  |
-| PP3    |   |   | c | d | e | e | e | e | e | d  | e  | d  |
+| PP3    |   |   | c | d | e | e | e | e | e | e  | e  | e  |
 | Fault? | * | * | * | * | * |   |   |   |   | *  | *  | *  |
 
 	c. LRU replacement policy
