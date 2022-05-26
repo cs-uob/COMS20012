@@ -27,6 +27,8 @@ endeavor to fix any issue quickly.
 
 Finally, make sure you do the **exercises** properly.
 
+If you are doing the lab remotely, read the [remote access tips](#remote-access) first is recommanded.
+
 ## Tools
 
 You are second year computer science students and we expect some autonomy
@@ -514,3 +516,27 @@ We hope you enjoyed this short introduction to Linux.
 
 This lab was developed thanks to material available at [Harvard 0S/161](http://os161.eecs.harvard.edu/),
 [ops-class](https://ops-class.org/) and [OS/161 at UBC](https://sites.google.com/site/os161ubc/home).
+
+## Remote access
+
+If you are doing this lab remotely, you can use the `ssh` command from [lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/LAB3.md):
+
+```sh
+# Please change ab12345 to your username
+ssh -J ab12345@seis.bris.ac.uk ab12345@rd-mvb-linuxlab.bristol.ac.uk
+```
+
+But since IT has configured vagrant on the lab machines to store VMs in the `/tmp` directory (according to [COMS10012](https://cs-uob.github.io/COMS10012/exercises/part1/posix1/install.html#warning-about-lab-machines---read-carefully)), which is not shared between different lab machines, vagrant will redownload and reinstall everything which will take ~5 min every time you are on a new machine, so it might save some time if you stick on one lab machine. Here is how to do it:
+
+1. When you use the above command to `ssh` into the lab, you will be rondamly allocated a machine.
+
+2. To find out which machine you are on, look at the prompt after you log in. It will be something like this:
+```sh
+[ab12345@it075733 ~]$
+```
+`ab12345` is your username and `it075733` is the machine id.
+
+3. Write down the machine id so that next time you can directly `ssh` into that machine by
+```sh
+.\ssh -J ab12345@seis.bris.ac.uk ab12345@it075733.wks.bris.ac.uk
+```
