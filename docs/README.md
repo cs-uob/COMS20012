@@ -52,10 +52,10 @@ Any part of this unit can be examined.
 | 16 | Lecture 4 - Web Security + Firewalls | Lab 3 -  | Exercise Sheet|
 | 17 | Lecture 5 - Further Crypto + TLS | Lab 4 -  | Exercise Sheet|
 | 18 | Lecture 6 - Intro to Software Security | Lab 5 -  | Exercise Sheet |
-| 19 | [Lecture 7 - Intro to OS + File System| Lab 6 - | Exercise Sheet |
-| 20 | [Lecture 8 - Memory Management + OS  | Lab 7 - | Exercise Sheet|
-| 20 | [Lecture 9 - OS in Details | Lab 8 - | Exercise Sheet|
-| 22 | [Lecture 10 - Large Organisation in Real World | Lab 9 -  | Exercise Sheet |
+| 19 | Lecture 7 - Intro to OS + File System| Lab 6 - | Exercise Sheet |
+| 20 | Lecture 8 - Memory Management + OS  | Lab 7 - | Exercise Sheet|
+| 20 | Lecture 9 - OS in Details | Lab 8 - | Exercise Sheet|
+| 22 | Lecture 10 - Large Organisation in Real World | Lab 9 -  | Exercise Sheet |
 
 
 <!--
