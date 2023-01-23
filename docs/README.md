@@ -46,16 +46,16 @@ Any part of this unit can be examined.
 
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
-| 13 | Lecture 1 - | No Lab | Exercise Sheet |
-| 14 | Lecture 2 - | Lab 1 - | Exercise Sheet |
-| 15 | Lecture 3 - | Lab 2 - | [Exercise Sheet |
-| 16 | Lecture 4 - | Lab 3 -  | Exercise Sheet|
-| 17 | Lecture 5 - | Lab 4 -  | Exercise Sheet|
-| 18 | Lecture 6 - | Lab 5 -  | Exercise Sheet |
-| 19 | [Lecture 7 - | Lab 6 - | Exercise Sheet |
-| 20 | [Lecture 8 -  | Lab 7a - | Exercise Sheet|
-| 20 | [Lecture 9 - | Lab 7b - | Exercise Sheet|
-| 22 | [Lecture 10 - | Lab 7c -  | Exercise Sheet |
+| 13 | Lecture 1 - Intro to general Security | No Lab | Exercise Sheet |
+| 14 | Lecture 2 - Intro to Netwrok Security | Lab 1 - | Exercise Sheet |
+| 15 | Lecture 3 - Network Security | Lab 2 - | [Exercise Sheet |
+| 16 | Lecture 4 - Web Security + Firewalls | Lab 3 -  | Exercise Sheet|
+| 17 | Lecture 5 - Further Crypto + TLS | Lab 4 -  | Exercise Sheet|
+| 18 | Lecture 6 - Intro to Software Security | Lab 5 -  | Exercise Sheet |
+| 19 | [Lecture 7 - Intro to OS + File System| Lab 6 - | Exercise Sheet |
+| 20 | [Lecture 8 - Memory Management + OS  | Lab 7 - | Exercise Sheet|
+| 20 | [Lecture 9 - OS in Details | Lab 8 - | Exercise Sheet|
+| 22 | [Lecture 10 - Large Organisation in Real World | Lab 9 -  | Exercise Sheet |
 
 
 <!--
