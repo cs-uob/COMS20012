@@ -46,16 +46,16 @@ Any part of this unit can be examined.
 
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
-| 13 | [Lecture 1 - ]| No Lab | [Exercise Sheet] |
-| 14 | [Lecture 2 -  | [Lab 1 - | [Exercise Sheet] |
-| 15 | [Lecture 3 - | [Lab 2 - | [Exercise Sheet] |
-| 16 | [Lecture 4 - Authentication Methods & Network Security](lectures/LECTURE4.md) | [Lab 3 - Web Security](labs/LAB3.md) | [Exercise Sheet](exercises/EXERCISES4.md) |
-| 17 | [Lecture 5 - Introduction to Operating Systems](lectures/LECTURE5.md) | [Lab 4 - Passwords and a crackme](labs/LAB4.md) | [Exercise Sheet](exercises/EXERCISES5.md) |
-| 18 | [Lecture 6 - Processes](lectures/LECTURE6.md) | [Lab 5 - Introduction to OS/161](labs/LAB5.md) | [Exercise Sheet](exercises/EXERCISES6.md) |
-| 19 | [Lecture 7 - Scheduling](lectures/LECTURE7.md) | [Lab 6 - Synchronization](labs/LAB6.md) | [Exercise Sheet](exercises/EXERCISES7.md) |
-| 20 | [Lecture 8 - Memory Management](lectures/LECTURE8.md) | [Lab 7a - System Calls and Processes](labs/LAB7.md) | [Exercise Sheet](exercises/EXERCISES8.md) |
-| 20 | [Lecture ~~10~~ 9 - OS Security](lectures/LECTURE10.md) | [Lab 7b - System Calls and Processes](labs/LAB7.md) | [Exercise Sheet](exercises/EXERCISES10.md) |
-| 22 | [Lecture 10 - File Systems](lectures/LECTURE9.md) | [Lab 7c - System Calls and Processes](labs/LAB7.md) | [Exercise Sheet](exercises/EXERCISES9.md) |
+| 13 | Lecture 1 - | No Lab | Exercise Sheet |
+| 14 | Lecture 2 - | Lab 1 - | Exercise Sheet |
+| 15 | Lecture 3 - | Lab 2 - | [Exercise Sheet |
+| 16 | Lecture 4 - | Lab 3 -  | Exercise Sheet|
+| 17 | Lecture 5 - | Lab 4 -  | Exercise Sheet|
+| 18 | Lecture 6 - | Lab 5 -  | Exercise Sheet |
+| 19 | [Lecture 7 - | Lab 6 - | Exercise Sheet |
+| 20 | [Lecture 8 -  | Lab 7a - | Exercise Sheet|
+| 20 | [Lecture 9 - | Lab 7b - | Exercise Sheet|
+| 22 | [Lecture 10 - | Lab 7c -  | Exercise Sheet |
 
 
 <!--
