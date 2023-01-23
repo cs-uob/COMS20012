@@ -16,18 +16,16 @@
 
 | Person               | Role     | Contact                      |
 |----------------------|----------|------------------------------|
-| Joseph Hallett       | Lecturer | joseph.hallett@bristol.ac.uk |
+| Alma Oracevic        | Lecturer | joseph.hallett@bristol.ac.uk |
 | Sana Belguith        | Lecturer | sana.belguith@bristol.ac.uk  |
-| Alma Oracevic        | Lecturer | alma.oracevic@bristol.ac.uk  |
-| Sridhar Adepu        | Lecturer | sridhar.adepu@bristol.ac.uk  |
-| Partha Das Chowdhury | RA       |                              |
-| Armand-Mihai Cismaru | TA       |                              |
-| Craig Barnfield      | TA       |                              |
-| Diya Anand           | TA       |                              |
-| Ethan Bannister      | TA       |                              |
-| Joe Glancy           | TA       |                              |
-| Lucian-Gabriel Rusu  | TA       |                              |
-| Merle Zhang          | TA       |                              |
+| Joseph Hallett       | Lecturer | alma.oracevic@bristol.ac.uk  |
+|                      | TA       |                              |
+|                      | TA       |                              |
+|                      | TA       |                              |
+|                      | TA       |                              |
+|                      | TA       |                              |
+|                      | TA       |                              |
+|                      | TA       |                              |
 
 ## Support
 
