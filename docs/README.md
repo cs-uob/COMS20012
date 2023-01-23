@@ -36,11 +36,7 @@ The most effective way to get the help you need is to:
 
 ## Course Structure
 
-Every week, you are expected to watch the videos and do the exercise sheet before the Q&A session.
-Q&A sessions should be used to ask questions about the material seen in videos and the exercise sheets.
-The lab cover material seen in the previous week lecture (e.g. Lab 1 covers material from Week 1, Lab 2 from week 2 etc.).
-Questions about the lab should be asked during the lab sessions.
-Any part of this unit can be examined.
+
 
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
