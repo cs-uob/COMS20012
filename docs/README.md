@@ -17,13 +17,13 @@
 | Alma Oracevic        | Lecturer | joseph.hallett@bristol.ac.uk |
 | Sana Belguith        | Lecturer | sana.belguith@bristol.ac.uk  |
 | Joseph Hallett       | Lecturer | alma.oracevic@bristol.ac.uk  |
-|                      | TA       |                              |
-|                      | TA       |                              |
-|                      | TA       |                              |
-|                      | TA       |                              |
-|                      | TA       |                              |
-|                      | TA       |                              |
-|                      | TA       |                              |
+| Derek Lim            | TA       |                              |
+| Lucy Randewich       | TA       |                              |
+| Mingzhang Deng       | TA       |                              |
+| Oliver Pennery       | TA       |                              |
+| Ollie Myers          | TA       |                              |
+| Tudor Petrescu       | TA       |                              |
+| Zak Duggan           | TA       |                              |
 
 ## Support
 
