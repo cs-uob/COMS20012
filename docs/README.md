@@ -44,7 +44,7 @@ Any part of this unit can be examined.
 
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
-| 13 | Lecture 1 - Intro to general Security | No Lab | Exercise Sheet |
+| 13 | Lecture 1 - Intro to General Security | No Lab | Exercise Sheet |
 | 14 | Lecture 2 - Intro to Netwrok Security | Lab 1 - | Exercise Sheet |
 | 15 | Lecture 3 - Network Security | Lab 2 - | [Exercise Sheet |
 | 16 | Lecture 4 - Web Security + Firewalls | Lab 3 -  | Exercise Sheet|
