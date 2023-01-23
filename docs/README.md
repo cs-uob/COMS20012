@@ -1,16 +1,14 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
 
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/d1571fe1-f7c7-4538-acb0-599ed081318e?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
-
 - Course information via the Teams Group
-- No lab session in the first week (2022-01-24)
+- No lab session in the first week (2022-01-23)
 
 ## Schedule
 
-| Monday 14:00-16:00     | Friday 12:00-13:00  |
+| Tuesday  15:00-17:00     | Thursday 10:00-12:00  |
 |------------------------|---------------------|
-| Lab Session (MVB 2.11) | Q&A Session (Teams) |
+| Lab Session (MVB 2.11) | Lecture Session (CHEM BLDG LT3) |
 
 ## People
 
