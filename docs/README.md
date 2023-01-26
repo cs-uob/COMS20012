@@ -14,9 +14,9 @@
 
 | Person               | Role     | Contact                      |
 |----------------------|----------|------------------------------|
-| Alma Oracevic        | Lecturer | joseph.hallett@bristol.ac.uk |
+| Alma Oracevic        | Lecturer | alma.oracevic@bristol.ac.uk |
 | Sana Belguith        | Lecturer | sana.belguith@bristol.ac.uk  |
-| Joseph Hallett       | Lecturer | alma.oracevic@bristol.ac.uk  |
+| Joseph Hallett       | Lecturer | joseph.hallett@bristol.ac.uk  |
 | Derek Lim            | TA       |                              |
 | Lucy Randewich       | TA       |                              |
 | Mingzhang Deng       | TA       |                              |
