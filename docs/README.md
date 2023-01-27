@@ -41,7 +41,7 @@ The most effective way to get the help you need is to:
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
 | 13 | [Lecture 1 - Intro to General Security](https://github.com/cs-uob/COMS20012/raw/master/docs/lectures/CSB1%20.pdf) | No Lab | Exercise Sheet |
-| 14 | Lecture 2 - Intro to Netwrok Security | Lab 1 - | Exercise Sheet |
+| 14 | Lecture 2 - Intro to Netwrok Security | [Lab 1](/labs/lab1.md) | Exercise Sheet |
 | 15 | Lecture 3 - Network Security | Lab 2 - | Exercise Sheet |
 | 16 | Lecture 4 - Web Security + Firewalls | Lab 3 -  | Exercise Sheet|
 | 17 | Lecture 5 - Further Crypto + TLS | Lab 4 -  | Exercise Sheet|
