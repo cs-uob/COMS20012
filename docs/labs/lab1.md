@@ -1,6 +1,34 @@
-# Lab 1: Passwords
+# Lab 1: Vagrant and Passwords
 
-This weeks lab is a little *crackme*... a program where you have to
+Hi class. Welcome to your first lab. Hope you will enjoy and have fun! 
+
+If you have questions ask Alma, Joseph or our TAs. 
+
+## 1. Setting up Vagrant
+As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. In the next lab session we will learn how to install Kali and other VMs we will be using but they will be inside of Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
+You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/part1/posix1/install.html){:target="_blank"}.
+1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
+2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
+3. `cd seclabs`
+4. `vagrant init hashicorp/bionic64`.
+5. `vagrant up`. First time, this is will download Ubunut 18.04-64. It will take a while. Once done, we are ready to launch this VM.
+6. Lets ssh our new VM. `vagrant ssh`
+7. You are in your new VM. This VM shares a folder from your host machine, which is the same folder from where you lanched your VM, i.e. `seclab`. This folder is mapped to `/vagrant` in you VM. if you do `cd /vagrant`, you can see the content of your host folder. We will use this folder for all our work (i.e. you can copy your files in seclab folder and access tem from /vagrant folder from VM).
+8. This VM is running a fresh Ubuntu. So, we need to get few things installed in this. Lets do it. Run these commands.
+9. `sudo apt update`
+10. `sudo apt install build-essential` This will install gcc.
+11. `sudo apt install gdb` This will install GDB.
+12. We will also use (occasionally) x86-32 bit compiled code. Lets setup this so that we can compile and run x86-32 applications. Run these commands.
+13. `sudo dpkg --add-architecture i386`
+14. `sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386`
+15. `sudo apt-get install multiarch-support`
+16. `sudo apt-get install gcc-multilib`
+17. Now you have all the tools that will be required. To test, run these commends and check if they run properly-- `gcc --version`, `gdb --version`, `objdump --version`
+18. When done with your lab, you can `logout` and then in your host machine, you can close the VM-- `vagrant halt`
+
+
+## 2. Crackme
+This part of the lab is a little *crackme*... a program where you have to
 figure out how to get to the victory condition.  Source code for all
 the files is given at the bottom alongside a [tarball of the source code](https://github.com/cs-uob/COMS20012/raw/master/docs/materials/lab1.tar.gz) if you prefer.
 
