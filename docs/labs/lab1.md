@@ -32,6 +32,10 @@ This part of the lab is a little *crackme*... a program where you have to
 figure out how to get to the victory condition.  Source code for all
 the files is given at the bottom alongside a [tarball of the source code](https://github.com/cs-uob/COMS20012/raw/master/docs/materials/lab1.tar.gz) if you prefer.
 
+**NOTE** Breaking the *crackme* is optional! If you wana have fun or you are curious try! Make a stack protection disabled!
+
+**NOTE** If need little help on how to use GDB, try GDB cheat sheet [lab1-gdb.pdf](../materials/lecture1/lab1-gdb.pdf){:target="_blank"}! If more helo needed try here!
+
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support.
