@@ -26,6 +26,7 @@ You may also want to watch videos from [David's COMS10012](https://cs-uob.github
 17. Now you have all the tools that will be required. To test, run these commends and check if they run properly-- `gcc --version`, `gdb --version`, `objdump --version`
 18. When done with your lab, you can `logout` and then in your host machine, you can close the VM-- `vagrant halt`
 
+**NOTE** If 'vagrant up' does not work, then go [here ](https://app.vagrantup.com/hashicorp/boxes/bionic64) and copy the vagrant file configuration from the page. After that open your vagrant file, delete everything and paste what you just copied.
 
 ## 2. Crackme
 This part of the lab is a little *crackme*... a program where you have to
@@ -65,11 +66,6 @@ password will be hashed with SHA512 and if the hashes match: you win!
 password.  Did you get it right?  If you want to feed inputs in from a
 script you can do it with a *herestring* in many shells (`./crackme
 <<<'my guess'`).
-
-**hints** To solve the lab you could use additional information on [Buffer Overflow](https://heimdalsecurity.com/blog/what-is-buffer-overflow/) 
-[video](https://www.youtube.com/watch?v=T03idxny9jE), [ltrace](https://manpages.ubuntu.com/manpages/focal/en/man1/ltrace.1.html). 
-If you need a little help on how to use GDB, try GDB cheat sheet [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}. If you want to play with GDB and learn more on how it works, try here [GDBadditionLAB1.pdf](../materials/lecture1/GDBadditionLAB1.pdf){:target="_blank"}, code [call-convention.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/call-convention.c){:target="_blank"}.
-
 
 ## If in doubt: cheat
 
@@ -142,6 +138,10 @@ password input?
 **Hint 3:** `tr B-ZA A-Z <<<"AFSP CZUFT BSF B QBJO SJHIU!"`
 
 **Hint 4:** `tr B-ZA4-90-3 A-Z0-9 <<<"Doms64456isc4o5"`
+
+**hints** Additional information on [Buffer Overflow](https://heimdalsecurity.com/blog/what-is-buffer-overflow/) 
+[video](https://www.youtube.com/watch?v=T03idxny9jE), [ltrace](https://manpages.ubuntu.com/manpages/focal/en/man1/ltrace.1.html). 
+If you need a little help on how to use GDB, try GDB cheat sheet [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}. If you want to play with GDB and learn more on how it works, try here [GDBadditionLAB1.pdf](../materials/lecture1/GDBadditionLAB1.pdf){:target="_blank"}, code [call-convention.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/call-convention.c){:target="_blank"}.
 
 # Source code
 
