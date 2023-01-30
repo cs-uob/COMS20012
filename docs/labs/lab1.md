@@ -139,7 +139,7 @@ password input?
 
 **Hint 4:** `tr B-ZA4-90-3 A-Z0-9 <<<"Doms64456isc4o5"`
 
-**hints** Additional information on [Buffer Overflow](https://heimdalsecurity.com/blog/what-is-buffer-overflow/) 
+**Hint 5:** Additional information on [Buffer Overflow](https://heimdalsecurity.com/blog/what-is-buffer-overflow/) 
 [video](https://www.youtube.com/watch?v=T03idxny9jE), [ltrace](https://manpages.ubuntu.com/manpages/focal/en/man1/ltrace.1.html). 
 If you need a little help on how to use GDB, try GDB cheat sheet [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}. If you want to play with GDB and learn more on how it works, try here [GDBadditionLAB1.pdf](../materials/lecture1/GDBadditionLAB1.pdf){:target="_blank"}, code [call-convention.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/call-convention.c){:target="_blank"}.
 
