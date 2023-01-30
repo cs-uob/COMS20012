@@ -34,7 +34,8 @@ the files is given at the bottom alongside a [tarball of the source code](https:
 
 **NOTE** Breaking the *crackme* is optional! If you want to have fun or you are curious, try! Make a stack protection disabled!
 
-**NOTE** If you need a little help on how to use GDB, try GDB cheat sheet [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}. If you want to play with GDB and learn more how it works, try here [GDBadditionLAB1.pdf]([https://github.com/cs-uob/COMS20012/blob/master/docs/materials/lecture1/GDBadditionLAB1.pdf](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/lecture1/GDBadditionLAB1.pdf)){:target="_blank"}
+**NOTE** If you need a little help on how to use GDB, try GDB cheat sheet [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}. If you want to play with GDB and learn more how it works, try here [GDBadditionLAB1.pdf](../materials/lecture1/GDBadditionLAB1.pdf){:target="_blank"}.
+
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support.
