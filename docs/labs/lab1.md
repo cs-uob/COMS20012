@@ -35,8 +35,6 @@ the files is given at the bottom alongside a [tarball of the source code](https:
 
 **NOTE** Breaking the *crackme* is optional! 
 
-**NOTE** Make a stack protection disabled! How to do that you can find [here](https://stackoverflow.com/questions/2340259/how-to-turn-off-gcc-compiler-optimization-to-enable-buffer-overflow).
-
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support.
