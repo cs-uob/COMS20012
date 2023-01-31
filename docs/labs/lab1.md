@@ -6,7 +6,7 @@ If you have questions ask Alma, Joseph or our TAs.
 
 ## 1. Setting up Vagrant
 As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. In the next lab session we will learn how to install Kali and other VMs we will be using but they will be inside of Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
-You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/part1/posix1/install.html){:target="_blank"}.
+You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/part1/posix1/install.html).
 1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
 3. `cd seclabs`
