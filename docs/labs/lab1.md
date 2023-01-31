@@ -42,7 +42,7 @@ at all possible do try and attend the lab where there will be *more* support.
 **NOTE:** this weeks lab *should* work on any machine... including
 an M1 Mac, a lab machine and anything else you can throw at it... but
 you *might* need to tweak things to get it all working; and if in
-doubt fall back to `ssh snowy.cs.bristol.ac.uk`
+doubt fall back to `ssh seis.bristol.ac.uk`
 
 ## A simple crackme
 
