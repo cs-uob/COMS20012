@@ -49,7 +49,7 @@ Open a Firefox browser on the Host. Select Edit > Preferences > Privacy and sele
 
 On Wireshark application (assuming it is still running!), select Capture > Restart (the yellow arrow) from the top menu bar. All captured and displayed Frames should be cleared from the top pane. Note – Almost instantaneously new frames are captured, the network is busy all the time, auto discover, etc.
 
-In a terminal (on the Host) type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-37-57.png).
+In a terminal (on the Host) type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-20-57.png).
 
 ## Q6 – compare the results of nslookup on the Host terminal and the content of the corresponding DNS response message as captured by Wireshark.
 
