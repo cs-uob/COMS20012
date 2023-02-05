@@ -53,7 +53,9 @@ In a terminal (on the Host) type nslookup google.com to force the generation of 
 
 ## Q6 – compare the results of nslookup on the Host terminal and the content of the corresponding DNS response message as captured by Wireshark.
 
-Then launch Firefox browser on the Host to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, etc. Wait a second or two and then close the browser. Stop capturing packets by clicking on the stop icon (see above) or select Capture > Stop from the top bar menu. Save the captured packets in a file: select File > Save As > enter a name, say, Lab_Capture_Lastnames.pcap, navigate where you want to save the file, and click Save.
+Then launch Firefox browser on the Host to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, etc. Did you get similar [traffic](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_003.png)? 
+
+Wait a second or two and then close the browser. Stop capturing packets by clicking on the stop icon (see above) or select Capture > Stop from the top bar menu. Save the captured packets in a file: select File > Save As > enter a name, say, Lab_Capture_Lastnames.pcap, navigate where you want to save the file, and click Save.
 
 Check http://www.ascii-code.com/, that is, the ASCII table:
 Provide the binary representation of the character A (letter), the character 3 (number) and the no-displayable character \r (carriage return).
