@@ -16,7 +16,7 @@ In the previous lab we were setting up Vagrant and VirtualBox VM, to make sure t
 2. `cd CS_Lab` 
 3. `vagrant init kalilinux/rolling`  
 4. `vagrant up`. First time, this is will download Kali Linux. It will take a while. Once done, you will have new window opened! It is Kali Linux! 
-5. Open a terminal inside Kali and type sudo wireshark. This will install Wireshark inside your Kali Linux VM!
+5. Open a terminal inside Kali and type sudo wireshark. This will install Wireshark inside your Kali Linux VM! You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_001.png).
 6. Congratulations! Now you are ready to run your first packet analysing lab!
 
 **NOTE:** working from home?  If you need help post a question in the
