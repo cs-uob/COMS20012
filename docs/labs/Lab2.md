@@ -39,8 +39,7 @@ Note that the frames/packets (rows) are sorted by Time. However, you can change 
 ## Q3 – Provide an example where you have sorted the frames using the Protocol column.
 The center pane displays the protocols associated with the selected Frame and the bottom pane displays the hexadecimal representation (Hex View) of the data contained in the same. Beneath the bottom pane is a status bar that displays the total number of Frames captured, displayed and marked (zero unless filtering is applied).
 
-For example, if you select in the center pane the Ethernet II layer (Data Link) of a Frame, the hexadecimal representation of that layer information should be highlighted in the bottom pane. Take a screenshot.
-
+For example, if you select in the center pane the Ethernet II layer (Data Link) of a Frame, the hexadecimal representation of that layer information should be highlighted in the bottom pane. Take a screenshot. I selected [DNS](https://github.com/cs uob/COMS20012/blob/master/docs/materials/Screenshot%202023-02-05%20at%2023.08.42.png)
 ## Q4 – Find out and describe how one could change the bottom pane view from Hex View to Bits.
 ## Q5 – Explain the how one would go about converting decimal number 87 into its Hex and Binary representations.
 
