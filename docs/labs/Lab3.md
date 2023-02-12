@@ -10,7 +10,6 @@ Hi class. In this lab, you will learn how to set up simple network in Packet Tra
 
 **Once the Packet Tracer is successfully installed `cd into the file where you installed it` and then  type `packettracer` in Command Line in Kali. However before you run anything on Kali you should run two commands: `sudo apt-get upgrade` and `sudo apt-get update`.**
 
-
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support. 
@@ -31,12 +30,12 @@ at all possible do try and attend the lab where there will be *more* support.
 11.	In the IP Address textbox type (192.168.1.100) in the Subnet Mask textbox type (255.255.255.0). 
 12.	Close the IP Configuration window (not the PC window) and open a Command Prompt and type  `ping 192.168.1.1`. 
 13.	Close this window and open the IP Configuration again and in the Default Gateway textbox type (192.168.1.1) and in the DNS Server textbox type (192.168.1.1) close this window. 
-14.	Go back to Command Prompt and type (ping 192.168.1.1) close this window now go back and double click on the second PC and go to Desktop and IP Configuration. 
+14.	Go back to Command Prompt and type `ping 192.168.1.1` close this window now go back and double click on the second PC and go to Desktop and IP Configuration. 
 15.	In the IP Address textbox type (192.168.5.100) in the Subnet Mask textbox type (255.255.255.0) in the Default Gateway textbox type (192.168.5.1) in the DNS server textbox type (192.168.5.1) close this window.
 16.	Open the Command Prompt and type `ping 192.168.5.1` and hit  `enter`.
 17.	Open the first PC and go to the Command Prompt and type `ping 192.168.5.100`  and hit `enter`.
 18.	Open the router and go to the CLI tab and hit (enter) get to the start screen by either typing (exit) twice or (ctrl+c). 
-19.	When at the screen to get started hit (enter) and then type (enable) and hit (enter) now type (show ip route).
+19.	When at the screen to get started hit (enter) and then type (enable) and hit (enter) now type `show ip route`.
 20.	Pull up another PT-Router and from Connections, get a Serial DCE cable and connect that into the router that already has the PCs plugged into it and plug into the Serial2/0 port.
 21.	Connect the other side of the cable to the other router’s Serial2/0.
 22.	Double click on the first router and go to the config tab and go to Serial2/0 set the clock rate to (56000) and in the IP Address textbox type (10.0.0.1) and in the Subnet Mask textbox type (255.0.0.0) and turn the Port Status to on. 
@@ -47,14 +46,14 @@ at all possible do try and attend the lab where there will be *more* support.
 27.	Label the server (172.16.1.100) double click on the server and go to the desktop tab and click on IP Configuration. In the IP Address textbox type (172.16.1.100) in the Subnet Mask textbox type (255.255.0.0) in the Default Gateway textbox type (172.16.0.1) close this window. 
 28.	Double click on the second router and click on the config tab. 
 29.	Click on the first FastEthernet0/0 and in the IP Address textbox type (172.16.0.1) and in the Subnet Mask textbox type (255.255.0.0) and turn the Port Status on and close this window.
-30.	Double click on the server and go to the Command Prompt and type (ping 172.16.0.1) and hit (enter) now type (ipconfig) and hit (enter) now close this window. **NOTE** On my laptop ip config worked only as one word.
+30.	Double click on the server and go to the Command Prompt and type `ping 172.16.0.1` and hit `enter` now type `ipconfig` and hit `enter` now close this window. **NOTE** On my laptop `ip config` worked only as `ipconfig`.
 31.	Double click on the first router and go the config tab and click on the Static tab under Routing.
 32.	Type in the Network textbox (172.16.0.0) in the Mask textbox type (255.255.0.0) and in the Next Hop textbox type (10.0.0.2) now click Add and close this window.
 33.	Double click on the second router and under the config tab click Static under the Routing tab. 
 34.	In the Network textbox type (192.168.1.0) in the Mask textbox type (255.255.255.0) in the Next Hop textbox type (10.0.0.1) and click Add and close this window.
-35.	Double click on the first PC and go to the Command Prompt and type (ping 172.16.1.100) and press (enter) and close this tab.
+35.	Double click on the first PC and go to the Command Prompt and type `ping 172.16.1.100` and press `enter` and close this tab.
 36.	Double click on the second router and go to the config tab and to the Static tab under Routing and in the Network tab textbox type (192.168.5.0) and in the Mask textbox type (255.255.255.0) and in the Next Hop textbox type (10.0.0.1). Click Add and close this window. 
-37.	Double click on the second PC and open Command Prompt and type (ping 172.16.1.100) and press (enter). You should get something like this. Your network is up and running!
+37.	Double click on the second PC and open Command Prompt and type  `ping 172.16.1.100` and press `enter`. You should get something like this. Your network is up and running!
 
 
 
@@ -126,7 +125,7 @@ In the next steps, we will try pinging the IP address of the single board comput
 
 5.	Click the Laptop. A window will open. 
 7.	Click the Desktop tab and open Command Prompt. 
-8.	Type ping 10.1.1.100 then press Enter on your keyboard. 
+8.	Type `ping 10.1.1.100` then press `Enter` on your keyboard. 
 
 You will see that it tries to ping the address four times. Each attempt will fail because no reply is received, and the request will time out. This is because the switch will see which address the ping was sent from and drop the packet, rather than forwarding it to the single board computer. 
 
@@ -147,9 +146,9 @@ To spoof the MAC address, the attacker first needs to find the MAC of a valid de
 
 If the attacker was now to perform a ping scan of some common IP address ranges, they would receive a response from the IP address held by SBC0, the single board computer. It would make sense to begin scanning within the private IP address ranges, which would often be used in homes and small office situations and are as follows: 
 
-•	192.168.0.0 to 192.168.255.255 
-• 172.16.0.0 to 172.31.255.255 
-• 10.0.0.0 to 10.255.255.255 
+•	`192.168.0.0 to 192.168.255.255`
+• `172.16.0.0 to 172.31.255.255`
+• `10.0.0.0 to 10.255.255.255`
 
 This scan would now reveal that SBC0 has an address of 10.1.1.100. The laptop would need to be configured to an unused address that is likely to be within the same range of addresses (or subnet) that the home network uses. 
 
@@ -157,7 +156,7 @@ This scan would now reveal that SBC0 has an address of 10.1.1.100. The laptop wo
 6.	Type in an address of 10.1.1.99 
 7.	Click in the Subnet Mask box and 255.0.0.0 should appear. Leave this as it appears. 
 8.	Click the Desktop tab then click Command Prompt 
-9.	Type ping 10.1.1.100 again, then press Enter on your keyboard. 
+9.	Type `ping 10.1.1.100` again, then press `Enter` on your keyboard. 
 
 This time you should find that the pings are successful because you receive replies. Having established communication with the computer that controls the doors and alarm, the attacker could now use software like nmap to perform a port scan. This will test TCP or UDP ports (at the transport layer) to determine which protocols may be active and, therefore, which services are available on the device. This will reveal that TCP port 80 is open, which represents the HTTP used by normal web browsing. 
 
