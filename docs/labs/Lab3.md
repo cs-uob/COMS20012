@@ -29,12 +29,12 @@ at all possible do try and attend the lab where there will be *more* support.
 9.	Now click on FastEthernet1/0 and type in the IP Address (192.168.5.1) and turn the Port Status to (on). 
 10.	Close this window and now double click on the first PC and go to the Desktop tab and click IP Configuration. 
 11.	In the IP Address textbox type (192.168.1.100) in the Subnet Mask textbox type (255.255.255.0). 
-12.	Close the IP Configuration window (not the PC window) and open a Command Prompt and type (ping 192.168.1.1). 
+12.	Close the IP Configuration window (not the PC window) and open a Command Prompt and type  `ping 192.168.1.1`. 
 13.	Close this window and open the IP Configuration again and in the Default Gateway textbox type (192.168.1.1) and in the DNS Server textbox type (192.168.1.1) close this window. 
 14.	Go back to Command Prompt and type (ping 192.168.1.1) close this window now go back and double click on the second PC and go to Desktop and IP Configuration. 
 15.	In the IP Address textbox type (192.168.5.100) in the Subnet Mask textbox type (255.255.255.0) in the Default Gateway textbox type (192.168.5.1) in the DNS server textbox type (192.168.5.1) close this window.
-16.	Open the Command Prompt and type (ping 192.168.5.1) and hit (enter).
-17.	Open the first PC and go to the Command Prompt and type (ping 192.168.5.100) and hit (enter).
+16.	Open the Command Prompt and type `ping 192.168.5.1` and hit  `enter`.
+17.	Open the first PC and go to the Command Prompt and type `ping 192.168.5.100`  and hit `enter`.
 18.	Open the router and go to the CLI tab and hit (enter) get to the start screen by either typing (exit) twice or (ctrl+c). 
 19.	When at the screen to get started hit (enter) and then type (enable) and hit (enter) now type (show ip route).
 20.	Pull up another PT-Router and from Connections, get a Serial DCE cable and connect that into the router that already has the PCs plugged into it and plug into the Serial2/0 port.
