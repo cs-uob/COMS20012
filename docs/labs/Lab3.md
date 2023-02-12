@@ -1,12 +1,15 @@
 # Lab 3: Getting famiar with networking using Packet Tracer 
 
-Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will leary how to use IP spoofing in the IoT house.  
+Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will leary how to use [ IP spoofing](https://www.kaspersky.com/resource-center/threats/ip-spoofing) in the IoT house.  
 
-Packet Tracer is a cross-platform visual simulation tool designed by Cisco Systems that allows users to create network topologies and imitate modern computer networks. The software allows users to simulate the configuration of Cisco routers and switches using a simulated command line interface.
+[ Packet Tracer ](https://www.netacad.com/courses/packet-tracer) is a cross-platform visual simulation tool designed by Cisco Systems that allows users to create network topologies and imitate modern computer networks. The software allows users to simulate the configuration of Cisco routers and switches using a simulated command line interface.
 
-**NOTE** You need to create CISCO account to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer and lets start! 
+**NOTE** You need to create [CISCO account](https://www.cisco.com/c/en/us/about/help/login-account-help.html) to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer and lets start! 
 
-**NOTE** If you are using lab machines log into the system and start Kali Linux that we set up in the Lab2! Once the Kali Linux is up and running install Packet Tracer inside Kali! How to install Packet Tracer you can find here!
+**NOTE** If you are using lab machines log into the system and start Kali Linux that we set up in the Lab2! Once the Kali Linux is up and running install Packet Tracer inside Kali! How to install Packet Tracer on Kali you can find [ here ](https://www.sysnettechsolutions.com/en/install-packet-tracer-kali-linux/)! 
+
+**Once the Packet Tracer is successfully installed type packettracer in Command Line in Kali. However before you run anything on Kali you should run two commands: 'sudo apt-get upgrade' and sudo apt-get update'.**
+
 
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
