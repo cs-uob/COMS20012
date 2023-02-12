@@ -59,7 +59,7 @@ at all possible do try and attend the lab where there will be *more* support.
 
 ## Exercise 2: Testing IoT house
 
-1.	Open the Packet Tracer simulation, 01_PacketTracer_IoT_house.pka in Cisco Packet Tracer. It should work fine on versions 7.0 and newer, but there is a known incompatibility with version 7.1.1. 
+1.	Open the Packet Tracer simulation,[ 01_PacketTracer_IoT_house.pka ](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/01_PacketTracer_IoT_house.pka) in Cisco Packet Tracer. It should work fine on versions 7.0 and newer, but there is a known incompatibility with version 7.1.1. 
 2.	If you are asked whether to update devices, click No. 
 Look at the eight devices around the house. In a few seconds you should see a visual representation of wireless connections being made between three of the devices. After a while, you should also see that the flickering status lights between the Wireless Access Point and Switch1 will have changed from orange to green to indicate they are ready for operation. 
 The IoT House in this simulation shows three devices that have been connected to a single board computer, which has been networked to a wireless access point via a network switch. This system allows the front door to the house and the garage door to be unlocked and opened from anywhere within the house or as the owner approaches and leaves. 
