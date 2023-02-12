@@ -120,6 +120,7 @@ A ping is a method of testing logical connectivity. The ping request is sent fro
 In this case, however, unplugging the wireless access point and just connecting another device will not work. The home owner has implemented port security on the switch, a measure aimed at preventing this kind of attack. The port at the switch has been configured not to accept packets from unknown devices. This is done by keeping record of the MAC addresses (Media Access Control) of the Smartphone and House Control Panel in the switch. MAC addresses consist of 12 hexadecimal characters (48 bits) and are assigned to any wired or wireless NIC (Network Interface Controller) at manufacture for unique identification. 
 
 In the next steps, we will try pinging the IP address of the single board computer (SBC0) which controls the doors and alarms. The IP address is 10.1.1.100, though the attacker would not know this unless they could find it through a successful ping scan. 
+
 5.	Click the Laptop. A window will open. 
 6.	Click the Desktop tab and open Command Prompt. 
 7.	Type ping 10.1.1.100 then press Enter on your keyboard. 
