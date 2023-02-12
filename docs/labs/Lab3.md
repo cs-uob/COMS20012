@@ -141,6 +141,7 @@ To spoof the MAC address, the attacker first needs to find the MAC of a valid de
 4.	Delete the existing MAC address and replace it with 0010.1161.3339 
 
 If the attacker was now to perform a ping scan of some common IP address ranges, they would receive a response from the IP address held by SBC0, the single board computer. It would make sense to begin scanning within the private IP address ranges, which would often be used in homes and small office situations and are as follows: 
+
 •	192.168.0.0 to 192.168.255.255 
 •	172.16.0.0 to 172.31.255.255 
 •	10.0.0.0 to 10.255.255.255 
