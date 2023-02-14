@@ -67,7 +67,8 @@ A tablet acts as the control panel for operating the devices within the house. I
 1.	Click the House Owner’s Smartphone. A window will open showing the Smartphone’s details. 
 2.	The single board computer has been configured to act as a web server to allow the devices to be controlled over the local network. Click the Desktop tab of the Smartphone window and click Web Browser. 
 3.	You will see an empty web browser window on the Smartphone. Click in the address bar of the browser (to the right of the initials URL). 
-4.	Type the IP address for the single board computer, which is 10.1.1.100 5. Press Enter on your keyboard or click Go on the screen. 
+4.	Type the IP address for the single board computer, which is 10.1.1.100 
+5.	Press Enter on your keyboard or click Go on the screen. 
 6.	You will see six buttons, as in the screenshot below. Test the buttons and view the changes in the alarm, front door and garage door. 
 7.	Close the doors and enable the alarm before closing the Smartphone window, as though the owner has left the house locked and secure while away for the day. 
 
