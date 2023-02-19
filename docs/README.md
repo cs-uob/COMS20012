@@ -6,9 +6,9 @@
 
 ## Schedule
 
-| Tuesday  15:00-17:00     | Thursday 10:00-12:00  |
+| Tuesday  15:00-17:00     | Thursday 11:00-12:00  |
 |------------------------|---------------------|
-| Lab Session (MVB 2.11) | Lecture Session (CHEM BLDG LT3) |
+| Lab Session (MVB 2.11) | Lecture Session (QUEEN’S BLDG 1.40 PUGSLEY) |
 
 ## People
 
@@ -44,7 +44,7 @@ The most effective way to get the help you need is to:
 | 14 | [Lecture 2 - Intro to Netwrok Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2-compressed.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab1.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md)| 
 | 15 | Lecture 3 - [ Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB3.pdf)  | [Lab 2](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab2.md) | Exercise Sheet |
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB4.pdf) |  [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | Exercise Sheet|
-| 17 | Lecture 5 - Further Crypto + TLS | Lab 4 -  | Exercise Sheet|
+| 17 | Lecture 5 - Further Crypto + TLS | [Lab 4 -](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab4.md) | Exercise Sheet|
 | 18 | Lecture 6 - Intro to Software Security | Lab 5 -  | Exercise Sheet |
 | 19 | Lecture 7 - Intro to OS + File System| Lab 6 - | Exercise Sheet |
 | 20 | Lecture 8 - Memory Management + OS  | Lab 7 - | Exercise Sheet|
