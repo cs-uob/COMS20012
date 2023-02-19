@@ -18,7 +18,8 @@ at all possible do try and attend the lab where there will be *more* support.
 ## Exercise 1. Get familiar with the network
 
 
-•	Open the Packet Tracer simulation, [02_PacketTracer_Testing_firewall.pka](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/02_PacketTracer_Testing_firewall.pka)in Cisco Packet Tracer.  It should work fine on versions 7.0 and newer, however you may choose to upgrade to the latest version of Packet Tracer using your Netacad login [here](https://www.netacad.com/group/offerings/packet-tracer/)
+•	Open the Packet Tracer simulation, [02_PacketTracer_Testing_firewall.pka](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/02_PacketTracer_Testing_firewall.pka) in Cisco Packet Tracer.  It should work fine on versions 7.0 and newer, however you may choose to upgrade to the latest version of Packet Tracer using your Netacad login [here](https://www.netacad.com/group/offerings/packet-tracer/)
+
 •	If you are asked whether to update devices, click No. 
 
 ## The Devices 
@@ -32,8 +33,7 @@ In the green section is some of the equipment that may be found in a small offic
 
 •	The Branch Server contains the databases of sensitive company and customer information.  
 
-•	The IoT Device Registration Server acts as a single interface that can be logged in to for monitoring and controlling all devices. 
-
+•	The IoT Device Registration Server acts as a single interface that can be logged in to for monitoring and controlling all devices. [IoT](https://www.oracle.com/uk/internet-of-things/what-is-iot/#:~:text=What%20is%20IoT%3F,and%20systems%20over%20the%20internet.)
 The yellow section represents the head office of the company, located in a different city from the branch offices. Head office can connect to branch servers and IoT device registration servers via the 
 Internet as needed. Branches can also connect to the server in the head office to access information. 
 The red section contains an attacker’s equipment, which could be located anywhere else in the world. The attacker may have various reasons for wanting to gain access to sensitive company information and gain control over connected devices, such as for financial benefits, to disrupt or as a personal challenge. 
@@ -84,7 +84,7 @@ To make this possible, the firewall on the Branch Router will allow any data tra
 
 ## Attempt Access from the Attacker’s PC 
 
-We will assume an attacker would like to gain access to the branch network to access data on the Branch Server and control the IoT devices to cause harm to the business. 
+We will assume an [ attacker ](https://www.u-blox.com/en/blogs/insights/iot-device-security-man-in-middle#:~:text=A%20man%2Din%2Dthe%2Dmiddle%20attack%20occurs%20when%20a,network%20or%20send%20malicious%20data.) would like to gain access to the branch network to access data on the Branch Server and control the IoT devices to cause harm to the business. 
 1.	Click the Attacker’s PC to open a window. 
 2.	Click the Desktop tab and click Web Browser. 
 3.	Try typing branch.server in the box next to URL, then press Enter or click Go. 
@@ -102,7 +102,7 @@ After a few seconds you will see a message in the browser, Request Timeout. In t
 
 ## Gather Information from the Network 
 
-**As we said in the lectures, you cannot protect or attack system or network that you do not know! To be able to penetrate into the system/network, you need to get familiar with it! You need to sniff.
+**As we said in the lectures, you cannot protect or attack system or network that you do not know! To be able to penetrate into the system/network, you need to get familiar with it! 
 
 The attacker is aware that there is communication between the company’s head office and the branch and would like to view some of these packets to learn which IP addresses are being used.  
 One way this may have been achieved, is by sending an email to a company staff member using an email address listed on their public website. The email would appear to be genuine, but actually contained a malicious attachment which installed spyware on the staff member’s computer. This spyware records traffic sent from the laptop computer in head office and then secretly emails all details to the attacker. 
@@ -148,8 +148,7 @@ The Attacker’s Router would also need to be reconfigured to suit. Rather than 
 •	What is Spoofing? 
 
 
-## Gain Access through the Firewall 
-
+## Gain Access through the [Firewall](https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-firewall)
 1.	Click the Attacker’s PC to open a window. 
 2.	From the Desktop tab, open the Web Browser. 
 3.	Type the IP address of the Branch Server, which is `192.168.3.5` and press `Enter` or click `Go`. 
