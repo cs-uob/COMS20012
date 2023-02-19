@@ -18,7 +18,7 @@ at all possible do try and attend the lab where there will be *more* support.
 ## Exercise 1. Get familiar with the network
 
 
-•	Open the Packet Tracer simulation, 02_PacketTracer_Testing_firewall.pka in Cisco Packet Tracer.  It should work fine on versions 7.0 and newer, however you may choose to upgrade to the latest version of Packet Tracer using your Netacad login here https://www.netacad.com/group/offerings/packet-tracer/ 
+•	Open the Packet Tracer simulation, [02_PacketTracer_Testing_firewall.pka](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/02_PacketTracer_Testing_firewall.pka)in Cisco Packet Tracer.  It should work fine on versions 7.0 and newer, however you may choose to upgrade to the latest version of Packet Tracer using your Netacad login [here](https://www.netacad.com/group/offerings/packet-tracer/)
 •	If you are asked whether to update devices, click No. 
 
 ## The Devices 
