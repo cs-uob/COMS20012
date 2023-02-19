@@ -25,10 +25,15 @@ at all possible do try and attend the lab where there will be *more* support.
 
 In the green section is some of the equipment that may be found in a small office that operates as a branch of a larger business. 
 •	The Branch PC is just a normal computer workstation in the office. It can be used to access information and controls on the servers, or access the head office via the Internet. 
+
 •	The Fire Sprinkler, Webcam, Light and Drain are all connected to the network so they can each be remotely monitored and operated. 
+
 •	The Thermostat measures ambient temperature and controls the heating and cooling. This is also connected to be monitored and controlled across the network. 
+
 •	The Branch Server contains the databases of sensitive company and customer information.  
+
 •	The IoT Device Registration Server acts as a single interface that can be logged in to for monitoring and controlling all devices. 
+
 The yellow section represents the head office of the company, located in a different city from the branch offices. Head office can connect to branch servers and IoT device registration servers via the 
 Internet as needed. Branches can also connect to the server in the head office to access information. 
 The red section contains an attacker’s equipment, which could be located anywhere else in the world. The attacker may have various reasons for wanting to gain access to sensitive company information and gain control over connected devices, such as for financial benefits, to disrupt or as a personal challenge. 
