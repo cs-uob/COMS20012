@@ -81,29 +81,6 @@ To make this possible, the firewall on the Branch Router will allow any data tra
 7.	Turn on the Light. 
 8.	Close the Laptop window. 
 
-The house owner has chosen to keep the network which controls the home security completely separate from his home wireless network that connects to the Internet. By being an isolated system, it would be nearly impossible for an attacker to gain access without physically being at or near the house. However, the disadvantage to this is that the home owner will not have the ability to monitor and control these devices while away from home. 
-Connecting to the Wireless Network 
-The house owner is using wireless for the benefit of some mobility, rather than using wired devices which would be fixed into place. The wireless access point has been mounted on the outside of the house so that the Smartphone is within range as he approaches the doors. The convenience of using this wireless networking means that network traffic is not just confined to the wires within the house, but is also visible to and is potentially accessible to attackers from outside. 
-1.	Click the House Control Panel (Tablet). A window will pop open. 
-2.	Click the Config to see the interface configuration options. 
-3.	Click Wireless0 from the options towards the left of the window to view settings for the wireless interface. 
-You can view the settings the tablet is using to connect to the Wireless Access Point and some details about the type of wireless network it is. 
-
-•	What is the SSID of the wireless network? 
-The SSID (Service Set Identification) is the name of the network which can either be broadcast so that devices in range can see, or it can be kept private so that someone must already know this before trying to connect. 
-
-•	Which method of authentication is being used for this network? 
-This is the best of the available options for preventing unauthorized connection to the HomeWiFi network and for providing encryption to prevent data being viewed by attackers who are within range. 
-
-•	What is the PSK Pass Phrase being used for this network? 
-Does it use words that can be found in a dictionary? Does it use upper- and lower-case letters? Does it use numbers and symbols? How long is it? 
-
-•	Try typing this password in to the password strength checker at https://howsecureismypassword.net/ to get an estimate of how long it might take a modern computer to guess this password.  
-**NOTE** It is not good practice to test real passwords in password checking websites in case their intentions are not genuine and are actually trying to steal your password. If you would like to test the strength of your own, use passwords which have similar characteristics (length and character type) to your real one but keep yours private. 
-
-•	How could this password be changed to be even stronger and more difficult for computers algorithms to crack using brute-force or dictionary attacks? 
-It can be seen that this wireless network is reasonably secure. If an attacker wants to use the IoT devices to gain access to the house, taking control by hacking the WiFi would not be simple. 
-
 
 ## Attempt Access from the Attacker’s PC 
 
