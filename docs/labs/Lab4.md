@@ -176,5 +176,6 @@ an M1 Mac, a lab machine and anything else you can throw at it... but
 you *might* need to tweak things to get it all working; and if in
 doubt fall back to `ssh seis.bristol.ac.uk`
 
-Good Luck
+Good Luck!
+
 Alma
