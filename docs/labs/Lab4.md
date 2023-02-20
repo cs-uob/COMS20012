@@ -3,7 +3,11 @@
 Hi class. In todays lab, you will learn more into networking and firewalls.  
 
 
-**N O T E** Today’s lab DOES NOT work in packet tracer versions after 7.3. You need to install Packet Tracer Version 7.3. Here is the [LINK](https://u.pcloud.link/publink/show?code=kZm7KgVZmRzv7EJdhHfxv7cRscruY5kfUznV&fbclid=IwAR2KkUMzaCzwedQjeLeuPIw5zrMEc4y7fA2tdy3ghMbPlTN_ODP205IvDd8) with packet tracer for different environments.
+
+
+**Today’s lab DOES NOT work in packet tracer versions after 7.3. You need to install Packet Tracer Version 7.3. Here is the [LINK](https://u.pcloud.link/publink/show?code=kZm7KgVZmRzv7EJdhHfxv7cRscruY5kfUznV&fbclid=IwAR2KkUMzaCzwedQjeLeuPIw5zrMEc4y7fA2tdy3ghMbPlTN_ODP205IvDd8) with packet tracer for different environments.**
+
+
 
 
 **NOTE** You need to create [CISCO account](https://www.cisco.com/c/en/us/about/help/login-account-help.html) to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer and lets start! 
