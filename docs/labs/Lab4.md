@@ -5,7 +5,7 @@ Hi class. In todays lab, you will learn more into networking and firewalls.
 
 
 
-**Today’s lab DOES NOT work in Packet Tracer versions after 7.3. You need to install Packet Tracer Version 7.3. Here is the [LINK](https://u.pcloud.link/publink/show?code=kZm7KgVZmRzv7EJdhHfxv7cRscruY5kfUznV&fbclid=IwAR2KkUMzaCzwedQjeLeuPIw5zrMEc4y7fA2tdy3ghMbPlTN_ODP205IvDd8) with packet tracer for different environments.**
+**Today’s lab DOES NOT work in Packet Tracer versions after 7.3. You need to install Packet Tracer Version 7.3. Here is the [LINK](https://u.pcloud.link/publink/show?code=kZm7KgVZmRzv7EJdhHfxv7cRscruY5kfUznV&fbclid=IwAR2KkUMzaCzwedQjeLeuPIw5zrMEc4y7fA2tdy3ghMbPlTN_ODP205IvDd8) with packet tracer for different environments. Before installing Packet Tracer 7.3. version please uninstall the version you already have onn your system.**
 
 
 
