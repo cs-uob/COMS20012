@@ -1,4 +1,4 @@
-# Exercises sheet 3
+# Exercise sheet 3
 
 ## Network Security
 
