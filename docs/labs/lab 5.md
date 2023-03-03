@@ -258,7 +258,7 @@ Linux system call compared to a 64bit Linux System call?
  
 ### Hello World C
 
-Okay we can compile and decompile a program now and we can see that the
+We can compile and decompile a program now and we can see that the
 system call convention changes between systems. What does this look like
 in C? That should compile to much the same code right? Let try, save the
 following as `hello.c`:
@@ -397,7 +397,7 @@ Okay lets test what you read.
 
 ### Assembly Comprehension
 
-Okay, lets move away from reading real programs and try and figure out
+Let us move away from reading real programs and try and figure out
 what little snippets of code do.
 
 #### Question 6
