@@ -52,9 +52,13 @@ then you run
 b. This will take you to the gdb command promt (see the Fig. 2). In that command prompt, type
 
 ```layout regs```
+
 ```focus cmd```
+
 ```b main```
+
 ```run```
+
 ```disassemble main```
 
 c. At this stage, all the panes will have some values. The top most pane gives you values to all the register. The middle pane shows the assembly code being executed. And the botton pane is for the GDB commandline. You can note the value of RIP and the address of the current highlighted line! In the pane C, each line starts with anl address, followed by the relative position marker and the instruction.
