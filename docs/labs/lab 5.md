@@ -52,11 +52,11 @@ then you run
 ``` gdb call-conv64```
 
 b. This will take you to the gdb command promt (see the Fig. 2). In that command prompt, type
-```layout regs
-focus cmd
-b main
-run
-disassemble main```
+```layout regs```
+```focus cmd```
+```b main```
+```run```
+```disassemble main```
 c. At this stage, all the panes will have some values. The top most pane gives you values to all the register. The middle pane shows the assembly code being executed. And the botton pane is for the GDB commandline. You can note the value of RIP and the address of the current highlighted line! In the pane C, each line starts with anl address, followed by the relative position marker and the instruction.
 d. The execution will halt at the entry of main function, bacause you set a breakpoint at the main (b main). Breakpoints can be set either by using the b *address OR b *main+N. Breakpoints are very useful when you want to analyse the values of register and memory.
 Try setting a breakpoint at some later point, say b *main+60 and then run.
