@@ -71,7 +71,7 @@ default user to use `sudo`. You can install stuff via `apt` (you might
 need to install things if I forget to add the provision line).
 
 ## Understanding Memory layout with GDB
-### 1. Part 1. Using GDB 
+### Part 1. Using GDB 
 
 1.	Compile the following c prog call-convention.c by running 
 gcc -o call-conv64 call-convention.c
@@ -125,7 +125,7 @@ Repeat the above steps for call-conv64.
 5. Observe how those parameters (arguments) are used.
 
   
-## 2. Part 2. Understanding Memory layout with GDB
+## Part 2. Understanding Memory layout with GDB
 
 In this part of the lab, we will learn about using GDB to understand the few artefacts of x86 ISA.
 0. Do some hands-on by following this documents first [lab1-gdb.pdf](../materials/lecture1/lab1-gdb.pdf){:target="_blank"}. You will need [call-convention.c](../code/call-convention.c){:target="_blank"} and [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}.
@@ -163,7 +163,7 @@ ADDRESS2: 0x5646d1cf5b39
 
 Can you identify where are these intructions? [Hints: look for disassemblies of functions called before.].
 
-  ## 2.	Assembly Refresher
+  ##	Assembly Refresher
 ### Part 1. Getting familiar with Assembly
   
 #### Hello World
