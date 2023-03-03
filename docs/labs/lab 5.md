@@ -71,7 +71,7 @@ default user to use `sudo`. You can install stuff via `apt` (you might
 need to install things if I forget to add the provision line).
 
 ## 2. Understanding Memory layout with GDB
-### 1. Part 1. 
+### 1. Part 1. Using GDB 
 
 1.	Compile the following c prog call-convention.c by running 
 gcc -o call-conv64 call-convention.c
