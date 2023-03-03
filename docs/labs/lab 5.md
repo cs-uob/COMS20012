@@ -68,7 +68,7 @@ e. The program will halt when it reaches main+60. Now you can read the value of 
 f. You can also read the memory content by
 ```x/8xb $rbp-0x4``` (remember, rbp is the base point, which also points to the stack. In this case you will read 8 bytes starting from EBP-4. If you want to read entire stack, you can also use RSP. Use ni and si commands to observe how GDB executes next instruction. Try and get youself familiar with GDB (see the attached [GDB cheatsheet](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/lecture1/GDBCheatSheet.pdf))!
 
-Exercise:
+#### Exercise:
 Compile the given c code (call-convention.c) with the following commands. [Note: see the appendix A to make sure that your multi-arch compilation support is made available!] 
 1. ```gcc -m32 -o call-conv32 call-convention.c```
 2. ```gcc -o call-conv64 call-convention.c```
