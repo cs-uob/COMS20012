@@ -166,7 +166,7 @@ Can you identify where are these intructions? [Hints: look for disassemblies of 
   ## 2.	Assembly Refresher
 ### Part 1. Getting familiar with Assembly
   
-# Hello World
+#### Hello World
 
 Lets get writing some code! Create a text file called `hello64.S` and
 write the following:
@@ -251,7 +251,7 @@ objdump -Mintel -d hello64
 Similar options are available for GDB and all the other tools you'll
 ever meet. If in doubt, use the `man` command.
 
-# Hello World 32bit
+#### Hello World 32bit
 
 Part of what makes assembly *such fun* is that assembly programs are not
 portable between different operating systems, different computer
@@ -301,7 +301,7 @@ Again, use the manual pages and your favorite search engine to help.
 Make sure you're clear on what the differences are! If in doubt stick
 your hand up and get the TAs/Lecturers to confirm your suspicions!
 
-# Hello World C
+#### Hello World C
 
 Okay we can compile and decompile a program now and we can see that the
 system call convention changes between systems. What does this look like
@@ -357,7 +357,7 @@ Google what they are and what the ones commonly used for 64bit systems
 are (they simplified it a bit). Make a note of them! This is going to
 turn up again and again…
 
-# Translating between C and Assembly
+#### Translating between C and Assembly
 
 So far we've been just looking at Hello World. Lets try looking at
 something a little more complicated! Here's a simple C program:
@@ -444,7 +444,7 @@ Okay lets test what you read.
     instead of 1 in `main`?
 8.  What is the password?
 
-# Assembly Comprehension
+#### Assembly Comprehension
 
 Okay, lets move away from reading real programs and try and figure out
 what little snippets of code do.
@@ -484,7 +484,7 @@ Try writing a program using these instructions (look up inline assembly
 in C). Good initial values for `rax` and `rdx` might be to set them to
 `1` and to see what happens as `rcx` is 1, 2, 3, 4 or 5!
 
-# Writing code
+#### Writing code
 
 Enough reading: lets try and write something!
 
