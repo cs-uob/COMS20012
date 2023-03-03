@@ -87,7 +87,7 @@ If the object file was compiled with debugging information, adding the -S flag t
 
 Run objdump -d -S call-conv64 to see the source code together with the assembly.
 
-3. GDB
+3. GDB:
 GDB stands for GNU Project Debugger and is a powerful debugging tool for C(along with other languages like C++). It helps you to monitor C programs while they are executing and also allows you to see what exactly happens when your program crashes. You can get the values of the registers and memory (e.g. stack). It allows you to set breakpoints at a certain point in your program execution. Though GDB is a commandline based program, you can, however, invoke its TUI (text user interface) to have separate windows displaying the values of registers, for example.
 a. Run the GDB with the following command.
 $ gdb call-conv64
