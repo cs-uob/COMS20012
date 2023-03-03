@@ -166,7 +166,7 @@ Can you identify where are these intructions? [Hints: look for disassemblies of 
   ##	Assembly Refresher
 ### Part 1. Getting familiar with Assembly
   
-#### Hello World
+### Hello World
 
 Lets get writing some code! Create a text file called `hello64.S` and
 write the following:
@@ -201,7 +201,7 @@ ld -o hello64 hello64.o
 ./hello64
 ```
 
-## Question 1
+#### Question 1
 
 Comment every line of `hello64.S` and describe what each line does.
 Focus on the *indented lines* to begin with.
@@ -221,7 +221,7 @@ of documentation:
   2](https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.html)
 - `/usr/src/linux-headers-4.19.0-21-amd64/arch/x86/include/generated/uapi/asm/unistd_64.h`
 
-## Question 2
+#### Question 2
 
 Disassemble the binary you just made with:
 
@@ -236,7 +236,7 @@ just wrote? What about if you run:
 objdump -D hello64
 ```
 
-### NOTE
+#### NOTE
 
 As you're hopefully discovering there are multiple syntaxes for assembly
 programming. I prefer the *Intel* syntax but other people (academics and
@@ -251,7 +251,7 @@ objdump -Mintel -d hello64
 Similar options are available for GDB and all the other tools you'll
 ever meet. If in doubt, use the `man` command.
 
-#### Hello World 32bit
+### Hello World 32bit
 
 Part of what makes assembly *such fun* is that assembly programs are not
 portable between different operating systems, different computer
@@ -292,7 +292,7 @@ ld -melf_i386 -o hello32 hello32.o
 objdump -d hello32
 ```
 
-## Question 3
+#### Question 3
 
 What has changed and why? What is the calling convention for a 32bit
 Linux system call compared to a 64bit Linux System call?
@@ -301,7 +301,7 @@ Again, use the manual pages and your favorite search engine to help.
 Make sure you're clear on what the differences are! If in doubt stick
 your hand up and get the TAs/Lecturers to confirm your suspicions!
 
-#### Hello World C
+### Hello World C
 
 Okay we can compile and decompile a program now and we can see that the
 system call convention changes between systems. What does this look like
@@ -338,7 +338,7 @@ strace ./hello-c
 
 Check that the `write` system call still happens as you expect.
 
-## Question 4
+#### Question 4
 
 Lets look at the library call to `puts` in the `main` function. You'll
 notice that C functions use a completely different calling convention!
@@ -425,7 +425,7 @@ level gist of what is going on, even if that is just at the level of
 `strcmp` with these arguments"*. Ask questions! I still have to blink a
 few times whenever I stare at this stuff.
 
-## Question 5
+#### Question 5
 
 Okay lets test what you read.
 
@@ -444,12 +444,12 @@ Okay lets test what you read.
     instead of 1 in `main`?
 8.  What is the password?
 
-#### Assembly Comprehension
+### Assembly Comprehension
 
 Okay, lets move away from reading real programs and try and figure out
 what little snippets of code do.
 
-## Question 6
+#### Question 6
 
 What does this snippet of code do?
 
@@ -469,7 +469,7 @@ Architectures Software Developer's Manual: Volume
 2](https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.html)
 if you aren't familiar with an operation.
 
-## Question 7
+#### Question 7
 
 What about this snippet?
 
@@ -484,7 +484,7 @@ Try writing a program using these instructions (look up inline assembly
 in C). Good initial values for `rax` and `rdx` might be to set them to
 `1` and to see what happens as `rcx` is 1, 2, 3, 4 or 5!
 
-#### Writing code
+### Writing code
 
 Enough reading: lets try and write something!
 
