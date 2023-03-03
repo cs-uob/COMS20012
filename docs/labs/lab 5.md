@@ -4,9 +4,8 @@
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 If you experience difficulties contact IT service.
 
-## 1. Setting up Vagrant
-As you will be using Vagrant for you VM management though out your unit, lets learn how to setup a VM with Vagrant. \[We assume that Vagrant and VirtualBox VVM is already installed on your host machine. If not, contact IT.\]
-You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/part1/posix1/install.html){:target="_blank"}.
+## 1. Setting up Vagrant (you did this part in Lab 1, it should be straightforward)
+
 1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
 3. `cd seclabs`
@@ -26,62 +25,19 @@ You may also want to watch videos from [David's COMS10012](https://cs-uob.github
 17. Now you have all the tools that will be required. To test, run these commends and check if they run properly-- `gcc --version`, `gdb --version`, `objdump --version`
 18. When done with your lab, you can `logout` and then in your host machine, you can close the VM-- `vagrant halt`
 
-# Vagrant
-
-All the labs in this course are designed to run in *virtual machines* on
-the lab machines setup via Vagrant. Expect to spend the first 10 minutes
-of any lab redownloading the VM images[^3]. If you have an X86-based
-Linux machine of your own, you might get away with using your own
-machine; if you have a Mac you're going to be stuck with the lab
-machines. If you have Windows you *might* get away with it, but if you
-ask a TA to help diagnose a problem on your own machine, then you'll get
-told to use the lab machines: sorry but there aren't enough hours in the
-day to debug and test on other systems.
-
-Each week you'll get a `Vagrantfile` to set up your VM. Here's this
-weeks!
-
-``` ruby
-Vagrant.configure("2") do |config|
-  config.vm.box = "generic/debian10"
-  config.vm.synced_folder ".", "/vagrant"
-  config.vm.provision "shell", inline: "sudo apt update"
-  config.vm.provision "shell", inline: "sudo apt install strace nasm"
-end
-```
-
-Save it in a plaintext file called `Vagrantfile` in a sensibly named
-folder, `cd` to it in a terminal, and run:
-
-`vagrant up`  
-to bring the VM online.
-
-`vagrant provision`  
-to install any software you'll need.
-
-`vagrant ssh`  
-to log in to the machine via SSH.
-
-Files in your folder will be available in `/vagrant` on the VM: this'll
-be handy for saving your work.
-
-You should be able to get at the `root` account via the `sudo` command.
-See `man 8 sudo` if you need help. There isn't a password for the
-default user to use `sudo`. You can install stuff via `apt` (you might
-need to install things if I forget to add the provision line).
 
 ## Understanding Memory layout with GDB
 ### Part 1. Using GDB 
 
 1.	Compile the following c prog [call-convention.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/call-convention.c) by running 
-gcc -o call-conv64 call-convention.c
+```gcc -o call-conv64 call-convention.c```
 Check what gcc -g -o call-conv64 did? Comment on your findings.
 
  2. Objdump: As part of the compilation process, compile (GCC) converts the source code into the assembly instruction and then the assembler takes in assembly instructions and encodes them into the binary form understood by the hardware. Disassembly is the reverse process that converts binary-encoded instructions back into human-readable assembly. objdump is a tool that operates on object files (i.e. files containing compiled machine code).
-a. Run objdump --help to see all the avaialble options.
+a. Run ```objdump --help``` to see all the avaialble options.
 b. Run the objdump as follows and then scroll upto the point when you see main.
 
-$ objdump -d call-conv64
+```objdump -d call-conv64```
 This extracts the instructions from the object file and outputs the sequence of binary-encoded machine instructions alongside the assembly equivalent. 
 If the object file was compiled with debugging information, adding the -S flag to objdump will intersperse the original C source. 
 
@@ -90,26 +46,28 @@ Run objdump -d -S call-conv64 to see the source code together with the assembly.
 3. GDB:
 GDB stands for GNU Project Debugger and is a powerful debugging tool for C(along with other languages like C++). It helps you to monitor C programs while they are executing and also allows you to see what exactly happens when your program crashes. You can get the values of the registers and memory (e.g. stack). It allows you to set breakpoints at a certain point in your program execution. Though GDB is a commandline based program, you can, however, invoke its TUI (text user interface) to have separate windows displaying the values of registers, for example.
 a. Run the GDB with the following command.
-$ gdb call-conv64
 You need to first run the program call-conv64
- 
+then you run
+
+``` gdb call-conv64```
+
 b. This will take you to the gdb command promt (see the Fig. 2). In that command prompt, type
-layout regs
+```layout regs
 focus cmd
 b main
 run
-disassemble main
+disassemble main```
 c. At this stage, all the panes will have some values. The top most pane gives you values to all the register. The middle pane shows the assembly code being executed. And the botton pane is for the GDB commandline. You can note the value of RIP and the address of the current highlighted line! In the pane C, each line starts with anl address, followed by the relative position marker and the instruction.
 d. The execution will halt at the entry of main function, bacause you set a breakpoint at the main (b main). Breakpoints can be set either by using the b *address OR b *main+N. Breakpoints are very useful when you want to analyse the values of register and memory.
 Try setting a breakpoint at some later point, say b *main+60 and then run.
 e. The program will halt when it reaches main+60. Now you can read the value of register, either by looking in the Pane R or by typing GDB command: info reg
 f. You can also read the memory content by
-x/8xb $rbp-0x4 (remember, rbp is the base point, which also points to the stack. In this case you will read 8 bytes starting from EBP-4. If you want to read entire stack, you can also use RSP. Use ni and si commands to observe how GDB executes next instruction. Try and get youself familiar with GDB (see the attached GDB cheatsheet)!
+```x/8xb $rbp-0x4``` (remember, rbp is the base point, which also points to the stack. In this case you will read 8 bytes starting from EBP-4. If you want to read entire stack, you can also use RSP. Use ni and si commands to observe how GDB executes next instruction. Try and get youself familiar with GDB (see the attached GDB cheatsheet)!
 
 Exercise:
 Compile the given c code (call-convention.c) with the following commands. [Note: see the appendix A to make sure that your multi-arch compilation support is made available!] 
-1. gcc -m32 -o call-conv32 call-convention.c
-2. gcc -o call-conv64 call-convention.c
+1. ```gcc -m32 -o call-conv32 call-convention.c```
+2. ```gcc -o call-conv64 call-convention.c```
 The above two steps will create two binary files, viz. call-conv32 and call-conv64. Check they exist by using the right command.
 1. Open call-conv32 with objdump 
 2. Look out for the disassembly of main
@@ -118,7 +76,7 @@ The above two steps will create two binary files, viz. call-conv32 and call-conv
 5. Observe how those parameters (arguments) are used.
 
 Repeat the above steps for call-conv64.
-1. Open call-conv64with objdump 
+1. Open call-conv64 with objdump 
 2. Look out for the disassembly of main
 3. Observe the parameter passing just before the call <func>
 4. Look out for the disassembly of func
@@ -211,7 +169,7 @@ Focus on the *indented lines* to begin with.
 - What is `rax`, `rdi`, `rsi` and `rdx` and why are things being moved
   into them?
 
-To help you, you ~~might~~ **will** need to refer to the following bits
+To help you, you need to refer to the following bits
 of documentation:
 
 - `man 2 intro` and `man 2 write`
