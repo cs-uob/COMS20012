@@ -357,7 +357,7 @@ Google what they are and what the ones commonly used for 64bit systems
 are (they simplified it a bit). Make a note of them! This is going to
 turn up again and again…
 
-#### Translating between C and Assembly
+### Translating between C and Assembly
 
 So far we've been just looking at Hello World. Lets try looking at
 something a little more complicated! Here's a simple C program:
@@ -488,7 +488,7 @@ in C). Good initial values for `rax` and `rdx` might be to set them to
 
 Enough reading: lets try and write something!
 
-# Question 8
+#### Question 8
 
 Look up the `execve` system call (`man 2 execve`). Write a program in
 assembly language that uses `execve` to run the following shell command:
