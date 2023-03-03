@@ -255,7 +255,7 @@ Linux system call compared to a 64bit Linux System call?
 
 
  # Optional Part 
- ##if you are done quickly with the previous parts, you can try to do the rest
+ ## if you are done quickly with the previous parts, you can try to do the rest
 ### Hello World C
 
 Okay we can compile and decompile a program now and we can see that the
