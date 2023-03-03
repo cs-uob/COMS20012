@@ -73,9 +73,9 @@ need to install things if I forget to add the provision line).
 ## Understanding Memory layout with GDB
 ### Part 1. Using GDB 
 
-1.	Compile the following c prog call-convention.c by running 
+1.	Compile the following c prog [call-convention.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/call-convention.c) by running 
 gcc -o call-conv64 call-convention.c
-Check what gcc -g ¬-o call-conv64 did? Comment on your findings.
+Check what gcc -g -o call-conv64 did? Comment on your findings.
 
  2. Objdump: As part of the compilation process, compile (GCC) converts the source code into the assembly instruction and then the assembler takes in assembly instructions and encodes them into the binary form understood by the hardware. Disassembly is the reverse process that converts binary-encoded instructions back into human-readable assembly. objdump is a tool that operates on object files (i.e. files containing compiled machine code).
 a. Run objdump --help to see all the avaialble options.
@@ -127,9 +127,8 @@ Repeat the above steps for call-conv64.
   
 ## Part 2. Understanding Memory layout with GDB
 
-In this part of the lab, we will learn about using GDB to understand the few artefacts of x86 ISA.
-0. Do some hands-on by following this documents first [lab1-gdb.pdf](../materials/lecture1/lab1-gdb.pdf){:target="_blank"}. You will need [call-convention.c](../code/call-convention.c){:target="_blank"} and [GDB cheat sheet](../materials/lecture1/GDBCheatSheet.pdf){:target="_blank"}.
-1. Copy c code [memory_layout.c](../code/memory_layout.c) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
+
+1. Copy c code [memory_layout.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c)) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
 2. \[run `vagrant up` to start you VM.\]
 3. compile `gcc memory_layout.c -o memory_layout`
 4. run the resulting binary. It will halt with a message "Press any key...."
