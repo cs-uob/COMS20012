@@ -37,7 +37,7 @@ Check what gcc -g -o call-conv64 did? Comment on your findings.
 a. Run ```objdump --help``` to see all the avaialble options.
 b. Run the objdump as follows and then scroll upto the point when you see main.
 
-```objdump -d call-conv64```
+`objdump -d call-conv64`
 This extracts the instructions from the object file and outputs the sequence of binary-encoded machine instructions alongside the assembly equivalent. 
 If the object file was compiled with debugging information, adding the -S flag to objdump will intersperse the original C source. 
 
@@ -71,7 +71,7 @@ Compile the given c code (call-convention.c) with the following commands. [Note:
 1. ```gcc -m32 -o call-conv32 call-convention.c```
 2. ```gcc -o call-conv64 call-convention.c```
 The above two steps will create two binary files, viz. call-conv32 and call-conv64. Check they exist by using the right command.
-1. Open call-conv32 with objdump 
+1. Open `call-conv32 with objdump`
 2. Look out for the disassembly of main
 3. Observe the parameter passing just before the call <func>
 4. Look out for the disassembly of func
@@ -110,7 +110,7 @@ Repeat the above steps for call-conv64.
 ```
 
 7. On Term A, press Enter to continue. The prog prints frame address of main. how will you find that address in the gdb window?
-8. When in func1, it prints return address. Can you check which instruction address in that in the main (disassem main)?
+8. When in func1, it prints return address. Can you check which instruction address in that in the main (`disassem main`)?
 9. On each breakpoint, verify the frame addresses of the functions as you did above.
 10. At one point, you will see "Frame addr of caller of func2 (1)". Can you find which function we are talking about as a caller to func2?
 11. In the end (your last "continue" on the GDB), you will see  
