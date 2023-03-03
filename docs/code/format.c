@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     scanf("%99s",name);
     strcat(welcome, name);
     printf(welcome);// format string bug site!!!!
-    printf("Enter you pin:");
+    printf("Enter your pin:");
     scanf("%d",&upin);
     
     auth=check(upin,spin);
