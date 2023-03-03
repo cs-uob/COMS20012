@@ -129,8 +129,7 @@ Can you identify where are these intructions? [Hints: look for disassemblies of 
   
 ### Hello World
 
-Lets get writing some code! Create a text file called `hello64.S` and
-write the following:
+ Create a text file called `hello64.S` and write the following:
 
 ``` asm
 ; hello64.S: a first step into assembly programming!
@@ -173,8 +172,7 @@ Focus on the *indented lines* to begin with.
 - What is `rax`, `rdi`, `rsi` and `rdx` and why are things being moved
   into them?
 
-To help you, you need to refer to the following bits
-of documentation:
+To help you, you need to refer to the following bits of documentation:
 
 - `man 2 intro` and `man 2 write`
 - [The Intel 64 and IA-32 Architectures Software Developer's Manual:
@@ -200,9 +198,7 @@ objdump -D hello64
 #### NOTE
 
 As you're hopefully discovering there are multiple syntaxes for assembly
-programming. I prefer the *Intel* syntax but other people (academics and
-compiler writers mostly) prefer the AT&T syntax. The GNU tools use by
-default the AT&T syntax; NASM uses Intel. You need to be able to read
+programming. The GNU tools use by default the AT&T syntax; NASM uses Intel. You need to be able to read
 both. If it bothers you that much, try running:
 
 ``` shell
@@ -214,9 +210,8 @@ ever meet. If in doubt, use the `man` command.
 
 ### Hello World 32bit
 
-Part of what makes assembly *such fun* is that assembly programs are not
-portable between different operating systems, different computer
-architectures[^4], and even different versions of the same OS on the
+Assembly programs are not portable between different operating systems, different computer
+architectures, and even different versions of the same OS on the
 same computer! The `hello64` program we wrote was for 64-bit Linux, but
 we can also run 32-bit Linux programs on a 64-bit system! Let rewrite
 the same *hello world* program for 32-bit Linux! Save the following into
@@ -258,9 +253,7 @@ objdump -d hello32
 What has changed and why? What is the calling convention for a 32bit
 Linux system call compared to a 64bit Linux System call?
 
-Again, use the manual pages and your favorite search engine to help.
-Make sure you're clear on what the differences are! If in doubt stick
-your hand up and get the TAs/Lecturers to confirm your suspicions!
+
 
 ### Hello World C
 
@@ -285,11 +278,10 @@ cc -o hello-c hello.c
 objdump -d hello-c
 ```
 
-Oh dear. That looks a bit more complicated, but hopefully it isn't too
-bad. If you look at the disassembly of the `main` function you should
+ If you look at the disassembly of the `main` function you should
 see that it is calling `puts`. If you look at `man 3` puts or recall
 your C programming days, you'll see thats the function used to print
-strings… so that makes sense… sort of.
+strings… so that makes sense.
 
 Lets see what systemcalls the program makes with the `strace` command
 
@@ -361,7 +353,7 @@ This time our program has variables, but in assembly languages we don't
 registers for holding values we're immediately working on.
 
 Instead of struggling on with `objdump` lets try using something a bit
-easier! The [Godbolt Compiler Explorer](https://godbolt.org)[^5] lets
+easier! The [Godbolt Compiler Explorer](https://godbolt.org) lets
 you see what C code compiles into and will show you which lines of C
 produced which bits of assembly. Try compiling with x86-64 GCC and with
 no extra flags. Coloured blocks in the C code on the left, correspond to
@@ -377,14 +369,11 @@ dereferences it (i.e. `*ptr` in C), and `[rbp+1]` dereferences it with
 an offset (i.e. `ptr[1]`. Stare at the code and try and read it. Check
 that it roughly makes sense and that you can follow it!
 
-It's **really** important you don't beat yourself up if this is
-confusing for you: this is tricky, but the more you do it the easier it
-will get. Try and work line by line and check your understanding. You
+ Try and work line by line and check your understanding. You
 *do not* need to understand *everything*, but you need to have a high
 level gist of what is going on, even if that is just at the level of
 *"it's doing something with whatever is in that pointer then calling
-`strcmp` with these arguments"*. Ask questions! I still have to blink a
-few times whenever I stare at this stuff.
+`strcmp` with these arguments"*. 
 
 #### Question 5
 
@@ -456,6 +445,4 @@ assembly language that uses `execve` to run the following shell command:
 
     wc -w /usr/share/dict/words
 
-You're going to have to write similar programs a few times on this
-course, but not really anything more complex. Get it done and then
-you're done for the week!
+
