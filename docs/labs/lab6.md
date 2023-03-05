@@ -11,13 +11,12 @@ If you experience any difficulties contact IT services.
 
 **Description:** The code [format.c]([../code/format.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/format.c)) contains a format string bug when it calls `printf(welcome)` at line 30. It then asks to enter a pin (line 31-32). If the entered pin equals a randomly generated number (created by calling `rand()`), you are authenticated properly. The secret pin is stored in the `spin` variable, which is on the stack. Your job is to get this pin by using the format string bug. Steps to follow:
 1. Start your VM (same vagrant steps, but you don't have to install the VM. Just go to the directory where your Vagrantfile is and `vagrant up` followed by `vagrant ssh`. )
-2. `cd /vagrant`. Use `tmux` and split the terminal, you can do this by first running `tmux` and then pressing `Ctrl+B` followed by `%`, you navigate between the terminals (or 'panes') with `Ctrl+B` and then the left or right key. See [this](https://tmuxcheatsheet.com/){:target="_blank"} for more tmux commands. It is also possible to use `vagrant ssh` in another window as in the previous lab.
-3. In one pane, compile the program `gcc format.c -o format`
-4. Run the program `./format`
-5. It will ask to enter your name. Use `%x-%x-%x ...` as your name.
-6. For each additional `%x`, you will see some hexadecimal number being printed. You need to try each of these additional numbers to see if this is the pin that will "authenticate" you. 
+2. In one pane, compile the program `gcc format.c -o format`
+3. Run the program `./format`
+4. It will ask to enter your name. Use `%x-%x-%x ...` as your name.
+5. For each additional `%x`, you will see some hexadecimal number being printed. You need to try each of these additional numbers to see if this is the pin that will "authenticate" you. 
 
-Note: the numbers are printed in hex, but you need to enter pin in decimal. In order to convert the hex to decimal, use `echo $((0xhex_num))` on the other pane.
+Note: the numbers are printed in hex, but you need to enter pin in decimal. In order to convert the hex to decimal, use `echo $((0xhex_num))` in another terminal. To do so, on a different terminal (lets call it TermB, and the already runing terminal as TermA), run `vagrant ssh`. USe this TermB to convert the number from hex to decimal.
 
 ## B. Stack Buffer Overflow
 
