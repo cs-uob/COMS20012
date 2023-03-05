@@ -91,7 +91,7 @@ Repeat the above steps for call-conv64.
 
 
 1. Copy c code [memory_layout.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c)) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
-2. \[run `vagrant up` to start you VM.\]
+2. run `vagrant up` to start you VM.Do not forget to ssh your VM.
 3. compile `gcc memory_layout.c -o memory_layout`
 4. run the resulting binary. It will halt with a message "Press any key...."
 5. On a different terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the PID, say P.
