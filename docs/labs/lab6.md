@@ -38,7 +38,7 @@ A few tips/steps are as follows:
 
 
 4. In this example, the buffer overflow happens when you supply a long input argument which is passed directly to `foo()`. Read the comments in the source code of [bof-admin.c](https://github.com/cs-uob/COMS20012/edit/master/docs/code/bof-admin.c) to get some clues on this.
-5. Use `tmux` to have a two-pane terminal to make your life easier.
+5. Create another termianl and ssh Vagrant to make your life easier.
 6. Run the binary `bof` with a long input (as suggested in the source code).
 7. On the second pane, attach GDB to the running process (follow what you did in the first lab).
 8. Use `disas admin` to get the entry address of the admin function.
