@@ -1,8 +1,13 @@
 # Lab 5: Memory Layout and Assembly Refresher
 
+In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this unerstanding for the coming labs and also to better comprehend the coming lectures.
 
 
 ## 1. Setting up Vagrant (you have already done this part in Lab 1, it should be straightforward)
+
+The rest of labs in this course are designed to run in *virtual machines* on the lab machines setup via Vagrant. Expect to spend the first 10 minutes
+of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
+
 
 1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
