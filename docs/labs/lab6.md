@@ -51,9 +51,9 @@ Let us now do this step by step:
 
 7. On the second pane (let us call it TerminalB), attach GDB to the running process (follow what you did in last week's lab).
 
- `run ps -e |grep bof`. Note the PID.
+ run `ps -e |grep bof`. Note the PID.
  
- Then, run `run gdb -p PID`. GDB will be attached to the running process on TerminalA. You will be in GDB shell. 
+ Then, run `gdb -p PID`. GDB will be attached to the running process on TerminalA. You will be in GDB shell. 
 
 10. Use `disas admin` to get the entry address of the admin function.
 11. Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
