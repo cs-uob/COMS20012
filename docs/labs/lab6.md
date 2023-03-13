@@ -43,7 +43,7 @@ A few tips/steps are as follows:
 4. In this example, the buffer overflow happens when you supply a long input argument which is passed directly to `foo()`. 
 As you can see in the buffer size, if the input length is greater than buf (20), it will start overflowing the adjacent memory including the saved return address. You need to find how long the input string should be to precisely overwrite the 8 byte long saved return address. Then you need to find from which offset in the input, you start overflowing the return address. 
 
-For example, if you use a long string such as AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA as the input, you need to find from which letter, you start overflow return address.  You need to find at which size you start to overflow the buffer. The you need to replace the extra part with the address of the admin() entry point. 
+**Example** For example, if you use a long string such as AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA as the input, you need to find from which letter, you start overflow return address.  You need to find at which size you start to overflow the buffer. The you need to replace the extra part with the address of the admin() entry point. 
 
 Let us now do this step by step:
 
@@ -59,7 +59,7 @@ Let us now do this step by step:
  Then, run `gdb -p PID`. GDB will be attached to the running process on TerminalA. You will be in GDB shell. 
 
 8. Use `disas admin` to get the entry address of the admin function.
-9. You should run the binary by using long input. You can use `run $(perl -e 'print "A"xSize') where size is the size of the input of your choice. If you choose Size to be equal to 50, it will print "A" 50 times as input.
+9. You should run the binary by using long input. You can use `run $(perl -e 'print "A"xSize') where **Size** is the size of the input of your choice. If you choose **Size** to be equal to 50, it will print "A" 50 times as input.
 Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
 
 		Program received signal SIGSEGV, Segmentation fault.
@@ -71,7 +71,7 @@ This happens because you overflowed the return address and the program is now tr
 10. Now you need to change Size until you find where the binary runs normally without triggering a "Segmentation fault". Once you find the right value for Size, change the rest of input with the entry address of the admin function, let us call it Address.
 You can use `run $(perl -e 'print "A"xSize, "Address"')
 
-Let's assume Address is 0x0000555555554858. Then you need to contruct the final input as run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"'). You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
+**Example** Let's assume Address is 0x0000555555554858. Then you need to contruct the final input as run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"'). You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
 
 
 11. On success, your program should print
