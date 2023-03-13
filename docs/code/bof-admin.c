@@ -5,12 +5,21 @@
 #include <string.h>
 #include <stdlib.h>
 
+/* By default some systems use checked string library functions that check for 
+ * buffer overflows... good for security; but bad for security labs! 
+ */
+char *my_strcpy(char *dest, char *src) {
+    for (size_t i = 0; src[i] != '\0'; i++)
+        dest[i] = src[i];
+    return dest;
+}
+
 int admin_pin=2468; // This is admin pin (Yeah, not a good practice to hardcode!)
 void foo(char * input)
 {
     int random=50;
     char buf[20];
-    strcpy(buf, input);// this is where the overflow happens
+    my_strcpy(buf, input);// this is where the overflow happens
     /* if the input length is greater than buf (20), it will start overflowing 
      * the adjacent memory including the saved return address. You need to find
      * how long the input string should be to precisely overwrite the 8 byte 
