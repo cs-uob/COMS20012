@@ -59,7 +59,7 @@ Let us now do this step by step:
  Then, run `gdb -p PID`. GDB will be attached to the running process on TerminalA. You will be in GDB shell. 
 
 8. Use `disas admin` to get the entry address of the admin function.
-9. You should run the binary by using long input. You can use `run $(perl -e 'print "A"xSize') where **Size** is the size of the input of your choice. If you choose **Size** to be equal to 50, it will print "A" 50 times as input.
+9. You should run the binary by using long input. You can use `run $(perl -e 'print "A"xSize')` where **Size** is the size of the input of your choice. If you choose **Size** to be equal to 50, it will print "A" 50 times as input.
 Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
 
 		Program received signal SIGSEGV, Segmentation fault.
@@ -69,9 +69,9 @@ Initially, when you let your binary to run until the end (by continuing in GDB),
 This happens because you overflowed the return address and the program is now trying to access memory which is invalid. Now you need to know which of your input bytes really oveflowed the return address.
 
 10. Now you need to change Size until you find where the binary runs normally without triggering a "Segmentation fault". Once you find the right value for Size, change the rest of input with the entry address of the admin function, let us call it Address.
-You can use `run $(perl -e 'print "A"xSize, "Address"')
+You can use `run $(perl -e 'print "A"xSize, "Address"')`
 
-**Example** Let's assume Address is 0x0000555555554858. Then you need to contruct the final input as run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"'). You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
+**Example** Let's assume Address is 0x0000555555554858. Then you need to contruct the final input as `run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"')`. You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
 
 
 11. On success, your program should print
