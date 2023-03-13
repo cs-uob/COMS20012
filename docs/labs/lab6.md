@@ -19,7 +19,7 @@ If you experience any difficulties contact IT services.
 4. It will ask to enter your name. Use `%x-%x-%x ...` as your name.
 5. For each additional `%x`, you will see some hexadecimal number being printed. You need to try each of these additional numbers to see if this is the pin that will "authenticate" you. 
 
-Note: the numbers are printed in hex, but you need to enter pin in decimal. In order to convert the hex to decimal, use `echo $((0xhex_num))` in another terminal. To do so, on a different terminal (lets call it TermB, and the already runing terminal as TermA), run `vagrant ssh`. USe this TermB to convert the number from hex to decimal.
+Note: the numbers are printed in hex, but you need to enter pin in decimal. In order to convert the hex to decimal, use `echo $((0xhex_num))` in another terminal. To do so, on a different terminal (lets call it TermB, and the already runing terminal as TermA), run `vagrant ssh`. Use this TermB to convert the number from hex to decimal.
 
 ## B. Stack Buffer Overflow
 
