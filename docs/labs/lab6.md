@@ -43,7 +43,7 @@ A few tips/steps are as follows:
 4. In this example, the buffer overflow happens when you supply a long input argument which is passed directly to `foo()`. 
 As you can see in the buffer size, if the input length is greater than buf (20), it will start overflowing the adjacent memory including the saved return address. You need to find how long the input string should be to precisely overwrite the 8 byte long saved return address. Then you need to find from which offset in the input, you start overflowing the return address. 
 
-For example, if you use AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIHHHHJJJJKKKKLLLLMMMM as the input, you need to find from which letter, you start overflow return address. let us assume it is HHHHIIII which overflow the return address memory. The you need to replace HHHHIIII with the address of the admin() entry point. Let's assume it is 0x0000555555554858. Then you need to contruct the final input as AAAABBBBCCCCDDDDEEEEFFFFGGGG\x58\x48\x55\x55\x55\x55 (notice the reverse order, which due to the fact that intel is little endian architecture!). You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols. you will need to use `echo -ne "ABC\x45\x33"` to give such a string on the command propmt (your shell).
+For example, if you use a long string such as AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA as the input, you need to find from which letter, you start overflow return address.  You need to find at which size you start to overflow the buffer. The you need to replace the extra part with the address of the admin() entry point. 
 
 Let us now do this step by step:
 
@@ -54,17 +54,26 @@ Let us now do this step by step:
 
 7. On the second pane (let us call it TerminalB), attach GDB to the running process (follow what you did in last week's lab).
 
- run `ps -e |grep bof`. Note the PID.
+ run `ps -e |grep bof`. Note the PID. The output will be similar to " 3006 pts/1    00:00:00 bof ". PID here is "30006"
  
  Then, run `gdb -p PID`. GDB will be attached to the running process on TerminalA. You will be in GDB shell. 
 
-10. Use `disas admin` to get the entry address of the admin function.
-11. Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
+8. Use `disas admin` to get the entry address of the admin function.
+9. You should run the binary by using long input. You can use `run $(perl -e 'print "A"xSize') where size is the size of the input of your choice. If you choose Size to be equal to 50, it will print "A" 50 times as input.
+Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
 
 		Program received signal SIGSEGV, Segmentation fault.
 		0x000055555555477a in foo ()
 
-10. This happens because you overflowed the return address and the program is now trying to access memory which is invalid. Now you need to know which of your input bytes really oveflowed the return address. How will you do that? **\[Hint\]**: Look at the content of `rsp` register (this is what is moved into the rip register on return).
-11. Now you know the two most crucial pieces of information. The address of the admin() function and the length of the overflowing input bytes. Form your final input as described in the source code. On success, your program should print
+
+This happens because you overflowed the return address and the program is now trying to access memory which is invalid. Now you need to know which of your input bytes really oveflowed the return address.
+
+10. Now you need to change Size until you find where the binary runs normally without triggering a "Segmentation fault". Once you find the right value for Size, change the rest of input with the entry address of the admin function, let us call it Address.
+You can use `run $(perl -e 'print "A"xSize, "Address"')
+
+Let's assume Address is 0x0000555555554858. Then you need to contruct the final input as run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"'). You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
+
+
+11. On success, your program should print
 
 		**** Welcome to Admin console ****
