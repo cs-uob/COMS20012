@@ -37,12 +37,26 @@ A few tips/steps are as follows:
 		$ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 
 
-4. In this example, the buffer overflow happens when you supply a long input argument which is passed directly to `foo()`. Read the comments in the source code of [bof-admin.c](https://github.com/cs-uob/COMS20012/edit/master/docs/code/bof-admin.c) to get some clues on this.
-5. Create another terminal and ssh Vagrant.
-6. Run the binary `bof` with a long input (as suggested in the source code).
-7. On the second pane, attach GDB to the running process (follow what you did in the first lab).
-8. Use `disas admin` to get the entry address of the admin function.
-9. Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
+4. In this example, the buffer overflow happens when you supply a long input argument which is passed directly to `foo()`. 
+As you can see in the buffer size, if the input length is greater than buf (20), it will start overflowing the adjacent memory including the saved return address. You need to find how long the input string should be to precisely overwrite the 8 byte long saved return address. Then you need to find from which offset in the input, you start overflowing the return address. 
+
+For example, if you use AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIHHHHJJJJKKKKLLLLMMMM as the input, you need to find from which letter, you start overflow return address. let us assume it is HHHHIIII which overflow the return address memory. The you need to replace HHHHIIII with the address of the admin() entry point. Let's assume it is 0x0000555555554858. Then you need to contruct the final input as AAAABBBBCCCCDDDDEEEEFFFFGGGG\x58\x48\x55\x55\x55\x55 (notice the reverse order, which due to the fact that intel is little endian architecture!). You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols. you will need to use `echo -ne "ABC\x45\x33"` to give such a string on the command propmt (your shell).
+
+Let us now do this step by step:
+
+
+5. Start another terminal and ssh Vagrant.
+
+6. Run the binary `bof` with a long input (as suggested above in point 4.).
+
+7. On the second pane (let us call it TerminalB), attach GDB to the running process (follow what you did in last week's lab).
+
+ `run ps -e |grep bof`. Note the PID.
+ 
+ Then, run `run gdb -p PID`. GDB will be attached to the running process on TerminalA. You will be in GDB shell. 
+
+10. Use `disas admin` to get the entry address of the admin function.
+11. Initially, when you let your binary to run until the end (by continuing in GDB), it will crash and you will see a message in GDB like bellow:
 
 		Program received signal SIGSEGV, Segmentation fault.
 		0x000055555555477a in foo ()
