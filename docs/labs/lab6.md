@@ -69,9 +69,12 @@ Initially, when you let your binary to run until the end (by continuing in GDB),
 This happens because you overflowed the return address and the program is now trying to access memory which is invalid. Now you need to know which of your input bytes really oveflowed the return address.
 
 10. Now you need to change Size until you find where the binary runs normally without triggering a "Segmentation fault". Once you find the right value for Size, change the rest of input with the entry address of the admin function, let us call it Address.
+
 You can use `run $(perl -e 'print "A"xSize, "Address"')`
 
-**Example** Let's assume Address is 0x0000555555554858. Then you need to contruct the final input as `run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"')`. You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
+**Example** Let's assume Address is 0x0000555555554858. 
+
+Then you need to contruct the final input as `run $(perl -e 'print "A"xSize, "\x58\x48\x55\x55\x55\x55"')`. You can ignore the remaining zeros. Also notice that we used \x to so that these are not interpreted as ASCII symbols.
 
 
 11. On success, your program should print
