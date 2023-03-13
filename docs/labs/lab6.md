@@ -20,7 +20,7 @@ Note: the numbers are printed in hex, but you need to enter pin in decimal. In o
 
 ## B. Stack Buffer Overflow
 
-**Description:** The code [bof-admin.c]([../code/bof-admin.c](https://github.com/cs-uob/COMS20012/edit/master/docs/code/bof-admin.c)) contains a stack buffer overflow in the `foo()` function, which accepts a string as a parameter and then calls `strcpy` to copy that parameter into a local buffer of fixed length. This code also has an `admin()` function which is supposed to be accessed by admin staff if they know a PIN. Obviously, as a normal user, you do not know the admin PIN, but you still want to access the admin related code. **So, your mission is to exploit the buffer overflow bug to execute the `admin()` function!**
+**Description:** The code [bof-admin.c]([https://github.com/cs-uob/COMS20012/edit/master/docs/code/bof-admin.c]) contains a stack buffer overflow in the `foo()` function, which accepts a string as a parameter and then calls `strcpy` to copy that parameter into a local buffer of fixed length. This code also has an `admin()` function which is supposed to be accessed by admin staff if they know a PIN. Obviously, as a normal user, you do not know the admin PIN, but you still want to access the admin related code. **So, your mission is to exploit the buffer overflow bug to execute the `admin()` function!**
 A few tips/steps are as follows:
 
 1. Compile the code as follows
