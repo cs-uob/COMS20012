@@ -1,7 +1,7 @@
 # Lab 2: Software Vulnerabilities
 
 ## Learning Outcomes: 
-In this lab you will gain hands on experience on buffer overflow and format string vulnerabilities that we covered theoreticalli in the lecture "Introduction to Software Security". You will be able to exploit these vulnerabilities and exprience what you can do with them.
+In this lab you will gain hands on experience on buffer overflow and format string vulnerabilities that we covered theoretically in the lecture "Introduction to Software Security". You will be able to exploit these vulnerabilities and exprience what you can do with them.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
 Lab Machines remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
