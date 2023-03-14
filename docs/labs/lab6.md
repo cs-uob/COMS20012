@@ -12,7 +12,7 @@ If you experience any difficulties contact IT services.
 
 ## A. Format String Error
 
-**Description:** The code [format.c]([https://github.com/cs-uob/COMS20012/blob/master/docs/code/format.c]) contains a format string bug when it calls `printf(welcome)` at line 30. It then asks to enter a pin (line 31-32). If the entered pin equals a randomly generated number (created by calling `rand()`), you are authenticated properly. The secret pin is stored in the `spin` variable, which is on the stack. Your job is to get this pin by using the format string bug. Steps to follow:
+**Description:** The code [format.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/format.c) contains a format string bug when it calls `printf(welcome)` at line 30. It then asks to enter a pin (line 31-32). If the entered pin equals a randomly generated number (created by calling `rand()`), you are authenticated properly. The secret pin is stored in the `spin` variable, which is on the stack. Your job is to get this pin by using the format string bug. Steps to follow:
 1. Start your VM (same vagrant steps, but you don't have to install the VM. Just go to the directory where your Vagrantfile is and `vagrant up` followed by `vagrant ssh`. )
 2. In one pane, compile the program `gcc format.c -o format`
 3. Run the program `./format`
