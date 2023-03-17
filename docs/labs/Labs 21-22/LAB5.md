@@ -1,9 +1,9 @@
 # Lab 5: Introduction to OS/161
 
-You need to complete [LAB 1](./LAB1.html) in order to do this lab.
+You need to complete [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) in order to do this lab.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
-Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
+Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
 If you experience difficulty contact the IT service.
 
 
@@ -15,12 +15,10 @@ You should be familiar (or familiarize yourself) with the following tools:
 1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started){:target="_blank"};
 2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html){:target="_blank"};
 3. [git](https://git-scm.com/docs/gittutorial){:target="_blank"};
-4. GDB, see [LAB 1](./LAB1.html){:target="_blank"}.
-
+4. GDB, see [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md).
 Please, make sure those tools are installed and that you know how to use them.
 You should have used them in previous labs in this unit, and others.
 Do get in touch with your TA if you are facing issues.
-You may also want to watch videos from [David's COMS10012](https://cs-uob.github.io/COMS10012/exercises/posix/act1/index.html){:target="_blank"}.
 
 ## Setting up vagrant image
 
@@ -35,8 +33,8 @@ vagrant reload
 
 ## Getting the source
 
-[OS/161](http://os161.eecs.harvard.edu/){:target="_blank"} has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/){:target="_blank"} from [Harvard University](http://os161.eecs.harvard.edu/){:target="_blank"}.
-It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/){:target="_blank"} for use in her famous Harvard course on operating systems, CS161.
+[OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/)}.
+It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) zbvvafor use in her famous Harvard course on operating systems, CS161.
 Since then, OS/161 has been adopted for teaching in many universities around the world.
 Operating systems courses that use OS/161 are known to be demanding, yet incredibly enriching and rewarding.
 
