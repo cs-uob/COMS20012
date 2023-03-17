@@ -440,17 +440,19 @@ it is surprisingly easy.
 
 First you need to ensure some dependencies are installed:
 ```
-apt-get update -qq
-apt-get install -y build-essential
-apt-get install -y flex bison bc 
-apt-get install -y libncurses-dev wget
-apt-get install -y git libssl-dev bc patch libedit-dev libelf-dev
-apt-get install -y module-init-tools
+sudo apt-get update -qq
+sudo apt-get install -y build-essential
+sudo apt-get install -y flex bison bc 
+sudo apt-get install -y libncurses-dev wget
+sudo apt-get install -y git libssl-dev bc patch libedit-dev libelf-dev
+sudo apt-get install -y module-init-tools
 ```
 
 As before we need to download the Linux kernel source code:
 ```
-cd ~/build && git clone -b v5.16.12 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+cd ~/build
+
+git clone -b v5.16.12 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 ```
 You could replace "v5.16.12" by the kernel release of your choice. You can check
 the longterm and stable releases on this [website](https://www.kernel.org/){:target="_blank"}.
