@@ -6,26 +6,6 @@ You need to complete [LAB 1](./LAB1.html) in order to do this lab.
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx){:target="_blank"}.
 If you experience difficulty contact the IT service.
 
-## Some notes
-
-Please, make sure you understand what the commands you are using in this lab do.
-The objective of this lab is to get you familiar with the development environment
-that you will be using for the next three labs.
-
-You should work setup groups of two students from within the groups that were
-setup at the beginning of the unit. Please,
-for your own benefit do not simply copy solutions from other groups, but instead
-understand what is going on. The labs are entirely formative this year, but it
-remains important to understand their content and to develop the related skills.
-Later in this lab, you will be asked to create a repository on github. This is
-how you will share code with the lecturers, your TA and your colleagues. When
-asking technical questions provide links to this repository, ideally pointing
-to the relevant portion of code.
-
-If you spot errors in the lab instructions, please, do drop a message in the Teams group. We will
-endeavor to fix any issue quickly.
-
-Finally, make sure you do the **exercises** properly.
 
 ## Tools
 
