@@ -1,4 +1,4 @@
-# Lab 5: Introduction to OS/161
+# Lab 5: Introduction to Operating Systems (OS/161 as case study)
 
 In this lab, youw ill get familiar with Operating systems, explore OS/161 which an operating system made for teaching purposes. You will get to know how to configure and build operating systems.
 
