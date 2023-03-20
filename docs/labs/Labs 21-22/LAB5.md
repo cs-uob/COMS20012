@@ -22,7 +22,7 @@ Do get in touch with your TA if you are facing issues.
 
 ## Installation
 
- (On Windows) Download https://git-scm.com/download/[Git for Windows].
+ - (On Windows) Download https://git-scm.com/download/[Git for Windows].
 
 This includes a `bash` shell which you should use in lieu of the terrible
 Windows shell.
