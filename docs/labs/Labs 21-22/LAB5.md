@@ -27,14 +27,14 @@ Do get in touch with your TA if you are facing issues.
 This includes a `bash` shell which you should use in lieu of the terrible
 Windows shell.
 
- (Required) If you already have https://www.virtualbox.org/[VirtualBox]
+ - (Required) If you already have https://www.virtualbox.org/[VirtualBox]
 installed, upgrade to the latest version.
 
- (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
+ - (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
 
-(Suggested) Install two Vagrant plugins:
+- (Suggested) Install two Vagrant plugins:
 
- `vagrant plugin install vagrant-vbguest`.
+ --`vagrant plugin install vagrant-vbguest`.
 
 This ensure that your VirtualBox Guest Additions are up to date.
 
