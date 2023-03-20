@@ -58,7 +58,7 @@ vagrant reload
 
 ## Getting the source
 
-[OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/)}.
+[OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
 It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) zbvvafor use in her famous Harvard course on operating systems, CS161.
 Since then, OS/161 has been adopted for teaching in many universities around the world.
 Operating systems courses that use OS/161 are known to be demanding, yet incredibly enriching and rewarding.
