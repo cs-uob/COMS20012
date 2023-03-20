@@ -1,5 +1,7 @@
 # Lab 5: Introduction to OS/161
 
+In this lab, youw ill get familiar with Operating systems, explore OS/161 which an operating system made for teaching purposes. You will get to know how to configure and build operating systems.
+
 You need to complete [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) in order to do this lab.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
