@@ -34,7 +34,7 @@ installed, upgrade to the latest version.
 
 - (Suggested) Install two Vagrant plugins:
 
- --`vagrant plugin install vagrant-vbguest`.
+ `vagrant plugin install vagrant-vbguest`.
 
 This ensure that your VirtualBox Guest Additions are up to date.
 
