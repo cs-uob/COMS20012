@@ -12,13 +12,38 @@ If you experience difficulty contact the IT service.
 You are second year computer science students and we expect some autonomy
 in using the "tools of the trade".
 You should be familiar (or familiarize yourself) with the following tools:
-1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started){:target="_blank"};
-2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html){:target="_blank"};
-3. [git](https://git-scm.com/docs/gittutorial){:target="_blank"};
+1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started);
+2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html);
+3. [git](https://git-scm.com/docs/gittutorial);
 4. GDB, see [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md).
 Please, make sure those tools are installed and that you know how to use them.
 You should have used them in previous labs in this unit, and others.
 Do get in touch with your TA if you are facing issues.
+
+## Installation
+
+. (On Windows) Download https://git-scm.com/download/[Git for Windows].
+//
+This includes a `bash` shell which you should use in lieu of the terrible
+Windows shell.
+//
+. (Required) If you already have https://www.virtualbox.org/[VirtualBox]
+installed, upgrade to the latest version.
+//
+. (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
+//
+. (Suggested) Install two Vagrant plugins:
+//
+.. `vagrant plugin install vagrant-vbguest`.
+//
+This ensure that your VirtualBox Guest Additions are up to date.
+//
+.. `vagrant plugin install vagrant-timezone`.
+//
+This synchronizes time between your VM guest and host.
+
+Note that these plugins may be required to get certain Windows systems to
+work.
 
 ## Setting up vagrant image
 
