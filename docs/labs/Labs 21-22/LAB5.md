@@ -22,24 +22,24 @@ Do get in touch with your TA if you are facing issues.
 
 ## Installation
 
-. (On Windows) Download https://git-scm.com/download/[Git for Windows].
-//
+ (On Windows) Download https://git-scm.com/download/[Git for Windows].
+
 This includes a `bash` shell which you should use in lieu of the terrible
 Windows shell.
-//
-. (Required) If you already have https://www.virtualbox.org/[VirtualBox]
+
+ (Required) If you already have https://www.virtualbox.org/[VirtualBox]
 installed, upgrade to the latest version.
-//
-. (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
-//
-. (Suggested) Install two Vagrant plugins:
-//
-.. `vagrant plugin install vagrant-vbguest`.
-//
+
+ (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
+
+(Suggested) Install two Vagrant plugins:
+
+ `vagrant plugin install vagrant-vbguest`.
+
 This ensure that your VirtualBox Guest Additions are up to date.
-//
-.. `vagrant plugin install vagrant-timezone`.
-//
+
+ `vagrant plugin install vagrant-timezone`.
+
 This synchronizes time between your VM guest and host.
 
 Note that these plugins may be required to get certain Windows systems to
