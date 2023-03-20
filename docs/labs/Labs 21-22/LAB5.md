@@ -127,13 +127,13 @@ bmake install
 ## Running OS/161 kernel
 
 Now that your kernel is built, we are going to run it. To do so we are going to
-use [Sys-161](http://os161.eecs.harvard.edu/){:target="_blank"}.
+use [Sys-161](http://os161.eecs.harvard.edu/).
 System/161 is a machine simulator that provides a simplified but still realistic
 environment to run OS/161. Apart from floating point support and certain issues
 relating to RAM cache management, it provides an accurate emulation of a
 MIPS processor.
 
-You need a [configuration file](./sys161.conf){:target="_blank"} that we are going to place in `~/os161/root/`:
+You need a [configuration file](./sys161.conf) that we are going to place in `~/os161/root/`:
 ```
 cd ~/os161/root/
 wget https://cs-uob.github.io/COMS20012/labs/sys161.conf
