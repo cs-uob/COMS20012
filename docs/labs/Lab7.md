@@ -70,6 +70,7 @@ First you need to `ssh` in your guest virtual machine:
 ```
 vagrant ssh
 ```
+The default user and hostname is trinity@zion. 
 
 Now all that is left for you to do is to access the OS/161 source code:
 ```
