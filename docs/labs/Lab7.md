@@ -318,9 +318,8 @@ You may find standard UNIX utilities like `find` and `grep` useful when
 searching through your OS/161 source code.
 
 1. What function initializes the kernel during boot, and what subsystems are currently initialized?
-2. OS/161 ships with two working synchronization primitives. What are they?
-3. OS/161 has a system for printing debugging messages to the console. How does it work? How could it be useful?
-4. What do copyin and copyout do? What is special about these functions compared to other approaches to copying memory in C, like [memmove](http://www.cplusplus.com/reference/cstring/memmove/)?
+2. OS/161 has a system for printing debugging messages to the console. How does it work? How could it be useful?
+3. What do copyin and copyout do? What is special about these functions compared to other approaches to copying memory in C, like [memmove](http://www.cplusplus.com/reference/cstring/memmove/)?
 
 ## Using GDB
 
