@@ -474,7 +474,7 @@ cd ~/build
 git clone -b v5.16.12 --single-branch git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 ```
 You could replace "v5.16.12" by the kernel release of your choice. You can check
-the longterm and stable releases on this [website](https://www.kernel.org/){:target="_blank"}.
+the longterm and stable releases on this [website](https://www.kernel.org/)}.
 
 The next step is to configure the kernel:
 ```
