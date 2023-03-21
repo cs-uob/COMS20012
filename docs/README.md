@@ -48,8 +48,8 @@ The most effective way to get the help you need is to:
 | 18 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) -  | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
 | 19 | [Lecture 7 - Intro to OS ](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Introduction%20to%20Operating%20Systems%20Part%201.pptx)| [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) - | Exercise Sheet |
 | 20 | Lecture 8 - Memory Management + OS  | [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md) | Exercise Sheet|
-| 21 | Lecture 9 - OS in Details (Guest Lecture) | No Lab (18 April)  | Exercise Sheet|
-| 22 | Lecture 10 - Large Organisation in Real World | Lab 8 -  | Exercise Sheet |
+| 21 | Lecture 9 - OS in Details (Guest Lecture) | No Lab (18 April)  | |
+| 22 | Lecture 10 - Large Organisation in Real World | Lab 8 -  |  |
 | 23 | Q&A Session | Lab 9 | |
 
 <!--
