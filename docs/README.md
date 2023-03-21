@@ -46,11 +46,11 @@ The most effective way to get the help you need is to:
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB4.pdf) |  [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
 | 17 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%205%20-%20Security%20protocols%20and%20Private%20Network%20-%20Updated.pptx) | [Lab 4 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab4.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
 | 18 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) -  | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
-| 19 | [Lecture 7 - Intro to OS + File System](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Introduction%20to%20Operating%20Systems%20Part%201.pptx)| [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) - | Exercise Sheet |
-| 20 | Lecture 8 - Memory Management + OS  | No Lab (18 April) | Exercise Sheet|
-| 21 | Lecture 9 - OS in Details | Lab 7 - | Exercise Sheet|
+| 19 | [Lecture 7 - Intro to OS ](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Introduction%20to%20Operating%20Systems%20Part%201.pptx)| [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) - | Exercise Sheet |
+| 20 | Lecture 8 - Memory Management + OS  | [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md) | Exercise Sheet|
+| 21 | Lecture 9 - OS in Details (Guest Lecture) | No Lab (18 April)  | Exercise Sheet|
 | 22 | Lecture 10 - Large Organisation in Real World | Lab 8 -  | Exercise Sheet |
-
+| 23 | Q&A Session | Lab 9 | |
 
 <!--
 | 20 | [Lecture 7 - Scheduling](lectures/LECTURE7.md) | [Lab 6 - Synchronization](labs/LAB6.md) | [Exercise Sheet](exercises/EXERCISES7.md) |
