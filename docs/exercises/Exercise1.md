@@ -23,3 +23,13 @@ b. A law enforcement organization managing extremely sensitive investigative inf
 c. A financial organization managing routine administrative information (notprivacy-related information).
 d. An information system used for large acquisitions in a contracting organization contains both sensitive, pre-solicitation phase contract information and routine administrative information. Assess the impact for the two data sets separately and the information system as a whole.
 e. A power plant contains a SCADA (supervisory control and data acquisition) system controlling the distribution of electric power for a large military installation. The SCADA system contains both real-time sensor data and routine admin- istrative information. Assess the impact for the two data sets separately and the information system as a whole.
+
+## Answers
+- **ANS A.1:** Integrity and Availability. **I** because none should be able to alter it in unintended way and **A** because it should be available to the public to see.
+- **ANS A.2:** becuase there will be no signal to get connected to the site if that was the intention of the attacker.
+- **ANS A.3:** a trojan horse can violate all of the CIA, by leaking info,modifying files, and deleting files. For AAA, it can sabotage authenticity (by 
+- **ANS A.4:** CIA- availability, AAA- assurance.
+- **ANS A.5:** using a encryption scheme that is not public, thinking that no one will break it if they don't know about. Anothe example is hard coded secrets in the binary thinking that no one will know about them.
+- **ANS A.6:** It is simple desigin, thus *economy of mechanism* prnciple is followed. However, proprietary encryption shceme is a bad idea (*Open design* principle). Protecting it with a PIN is good (confidentiality and Assurance). However, 4-digit PIN may be a weak protection.
+- **ANS A.7:** Using a recorded message, play it on VoIP when calling your friend from *this* ISP and repeat the same activity, but from a different provider and measure the difference between received packets in both of the cases.
+
