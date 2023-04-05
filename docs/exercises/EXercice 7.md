@@ -1,4 +1,4 @@
-# Exercises sheet 7
+# Exercises sheet: Intro to OS
 
 
 ## OS structure
