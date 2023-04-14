@@ -61,7 +61,7 @@ The most effective way to get the help you need is to:
 ## Reading Material
 
 As part of the unit, you will be referred to chapter in books to read.
-We give full reference bellow.
+We give full reference below.
 
 - [Security part] W. Stallings, **Cryptography and Network Security: Principles and Practice** (Published by Pearson, 2020)
 
