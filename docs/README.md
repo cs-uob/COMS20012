@@ -48,7 +48,7 @@ The most effective way to get the help you need is to:
 | 18 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
 | 19 | [Lecture 7 - Intro to OS ](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Introduction%20to%20Operating%20Systems.pptx)| [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md) |
 | 20 | [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Memory%20Management%20and%20Operating%20Systems.pptx) <br> [Video for Memory replacement policies (Extra content)](https://web.microsoftstream.com/video/7c40151b-0d51-4dc2-9c15-a306c7aa3e30?list=studio) | [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md)  | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md)|
-| 21 | Lecture 9 - OS in Details (Guest Lecture) | No Lab (18 April)  | |
+| 21 | [Lecture 9 - More Weird OSs Please! (Guest Lecture)](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Gues-Weird-OSs.pdf) | No Lab (18 April)  | |
 | 22 | Lecture 10 - Large Organisation in Real World | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab8.md)   |  |
 | 23 | Q&A Session | Lab 9 | |
 
