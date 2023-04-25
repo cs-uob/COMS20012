@@ -12,7 +12,7 @@
 
 5. What are inter-process and intra-process communications?
 
-6. If you wanted to innovate in the implementation of virtual pages, would x86 architecture or MIPS architecture be more advantageous?
+6. If you wanted to innovate in the implementation of virtual pages, would x86 architecture or MIPS architecture be more advantageous? (this is a reseacrh based paper and is NOT examinable)
 
 7. What is a page fault?
 
@@ -42,7 +42,9 @@
 
 5. Intra-process communication are achieved through the use of shared memory between the thread of a given process and synchronization primitives. Inter-process communications are used for interaction between different processes, they include pipes, sockets, message queues etc. You can get more explanations [here](https://tldp.org/LDP/tlk/ipc/ipc.html)
 
-6. MIPS is more advantageous as a lot of functionalities in X86 are hardware implemented (check slides 36 and 37), therefore MIPS is more adapted for implementing virtual pages.
+6. MIPS is more advantageous as a lot of functionalities in X86 are hardware implemented, therefore MIPS is more adapted for implementing virtual pages. For more information check the following reesrach papers: 
+https://user.eng.umd.edu/~blj/papers/computer31-6.pdf
+https://user.eng.umd.edu/~blj/papers/CEH-chapter.pdf
 
 7. Page faults occur when the virtual-physical address translation is not available in the TLB.
 
