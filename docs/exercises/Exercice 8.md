@@ -64,10 +64,12 @@ b. MIN replacement policy
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 | Ref    | a | b | c | a | b | e | d | a | e | d  | b  | d  |
-| PP1    | a | a | a | a | a | a | a | a | a | a  | a  | a  |
-| PP2    |   | b | b | b | b | b | b | b | b | b  | b  | b  |
-| PP3    |   |   | c | c | c | e | d | d | e | d  | d  | d  |
-| Fault? | * | * | * |   |   | * | * |   | * | *  |    |    |
+| PP1    | a | a | a | a | a | a | a | a | a | a  | b  | b  |
+| PP2    |   | b | b | b | b | b | d | d | d | d  | d  | d  |
+| PP3    |   |   | c | c | c | e | e | e | e | e  | e  | e  |
+| Fault? | * | * | * |   |   | * | * |   |   |    | *  |    |
+
+For 11, we can evict a or e to load b as d will be referenced next, so I have chosen to evict a and load b, you can also choose to evict e and load b, it is just a choice as we do not know the next pages to be loaded.
 
 c. LRU replacement policy
 
