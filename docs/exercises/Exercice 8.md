@@ -12,7 +12,7 @@
 
 5. What are inter-process and intra-process communications?
 
-6. If you wanted to innovate in the implementation of virtual pages, would x86 architecture or MIPS architecture be more advantageous? (this is a reseacrh based paper and is NOT examinable)
+6. If you wanted to innovate in the implementation of virtual pages, would x86 architecture or MIPS architecture be more advantageous? (this is a reseacrh based question and is NOT examinable)
 
 7. What is a page fault?
 
