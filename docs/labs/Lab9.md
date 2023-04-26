@@ -27,7 +27,7 @@ In this part, you will manipulate processes and understand their interactions wi
 
 Let us see some processes:
 
-1. `run ps`, comment on what you see. 
+1. run `ps`, comment on what you see. 
 
 2. Now run `memory_layout` program, steps are as follows:
 
