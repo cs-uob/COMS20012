@@ -49,9 +49,9 @@ Refering to ps manual by running `man ps`, answer the following questions:
 
 - How can you get details of all the running processes?
 
-- Which order are the above processes sorted by? Can you sort them using same criteria but opposite order?
+- When you visualise the full list of processes with their details, Which order are the above processes sorted by? Can you sort them using same criteria but opposite order?
 
-- You can sort processes using other criteria, try ps --sort=-%cpu -au to sort them by CPU usage order.
+- You can sort processes using other criteria, try `ps --sort=-%cpu -au` to sort them by CPU usage order.
 Find out how to sort processes based on memory usage.
 
 
@@ -63,11 +63,8 @@ Find out how to sort processes based on memory usage.
 
 Run `ps -eo user --no-header | sort | uniq -c`.
 
+7. Find PID for the process "mem", then run `ps PID`
 
-
-#### Questions:
-
-7 Find PID for the process "mem", then run `ps PID`
 8. You should now find the process parent:
 
   Run `ps -o ppid= -p PID`. Example: If the child has PID 1234, run `ps -o ppid= -p 1234`.
@@ -76,32 +73,55 @@ Run `ps -eo user --no-header | sort | uniq -c`.
 
 - Find another way to figure out the process parent. Always check `man ps`. Hint: you will be able to visualise all processes parents.
 
-7. Use -o to output PID, PPID:
+- Use -o to output PID, PPID:
 
  Run `ps -o pid,ppid`. 
 
-8. Based on the above check the parent of "mem" using three different methods.
+ Based on the above check the parent of "mem" using three different methods.
 
 
-9. Find running time to "mem"
+- Find running time to "mem"
 
 Hint: For running time of single process (suppose PID is 1) run `ps -p -1 -o etime`. Apply the same approach to find the running time for "mem".
 
 
-You can Sort processes in decreasing order of running time:
 
-Run  ps -eo user --sort=-etime -e
+9. You can Sort processes in decreasing order of running time:
 
-8/ Now sort processes in increasing order of running time.
+Run  `ps -eo user --sort=-etime -e`
 
-9/ Use watch utility to perform real-time monitoring over ps.
+#### Questions:
 
-Run watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specifies the refresh rate to be 1 second.
+- Now sort processes in increasing order of running time.
 
-10/ Change the monitoring period of watch
+10. Use watch utility to perform real-time monitoring over ps.
+
+Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specifies the refresh rate to be 1 second.
 
 
+#### Questions:
 
+- Change the monitoring period of watch.
+
+## Part 2: Memeory Management
+
+1. The first Linux tool you should check out is the very simple tool free. First, type `man free` and read its entire manual page.
+
+2. Now, run `free` , perhaps using some of the arguments that might be useful (e.g., -m, to display memory totals in megabytes). How much memory is in your system? How much is free? Do these numbers match your intuition?
+
+3. Next, create a little program that uses a certain amount of memory, called [memory-user.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory-user.c). This program should take one commandline argument: the number of megabytes of memory it will use. When run, it should allocate an array, and constantly stream through the array, touching each entry. The program should do this indefinitely, or, perhaps, for a certain amount of time also specified at the command line.
+
+4.  After compiling this program, just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for.
+
+5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the free tool. How do the memory usage totals change when your program is running? How about when you kill the memory-user program? Do the numbers match your expectations? Try this for different amounts of memory usage. What happens when you use really large amounts of memory?
+
+6. Let’s try one more tool, known as pmap. Spend some time, and read the pmap manual page in detail.
+
+7. To use pmap, you have to know the process ID of the process you’re interested in. Thus, first run ps auxw to see a list of all processes; then, pick an interesting one, such as a browser. You can also use your memory-user program in this case (indeed, you can even have that program call getpid() and print out its PID for your convenience).
+
+8. Now run pmap on some of these processes, using various flags (like -X) to reveal many details about the process. What do you see? How many different entities make up a modern address space, as opposed to our simple conception of code/stack/heap?
+
+9. Finally, let’s run pmap on your memory-user program, with different amounts of used memory. What do you see here? Does the output from pmap match your expectations?
 
  
 
