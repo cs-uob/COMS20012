@@ -1,4 +1,4 @@
-# Lab 7: Introduction to Operating Systems (OS/161 as case study)
+# Lab 7: Processes and Memory Management
 
 In this lab, you will get familiar with processes and memory management in Linux.
 
