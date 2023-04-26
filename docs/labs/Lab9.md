@@ -31,9 +31,9 @@ Let us see some processes:
 
 2. Now run `memory_layout` program, steps are as follows:
 
-Copy c code mem.c in your seclab directory (so that it is accessible in /vagrant directory of your VM).
+Copy c code [mem.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
 
-Compile the following c prog [mem.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c) by running 
+Compile the following c prog mem.c by running 
 `gcc mem.c -o mem`
 
 run the resulting binary
