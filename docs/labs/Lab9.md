@@ -115,6 +115,8 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the "free" tool. 
 
+#### Questions:
+
 - How do the memory usage totals change when your program is running? 
 - How about when you kill the memory-user program? Do the numbers match your expectations? 
 - Try this for different amounts of memory usage. What happens when you use really large amounts of memory?
