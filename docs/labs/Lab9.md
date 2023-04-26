@@ -41,7 +41,7 @@ run the resulting binary
 3. On a different terminal (lets call it TermB, and the already runing terminal as TermA), run `ps`. What do you see ? can you see your program in the processes list ?
 
 
-4. Refer to ps manual (run `man ps`) and find out the option you need to use to list all processes that are running. Make sure you find mem in the list.
+4. Refer to ps manual (run `man ps`) and find out the option you need to use to list all processes that are running. Once you use the right option, you will be able to a process called "mem" in the list.
 
 #### Questions:
 
