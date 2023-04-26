@@ -1,4 +1,4 @@
-# Lab 7: Processes and Memory Management
+# Lab 9: Processes and Memory Management
 
 In this lab, you will get familiar with processes and memory management in Linux.
 
