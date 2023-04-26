@@ -111,17 +111,21 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 3. Next, create a little program that uses a certain amount of memory, called [memory-user.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory-user.c). This program should take one commandline argument: the number of megabytes of memory it will use. When run, it should allocate an array, and constantly stream through the array, touching each entry. The program should do this indefinitely, or, perhaps, for a certain amount of time also specified at the command line.
 
-4.  After compiling this program, just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for.
+4.  After compiling this program (`gcc memory-user.c -o memory-user`), just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for. 
 
-5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the free tool. How do the memory usage totals change when your program is running? How about when you kill the memory-user program? Do the numbers match your expectations? Try this for different amounts of memory usage. What happens when you use really large amounts of memory?
+5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the "free" tool. 
 
-6. Let’s try one more tool, known as pmap. Spend some time, and read the pmap manual page in detail.
+- How do the memory usage totals change when your program is running? 
+- How about when you kill the memory-user program? Do the numbers match your expectations? 
+- Try this for different amounts of memory usage. What happens when you use really large amounts of memory?
 
-7. To use pmap, you have to know the process ID of the process you’re interested in. Thus, first run ps auxw to see a list of all processes; then, pick an interesting one, such as a browser. You can also use your memory-user program in this case (indeed, you can even have that program call getpid() and print out its PID for your convenience).
+6. Let us try one more tool, known as "pmap". Spend some time, and read the "pmap" manual page in detail.
+
+7. To use pmap, you have to know the process ID of the process you are interested in. Thus, first run `ps auxw` to see a list of all processes; then, pick an interesting one, such as a browser. You can also use your memory-user program in this case (indeed, you can even have that program call getpid() and print out its PID for your convenience).
 
 8. Now run pmap on some of these processes, using various flags (like -X) to reveal many details about the process. What do you see? How many different entities make up a modern address space, as opposed to our simple conception of code/stack/heap?
 
-9. Finally, let’s run pmap on your memory-user program, with different amounts of used memory. What do you see here? Does the output from pmap match your expectations?
+9. Finally, let us run pmap on your memory-user program, with different amounts of used memory. What do you see here? Does the output from pmap match your expectations?
 
  
 
