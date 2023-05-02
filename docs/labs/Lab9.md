@@ -113,7 +113,7 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 4.  After compiling this program (`gcc memory-user.c -o memory-user`), just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for. For example, if you use `./memory-user 100 30` 100 means that the program will be reserved 100MB of memory and will run for 30 seconds.
 
-5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the "free" tool. Do not forget to choose a long running time so you can watch the "free" too behaviour.
+5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the "free" tool. Do not forget to choose a long running time so you can watch the "free" tool behaviour. You will need to Keep a watch on the memory using `watch -n 1 free -m` while running the program so you can see changes in memory usage. 
 
 #### Questions:
 
@@ -127,7 +127,7 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 8. Now run pmap on some of these processes, using various flags (like -X) to reveal many details about the process. What do you see? How many different entities make up a modern address space, as opposed to our simple conception of code/stack/heap?
 
-9. Finally, let us run pmap on your memory-user program, with different amounts of used memory. What do you see here? Does the output from pmap match your expectations?
+9. Finally, let us run pmap on your "memory-user" program, with different amounts of used memory. What do you see here? Does the output from pmap match your expectations?
 
  
 
