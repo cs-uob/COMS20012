@@ -50,7 +50,7 @@ The most effective way to get the help you need is to:
 | 20 | [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Memory%20Management%20and%20Operating%20Systems.pptx) <br> [Video for Memory replacement policies (Extra content)](https://web.microsoftstream.com/video/d510beab-2bba-49f1-89e9-1a0f4b983216?list=studio) | [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md)  | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md)|
 | 21 | [Lecture 9 - More Weird OSs Please! (Guest Lecture)](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Guest-Weird-OSs.pdf) | No Lab (18 April)  | |
 | 22 | Lecture 10 - Large Organisation in Real World | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab8.md)   |  |
-| 23 | Q&A Session | Lab 9 | |
+| 23 | Q&A Session (Thursday 4th May 10am ) | [Lab 9](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab9.md) | |
 
 <!--
 | 20 | [Lecture 7 - Scheduling](lectures/LECTURE7.md) | [Lab 6 - Synchronization](labs/LAB6.md) | [Exercise Sheet](exercises/EXERCISES7.md) |
