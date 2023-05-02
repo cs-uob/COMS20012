@@ -111,9 +111,9 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 3. Next, create a little program that uses a certain amount of memory, called [memory-user.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory-user.c). This program should take one commandline argument: the number of megabytes of memory it will use. When run, it should allocate an array, and constantly stream through the array, touching each entry. The program should do this indefinitely, or, perhaps, for a certain amount of time also specified at the command line.
 
-4.  After compiling this program (`gcc memory-user.c -o memory-user`), just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for. 
+4.  After compiling this program (`gcc memory-user.c -o memory-user`), just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for. For example, if you use `./memory-user 100 30` 100 means that the program will be reserved 100MB of memory and will run for 30 seconds.
 
-5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the "free" tool. 
+5. Now, while running your memory-user program, also (in a different terminal window, but on the same machine) run the "free" tool. Do not forget to choose a long running time so you can watch the "free" too behaviour.
 
 #### Questions:
 
