@@ -2,13 +2,12 @@
 
 
 - Course information via the Teams Group
-- No lab session in the first week (2022-01-23)
 
 ## Schedule
 
-| Tuesday  15:00-17:00     | Thursday 11:00-12:00  |
-|------------------------|---------------------|
-| Lab Session (MVB 2.11) | Lecture Session (QUEEN’S BLDG 1.40 PUGSLEY) |
+| Tuesday  10:00-11:00                        | Thursday 16:00-18:00   |
+|---------------------------------------------|------------------------|
+| Lecture Session (QUEEN’S BLDG 1.40 PUGSLEY) | Lab Session (MVB 2.11) | 
 
 ## People
 
@@ -16,7 +15,6 @@
 |----------------------|----------|------------------------------|
 | Alma Oracevic        | Lecturer | alma.oracevic@bristol.ac.uk |
 | Sana Belguith        | Lecturer | sana.belguith@bristol.ac.uk  |
-| Joseph Hallett       | Lecturer | joseph.hallett@bristol.ac.uk  |
 | Derek Lim            | TA       |                              |
 | Lucy Randewich       | TA       |                              |
 | Mingzhang Deng       | TA       |                              |
@@ -40,8 +38,8 @@ The most effective way to get the help you need is to:
 
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
-| 13 | [Lecture 1 - Intro to General Security](https://github.com/cs-uob/COMS20012/raw/master/docs/lectures/CSB1%20.pdf) | No Lab | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise1.md)|
-| 14 | [Lecture 2 - Intro to Netwrok Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab1.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md)| 
+| 13 | [Lecture 1 - Intro to General Security]() | No Lab | [Exercise Sheet]()|
+<!-- | 14 | [Lecture 2 - Intro to Netwrok Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab1.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md)| 
 | 15 | [Lecture 3 - Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB3.pdf)  | [Lab 2](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab2.md) |  [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise3.md)  | 
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB4.pdf) |  [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
 | 17 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%205%20-%20Security%20protocols%20and%20Private%20Network%20-%20Updated.pptx) | [Lab 4 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab4.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
@@ -52,7 +50,7 @@ The most effective way to get the help you need is to:
 | 22 | Lecture 10 - Large Organisation in Real World | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab8.md)   |  |
 | 23 | Q&A Session (Thursday 4th May 10am ) | [Lab 9](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab9.md) | |
 
-<!--
+
 | 20 | [Lecture 7 - Scheduling](lectures/LECTURE7.md) | [Lab 6 - Synchronization](labs/LAB6.md) | [Exercise Sheet](exercises/EXERCISES7.md) |
 | Break | Easter Break | Easter Break | Easter Break |
 | 24 | Revision Week | Revision Week | Revision Week |
