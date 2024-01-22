@@ -38,7 +38,7 @@ The most effective way to get the help you need is to:
 
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
-| 13 | [Lecture 1 - Intro to General Security]() | No Lab | [Exercise Sheet]()|
+| 13 | [Lecture 1 - Intro to General Security]() | No Lab | Exercise Sheet()|
 <!-- | 14 | [Lecture 2 - Intro to Netwrok Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab1.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md)| 
 | 15 | [Lecture 3 - Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB3.pdf)  | [Lab 2](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab2.md) |  [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise3.md)  | 
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB4.pdf) |  [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
