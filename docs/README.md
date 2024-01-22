@@ -1,5 +1,6 @@
 # COMS20012: Computer Systems B (Introduction to Operating Systems and Security)
 
+- [Course description](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Computer%20System%20B.pdf)
 
 - Course information via the Teams Group
 
