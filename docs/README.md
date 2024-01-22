@@ -41,6 +41,18 @@ The most effective way to get the help you need is to:
 |------|---------|-----|------------------|
 | 13 | [Lecture 1 - Intro to General Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L1.pdf) | Lab 1 | Exercise Sheet|
 
+## Reading Material
+
+As part of the unit, you will be referred to chapters in books to read.
+We give full reference below.
+
+- [Security part] W. Stallings, **Cryptography and Network Security: Principles and Practice** (Published by Pearson, 2020)
+
+- [OS part] Doeppner, Thomas W., **Operating Systems in Depth** (Wiley, 2010) ISBN 978-0-471-68723-8
+
+- [Security part] Michael Goodrich and Roberto Tamassia, Brown University, "**Introduction to Computer Security**, Pearson New International Edition, 2014.
+
+**NOTE:** The security book is available in eBook format from the [library catalogue](http://www.bris.ac.uk/library/) by running a quick author/title search. **Imp:** If you download a copy on your device then it takes one of the copies out of circulation for a time so I encourage you to read what you need online and then exit the book that would be great as that way it will move around the class better. Please get in touch with the library staff if access to the book is getting difficult.
 
 
 <!--
