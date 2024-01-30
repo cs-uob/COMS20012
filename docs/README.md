@@ -41,7 +41,7 @@ The most effective way to get the help you need is to:
 | Week | Lecture | Lab | Independent Work |
 |------|---------|-----|------------------|
 | 13 | [Lecture 1 - Intro to General Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L1.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/CSB2024LAB1.pdf)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise1.md) | 
-| 14 | [Lecture 2 - ](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L2.pdf) | [Lab 2]  | [Exercise Sheet]| 
+| 14 | [Lecture 2 - Intro to Network Security ](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L2.pdf) | [Lab 2]  | [Exercise Sheet]| 
 ## Reading Material
 
 As part of the unit, you will be referred to chapters in books to read.
