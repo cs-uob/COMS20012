@@ -4,7 +4,7 @@ Hi class. In this lab, you will learn to capture messages (Application, TCP segm
 We will not be hacking anything today, but we will learn how to build, define and exercise Wireshark Message/Packet Display Filter (Typing Text, Expression Builder & Shortcut options). You will also compare the standards of the TCP/IP Layered Network Architecture with Wireshark captured HTTP and TCP messages. More about TCP/IP Layered Network Architecture you can read [here](https://docs.oracle.com/cd/E19683-01/806-4075/ipov-10/index.html)
 
 ## 1. Setting up Wireshark
-As you will be using Wireshark for this lab, lets learn how to setup Wireshark on Kali Linux inside Vagrant. 
+As you will be using Wireshark for this lab, let's learn how to setup Wireshark on Kali Linux inside Vagrant. 
 
 **You can use your laptop (Linux system) (it is expected that you use Ubuntu for Desktops: http://www.ubuntu.com/ .) And VMware which is an open source on Linux systems.**
 
@@ -28,7 +28,7 @@ at all possible do try and attend the lab where there will be *more* support.
 Make sure that the Host Hardware/External Network Interface ethx (where x is an integer) is connected to the public network (Internet), that is, it acquired an IP address.
 
 Launch Wireshark on the Host by typing sudo wireshark in a terminal on the Host. Click on the Interfaces option in the Capture menu. Click on the Options button corresponding to the IP address acquired by the Host Hardware/External Network Interface ethx.
-Check the boxes for all Displays Options and Name Resolution. Make sure that “Capture all in promiscuous mode” is checked in. Click Start.
+Check the boxes for all Displays Options and Name Resolution. Make sure that “Enable promiscuous mode on all interfaces” is checked in. Click Start.
 
 ## Q1 - What does promiscuous mode mean?
 Wireshark should start displaying “packets” (actually displaying frames) transmitted or received on the selected interface. Note that each line represents an Ethernet Frame. Wireshark window is divided into 3 panes. If you do not see all 3 panes you may have to click on one of the thick horizontal divider to show any hidden pane. The top pane displays one row of info for each frame/packet captured.
@@ -47,7 +47,7 @@ For example, if you select in the center pane the Ethernet II layer (Data Link) 
 ## Exercise 2: Capturing Frames and encoding:
 Open a Firefox browser on the Host. Select Edit > Preferences > Privacy and select Never remember history and click on clear all current history. Click Close. Make sure that the startup home page of your browser is Google or Ubuntu Google. Close the browser.
 
-On Wireshark application (assuming it is still running!), select Capture > Restart (the yellow arrow) from the top menu bar. All captured and displayed Frames should be cleared from the top pane. Note – Almost instantaneously new frames are captured, the network is busy all the time, auto discover, etc.
+On Wireshark application (assuming it is still running!), select Capture > Restart (the green arrow) from the top menu bar. All captured and displayed Frames should be cleared from the top pane. Note – Almost instantaneously new frames are captured, the network is busy all the time, auto discover, etc.
 
 In a terminal (on the Host) type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-20-57.png).
 
