@@ -1,6 +1,6 @@
 # Lab 3: Getting famiar with networking using Packet Tracer 
 
-Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will leary how to use [ IP spoofing](https://www.kaspersky.com/resource-center/threats/ip-spoofing) in the IoT house.  
+Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will learn how to use [ IP spoofing](https://www.kaspersky.com/resource-center/threats/ip-spoofing) in the IoT house.  
 
 [ Packet Tracer ](https://www.netacad.com/courses/packet-tracer) is a cross-platform visual simulation tool designed by Cisco Systems that allows users to create network topologies and imitate modern computer networks. The software allows users to simulate the configuration of Cisco routers and switches using a simulated command line interface.
 
