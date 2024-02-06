@@ -1,19 +1,20 @@
 # Lab 3: Getting famiar with networking using Packet Tracer 
 
-Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will leary how to use [ IP spoofing](https://www.kaspersky.com/resource-center/threats/ip-spoofing) in the IoT house.  
+Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will learn how to use [ IP spoofing](https://www.kaspersky.com/resource-center/threats/ip-spoofing) in the IoT house.  
 
 [ Packet Tracer ](https://www.netacad.com/courses/packet-tracer) is a cross-platform visual simulation tool designed by Cisco Systems that allows users to create network topologies and imitate modern computer networks. The software allows users to simulate the configuration of Cisco routers and switches using a simulated command line interface.
 
-**NOTE** You need to create [CISCO account](https://www.cisco.com/c/en/us/about/help/login-account-help.html) to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer and lets start! 
+**NOTE** You need to create [CISCO account](https://www.cisco.com/c/en/us/about/help/login-account-help.html) to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer by following the Packet Tracer link above and registering for the "Getting Started with Cisco Packet Tracer" course. Then, lets start! 
 
-**NOTE** If you are using lab machines log into the system and start Kali Linux that we set up in the Lab2! Once the Kali Linux is up and running install Packet Tracer inside Kali! How to install Packet Tracer on Kali you can find [ here ](https://www.sysnettechsolutions.com/en/install-packet-tracer-kali-linux/)! 
-
-**Once the Packet Tracer is successfully installed `cd into the file where you installed it` and then  type `packettracer` in Command Line in Kali. However before you run anything on Kali you should run two commands: `sudo apt-get upgrade` and `sudo apt-get update`.**
+**NOTE** If you are using lab machines you'll need to access the Windows Virtual Desktop for Staff and Students. 
+1. Navigate to https://rdweb.wvd.microsoft.com/arm/webclient/index.html, select "Engineering Remote" and allow access to local resources.
+2. Sign in with your University username (username@bristol.ac.uk) and password
+3. Select the Start button and Cisco Packet Tracer from the drop down list of applications
+4. You will be promted for your Cisco login after which you may need to launch Packet Tracer again (and login again!)
 
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support. 
-
 
 ## Exercise 1. Setting up simple network in Packet Tracer
 
@@ -23,38 +24,37 @@ at all possible do try and attend the lab where there will be *more* support.
 4.	Click on “Connections” and select on a “Copper Cross-Over” cable and connect the first PC through a FastEthernet0 then click on the router and plug it into the routers FastEthernet0/0 as well. 
 5.	Get another Cross-Over cable and click on the second PC’s FastEthernet0 and plug that into the other FastEthernet1/0 on the router.
 6.	Rename the first PC to (192.168.1.100) and then rename the second PC to (192.168.5.100). 
-7.	Double click on the router and go to the Config tab and click on FastEthernet0/0. 
+7.	Click on the router and go to the Config tab and click on FastEthernet0/0. 
 8.	Type in the IP Address (192.168.1.1) and turn the Port Status to (on). 
-9.	Now click on FastEthernet1/0 and type in the IP Address (192.168.5.1) and turn the Port Status to (on). 
-10.	Close this window and now double click on the first PC and go to the Desktop tab and click IP Configuration. 
+9.	Now click on FastEthernet1/0 and type in the IP Address (192.168.5.1) and turn the Port Status to (on). Close the window.
+10.	Click on the first PC and go to the Desktop tab and click IP Configuration. 
 11.	In the IP Address textbox type (192.168.1.100) in the Subnet Mask textbox type (255.255.255.0). 
-12.	Close the IP Configuration window (not the PC window) and open a Command Prompt and type  `ping 192.168.1.1`. 
-13.	Close this window and open the IP Configuration again and in the Default Gateway textbox type (192.168.1.1) and in the DNS Server textbox type (192.168.1.1) close this window. 
-14.	Go back to Command Prompt and type `ping 192.168.1.1` close this window now go back and double click on the second PC and go to Desktop and IP Configuration. 
-15.	In the IP Address textbox type (192.168.5.100) in the Subnet Mask textbox type (255.255.255.0) in the Default Gateway textbox type (192.168.5.1) in the DNS server textbox type (192.168.5.1) close this window.
-16.	Open the Command Prompt and type `ping 192.168.5.1` and hit  `enter`.
-17.	Open the first PC and go to the Command Prompt and type `ping 192.168.5.100`  and hit `enter`.
-18.	Open the router and go to the CLI tab and hit (enter) get to the start screen by either typing (exit) twice or (ctrl+c). 
-19.	When at the screen to get started hit (enter) and then type (enable) and hit (enter) now type `show ip route`.
-20.	Pull up another PT-Router and from Connections, get a Serial DCE cable and connect that into the router that already has the PCs plugged into it and plug into the Serial2/0 port.
-21.	Connect the other side of the cable to the other router’s Serial2/0.
-22.	Double click on the first router and go to the config tab and go to Serial2/0 set the clock rate to (56000) and in the IP Address textbox type (10.0.0.1) and in the Subnet Mask textbox type (255.0.0.0) and turn the Port Status to on. 
-23.	Now go back and double click on the second router and go to the config tab and Serial2/0 set the clock rate to (56000) and in the IP Address textbox type (10.0.0.2) in the Subnet Mask textbox type (255.0.0.0) and turn the Port Status on then close the window. 
-24.	Double click on the first router and press (ctrl c) and hit (enter) now type (show ip route) and hit (enter). 
+12.	Close the IP Configuration window (not the PC window) and open a Command Prompt; type `ping 192.168.1.1` and enter. You should see 4 packets sent and received; if not, then check your settings. 
+13.	Close this window, open the IP Configuration again and in the Default Gateway textbox type (192.168.1.1) and in the DNS Server textbox type (192.168.1.1) close this window. Go back to Command Prompt and type `ping 192.168.1.1`; again, you should see 4 packets sent and received. Close the window. 
+14.	Now go back and click on the second PC; go to Desktop and IP Configuration. 
+15.	In the IP Address textbox type (192.168.5.100) in the Subnet Mask textbox type (255.255.255.0) in the Default Gateway textbox type (192.168.5.1) in the DNS server textbox type (192.168.5.1) close this configuration window.
+16.	Open the Command Prompt; type `ping 192.168.5.1` and enter.  Again, you should see 4 packets sent and received. Close the window. 
+17.	Open the first PC and go to the Command Prompt; type `ping 192.168.5.100` and `enter`. You see 4 packets sent to and received from the other PC. Close the window. 
+18.	Open the router and go to the CLI tab. Hit (enter) get to the start screen - it should show "Router>".  (You might need to type 'exit' twice or ctrl+c.) 
+19.	When at the command prompt type 'enable and hit enter; you should now see "Router#".  Now type `show ip route`.  You should see a screen which finishes with confirmation that 192.168.1.0/24 is connected to FastEthernet0/0 and 192.168.5.0/24 is connected to FastEthernet1/0.  Close the window. 
+20.	Pull up another PT-Router and from Connections get a Serial DCE cable; connect that into the router that already has the PCs plugged into it and plug into the Serial2/0 port.
+21.	Connect the other end of the cable to the other router’s Serial2/0.
+22.	Click on the first router, go to the Config tab and select Serial2/0. Set the clock rate to (56000); in the IP Address textbox type (10.0.0.1); in the Subnet Mask textbox type (255.0.0.0); and turn the Port Status to on. Then close the window. 
+23.	Now go back and click on the second router. Go to the Config tab and select Serial2/0.  Set the clock rate to (56000); in the IP Address textbox type (10.0.0.2); in the Subnet Mask textbox type (255.0.0.0); and turn the Port Status On.  Then close the window. 
+24.	Click on the first router and select the CLI tab.  Press (ctrl c) and hit (enter) (you should now see "Router#"). Type (show ip route) and hit (enter). You should now see that in addition to the 2x PCs you have the other router (10.0.0.0/8) is directly connected via Serial2/0. 
 25.	From End Devices the bottom left, select a Server and drag into the space. 
-26.	Go to connections and get a Cross-Over cable and click on the FastEthernet0 on the server and on the second router click on the FastEthernet0/0.
-27.	Label the server (172.16.1.100) double click on the server and go to the desktop tab and click on IP Configuration. In the IP Address textbox type (172.16.1.100) in the Subnet Mask textbox type (255.255.0.0) in the Default Gateway textbox type (172.16.0.1) close this window. 
-28.	Double click on the second router and click on the config tab. 
-29.	Click on the first FastEthernet0/0 and in the IP Address textbox type (172.16.0.1) and in the Subnet Mask textbox type (255.255.0.0) and turn the Port Status on and close this window.
-30.	Double click on the server and go to the Command Prompt and type `ping 172.16.0.1` and hit `enter` now type `ipconfig` and hit `enter` now close this window. **NOTE** On my laptop `ip config` worked only as `ipconfig`.
-31.	Double click on the first router and go the config tab and click on the Static tab under Routing.
-32.	Type in the Network textbox (172.16.0.0) in the Mask textbox type (255.255.0.0) and in the Next Hop textbox type (10.0.0.2) now click Add and close this window.
-33.	Double click on the second router and under the config tab click Static under the Routing tab. 
-34.	In the Network textbox type (192.168.1.0) in the Mask textbox type (255.255.255.0) in the Next Hop textbox type (10.0.0.1) and click Add and close this window.
-35.	Double click on the first PC and go to the Command Prompt and type `ping 172.16.1.100` and press `enter` and close this tab.
-36.	Double click on the second router and go to the config tab and to the Static tab under Routing and in the Network tab textbox type (192.168.5.0) and in the Mask textbox type (255.255.255.0) and in the Next Hop textbox type (10.0.0.1). Click Add and close this window. 
-37.	Double click on the second PC and open Command Prompt and type  `ping 172.16.1.100` and press `enter`. You should get something like this. Your network is up and running!
-
+26.	Go to connections and get a (Copper) Cross-Over cable; click on the FastEthernet0 on the server, and on the second router click on the FastEthernet0/0.
+27.	Label the server (172.16.1.100), then go to its desktop tab and click on IP Configuration. In the IP Address textbox type (172.16.1.100), in the Subnet Mask textbox type (255.255.0.0) and in the Default Gateway textbox type (172.16.0.1).  Close this window. 
+28.	Click on the second router and select the config tab. 
+29.	Click on the FastEthernet0/0. In the IP Address textbox type (172.16.0.1); in the Subnet Mask textbox type (255.255.0.0); turn the Port Status on and close this window.
+30. Click on the server, go to the Command Prompt and type `ping 172.16.0.1` and hit `enter`.  Again, you should see 4 packets sent and received (i.e. no losses).  Now type `ipconfig` and hit `enter` - you should see the IPv6 address, IP address, Subnet Mask and Default Gateway.  Close the window. 
+31.	Click on the first router, go the Config tab and click on the Static tab under Routing.
+32.	Type in the Network textbox (172.16.0.0), in the Mask textbox type (255.255.0.0) and in the Next Hop textbox type (10.0.0.2).  Now click Add and close this window.
+33.	Click on the second router and on the Config tab click Static (under the Routing tab). 
+34.	In the Network textbox type (192.168.1.0); in the Mask textbox type (255.255.255.0); in the Next Hop textbox type (10.0.0.1); then click Add and close this window.
+35.	Click on the first PC and go to the Command Prompt and type `ping 172.16.1.100` and press `enter`.  You should see 4 packets sent and received.  Close this window.
+36.	Click on the second router and go to the Config tab and to the Static tab under Routing.  In the Network tab textbox type (192.168.5.0) and in the Mask textbox type (255.255.255.0) and in the Next Hop textbox type (10.0.0.1). Click Add and close this window. 
+37.	Click on the second PC and open Command Prompt. Type `ping 172.16.1.100` and press `enter`. Again, 4 packets successfully sent and received. Your network is up and running!
 
 
 ## Exercise 2: Testing IoT house
