@@ -69,7 +69,7 @@ A tablet acts as the control panel for operating the devices within the house. I
 3.	You will see an empty web browser window on the Smartphone. Click in the address bar of the browser (to the right of the initials URL). 
 4.	Type the IP address for the single board computer, which is 10.1.1.100 
 5.	Press Enter on your keyboard or click Go on the screen. 
-6.	You will see six buttons, as in the screenshot below. Test the buttons and view the changes in the alarm, front door and garage door. 
+6.	You will see six buttons. Test the buttons and view the changes in the alarm, front door and garage door. 
 7.	Close the doors and enable the alarm before closing the Smartphone window, as though the owner has left the house locked and secure while away for the day. 
 
 Whenever IoT devices are connected to a network, potential vulnerabilities are introduced. With the advantages of the convenience comes a risk that an attacker may be able to gain access and cause harm. 
@@ -79,12 +79,15 @@ We will look at the security measures that have been taken in this IoT house sce
 ## Connecting from the Internet 
 
 The house owner has chosen to keep the network which controls the home security completely separate from his home wireless network that connects to the Internet. By being an isolated system, it would be nearly impossible for an attacker to gain access without physically being at or near the house. However, the disadvantage to this is that the home owner will not have the ability to monitor and control these devices while away from home. 
-Connecting to the Wireless Network 
+
+## Connecting to the Wireless Network 
+
 The house owner is using wireless for the benefit of some mobility, rather than using wired devices which would be fixed into place. The wireless access point has been mounted on the outside of the house so that the Smartphone is within range as he approaches the doors. The convenience of using this wireless networking means that network traffic is not just confined to the wires within the house, but is also visible to and is potentially accessible to attackers from outside. 
 1.	Click the House Control Panel (Tablet). A window will pop open. 
 2.	Click the Config to see the interface configuration options. 
-3.	Click Wireless0 from the options towards the left of the window to view settings for the wireless interface. 
-You can view the settings the tablet is using to connect to the Wireless Access Point and some details about the type of wireless network it is. 
+3.	Click Wireless0 from the options towards the left of the window to view settings for the wireless interface.
+
+You can view the settings the tablet is using to connect to the Wireless Access Point and some details about the type of wireless network it is: 
 
 •	What is the SSID of the wireless network? 
 The SSID (Service Set Identification) is the name of the network which can either be broadcast so that devices in range can see, or it can be kept private so that someone must already know this before trying to connect. 
@@ -95,10 +98,12 @@ This is the best of the available options for preventing unauthorized connection
 •	What is the PSK Pass Phrase being used for this network? 
 Does it use words that can be found in a dictionary? Does it use upper- and lower-case letters? Does it use numbers and symbols? How long is it? 
 
-•	Try typing this password in to the password strength checker at https://howsecureismypassword.net/ to get an estimate of how long it might take a modern computer to guess this password.  
+•	Try typing this password in to the password strength checker at [https://howsecureismypassword.net/](https://www.security.org/how-secure-is-my-password/) to get an estimate of how long it might take a modern computer to guess this password.  
+
 **NOTE** It is not good practice to test real passwords in password checking websites in case their intentions are not genuine and are actually trying to steal your password. If you would like to test the strength of your own, use passwords which have similar characteristics (length and character type) to your real one but keep yours private. 
 
 •	How could this password be changed to be even stronger and more difficult for computers algorithms to crack using brute-force or dictionary attacks? 
+
 It can be seen that this wireless network is reasonably secure. If an attacker wants to use the IoT devices to gain access to the house, taking control by hacking the WiFi would not be simple. 
 
 
@@ -107,6 +112,7 @@ It can be seen that this wireless network is reasonably secure. If an attacker w
 It can be assumed that the walls and locked doors of this house are physically secure and that there is no way to get within them without telling the single board computer to open them. 
 If the single board computer (SBC0) was accessible from outside the house, then there may be ways to take control of it and tell it to open the door, such as by connecting to its serial input connectors. 
 If the network switch (Switch1) was accessible from outside the house, then there may be ways to use it to access the network. This could be done via the console port, which allows direct connection to a computer for configuring the switch. An attacker might also be able to plug in to any unused switch ports that have not been deactivated. This may allow the attacker’s device to communicate with the computer which controls the doors and alarm. 
+
 One way an attacker could gain access to the network by connecting to Switch1 from outside the house is by unplugging the cable from the Wireless Access Point and plugging it in to a computer. We will try this now. 
  
 1.	From the devices menu at the bottom-left of the Packet Tracer screen, select End Devices. 
@@ -136,7 +142,7 @@ You will see that it tries to ping the address four times. Each attempt will fai
 
 The attacker may suspect that port security may be implemented which will reject communication from the laptop’s MAC address, because it does not match the address of the known devices. In theory, MAC addresses should not ever be changed so that all network interfaces have unique identification. In reality, they can easily be modified on some devices or packets can be manipulated so that they appear to come from a different MAC address. 
 
-To spoof the MAC address, the attacker first needs to find the MAC of a valid device, so that it can be copied. One method of finding the MAC address of a device using wireless networking is to “sniff” the traffic that is being sent through the air. Using software on the laptop, such as Wireshark that we get familiar with in the Lab2, the attacker could listen for communication between the House Control Panel and other wireless devices. Even though data is encrypted, the MAC address will still be visible so that devices can identify and differentiate between each other. 
+To spoof the MAC address, the attacker first needs to find the MAC of a valid device, so that it can be copied. One method of finding the MAC address of a device using wireless networking is to “sniff” the traffic that is being sent through the air. Using software on the laptop, such as Wireshark that we got familiar with in the Lab2, the attacker could listen for communication between the House Control Panel and other wireless devices. Even though data is encrypted, the MAC address will still be visible so that devices can identify and differentiate between each other. 
 
 **It is not possible to simulate Wireshark in Packet Tracer, but successfully listening to the wireless traffic between the Wireless Access Point and the House Control Panel will reveal that the MAC address for the tablet’s wireless interface is 0010.1161.3339
 
@@ -148,7 +154,9 @@ To spoof the MAC address, the attacker first needs to find the MAC of a valid de
 If the attacker was now to perform a ping scan of some common IP address ranges, they would receive a response from the IP address held by SBC0, the single board computer. It would make sense to begin scanning within the private IP address ranges, which would often be used in homes and small office situations and are as follows: 
 
 •	`192.168.0.0 to 192.168.255.255`
+
 • `172.16.0.0 to 172.31.255.255`
+
 • `10.0.0.0 to 10.255.255.255`
 
 This scan would now reveal that SBC0 has an address of 10.1.1.100. The laptop would need to be configured to an unused address that is likely to be within the same range of addresses (or subnet) that the home network uses. 
@@ -179,5 +187,6 @@ Having gained access into the home’s network and achieved communication with t
 an M1 Mac, a lab machine and anything else you can throw at it... but
 you *might* need to tweak things to get it all working; and if in
 doubt fall back to `ssh seis.bristol.ac.uk`
-Good Luck
-Alma
+
+Good luck,
+Alma.
