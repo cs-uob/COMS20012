@@ -1,6 +1,6 @@
 # Lab 4: Testing a Firewall 
 
-Hi class. In todays lab, you will learn more into networking and firewalls.  
+Hi class. In today's lab, you will learn more about networking and firewalls.  
 
 
 
@@ -14,7 +14,7 @@ Hi class. In todays lab, you will learn more into networking and firewalls.
 
 **NOTE** If you are using lab machines log into the system and start Kali Linux that we set up in the Lab2! Once the Kali Linux is up and running install Packet Tracer inside Kali! How to install Packet Tracer on Kali you can find [ here ](https://www.sysnettechsolutions.com/en/install-packet-tracer-kali-linux/)! 
 
-**Once the Packet Tracer is successfully installed `cd into the file where you installed it` and then  type `packettracer` in Command Line in Kali. However before you run anything on Kali you should run two commands: `sudo apt-get upgrade` and `sudo apt-get update`.**
+**Once the Packet Tracer is successfully installed `cd into the file where you installed it` and then  type `packettracer` in Command Line in Kali. However, before you run anything on Kali you should run two commands: `sudo apt-get upgrade` and `sudo apt-get update`.**
 
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
