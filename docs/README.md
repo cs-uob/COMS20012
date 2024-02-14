@@ -43,6 +43,8 @@ The most effective way to get the help you need is to:
 | 13 | [Lecture 1 - Intro to General Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L1.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/CSB2024LAB1.pdf)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise1.md) | 
 | 14 | [Lecture 2 - Intro to Network Security ](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L2.pdf) | [ Lab 2 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab2.md)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md) |
 | 15 | [Lecture 3 - Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L3.pdf) | [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise3.md) | 
+| 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L4.pdf) |  [Lab 4](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab4.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
+
 
 ## Reading Material
 
@@ -61,7 +63,7 @@ We give full reference below.
 <!--
 | 14 | [Lecture 2 - Intro to Netwrok Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2.pdf) | [Lab 1] https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab1.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md)| 
 | 15 | [Lecture 3 - Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB3.pdf)  | [Lab 2](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab2.md) |  [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise3.md)  | 
-| 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB4.pdf) |  [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
+| 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L4.pdf) |  [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
 | 17 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Week%205%20-%20Security%20protocols%20and%20Private%20Network%20-%20Updated.pptx) | [Lab 4 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab4.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
 | 18 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
 | 19 | [Lecture 7 - Intro to OS ](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Introduction%20to%20Operating%20Systems.pptx)| [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md) |

@@ -32,7 +32,7 @@
 a. What are the benefits of this authentication scheme?
 b. What are the security vulnerabilities of this authentication scheme?
 
-<!--
+
 ## Answers
 - **ANS A.1:** This question has an aim to make you investigate and there is no uniform answer.
 - **ANS A.2:** In DNS cache poisoning or DNS spoofing, an attacker diverts traffic from a legitimate server to a malicious/dangerous server. The perpetrator enters false information -- such as a doctored website address -- into the DNS cache, which results in the redirection of users to a wrong, unexpected or dangerous website. DNS cache poisoning is a highly deceptive attack that not only diverts traffic from legitimate websites, but also leaves users vulnerable to many risks, including malware infections and data theft. 
@@ -49,4 +49,3 @@ b. What are the security vulnerabilities of this authentication scheme?
 - **ANS A.13:** Hackers are always trying to pull off the next great heist, as evidenced by recent DDoS attacks. According to The Record, Google stifled what would have been the largest DDoS attack in the world in June of 2022. The attack peaked at 46 million requests per second, which was compared to the number of requests Wikipedia receives every day. The attack lasted about 30 minutes and consisted of more than 5,000 devices from 132 countries. DDoS attack protocols and the Google security team prevented what could have been a significant security risk for billions of users.
 - **ANS A.14:** a) This scheme is extremely simple and easy to implement. It does protect against very simple attacks using an off-the-shelf Wi-Fi LAN card, and against accidental connection to the wrong network. b) This scheme depends on all parties behaving honestly. The scheme does not protect against MAC address forgery. 
 
--->

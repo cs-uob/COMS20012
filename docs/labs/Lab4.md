@@ -1,7 +1,7 @@
 # Lab 4: Testing a Firewall 
 
-Hi class.  In todays lab, you will learn more about networking and firewalls.  
 
+Hi class.  In todays lab, you will learn more about networking and firewalls.  
 
 
 
@@ -12,6 +12,7 @@ Hi class.  In todays lab, you will learn more about networking and firewalls.
 
 
 **Note:** Working from home?  If you need help post a question in the Teams group for the unit and we'll try and help you from there, but if at all possible do try and attend the lab where there will be *more* support. 
+
 
 
 ## Getting familiar with the network
