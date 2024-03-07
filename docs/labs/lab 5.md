@@ -1,6 +1,6 @@
 # Lab 5: Memory Layout and Assembly Refresher
 
-In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this unerstanding for the coming labs and also to better comprehend the coming lectures.
+In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this understanding for the coming labs and also to better comprehend the coming lectures.
 
 
 ## 1. Setting up Vagrant 
@@ -9,13 +9,13 @@ The rest of labs in this course are designed to run in *virtual machines* on the
 of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
 
 
-1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
+1. On your host machine, open a terminal in your home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
 3. `cd seclabs`
 4. `vagrant init hashicorp/bionic64`.
-5. `vagrant up`. First time, this is will download Ubunut 18.04-64. It will take a while. Once done, we are ready to launch this VM.
+5. `vagrant up`. First time, this will download Ubuntu 18.04-64. It will take a while. Once done, we are ready to launch this VM.
 6. Lets ssh our new VM. `vagrant ssh`
-7. You are in your new VM. This VM shares a folder from your host machine, which is the same folder from where you lanched your VM, i.e. `seclab`. This folder is mapped to `/vagrant` in you VM. if you do `cd /vagrant`, you can see the content of your host folder. We will use this folder for all our work (i.e. you can copy your files in seclab folder and access tem from /vagrant folder from VM).
+7. You are in your new VM. This VM shares a folder with your host machine, which is the same folder from where you lanched your VM, i.e. `seclabs`. This folder is mapped to `/vagrant` in your VM. if you do `cd /vagrant`, you can see the content of your host folder. We will use this folder for all our work (i.e. you can copy your files in seclabs folder and access them from /vagrant folder from VM).
 8. This VM is running a fresh Ubuntu. So, we need to get few things installed in this. Lets do it. Run these commands.
 9. `sudo apt update`
 10. `sudo apt install build-essential` This will install gcc.
@@ -33,17 +33,17 @@ of any lab redownloading the VM images. If you have an X86-based Linux machine o
 ### Part 1. Using GDB 
 
 1.	Compile the following c prog [call-convention.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/call-convention.c) by running 
-```gcc -o call-conv64 call-convention.c```
+```gcc -g -o call-conv64 call-convention.c```
 Check what ```gcc -g -o call-conv64 call-convention.c``` did? Comment on your findings.
  2. Objdump: As part of the compilation process, compile (GCC) converts the source code into the assembly instruction and then the assembler takes in assembly instructions and encodes them into the binary form understood by the hardware. Disassembly is the reverse process that converts binary-encoded instructions back into human-readable assembly. objdump is a tool that operates on object files (i.e. files containing compiled machine code).
 - A. Run ```objdump --help``` to see all the avaialble options.
-- B. Run the objdump as follows and then scroll upto the point when you see main.
+- B. Run the objdump as follows and then scroll upto the point where you see main.
 `objdump -d call-conv64`
 This extracts the instructions from the object file and outputs the sequence of binary-encoded machine instructions alongside the assembly equivalent. 
-If the object file was compiled with debugging information, adding the `-S` flag to objdump will intersperse the original C source. 
+If the object file was compiled with debugging information (i.e. with the "-g" option), adding the `-S` flag to objdump will intersperse the original C source. 
 Run `objdump -d -S call-conv64` to see the source code together with the assembly.
 3. GDB:
-GDB stands for GNU Project Debugger and is a powerful debugging tool for C(along with other languages like C++). It helps you to monitor C programs while they are executing and also allows you to see what exactly happens when your program crashes. You can get the values of the registers and memory (e.g. stack). It allows you to set breakpoints at a certain point in your program execution. Though GDB is a commandline based program, you can, however, invoke its TUI (text user interface) to have separate windows displaying the values of registers, for example.
+GDB stands for GNU Project Debugger and is a powerful debugging tool for C (along with other languages like C++). It helps you to monitor C programs while they are executing and also allows you to see what exactly happens when your program crashes. You can get the values of the registers and memory (e.g. stack). It allows you to set breakpoints at certain points in your program execution. Though GDB is a command line based program, you can, however, invoke its TUI (text user interface) to have separate windows displaying the values of registers, for example.
 - A. Run the GDB with the following command.
 You need to first run the program call-conv64
 then you run
@@ -54,18 +54,18 @@ then you run
 
 ```focus cmd```
 
-```b main```
+```b *main```
 
 ```run```
 
 ```disassemble main```
 
-- C. At this stage, all the panes will have some values. The top most pane gives you values to all the register. The middle pane shows the assembly code being executed. And the botton pane is for the GDB commandline. You can note the value of `RIP` and the address of the current highlighted line! In the pane C, each line starts with anl address, followed by the relative position marker and the instruction.
-- D. The execution will halt at the entry of main function, bacause you set a breakpoint at the `main` (`b main`). Breakpoints can be set either by using the `b *address` OR `b *main+N`. Breakpoints are very useful when you want to analyse the values of register and memory.
+- C. At this stage, all the panes will have some values. The top-most pane gives you the values of all the registers. The middle pane shows the assembly code being executed. And the botton pane is for the GDB commandline. You can note the value of `RIP` and the address of the current highlighted line! In the pane C, each line starts with an address, followed by the relative position marker and the instruction.
+- D. The execution will halt at the entry of main function, bacause you set a breakpoint at the `main` (`b *main`). Breakpoints can be set either by using the `b *address` OR `b *main+N`. Breakpoints are very useful when you want to analyse the values of register and memory.
 Try setting a breakpoint at some later point, say `b *main+60` and then run.
-- E. The program will halt when it reaches main+60. Now you can read the value of register, either by looking in the Pane R or by typing GDB command: `info reg`
-- F. You can also read the memory content by
-```x/8xb $rbp-0x4``` (remember, rbp is the base point, which also points to the stack. In this case you will read 8 bytes starting from EBP-4. If you want to read entire stack, you can also use RSP. Use ni and si commands to observe how GDB executes next instruction. 
+- E. The program will halt when it reaches main+60. Now you can read the value of the registers, either by looking in the Pane R or by typing GDB command: `info reg`
+- F. You can also read the memory content by typing
+```x/8xb $rbp-0x4``` (remember, rbp is the base point, which also points to the stack. In this case you will read 8 bytes starting from EBP-4. If you want to read entire stack, you can also use RSP (look it up). Use ni and si commands to observe how GDB executes next instruction and what the difference is between them. 
 - Try and get youself familiar with GDB (see the attached [GDB cheatsheet](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/lecture1/GDBCheatSheet.pdf))!
 #### Exercise:
 Compile the given c code (call-convention.c) with the following commands. [Note: see the appendix A to make sure that your multi-arch compilation support is made available!] 
@@ -87,24 +87,24 @@ Repeat the above steps for call-conv64.
 5. Observe how those parameters (arguments) are used.
   
 ## Part 2. Understanding Memory layout with GDB
-1. Copy c code [memory_layout.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c)) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
-2. run `vagrant up` to start you VM.Do not forget to ssh your VM.
-3. compile `gcc memory_layout.c -o memory_layout`
-4. run the resulting binary. It will halt with a message "Press any key...."
-5. On a different terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the PID (PID is the process ID that is returned from the command).
-6. On TermB, run `gdb -p PID`. GDB will be attached to the running process on TermA. You will be in GDB shell. Now on enter commands within gdb shell. NOTE: if GDB does not attach, run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope`
+1. Copy c code [memory_layout.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c)) in your seclabs directory (so that it is accessible in /vagrant directory of your VM).
+2. Compile `gcc memory_layout.c -o memory_layout`
+3. Run the resulting binary. It will halt with a message "Press any key...."
+4. In the rest of this section you will use two terminal windows.
+5. Open a new terminal window and connect to the existing VM by running `vagrant ssh`. In the second terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the PID (PID is the process ID that is returned from the command).
+6. On TermB, run `gdb -p PID`. GDB will be attached to the running process on TermA and you will be in the gdb shell. Now you can enter commands within gdb shell. NOTE: if GDB does not attach (which is often the case), run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope`
 ```
 (gdb) disassem main
-(gdb) b *main+N \\(instruction where it is going to call func1, use N as per your runtime, which should be around 412)
+(gdb) b *main+N \\(where N points to the instruction where it is going to call func1; get the value of N from your runtime listing, it should be around 412)
 (gdb) disassem func1
-(gdb) b *func1+N \\(instruction after the last call to printf, use N as per your runtime, which should be around 118)
+(gdb) b *func1+N \\(instruction after the last call to printf, value of N should be around 118)
 
 (gdb) disassem func2
-(gdb) b *func2+N \\(instruction where it is going to call func3, use N as per your runtime, which should be around 166)
+(gdb) b *func2+N \\(instruction where it is going to call func3, value of N which should be around 166)
 
 (gdb) disassem func3
-(gdb) b *func3+N \\(instruction after the last call to printf, use N as per your runtime, which should be around 279)
-(gdb) c  
+(gdb) b *func3+N \\(instruction after the last call to printf, value of N should be around 216)
+(gdb) c  \\this means "continue"
 ```
 7. On Term A, press Enter to continue. The prog prints frame address of main. how will you find that address in the gdb window?
 8. When in func1, it prints return address. Can you check which instruction address in that in the main (`disassem main`)?
@@ -146,7 +146,7 @@ global _start
   len: equ $ - msg
 ```
 
-Compile, link and run it as follows:
+Compile, link and run it as follows: (you may need to install nasm if it's not already installed)
 
 ``` shell
 nasm -f elf64 -o hello64.o hello64.S
@@ -167,11 +167,11 @@ Focus on the *indented lines* to begin with.
 
 To help you, you need to refer to the following bits of documentation:
 
-- `man 2 intro` and `man 2 write`
+- `man 2 intro`
 - [The Intel 64 and IA-32 Architectures Software Developer's Manual:
   Volume
   2](https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.html)
-- `/usr/src/linux-headers-4.19.0-21-amd64/arch/x86/include/generated/uapi/asm/unistd_64.h`
+- `/usr/src/linux-headers-4.19.0-21-amd64/arch/x86/include/generated/uapi/asm/unistd_64.h`(if it exists)
 
 #### Question 2
 
@@ -211,7 +211,7 @@ the same *hello world* program for 32-bit Linux! Save the following into
 `hello32.S`:
 
 ``` asm
-; hello64.S: a first step into assembly programming!
+; hello32.S: a first step into assembly programming!
 global _start
 
   section .text
@@ -295,7 +295,7 @@ Recompile the C hello world for 32bit Linux: what's the calling
 convention now?
 
 ``` shell
-cc -m32 -o hello-c-32.o hello-c
+cc -m32 -o hello-c-32.o hello.c
 objdump -d hello-c-32.o
 ```
 
@@ -307,7 +307,7 @@ turn up again and again…
 ### Translating between C and Assembly
 
 So far we've been just looking at Hello World. Lets try looking at
-something a little more complicated! Here's a simple C program:
+something a little more complicated! Here's a simple C program; call it translate-me.c
 
 ``` c
 #include <stdio.h>
