@@ -1,6 +1,6 @@
 # Lab 5: Memory Layout and Assembly Refresher
 
-In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this unerstanding for the coming labs and also to better comprehend the coming lectures.
+In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this understanding for the coming labs and also to better comprehend the coming lectures.
 
 
 ## 1. Setting up Vagrant 
