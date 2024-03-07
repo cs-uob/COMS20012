@@ -3,7 +3,7 @@
 In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this unerstanding for the coming labs and also to better comprehend the coming lectures.
 
 
-## 1. Setting up Vagrant (you have already done this part in Lab 1, it should be straightforward)
+## 1. Setting up Vagrant 
 
 The rest of labs in this course are designed to run in *virtual machines* on the lab machines setup via Vagrant. Expect to spend the first 10 minutes
 of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
