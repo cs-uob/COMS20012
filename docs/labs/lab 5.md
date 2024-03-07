@@ -91,8 +91,8 @@ Repeat the above steps for call-conv64.
 2. Compile `gcc memory_layout.c -o memory_layout`
 3. Run the resulting binary. It will halt with a message "Press any key...."
 4. In the rest of this section you will use two terminal windows.
-5. Open a new terminal window and connect to the existing VM by running `vagrant ssh`. In the second terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the PID (PID is the process ID that is returned from the command).
-6. On TermB, run `gdb -p PID`. GDB will be attached to the running process on TermA and you will be in the gdb shell. Now you can enter commands within gdb shell. NOTE: if GDB does not attach (which is often the case), run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope`
+5. Open a new terminal window and connect to the existing VM by running `vagrant ssh`. In the second terminal (lets call it TermB, and the already runing terminal as TermA), run `ps -e |grep memory_layout`. Note the value of the PID (PID is the Process ID that is returned from the command).
+6. On TermB, run `gdb -p PID` {replacing "PID" with its actual value}. GDB will be attached to the running process on TermA and you will be in the gdb shell. Now you can enter commands within gdb shell. NOTE: if GDB does not attach (which is often the case), run: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope`
 ```
 (gdb) disassem main
 (gdb) b *main+N \\(where N points to the instruction where it is going to call func1; get the value of N from your runtime listing, it should be around 412)
