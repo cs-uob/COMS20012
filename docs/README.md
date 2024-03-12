@@ -47,7 +47,7 @@ The most effective way to get the help you need is to:
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L4.pdf) |  [Lab 4](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab4.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
 | 17 | Guest Lecture|  No Lab| No exercise sheets |
 | 18 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Week%205%20-%20Security%20protocols%20and%20Private%20Network%20-%202024.pptx) | [Lab 5 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
-| 19 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 5] |  |
+| 19 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 6] |  |
 
 ## Reading Material
 
