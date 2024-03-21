@@ -1,6 +1,6 @@
 # Lab 7: Introduction to Operating Systems (OS/161 as case study)
 
-In this lab, youw ill get familiar with Operating Systems, explore OS/161 which an operating system made for teaching purposes. You will get to know how to configure and build operating systems.
+In this lab, you will get familiar with Operating Systems, explore OS/161 which an operating system made for teaching purposes. You will get to know how to configure and build operating systems.
 
 You need to complete [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) in order to do this lab.
 
@@ -13,7 +13,7 @@ If you experience difficulty contact the IT service.
 
 You are second year computer science students and we expect some autonomy
 in using the "tools of the trade".
-You should be familiar (or familiarize yourself) with the following tools:
+You should be familiar (or familiarise yourself) with the following tools:
 1. [Vagrant](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started);
 2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html);
 3. [git](https://git-scm.com/docs/gittutorial);
@@ -50,18 +50,18 @@ work.
 ## Setting up vagrant image
 
 It is *strongly recommended* to setup a virtual environment to go through the lab, and to use the lab machines for this one. To do
-so, follow this instructions:
+so, follow these instructions:
 ```
 git clone https://github.com/uob-jh/vagrant-os161.git
 cd vagrant-os161
 vagrant up
 vagrant reload
 ```
-
+During these instructions you might encounter some errors and some failures to access security updates. Ignore these and as soon as its all finished do `vagrant ssh`. The process will also open another window titled: "OS-labs [Running]"; you can ignore this box. The work is done in the original CLI.
 ## Getting the source
 
 [OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
-It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) zbvvafor use in her famous Harvard course on operating systems, CS161.
+It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) for use in her famous Harvard course on operating systems, CS161.
 Since then, OS/161 has been adopted for teaching in many universities around the world.
 Operating systems courses that use OS/161 are known to be demanding, yet incredibly enriching and rewarding.
 
@@ -78,15 +78,10 @@ cd ~
 git clone https://github.com/uob-jh/os161.git
 ```
 
-### Exercise
-
-1. Delete this repository and create your own fork on github. You will need it
-to track your changes and share your code with classmates and TA.
-
 ## Configure OS/161 source tree
 
 This step is necessary to setup the location where your kernels and various
-binaries will be created in later stages. It should run fairly quickly and need
+binaries will be created in later stages. It should run fairly quickly and needs
 to be done only once (or when you completely deleted your source tree).
 Run `./configure --help` to find more including available options.
 
@@ -118,7 +113,7 @@ determine what files get built. You may need to modify this in later assignments
 ## Building OS/161 kernel
 
 Once you have configured your source tree and your kernel.
-You are ready to build the kenrel!
+You are ready to build the kernel!
 
 ```
 cd ../compile/LAB5
