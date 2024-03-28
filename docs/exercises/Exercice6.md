@@ -61,7 +61,7 @@
 
 6. What is a format string bug? 
 
-<!--
+
 ## Answers
 
 1. A spatial memory safety violation is where a program accesses memory that would not normally be accessible to it.
@@ -70,4 +70,4 @@
 4. The loop runs 201 times, overflowing array variable. this is called off-by-one error. the 1 byte overflow corrupts the variable `x` in such a way that at the end of the loop, the value of the variable becomes less than 200, thereby making the loop condition failed.
 5. Control hijacking is taking control of the execution of a program, enabling it to run code or paths through the code that would not normally be taken by standard execution.  One way to hijack control would be to overwrite the return address of a function on the stack to point to code the attacker wishes to run.
 6. Format string is a memory bug that can lead to the contents of the stack being leaked. Also, %n causes overwriting a memory location.  
--->
+
