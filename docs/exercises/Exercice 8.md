@@ -25,7 +25,20 @@
 	b. MIN replacement policy
 	c. LRU replacement policy
 	d. Clock replacement policy
+ 
+7. Complete the following table using:
+   
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
+| Ref    | a | b | c | e | b | d | b | f | e | f  |  b |  d | 
+| PP1    |   |   |   |   |   |   |   |   |   |    |    |    |
+| PP2    |   |   |   |   |   |   |   |   |   |    |    |    |
+| PP3    |   |   |   |   |   |   |   |   |   |    |    |    |
+| Fault? |   |   |   |   |   |   |   |   |   |    |    |    |
 
+a. FIFO replacement policy
+d. Clock replacement policy
+ <!--
 ## Answers
 1.  They are there to make programming simpler. Without them user level program will have to understand the logic of every piece of hardware they may have to interact with. Abstractions also allow separation of concerns, the abstraction present an interface that hides away the logic of the "object" being abstracted. Abstractions also help with portability, indeed, as long as the same interface is presented to software building upon it, the underlying implementation/hardware should not matter.
 
@@ -84,3 +97,4 @@ d.Clock Policy
 | PP2    |   | b | b | b | b | b | d | d | d | d  | d  | d  |
 | PP3    |   |   | c | c | c | c | c | a | a | a  | a  | a  |
 | Fault? | * | * | * |   |   | * | * | * |   |    | *  |    |
+
