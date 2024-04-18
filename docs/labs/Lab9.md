@@ -1,11 +1,5 @@
 # Lab 9: Processes and Memory Management
 
-Please provide your feedback on the unit before starting the lab
-
-Link to access the evaluation: https://evaluation.bristol.ac.uk/home/so-eng.htm
-
-<!--
-
 In this lab, you will get familiar with processes and memory management in Linux.
 
 **Remote Access:** If you cannot run the lab on your local machine, you may want to use the Linux
@@ -19,11 +13,11 @@ The rest of labs in this course are designed to run in *virtual machines* on the
 of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
 
 
-1. On your host machine, open a terminal in you home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
+1. On your host machine, open a terminal in your home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
 2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
 3. `cd seclabs`
 4. `vagrant init hashicorp/bionic64`.
-5. `vagrant up`. First time, this is will download Ubunut 18.04-64. It will take a while. Once done, we are ready to launch this VM.
+5. `vagrant up`. First time, this is will download Ubuntu 18.04-64. It will take a while. Once done, we are ready to launch this VM.
 6. Lets ssh our new VM. `vagrant ssh`
 
 
@@ -33,16 +27,16 @@ In this part, you will manipulate processes and understand their interactions wi
 
 Let us see some processes:
 
-1. run `ps`, comment on what you see. 
+1. Run `ps`, comment on what you see. 
 
-2. Now run `memory_layout` program, steps are as follows:
+2. Now run a `memory_layout` program, steps are as follows:
 
-Copy c code [mem.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c) in your seclab directory (so that it is accessible in /vagrant directory of your VM).
+Copy c code [memory_layout.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory_layout.c) into your seclab directory (so that it is accessible in /vagrant directory of your VM).
 
-Compile the following c prog mem.c by running 
-`gcc mem.c -o mem`
+Compile the c prog and call it `mem` by running 
+`gcc memory_layout.c -o mem`
 
-run the resulting binary
+Run the resulting binary
 
 3. On a different terminal (lets call it TermB, and the already runing terminal as TermA), run `ps`. What do you see ? can you see your program in the processes list ?
 
@@ -51,7 +45,7 @@ run the resulting binary
 
 #### Questions:
 
-Refering to ps manual by running `man ps`, answer the following questions:
+Refering to the ps manual, answer the following questions:
 
 - How can you get details of all the running processes?
 
@@ -69,7 +63,7 @@ Find out how to sort processes based on memory usage.
 
 Run `ps -eo user --no-header | sort | uniq -c`.
 
-7. Find PID for the process "mem", then run `ps PID`
+7. Find PID for the process "mem", then run `ps -C mem`
 
 8. You should now find the process parent:
 
@@ -109,13 +103,13 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 - Change the monitoring period of watch.
 
-## Part 2: Memeory Management
+## Part 2: Memory Management
 
 1. The first Linux tool you should check out is the very simple tool free. First, type `man free` and read its entire manual page.
 
 2. Now, run `free` , perhaps using some of the arguments that might be useful (e.g., -m, to display memory totals in megabytes). How much memory is in your system? How much is free? Do these numbers match your intuition?
 
-3. Next, create a little program that uses a certain amount of memory, called [memory-user.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory-user.c). This program should take one commandline argument: the number of megabytes of memory it will use. When run, it should allocate an array, and constantly stream through the array, touching each entry. The program should do this indefinitely, or, perhaps, for a certain amount of time also specified at the command line.
+3. Next, we'll create a little program that uses a certain amount of memory, called [memory-user.c](https://github.com/cs-uob/COMS20012/blob/master/docs/code/memory-user.c). This program can take one or two command line arguments: the number of megabytes of memory it will use and, optionally, the minimum number of seconds to run. When run, it should allocate an array, and constantly stream through the array, touching each entry. The program should do this indefinitely, or for a certain amount of time if specified at the command line.
 
 4.  After compiling this program (`gcc memory-user.c -o memory-user`), just run with two arguments. The first argument is the number of MB to reserve and the second is the minimum number of seconds to run the program for. For example, if you use `./memory-user 100 30` 100 means that the program will be reserved 100MB of memory and will run for 30 seconds.
 
@@ -131,7 +125,7 @@ Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specif
 
 7. To use pmap, you have to know the process ID of the process you are interested in. Thus, first run `ps auxw` to see a list of all processes; then, pick an interesting one, such as a browser. You can also use your memory-user program in this case (indeed, you can even have that program call getpid() and print out its PID for your convenience).
 
-8. Now run pmap on some of these processes, using various flags (like -X) to reveal many details about the process. What do you see? How many different entities make up a modern address space, as opposed to our simple conception of code/stack/heap?
+8. Now run pmap on some of these processes, using various flags (like -x or -X) to reveal many details about the process. What do you see? How many different entities make up a modern address space, as opposed to our simple conception of code/stack/heap?
 
 9. Finally, let us run pmap on your "memory-user" program, with different amounts of used memory. What do you see here? Does the output from pmap match your expectations?
 
