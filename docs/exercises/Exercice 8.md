@@ -37,7 +37,8 @@
 | Fault? |   |   |   |   |   |   |   |   |   |    |    |    |
 
 a. FIFO replacement policy
-d. Clock replacement policy
+
+b. Clock replacement policy
 
 
  <!-- ## Answers
