@@ -38,6 +38,7 @@
 
 a. FIFO replacement policy
 d. Clock replacement policy
+
  <!--
 ## Answers
 1.  They are there to make programming simpler. Without them user level program will have to understand the logic of every piece of hardware they may have to interact with. Abstractions also allow separation of concerns, the abstraction present an interface that hides away the logic of the "object" being abstracted. Abstractions also help with portability, indeed, as long as the same interface is presented to software building upon it, the underlying implementation/hardware should not matter.
