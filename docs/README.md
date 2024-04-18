@@ -49,7 +49,7 @@ The most effective way to get the help you need is to:
 | 18 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Week%205%20-%20Security%20protocols%20and%20Private%20Network%20-%202024.pptx) | [Lab 5 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
 | 19 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
 | 20| [Lecture 7 - Intro to OS ](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Introduction%20to%20Operating%20Systems.pptx)| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md) |
-| 21 | [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx) | [Lab 8] | |
+| 21 | [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx) | [Lab 8] | [Exercice Sheet](https://github.com/cs-uob/COMS20012/tree/master/docs/exercises) |
 
 
 ## Reading Material
