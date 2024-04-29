@@ -149,5 +149,25 @@ First things first, lets build a VM for it.
 3. The ISO should boot.  You can install it if you like or just use it in RAM.
 4. Once its up it'll take you through a tutorial... run through it and have a play with some of the games.
 
+Classic Mac OS
+--------------
+
+Old versions of Mac OS can be run in a browser at <https://infinitemac.org>!
+
+Go boot up [System 7.5](https://infinitemac.org/1994/System%207.5) and have an explore:
+
+1. Boom in games is a Bomberman clone I spent *ages* playing as a kid.  Snood also took up large portions of time.  Have a play!
+2. Can you find the Mac-only precursor to the Halo games?
+3. In the Utilities folder there is a program called Graphing Calculator. Have a play then find someone with a Mac and see if you can find it on a current Mac over 30 years later!  Has it changed much?
+4. Find a program called ResEdit and marvel at what you can do with it.
+
+Ancient OSs
+-----------
+
+The [Interim Computer Museum](https://icm.museum/) hosts many ancient OSs you can explore (and even runs courses on how to use them).
+
+1. `ssh menu@sdf.org` and have an explore.  Can you figure out how to use Unics 1.0?
+
+(**Note:** the ICM sometimes goes down `:-(`)
 
 
