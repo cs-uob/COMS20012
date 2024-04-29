@@ -50,6 +50,7 @@ The most effective way to get the help you need is to:
 | 19 | [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/slides/Intro%20to%20Software%20Security.pptx) | [Lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
 | 20| [Lecture 7 - Intro to OS ](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Introduction%20to%20Operating%20Systems.pptx)| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md) |
 | 21 | [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx)<br> [Video for Memory replacement policies (Extra content)](https://web.microsoftstream.com/video/d510beab-2bba-49f1-89e9-1a0f4b983216?list=studio) <br> [Video for Clock Replacement Policy](https://web.microsoftstream.com/video/c3a12a06-87b9-4991-a662-5f634ac897fe?list=studio) | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab9.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md) |
+| 23 | [Lecture 10 - Weird OSs (unassessed)](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/w10-guest-weird-os.pdf) (Guest lecture) | [Lab 10 (unassessed)](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab10.md) |
 
 
 ## Reading Material
