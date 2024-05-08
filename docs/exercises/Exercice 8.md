@@ -123,4 +123,4 @@ b. Clock replacement policy
 | PP3    |   |   | c | c | c | d | d | d | d | d  |  b | b  |
 | Fault? | * | * | * | * |   | * |   | * | * |    | *  | *  |
 | Victim |V=1|V=1|V=1|V=2|V=2|V=1|V=1|V=2|V=3|V=3 | V=1| V=2|
-                         |V=3|
+|        |   |   |   |   |V=3|   |   |   |   |    |    |    |
