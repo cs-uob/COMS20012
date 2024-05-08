@@ -41,7 +41,7 @@ a. FIFO replacement policy
 b. Clock replacement policy
 
 
- <!-- ## Answers
+## Answers
 1.  They are there to make programming simpler. Without them user level program will have to understand the logic of every piece of hardware they may have to interact with. Abstractions also allow separation of concerns, the abstraction present an interface that hides away the logic of the "object" being abstracted. Abstractions also help with portability, indeed, as long as the same interface is presented to software building upon it, the underlying implementation/hardware should not matter.
 
 
@@ -100,4 +100,27 @@ d.Clock Policy
 | PP3    |   |   | c | c | c | c | c | a | a | a  | a  | a  |
 | Fault? | * | * | * |   |   | * | * | * |   |    | *  |    |
 
--->
+7. 
+
+   a. FIFO replacement policy
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
+| Ref    | a | b | c | e | b | d | b | f | e | f  | b  |  d | 
+| PP1    | a | a | a | e | e | e | e | f | f | f  | f  | f  |
+| PP2    |   | b | b | b | b | d | d | d | e | e  | e  | e  |
+| PP3    |   |   | c | c | c | c | b | b | b | b  | b  | d  |
+| Fault? | * | * | * | * |   | * | * | * | * |    |    | *  |
+
+
+
+b. Clock replacement policy
+
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
+| Ref    | a | b | c | e | b | d | b | f | e | f  |  b |  d | 
+| PP1    | a | a | a | e | e | e | e | f | f | f  |  f | d  |
+| PP2    |   | b | b | b | b | b | b | b | e | e  |  e | e  |
+| PP3    |   |   | c | c | c | d | d | d | d | d  |  b | b  |
+| Fault? | * | * | * | * |   | * |   | * | * |    | *  | *  |
+          V=1 V=1 V=1 V=2 V=2 V=1 V=1 V=2 V=3 V=3   V=1  V=2
+                          V=3 
