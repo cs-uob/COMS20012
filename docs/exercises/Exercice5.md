@@ -26,7 +26,7 @@ Remote access scenario and Interconnecting LANs. TLS VPN is useful for Remote ac
 
 3. Check slide 18 in the lecture slides.
 
-4. TLS handshake protocol, TLS cipher spec protocol, TLS alert protocol
+4.  handshake, change cipher spec protocol, alert protocol, data protocol and record protocol
 
 5. SSL was not secure enough so it was discarded and TLS has taken its place.
 
