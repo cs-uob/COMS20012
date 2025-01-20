@@ -16,14 +16,12 @@
 |----------------------|----------|------------------------------|
 | Alma Oracevic        | Lecturer | alma.oracevic@bristol.ac.uk |
 | Sana Belguith        | Lecturer | sana.belguith@bristol.ac.uk  |
-| Ram Larg            | TA       |ram.larg.2021@bristol.ac.uk|
-| James Forster       | TA       |james.forster.2021@bristol.ac.uk|
-| Hiromichi Yano       | TA       |ld20319@bristol.ac.uk|
-| John Chapman       | TA       |john.g.chapman@bristol.ac.uk|
-| Charlotte Timms          | TA       |lg20264@bristol.ac.uk|
-| James Millan      | TA       |james.millan@bristol.ac.uk|
-| Martin Oracevec           | TA       |vd20134@bristol.ac.uk|
-|Gonzalo Bohorquez|TA|jx20133@bristol.ac.uk|
+| Damien McGeer            | TA       |ne22153@bristol.ac.uk|
+| Finley Singleton       | TA       |ik22435@bristol.ac.uk|
+| Luke Edwards      | TA       |luke.edwards.2022@bristol.ac.uk|
+| Nate Liu       | TA       |bw19062@bristol.ac.uk|
+| Alyah Al Fageh          | TA       |alyah.alfageh@bristol.ac.uk|
+| Vinh Bui      | TA       |bui.vinh.2022@bristol.ac.uk|
 
 
 ## Support
