@@ -6,11 +6,41 @@ Hi class. In this lab, you will learn how to set up simple network in Packet Tra
 
 **NOTE** You need to create [CISCO account](https://www.cisco.com/c/en/us/about/help/login-account-help.html) to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer by following the Packet Tracer link above and registering for the "Getting Started with Cisco Packet Tracer" course. Then, lets start! 
 
-**NOTE** If you are using lab machines you'll need to access the Windows Virtual Desktop for Staff and Students. 
-1. Navigate to https://rdweb.wvd.microsoft.com/arm/webclient/index.html, select "Engineering Remote" and allow access to local resources.
-2. Sign in with your University username (username@bristol.ac.uk) and password
-3. Select the Start button and Cisco Packet Tracer from the drop down list of applications
-4. You will be promted for your Cisco login after which you may need to launch Packet Tracer again (and login again!)
+**NOTE** If you are using lab machines you'll need to access the Kali VM that you should have made last week. To download and set up Packet Tracer within Kali:
+1. Download the Packet Tracer .deb file after logging into your account from the link above (make sure it is the one listed for Ubuntu). 
+2. Run `sudo dpkg -i [PATH TO YOUR PACKET TRACER DEB]`
+3. Accept the license agreement and EULA terms
+
+This WILL result in dependency issues (dialog, libxcb-xinerama0, libgl1-mesa-glx), but we'll need to install these separately...
+
+4. To install dialog, run:
+```
+sudo wget http://http.kali.org/kali/pool/main/d/dialog/dialog_1.3-20240307-2+b1_amd64.deb 
+sudo dpkg -i dialog_1.3-20240307-2+b1_amd64.deb 
+
+sudo wget http://http.kali.org/kali/pool/main/d/dialog/libdialog15_1.3-20240307-2+b1_amd64.deb
+
+sudo dpkg -i libdialog15_1.3-20240307-2+b1_amd64.deb 
+sudo apt-get install dialog
+```
+
+5. To install libxcb-xinerama0, run:
+```
+sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/libxcb-xinerama0_1.15-1_amd64.deb
+sudo dpkg -i libxcb-xinerama0_1.15-1_amd64.deb
+
+sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/libxcb-xinerama0-dev_1.15-1_amd64.deb
+sudo dpkg -i libxcb-xinerama0-dev_1.15-1_amd64.deb 
+```
+
+6. To install libgl1-mesa-glx, run:
+```
+sudo wget http://ftp.de.debian.org/debian/pool/main/m/mesa/libgl1-mesa-glx_20.3.5-1_amd64.deb
+sudo dpkg -i libgl1-mesa-glx_20.3.5-1_amd64.deb 
+```
+
+With this you should now be able to boot Packet Tracer with the packettracer command.
+
 
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
