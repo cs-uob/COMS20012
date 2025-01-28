@@ -41,7 +41,6 @@ The most effective way to get the help you need is to:
 |------|---------|-----|------------------|
 | 13 | [Lecture 1 - Intro to General Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L1.pdf) | [Lab 1](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/CSB2024LAB1.pdf)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise1.md) | 
 | 14 | [Lecture 2 - Intro to Network Security ](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L2.pdf) | [ Lab 2 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab2.md)| [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise2.md)|
-
 | 15 | [Lecture 3 - Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L3.pdf) | [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise3.md) | 
 
 ## Course Structure
