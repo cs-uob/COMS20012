@@ -44,7 +44,9 @@ The most effective way to get the help you need is to:
 | 15 | [Lecture 3 - Network Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L3.pdf) | [Lab 3](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab3.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercise3.md) | 
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/CSB2024L4.pdf) |  [Lab 4] | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
 | 17 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Week%205%20-%20Security%20protocols%20and%20Private%20Network.pptx) | [Lab 5 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
-| 17 | [Reading Week - No Lecture | No Lab | |
+| 18 | Reading Week - No Lecture | No Lab | |
+| 19|  No Lecture | No Lab | |
+
 ## Course Structure
 <!--
 
