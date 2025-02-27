@@ -1,4 +1,4 @@
-# Lab 2: Software Vulnerabilities
+# Lab 6: Software Vulnerabilities
 
 ## Learning Outcomes: 
 In this lab you will gain hands on experience on buffer overflow and format string vulnerabilities that we covered theoretically in the lecture "Introduction to Software Security". You will be able to exploit these vulnerabilities and exprience what you can do with them.
