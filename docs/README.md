@@ -46,7 +46,9 @@ The most effective way to get the help you need is to:
 | 17 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Week%205%20-%20Security%20protocols%20and%20Private%20Network.pptx) | [Lab 5 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
 | 18 | Reading Week - No Lecture | No Lab | |
 | 19|  No Lecture | No Lab | |
-| 20|  [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Intro%20to%20Software%20Security.pptx) | [lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) | [Exercise Sheet]|
+| 20|  [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Intro%20to%20Software%20Security.pptx) | [lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab6.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
+|21| [Lecture 7 - Intro to OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Introduction%20to%20Operating%20Systems.pptx)| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab7.md)| [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md)|
+|22| [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx)<br> [Video for Memory replacement policies (Extra content)](https://web.microsoftstream.com/video/d510beab-2bba-49f1-89e9-1a0f4b983216?list=studio) <br> [Video for Clock Replacement Policy](https://web.microsoftstream.com/video/c3a12a06-87b9-4991-a662-5f634ac897fe?list=studio) | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/Lab9.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md) |
 ## Course Structure
 <!--
 
