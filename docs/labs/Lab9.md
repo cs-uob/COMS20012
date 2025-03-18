@@ -88,13 +88,13 @@ Run `ps -eo user --no-header | sort | uniq -c`.
 
 - Find running time to "mem"
 
-Hint: For running time of single process (suppose PID is 1) run `ps -p -1 -o etime`. Apply the same approach to find the running time for "mem".
+Hint: For running time of single process (suppose PID is 1) run `ps -p 1 -o etime`. Apply the same approach to find the running time for "mem".
 
 
 
 9. You can Sort processes in decreasing order of running time:
 
-Run  `ps -eo user --sort=-etime -e`
+Run  `ps -eo pid,etime,cmd --sort=-etime -e`
 
 #### Questions:
 
@@ -102,7 +102,7 @@ Run  `ps -eo user --sort=-etime -e`
 
 10. Use watch utility to perform real-time monitoring over ps.
 
-Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'. -n 1 specifies the refresh rate to be 1 second.
+Run `watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'`. -n 1 specifies the refresh rate to be 1 second.
 
 
 #### Questions:
