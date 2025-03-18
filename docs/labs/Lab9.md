@@ -1,4 +1,4 @@
-# Lab 9: Processes and Memory Management
+# Lab 8: Processes and Memory Management
 
 
 Please provide your feedback on the unit before starting the lab
