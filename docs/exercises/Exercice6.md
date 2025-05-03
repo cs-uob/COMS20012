@@ -66,8 +66,13 @@
 
 1. A spatial memory safety violation is where a program accesses memory that would not normally be accessible to it.
 2. Because the memory that is being overwritten is allocated. i.e. defined, whereas the definition says that only the access to undefined memory is the problem. Obviously, this does not cover buffer overflows.
-3. a) stack buffer overflow. b) `gets(name)` c) `count` and `x` d) use safe functions, like fgets, scanf.
-4. The loop runs 201 times, overflowing array variable. this is called off-by-one error. the 1 byte overflow corrupts the variable `x` in such a way that at the end of the loop, the value of the variable becomes less than 200, thereby making the loop condition failed.
-5. Control hijacking is taking control of the execution of a program, enabling it to run code or paths through the code that would not normally be taken by standard execution.  One way to hijack control would be to overwrite the return address of a function on the stack to point to code the attacker wishes to run.
-6. Format string is a memory bug that can lead to the contents of the stack being leaked. Also, %n causes overwriting a memory location.  
+3. a) stack buffer overflow.
+b) `gets(name)`
+   c) `count` and `x. Why have count and x been the only ones corupted ? Answer: the stack first looks like this [z][y][name][x][count][sfp][ret]
+then when you start overflowing "name" [z][y][AAAA][AAAA][AAAA][AAA][AAA] you corrupt the memory like this. then you corrupted x and count both.
+The stack always got filled from the bottom: here you start by count, you push it down and then x on top of it and then name and so on, always remember the stack structure we explained in the lecture slide 15 , the order can be fixed like in this question, otherwise you can make your own assumption of the order and explain what happens
+ d) use safe functions, like fgets, scanf.
+6. The loop runs 201 times, overflowing array variable. this is called off-by-one error. the 1 byte overflow corrupts the variable `x` in such a way that at the end of the loop, the value of the variable becomes less than 200, thereby making the loop condition failed.
+7. Control hijacking is taking control of the execution of a program, enabling it to run code or paths through the code that would not normally be taken by standard execution.  One way to hijack control would be to overwrite the return address of a function on the stack to point to code the attacker wishes to run.
+8. Format string is a memory bug that can lead to the contents of the stack being leaked. Also, %n causes overwriting a memory location.  
 
