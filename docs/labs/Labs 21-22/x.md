@@ -11,4 +11,8 @@ phrase[i]= 'X';
 
 function(phrase);
 }
+ret
+sfp
+chr
+
 ```
