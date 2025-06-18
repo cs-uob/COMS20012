@@ -1,3 +1,4 @@
+```bash
 void function (char *chr){
 char Array[20];
 strcpy(array, chr)
@@ -10,3 +11,4 @@ phrase[i]= 'X';
 
 function(phrase);
 }
+```
