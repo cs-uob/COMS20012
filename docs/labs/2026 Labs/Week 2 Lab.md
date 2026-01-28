@@ -28,6 +28,7 @@ at all possible do try and attend the lab where there will be *more* support.
 ## OPTION 2: Setting up Wireshark IF you are using Virtual Box
 
 If you are using university laptops, Kali should already be deployed in Virtual Box.
+Wireshark comes pre-installed in Kali Linux.
 
 ## Exercise 1: Wireshark Setup/Capture
 
