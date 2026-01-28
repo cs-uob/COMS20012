@@ -59,7 +59,7 @@ On Wireshark application (assuming it is still running!), select Capture > Resta
 
 In a terminal type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-20-57.png).
 
-## Q6 – compare the results of nslookup on the Host terminal and the content of the corresponding DNS response message as captured by Wireshark.
+## Q6 – compare the results of nslookup on the terminal and the content of the corresponding DNS response message as captured by Wireshark.
 
 Then launch Firefox browser to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, etc. Did you get similar [traffic](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_003.png)? 
 
