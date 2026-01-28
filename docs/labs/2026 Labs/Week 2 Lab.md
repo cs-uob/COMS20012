@@ -5,7 +5,7 @@ We will not be hacking anything today, but we will learn how to build, define an
 
 
 
-## Setting up Wireshark IF you are using Vagrant
+## OPTION 1: Setting up Wireshark IF you are using Vagrant
 As you will be using Wireshark for this lab, let's learn how to setup Wireshark on Kali Linux inside Vagrant. 
 
 **You can use your laptop (Linux system) (it is expected that you use Ubuntu for Desktops: http://www.ubuntu.com/ .) And VMware which is an open source on Linux systems.**
@@ -25,7 +25,7 @@ In the previous lab we were setting up Vagrant and VirtualBox VM, to make sure t
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support. 
 
-## Setting up Wireshark IF you are using Virtual Box
+## OPTION 2: Setting up Wireshark IF you are using Virtual Box
 
 If you are using university laptops, Kali should already be deployed in Virtual Box.
 
