@@ -3,7 +3,9 @@
 Hi class. In this lab, you will learn to capture messages (Application, TCP segments, IP Packets and Ethernet Frames) using Wireshark. Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Using packet analysis to sniff network traffic can achieve the following goals: Footprinting and reconnaissance. As a precursor to an active attack, hackers use Wireshark to capture unencrypted traffic in order to gather as much information about the target as possible. More about Whireshark you can read [here](https://www.wireshark.org/#:~:text=About%20Wireshark&text=Wireshark%20is%20the%20world's%20foremost,government%20agencies%2C%20and%20educational%20institutions.). 
 We will not be hacking anything today, but we will learn how to build, define and exercise Wireshark Message/Packet Display Filter (Typing Text, Expression Builder & Shortcut options). You will also compare the standards of the TCP/IP Layered Network Architecture with Wireshark captured HTTP and TCP messages. More about TCP/IP Layered Network Architecture you can read [here](https://docs.oracle.com/cd/E19683-01/806-4075/ipov-10/index.html)
 
-## 1. Setting up Wireshark
+
+
+## Setting up Wireshark IF you are using Vagrant
 As you will be using Wireshark for this lab, let's learn how to setup Wireshark on Kali Linux inside Vagrant. 
 
 **You can use your laptop (Linux system) (it is expected that you use Ubuntu for Desktops: http://www.ubuntu.com/ .) And VMware which is an open source on Linux systems.**
@@ -22,6 +24,10 @@ In the previous lab we were setting up Vagrant and VirtualBox VM, to make sure t
 **NOTE:** working from home?  If you need help post a question in the
 Teams group for the unit and we'll try and help you from there, but if
 at all possible do try and attend the lab where there will be *more* support. 
+
+## Setting up Wireshark IF you are using Virtual Box
+
+If you are using university laptops, Kali should already be deployed in Virtual Box.
 
 ## Exercise 1: Wireshark Setup/Capture
 
@@ -42,6 +48,7 @@ The center pane displays the protocols associated with the selected Frame and th
 For example, if you select in the center pane the Ethernet II layer (Data Link) of a Frame, the hexadecimal representation of that layer information should be highlighted in the bottom pane. Take a [screenshot](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/ScreenshotDNS.png).
 
 ## Q4 – Find out and describe how one could change the bottom pane view from Hex View to Bits.
+
 ## Q5 – Explain the how one would go about converting decimal number 87 into its Hex and Binary representations.
 
 ## Exercise 2: Capturing Frames and encoding:
@@ -71,6 +78,7 @@ If you need to exclude the HTTP from the TCP frames, you can type “tcp and not
 If you need to display packets sent (sourced from) by a specific IP address, you should enter ip.src== “ip address” (replace the word “ip address” with the specific IP address you are searching for). Provide an example.
 To find out the entire set of Display Filter syntax, you may click the Expression button next to the filter text box. For example, scroll to the IP entry and expand by clicking on the + sign or the arrow on the left. Wireshark should display all possible attributes of the object IP. Find ip.ttl and find out what it means. Type “ip.ttl” then “==” and type “64” in the value field so that the equation would look like the following (ip.ttl == 64) and Click OK.
 ## Q9 - Describe what happens (what you have witnessed).
+
 ## Q10 – Can I filter for a specific source IP address and specific destination IP address? Provide screenshots.
 
 **NOTE:** this weeks lab *should* work on any machine... including
@@ -78,4 +86,3 @@ an M1 Mac, a lab machine and anything else you can throw at it... but
 you *might* need to tweak things to get it all working; and if in
 doubt fall back to `ssh seis.bristol.ac.uk`
 Good Luck
-Alma
