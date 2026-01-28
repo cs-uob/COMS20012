@@ -32,9 +32,9 @@ Wireshark comes pre-installed in Kali Linux.
 
 ## Exercise 1: Wireshark Setup/Capture
 
-Make sure that the Host Hardware/External Network Interface ethx (where x is an integer) is connected to the public network (Internet), that is, it acquired an IP address.
+Make sure that the Network Interface ethx (where x is an integer) is connected to the public network (Internet), that is, it acquired an IP address.
 
-Launch Wireshark on the Host by typing sudo wireshark in a terminal on the Host. Click on the Interfaces option in the Capture menu. Click on the Options button corresponding to the IP address acquired by the Host Hardware/External Network Interface ethx.
+Launch Wireshark on Kali VM by typing sudo wireshark in a terminal. Click on the Interfaces option in the Capture menu. Click on the Options button corresponding to the IP address acquired by the Hardware/External Network Interface ethx.
 Check the boxes for all Displays Options and Name Resolution. Make sure that “Enable promiscuous mode on all interfaces” is checked in. Click Start.
 
 ## Q1 - What does promiscuous mode mean?
@@ -53,15 +53,15 @@ For example, if you select in the center pane the Ethernet II layer (Data Link) 
 ## Q5 – Explain the how one would go about converting decimal number 87 into its Hex and Binary representations.
 
 ## Exercise 2: Capturing Frames and encoding:
-Open a Firefox browser on the Host. Select Edit > Preferences > Privacy and select Never remember history and click on clear all current history. Click Close. Make sure that the startup home page of your browser is Google or Ubuntu Google. Close the browser.
+Open a Firefox browser. Select Edit > Preferences > Privacy and select Never remember history and click on clear all current history. Click Close. Make sure that the startup home page of your browser is Google or Ubuntu Google. Close the browser.
 
 On Wireshark application (assuming it is still running!), select Capture > Restart (the green arrow) from the top menu bar. All captured and displayed Frames should be cleared from the top pane. Note – Almost instantaneously new frames are captured, the network is busy all the time, auto discover, etc.
 
-In a terminal (on the Host) type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-20-57.png).
+In a terminal type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-20-57.png).
 
 ## Q6 – compare the results of nslookup on the Host terminal and the content of the corresponding DNS response message as captured by Wireshark.
 
-Then launch Firefox browser on the Host to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, etc. Did you get similar [traffic](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_003.png)? 
+Then launch Firefox browser to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, etc. Did you get similar [traffic](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_003.png)? 
 
 Wait a second or two and then close the browser. Stop capturing packets by clicking on the stop icon (see above) or select Capture > Stop from the top bar menu. Save the captured packets in a file: select File > Save As > enter a name, say, Lab_Capture_Lastnames.pcap, navigate where you want to save the file, and click Save.
 
