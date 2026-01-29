@@ -6,7 +6,7 @@
 
 ## Schedule
 
-| Tuesday  13:00-14:00                        | Tuesday 16:00-18:00   |
+| Thursday  11:00-12:00                        | Thursday 13:00-15:00   |
 |---------------------------------------------|------------------------|
 | Lecture Session (QUEEN’S BLDG 1.40 PUGSLEY) | Lab Session (MVB 2.11) | 
 
@@ -39,10 +39,9 @@ The most effective way to get the help you need is to:
 | 16 | [Lecture 4 - Web Security + Firewalls](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2026/CSB2026L4.pdf) |  [Lab 4](https://github.com/cs-uob/COMS20012/tree/master/docs/labs/2026%20Labs/Week%204%20Lab) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Excercise4.md) |
 | 17 | [Lecture 5 - Security Protocols and Private Network](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Week%205%20-%20Security%20protocols%20and%20Private%20Network.pptx) | [Lab 5 ](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%205%20Lab.md) | [Exercise Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice5.md)|
 | 18 | Reading Week - No Lecture | No Lab | |
-| 19|  No Lecture | No Lab | |
-| 20|  [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Intro%20to%20Software%20Security.pptx) | [lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%206%20Lab.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
-|21| [Lecture 7 - Intro to OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Introduction%20to%20Operating%20Systems.pptx)| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%207%20Lab.md)| [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md)|
-|22| [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx)<br> [Video for Memory replacement policies (Extra content)](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/ESH33e2i3zhfi91a7iVWXrIBWHqD3s087xJufJVGQZvJsA?e=d8nvmG)) <br> [Video for Clock Replacement Policy](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/EQxrLl0ukoVHns34DxW_r0MBRWdmthrGWDVtTZ3hD932mg?e=gf9xdE) | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%208%20Lab%20.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md) |
+| 19|  [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Intro%20to%20Software%20Security.pptx) | [lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%206%20Lab.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
+|20| [Lecture 7 - Intro to OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Introduction%20to%20Operating%20Systems.pptx)| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%207%20Lab.md)| [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md)|
+|21| [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx)<br> [Video for Memory replacement policies (Extra content)](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/ESH33e2i3zhfi91a7iVWXrIBWHqD3s087xJufJVGQZvJsA?e=d8nvmG)) <br> [Video for Clock Replacement Policy](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/EQxrLl0ukoVHns34DxW_r0MBRWdmthrGWDVtTZ3hD932mg?e=gf9xdE) | [Lab 8](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%208%20Lab%20.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md) |
 
 
 
