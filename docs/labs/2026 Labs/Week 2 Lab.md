@@ -30,6 +30,20 @@ at all possible do try and attend the lab where there will be *more* support.
 If you are using university laptops, Kali should already be deployed in Virtual Box.
 Wireshark comes pre-installed in Kali Linux.
 
+## OPTION 3: New deployment
+there is a simple bash script that starts the vm's
+```
+/opt/Virtual_Box/COMSM0123/scripts/load-vms
+```
+you can call this script directly 
+or you can load a 'kali' module which will add that scripts dir into your PATH
+```
+module load kali 
+```
+and then 
+```
+load-vms
+```
 ## Exercise 1: Wireshark Setup/Capture
 
 Make sure that the Network Interface ethx (where x is an integer) is connected to the public network (Internet), that is, it acquired an IP address.
