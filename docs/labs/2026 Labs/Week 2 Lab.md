@@ -44,7 +44,7 @@ Wireshark should start displaying “packets” (actually displaying frames) tra
 Note that the frames/packets (rows) are sorted by Time. However, you can change that by clicking on the heading of another column and therefore sort by the heading of that column.
 
 ## Q3 – Provide an example where you have sorted the frames using the Protocol column.
-The center pane displays the protocols associated with the selected Frame and the bottom pane displays the hexadecimal representation (Hex View) of the data contained in the same. Beneath the bottom pane is a status bar that displays the total number of Frames captured, displayed and marked (zero unless filtering is applied).
+The bottom left pane displays the protocols associated with the selected Frame and the bottom pane displays the hexadecimal representation (Hex View) of the data contained in the same. Beneath the bottom pane is a status bar (or the menu option Statistics -> Capture File Properties) that displays the total number of Frames captured, displayed and marked (zero unless filtering is applied).
 
 For example, if you select in the center pane the Ethernet II layer (Data Link) of a Frame, the hexadecimal representation of that layer information should be highlighted in the bottom pane. Take a [screenshot](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/ScreenshotDNS.png).
 
@@ -55,13 +55,13 @@ For example, if you select in the center pane the Ethernet II layer (Data Link) 
 ## Exercise 2: Capturing Frames and encoding:
 Open a Firefox browser. Select Edit > Preferences > Privacy and select Never remember history and click on clear all current history. Click Close. Make sure that the startup home page of your browser is Google or Ubuntu Google. Close the browser.
 
-On Wireshark application (assuming it is still running!), select Capture > Restart (the green arrow) from the top menu bar. All captured and displayed Frames should be cleared from the top pane. Note – Almost instantaneously new frames are captured, the network is busy all the time, auto discover, etc.
+On Wireshark application (assuming it is still running!), select Capture > Restart (the green arrow) from the top menu bar. All captured and displayed Frames should be cleared from the top pane. Note – new frames are captured (the more traffic goes through the network, the faster it will appear, the network is busy all the time, auto discover, etc).
 
 In a terminal type nslookup google.com to force the generation of Domain Name requests. You screen should look something like [this](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Screenshot_2023-02-05_10-20-57.png).
 
 ## Q6 – compare the results of nslookup on the terminal and the content of the corresponding DNS response message as captured by Wireshark.
 
-Then launch Firefox browser to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, etc. Did you get similar [traffic](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_003.png)? 
+Then launch Firefox browser to force the generation of http requests &responses and tcp segments. Note that ARPs messages are dynamically generated on a regular basis. Wireshark should display frames/packets with protocols, such as, ARP, DNS, TCP, HTTP, QUIC, etc. Did you get similar [traffic](https://github.com/cs-uob/COMS20012/blob/master/docs/materials/Selection_003.png)? 
 
 Wait a second or two and then close the browser. Stop capturing packets by clicking on the stop icon (see above) or select Capture > Stop from the top bar menu. Save the captured packets in a file: select File > Save As > enter a name, say, Lab_Capture_Lastnames.pcap, navigate where you want to save the file, and click Save.
 
@@ -77,7 +77,7 @@ Type tcp in the tool bar text box and click Apply.
 If you need to exclude the HTTP from the TCP frames, you can type “tcp and not http” (which means filter for tcp and exclude http) in the filter text box. Try it out. Provide your results. For more information regarding wireshark filters check the following link.
 
 If you need to display packets sent (sourced from) by a specific IP address, you should enter ip.src== “ip address” (replace the word “ip address” with the specific IP address you are searching for). Provide an example.
-To find out the entire set of Display Filter syntax, you may click the Expression button next to the filter text box. For example, scroll to the IP entry and expand by clicking on the + sign or the arrow on the left. Wireshark should display all possible attributes of the object IP. Find ip.ttl and find out what it means. Type “ip.ttl” then “==” and type “64” in the value field so that the equation would look like the following (ip.ttl == 64) and Click OK.
+To find out the entire set of Display Filter syntax, you may click the Expression button next to the filter text box (or in some versions Analyze -> Display Filter Expression). For example, scroll to the IP entry and expand by clicking on the + sign or the arrow on the left. Wireshark should display all possible attributes of the object IP. Find ip.ttl and find out what it means. Type “ip.ttl” then “==” and type “64” in the value field so that the equation would look like the following (ip.ttl == 64) and Click OK.
 ## Q9 - Describe what happens (what you have witnessed).
 
 ## Q10 – Can I filter for a specific source IP address and specific destination IP address? Provide screenshots.
