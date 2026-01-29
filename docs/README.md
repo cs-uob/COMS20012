@@ -14,14 +14,8 @@
 
 | Person               | Role     | Contact                      |
 |----------------------|----------|------------------------------|
-| Alma Oracevic        | Lecturer | alma.oracevic@bristol.ac.uk |
 | Sana Belguith        | Lecturer | sana.belguith@bristol.ac.uk  |
-| Damien McGeer            | TA       |ne22153@bristol.ac.uk|
-| Finley Singleton       | TA       |ik22435@bristol.ac.uk|
-| Luke Edwards      | TA       |luke.edwards.2022@bristol.ac.uk|
-| Nate Liu       | TA       |bw19062@bristol.ac.uk|
-| Alyah Al Fageh          | TA       |alyah.alfageh@bristol.ac.uk|
-| Vinh Bui      | TA       |bui.vinh.2022@bristol.ac.uk|
+|Stanislav Abaimov       | Lecturer |stanislav.abaimov@bristol.ac.uk |
 
 
 ## Support
