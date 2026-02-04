@@ -54,8 +54,8 @@ sudo dpkg -i 	libxcb-xinerama0-dev_1.17.0-2+b2_amd64.deb
 
 6. To install libgl1-mesa-glx, run:
 ```
-sudo wget http://ftp.de.debian.org/debian/pool/main/m/mesa/libgl1-mesa-glx_20.3.5-1_amd64.deb
-sudo dpkg -i libgl1-mesa-glx_20.3.5-1_amd64.deb 
+sudo wget http://ftp.de.debian.org/debian/pool/main/m/mesa/libgl1-mesa-glx_22.3.6-1+deb12u1_amd64.deb
+sudo dpkg -i	libgl1-mesa-glx_22.3.6-1+deb12u1_amd64.deb 
 ```
 #### Installation complete
 
