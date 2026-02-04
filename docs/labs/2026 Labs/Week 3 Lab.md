@@ -4,8 +4,6 @@ Hi class. In this lab, you will learn how to set up simple network in Packet Tra
 
 [ Packet Tracer ](https://www.netacad.com/courses/packet-tracer) is a cross-platform visual simulation tool designed by Cisco Systems that allows users to create network topologies and imitate modern computer networks. The software allows users to simulate the configuration of Cisco routers and switches using a simulated command line interface.
 
-**NOTE** You need to create [Cisco Networking Academy account](https://www.netacad.com/) (by clicking on 'Login', then 'Sign up') to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer by following the Packet Tracer link above and registering for the "Getting Started with Cisco Packet Tracer" course. Then, lets start! 
-
 **NOTE** If you are using lab machines you will need to access the Kali VM that you should have made last week. 
 There is now a simple bash script that starts the vm's.
 `/opt/Virtual_Box/COMSM0123/scripts/load-vms`
@@ -14,8 +12,9 @@ You can call this script directly or you can load a 'kali' module which will add
 
 There is also an `unload-vms` script which should be used at the end of the labs to clean-up.
 
+**NOTE** You need to create [Cisco Networking Academy account](https://www.netacad.com/) (by clicking on 'Login', then 'Sign up') to be able to use Packet Tracer for free! If you are using your own laptop download Packet Tracer by following the Packet Tracer link above and registering for the "Getting Started with Cisco Packet Tracer" course. Then, lets start! 
 
-To download and set up Packet Tracer within Kali:
+To download and set up Packet Tracer **within Kali**:
 1. Download the Packet Tracer .deb file after logging into your account from the link above (make sure it is the one listed for Ubuntu). 
 2. Run `sudo dpkg -i [PATH TO YOUR PACKET TRACER DEB]` OR `sudo apt update && sudo apt install ./PATH_TO_PACKET_TRACER.deb`
 4. Accept the license agreement and EULA terms
