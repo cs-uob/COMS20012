@@ -34,12 +34,12 @@ This WILL result in dependency issues (dialog, libxcb-xinerama0, libgl1-mesa-glx
 
 4. To install dialog, run:
 ```
-sudo wget http://http.kali.org/kali/pool/main/d/dialog/dialog_1.3-20240307-2+b1_amd64.deb 
-sudo dpkg -i dialog_1.3-20240307-2+b1_amd64.deb 
+sudo wget http://http.kali.org/kali/pool/main/d/dialog/dialog_1.3-20260107-1_amd64.deb
+sudo dpkg -i dialog_1.3-20260107-1_amd64.deb 
 
 sudo wget http://http.kali.org/kali/pool/main/d/dialog/libdialog15_1.3-20240307-2+b1_amd64.deb
 
-sudo dpkg -i libdialog15_1.3-20240307-2+b1_amd64.deb 
+sudo dpkg -i libdialog15_1.3-20250817-1_amd64.deb 
 sudo apt-get install dialog
 ```
 
@@ -48,8 +48,8 @@ sudo apt-get install dialog
 sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/libxcb-xinerama0_1.15-1_amd64.deb
 sudo dpkg -i libxcb-xinerama0_1.15-1_amd64.deb
 
-sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/libxcb-xinerama0-dev_1.15-1_amd64.deb
-sudo dpkg -i libxcb-xinerama0-dev_1.15-1_amd64.deb 
+sudo wget http://ftp.de.debian.org/debian/pool/main/libx/libxcb/	libxcb-xinerama0-dev_1.17.0-2+b2_amd64.deb
+sudo dpkg -i 	libxcb-xinerama0-dev_1.17.0-2+b2_amd64.deb 
 ```
 
 6. To install libgl1-mesa-glx, run:
