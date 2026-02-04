@@ -20,6 +20,17 @@ To download and set up Packet Tracer within Kali:
 2. Run `sudo dpkg -i [PATH TO YOUR PACKET TRACER DEB]` OR `sudo apt update && sudo apt install ./PATH_TO_PACKET_TRACER.deb`
 4. Accept the license agreement and EULA terms
 
+
+
+### TROUBLESHOOTING DEPENDENCIES
+All the dependencies should be already present, however, if there is a dependency issue:
+
+#### Option 1: Automated fix
+Run automated fix first.
+
+`sudo apt-get install -f`
+
+#### Option 2: Manual installation of dependencies
 This WILL result in dependency issues (dialog, libxcb-xinerama0, libgl1-mesa-glx), but we'll need to install these separately...
 
 4. To install dialog, run:
@@ -47,6 +58,7 @@ sudo dpkg -i libxcb-xinerama0-dev_1.15-1_amd64.deb
 sudo wget http://ftp.de.debian.org/debian/pool/main/m/mesa/libgl1-mesa-glx_20.3.5-1_amd64.deb
 sudo dpkg -i libgl1-mesa-glx_20.3.5-1_amd64.deb 
 ```
+#### Installation complete
 
 With this you should now be able to boot Packet Tracer with the packettracer command.
 
