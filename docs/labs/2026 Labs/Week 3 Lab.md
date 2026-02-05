@@ -1,4 +1,4 @@
-# Lab 3: Getting famiar with networking using Packet Tracer 
+# Lab 3: Getting famiar with networking using Cisco Packet Tracer 
 
 Hi class. In this lab, you will learn how to set up simple network in Packet Tracer. In the second part of this lab you will learn how to use [ IP spoofing](https://www.kaspersky.com/resource-center/threats/ip-spoofing) in the IoT house.  
 
