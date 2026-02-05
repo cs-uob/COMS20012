@@ -6,7 +6,7 @@ Hi class. In this lab, you will learn how to set up simple network in Packet Tra
 
 **NOTE** If you are using lab machines you will need to access the Kali VM that you should have made last week. 
 There is now a simple bash script that starts the vm's.
-`/opt/Virtual_Box/COMSM0123/scripts/load-vms`
+`/opt/Virtual_Box/COMS20012/scripts/load-vms`
 You can call this script directly or you can load a 'kali' module which will add that scripts dir into your PATH
 `module load kali` and then `load-vms`.
 
