@@ -19,13 +19,22 @@ The rest of labs in this course are designed to run in *virtual machines* on the
 of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
 
 
-1. On your host machine, open a terminal in your home directory (or whatever directory you are asigned which has good memory). Make a directory `mkdir CS_vagrant`
-2. `cd CS_vagrant` and then make another directory `mkdir seclabs`
-3. `cd seclabs`
-4. `vagrant init hashicorp/bionic64`.
-5. `vagrant up`. First time, this is will download Ubuntu 18.04-64. It will take a while. Once done, we are ready to launch this VM.
-6. Lets ssh our new VM. `vagrant ssh`
+**Option 1:** Start your VM (same vagrant steps, but you don't have to install the VM. Just go to the directory where your Vagrantfile is and `vagrant up` followed by `vagrant ssh`. ).
 
+**Option 2:** New deployment
+there is a simple bash script that starts the vm's
+```
+/opt/Virtual_Box/COMSM0123/scripts/load-vms
+```
+you can call this script directly 
+or you can load a 'kali' module which will add that scripts dir into your PATH
+```
+module load kali 
+```
+and then 
+```
+load-vms
+```
 
 ## Part 1: Processes
 
