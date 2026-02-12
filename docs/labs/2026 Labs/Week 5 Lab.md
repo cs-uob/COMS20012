@@ -3,7 +3,7 @@
 In this lab, you will be introduced to Assembly and memory layout using GDB. You will need this understanding for the coming labs and also to better comprehend the coming lectures.
 
 
-## 1. Setting up Vagrant 
+## Option 1. Setting up Vagrant 
 
 The rest of labs in this course are designed to run in *virtual machines* on the lab machines setup via Vagrant. Expect to spend the first 10 minutes
 of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
@@ -28,7 +28,20 @@ of any lab redownloading the VM images. If you have an X86-based Linux machine o
 17. Now you have all the tools that will be required. To test, run these commends and check if they run properly-- `gcc --version`, `gdb --version`, `objdump --version`
 18. When done with your lab, you can `logout` and then in your host machine, you can close the VM-- `vagrant halt`
 
-
+## Option 2.  New deployment
+there is a simple bash script that starts the vm's
+```
+/opt/Virtual_Box/COMSM0123/scripts/load-vms
+```
+you can call this script directly 
+or you can load a 'kali' module which will add that scripts dir into your PATH
+```
+module load kali 
+```
+and then 
+```
+load-vms
+```
 ## Understanding Memory layout with GDB
 ### Part 1. Using GDB 
 
