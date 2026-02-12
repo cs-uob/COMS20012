@@ -13,9 +13,8 @@ Lab Machine remotely. To do so follow [the online instructions](https://uob.shar
 If you experience difficulty contact the IT service.
 
                                                                 
- ## 1. Setting up Vagrant (you have already done this part in previous labs, it should be straightforward)
 
-The rest of labs in this course are designed to run in *virtual machines* on the lab machines setup via Vagrant. Expect to spend the first 10 minutes
+The rest of labs in this course are designed to run in *virtual machines* on the lab machines setup via one of the options below. Expect to spend the first 10 minutes
 of any lab redownloading the VM images. If you have an X86-based Linux machine of your own, you might get away with using your own machine; if you have a Mac you will need to use the lab machines. If you have Windows you *might* get away with it.
 
 
