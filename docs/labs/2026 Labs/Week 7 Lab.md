@@ -25,11 +25,12 @@ environment configuration process, we wrote a special bash script. Follow these 
    The lab machines don't have much space available, so please don't clone the entire repository!
 3. Open the Terminal.
 4. Use `cd path/from/users/home` command to enter the directory where you saved `os161_env_configurator.sh` script.
-5. Execute the script using `./os161_env_configurator.sh`. Wait until "_os161 userland build completed! Please close all terminal windows now._" message will appear.
-6. Close all terminal windows, then open a new terminal window (this is to apply changes to $PATH that our script made).
-6. Use `cd path/from/users/home/os161` to enter the os161 installation directory (it will be in the same directory where you
+5. Use `chmod +x os161_env_configure.sh` to add execution permission to the script.
+6. Execute the script using `./os161_env_configurator.sh`. Wait until "_os161 userland build completed! Please close all terminal windows now._" message will appear.
+7. Close all terminal windows, then open a new terminal window (this is to apply changes to $PATH that our script made).
+8. Use `cd path/from/users/home/os161` to enter the os161 installation directory (it will be in the same directory where you
    executed the `os161_env_configurator.sh` script.
-7. Proceed to "Configuration of OS/161 kernel" stage.
+9. Proceed to "Configuration of OS/161 kernel" stage.
 
 ## Installation (legacy approach)
 
