@@ -8,8 +8,32 @@ You need to complete [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/doc
 Lab Machine remotely. To do so follow [the online instructions](https://uob.sharepoint.com/sites/itservices/SitePages/fits-engineering-linux-x2go.aspx).
 If you experience difficulty contact the IT service.
 
+## Installation (recommended approach)
 
-## Tools
+[OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
+It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) for use in her famous Harvard course on operating systems, CS161.
+Since then, OS/161 has been adopted for teaching in many universities around the world.
+Operating systems courses that use OS/161 are known to be demanding, yet incredibly enriching and rewarding.
+
+os161 requires compilation of its own toolchain (gdb, gcc, System161) and some other dependencies.
+Some source code used is considered invalid by modern compilers due to outdated C standards used. To simplify the os161
+environment configuration process, we wrote a special bash script. Follow these steps:
+
+1. Launch a Kali VM (just like in previous labs). **All steps below have to be done in the Kali Linux VM!**
+2. Download the following [script](/docs/materials/os161_env_configurator.sh) to directory where you want os161 to be installed.
+   You can download it in the Kali VM using "Shared Folders", "wget" or by opening this repository in Firefox.
+   The lab machines don't have much space available, so please don't clone the entire repository!
+3. Open the Terminal.
+4. Use `cd path/from/users/home` command to enter the directory where you saved `os161_env_configurator.sh` script.
+5. Execute the script using `./os161_env_configurator.sh`. Wait until "_os161 userland build completed! Please close all terminal windows now._" message will appear.
+6. Close all terminal windows, then open a new terminal window (this is to apply changes to $PATH that our script made).
+6. Use `cd path/from/users/home/os161` to enter the os161 installation directory (it will be in the same directory where you
+   executed the `os161_env_configurator.sh` script.
+7. Proceed to "Configuration of OS/161 kernel" stage.
+
+## Installation (legacy approach)
+
+### Tools
 
 You are second year computer science students and we expect some autonomy
 in using the "tools of the trade".
@@ -18,36 +42,34 @@ You should be familiar (or familiarise yourself) with the following tools:
 2. [VirtualBox](https://www.virtualbox.org/manual/ch01.html);
 3. [git](https://git-scm.com/docs/gittutorial);
 4. GDB, see [LAB 5](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/lab%205.md).
-Please, make sure those tools are installed and that you know how to use them.
-You should have used them in previous labs in this unit, and others.
-Do get in touch with your TA if you are facing issues.
+   Please, make sure those tools are installed and that you know how to use them.
+   You should have used them in previous labs in this unit, and others.
+   Do get in touch with your TA if you are facing issues.
 
-## Installation
-
- - (On Windows) Download https://git-scm.com/download/[Git for Windows].
+- (On Windows) Download https://git-scm.com/download/[Git for Windows].
 
 This includes a `bash` shell which you should use in lieu of the terrible
 Windows shell.
 
- - (Required) If you already have https://www.virtualbox.org/[VirtualBox]
+- (Required) If you already have https://www.virtualbox.org/[VirtualBox]
 installed, upgrade to the latest version.
 
- - (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
+- (Required) https://docs.vagrantup.com/v2/installation/[Install Vagrant]
 
 - (Suggested) Install two Vagrant plugins:
 
- `vagrant plugin install vagrant-vbguest`.
+`vagrant plugin install vagrant-vbguest`.
 
 This ensure that your VirtualBox Guest Additions are up to date.
 
- `vagrant plugin install vagrant-timezone`.
+`vagrant plugin install vagrant-timezone`.
 
 This synchronizes time between your VM guest and host.
 
 Note that these plugins may be required to get certain Windows systems to
 work.
 
-## Setting up vagrant image
+### Setting up vagrant image
 
 It is *strongly recommended* to setup a virtual environment to go through the lab, and to use the lab machines for this one. To do
 so, follow these instructions:
@@ -58,7 +80,8 @@ vagrant up
 vagrant reload
 ```
 During these instructions you might encounter some errors and some failures to access security updates. Ignore these and as soon as its all finished do `vagrant ssh`. The process will also open another window titled: "OS-labs [Running]"; you can ignore this box. The work is done in the original CLI.
-## Getting the source
+
+### Getting the source
 
 [OS/161](http://os161.eecs.harvard.edu/) has been developed and is maintained by [David Holland](http://www.hcs.harvard.edu/~dholland/) from [Harvard University](http://os161.eecs.harvard.edu/).
 It was spearheaded by [Margo Seltzer](https://www.seltzer.com/margo/) for use in her famous Harvard course on operating systems, CS161.
@@ -70,7 +93,7 @@ First you need to `ssh` in your guest virtual machine:
 ```
 vagrant ssh
 ```
-The default user and hostname is trinity@zion. 
+The default user and hostname is trinity@zion.
 
 Now all that is left for you to do is to access the OS/161 source code:
 ```
@@ -78,14 +101,14 @@ cd ~
 git clone https://github.com/uob-jh/os161.git
 ```
 
-## Configure OS/161 source tree
+### Configure OS/161 source tree
 
 This step is necessary to setup the location where your kernels and various
 binaries will be created in later stages. It should run fairly quickly and needs
 to be done only once (or when you completely deleted your source tree).
 Run `./configure --help` to find more including available options.
 
-## Building userland
+### Building userland
 
 **Note:** You may be familiar with GNU make. However, OS/161 uses BSD make which
 has a different syntax. To avoid confusion, BSD make has been installed as `bmake`
@@ -98,7 +121,7 @@ bmake
 bmake install
 ```
 
-## Configuration OS/161 kernel
+## Configuration of OS/161 kernel
 
 Now we need to configure the kernel. You can see the configurations in `kern/conf`.
 We are going to use `LAB5` configuration:
@@ -131,9 +154,9 @@ environment to run OS/161. Apart from floating point support and certain issues
 relating to RAM cache management, it provides an accurate emulation of a
 MIPS processor.
 
-You need a [configuration file](./sys161.conf) that we are going to place in `~/os161/root/`:
+You need a [configuration file](./sys161.conf) that we are going to place in `os161/root/`:
 ```
-cd ~/os161/root/
+cd os161/root/
 wget https://cs-uob.github.io/COMS20012/labs/sys161.conf
 ```
 
@@ -217,7 +240,7 @@ If you have previously configured and built in this directory there are also som
 
 In the `userland/` source subdirectory, you will find:
 * `bin/`: all the utilities that are typically found in `/bin/` such as `cat`, `cp`, `ls`, etc.
-Programs in `/bin/` are considered fundamental utilities that the system needs to run.
+  Programs in `/bin/` are considered fundamental utilities that the system needs to run.
 * `include/`: these are the include files that you would typically find in /usr/include (in our case, a subset of them). These are user include files, not kernel include files.
 * `lib/`: library code lives here. We have only two libraries: `libc`, the C standard library, and `hostcompat`, which is for recompiling OS/161 programs for the host UNIX system. There is also a `crt0` directory, which contains the startup code for user programs.
 * `sbin/`: this is the source code for the utilities typically found in `/sbin` on a typical UNIX installation. In our case, there are some utilities that let you halt the machine, power it off, and reboot it, among other things.
@@ -323,14 +346,14 @@ our kernel. You should be familiar with GDB from [LAB 1](./LAB1.html).
 
 First you need to boot your kernel and wait for a GDB connection:
 ```
-cd ~/os161/root/
+cd os161/root/
 sys161 -w kernel
 ```
 
 Now you need to open a second terminal (... and `vagrant ssh` in your guest)
 and do the following:
 ```
-cd ~/os161/root/
+cd os161/root/
 os161-gdb kernel
 ```
 
