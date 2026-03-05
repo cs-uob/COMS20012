@@ -31,7 +31,7 @@ and then
 ```
 load-vms
 ```
-2. In one pane, compile the program `gcc format.c -o format`
+2. In one pane, compile the program `gcc -fstack-protector-strong format.c -o format`
 3. Run the program `./format`
 4. It will ask to enter your name. Use `%x-%x-%x ...` as your name.
 5. For each additional `%x`, you will see some hexadecimal number being printed. You need to try each of these additional numbers to see if this is the pin that will "authenticate" you. 
