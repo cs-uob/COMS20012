@@ -51,7 +51,7 @@ The most effective way to get the help you need is to:
 | 18 (26/02)| Reading Week - No Lecture | No Lab | |
 | 19 (05/03)|  [Lecture 6 - Intro to Software Security](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Intro%20to%20Software%20Security.pptx) | [lab 6](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%206%20Lab.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice6.md) |
 |20 (12/03)| [Lecture 7 - Intro to OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2025/Introduction%20to%20Operating%20Systems.pptx)| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%207%20Lab.md)| [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/EXercice%207.md)|
-|21 (19/03)| Lecture 7 -Guest Lecture| [Lab 7]| |
+|21 (19/03)| Lecture 7 -Guest Lecture| [Lab 7](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%208%20Lab)| |
 |22 (16/04)| [Lecture 8 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/Memory%20Management%20and%20Operating%20Systems.pptx)<br> [Video for Memory replacement policies (Extra content)](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/ESH33e2i3zhfi91a7iVWXrIBWHqD3s087xJufJVGQZvJsA?e=d8nvmG)) <br> [Video for Clock Replacement Policy](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/EQxrLl0ukoVHns34DxW_r0MBRWdmthrGWDVtTZ3hD932mg?e=gf9xdE) | [Lab 9](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%208%20Lab%20.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md) |
 |23 (23/04)| Revision |  | |
 
