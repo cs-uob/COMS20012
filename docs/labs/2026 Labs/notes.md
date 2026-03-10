@@ -32,7 +32,7 @@ The image is signed using the utility `image_sign`, this utility takes the priva
 
 1. The signature of the image is generated using the private key.
 2. The signed image is then created by writing out the header, the public key, signature and the image.
-3. The source for the utility is in the file `image_sign.c`
+3. The source for the utility is in the file [`image_sign.c`](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/sign_image.c)
 
 The `secure_boot` utility will simulate the boot process in a device. This utility will read the singed image, validate the image and if successful run the image.
 
