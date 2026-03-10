@@ -34,7 +34,7 @@ The image is signed using the utility `image_sign`, this utility takes the priva
 2. The signed image is then created by writing out the header, the public key, signature and the image.
 3. The source for the utility is in the file [`image_sign.c`](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/sign_image.c)
 
-The `secure_boot` utility will simulate the boot process in a device. This utility will read the singed image, validate the image and if successful run the image.
+The [`secure_boot.c`](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/secure_boot.c) utility will simulate the boot process in a device. This utility will read the singed image, validate the image and if successful run the image.
 
 1. The image validation uses the public key. This public key is stored in the singed image file.
 2. This public key must also be validated before it can be used to validate the image. this is done in the function `verify_public_key()`
