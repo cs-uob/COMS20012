@@ -46,7 +46,7 @@ The `secure_boot` utility will simulate the boot process in a device. This utili
    1. The hash of the image is calculated
    2. This hash is the compared with the encrypted hash in the signature
    3. If they are the same the image is valid
-5. The source for the utility is in the file `secure_boot.c`
+5. The source for the utility is in the file [`secure_boot.c`](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/secure_boot.c)
 
 Only images that are signed with the corresponding private key can be validated by the `secure_boot` utility and the run.
 
