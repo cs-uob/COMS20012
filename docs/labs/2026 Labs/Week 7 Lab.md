@@ -355,7 +355,7 @@ Now you need to open a second terminal (... and `vagrant ssh` in your guest)
 and do the following:
 ```
 cd os161/root/
-os161-gdb kernel
+mips-harvard-os161-gdb kernel
 ```
 
 Now in the GDB prompt type the following:
