@@ -24,7 +24,7 @@ environment configuration process, we wrote a special bash script. Follow these 
    You can download it in the Kali VM using "Shared Folders", "wget" or by opening this repository in Firefox.
    The lab machines don't have much space available, so please don't clone the entire repository!
 3. Open the Terminal.
-4. Use `cd path/from/users/home` command to enter the directory where you saved `os161_env_configurator.sh` script.
+4. Use `cd path/from/users/home` command to enter the directory where you saved `os161_env_configure.sh` script.
 5. Use `chmod +x os161_env_configure.sh` to add execution permission to the script.
 6. Execute the script using `./os161_env_configurator.sh`. Wait until "_os161 userland build completed! Please close all terminal windows now._" message will appear.
 7. Close all terminal windows, then open a new terminal window (this is to apply changes to $PATH that our script made).
