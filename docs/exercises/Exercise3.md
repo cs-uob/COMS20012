@@ -2,7 +2,7 @@
 
 ## Network Security
 
-1. Investigate the network access control scheme used at your school or place of employment (if you work somewhere). Draw a diagram and describe the principal components. **This question has an aim to make you investigate and there is no uniform answer. You are strongly encouraged to ask our guest lecturer about our University access control.**
+1. Investigate the network access control scheme used at your school or place of employment (if you work somewhere). Draw a diagram and describe the principal components. **This question has an aim to make you investigate and there is no uniform answer. **
 
 2. Explain DNS cache poisoning.
 
