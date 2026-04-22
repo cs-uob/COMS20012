@@ -180,7 +180,7 @@ Choose the False answer:
 ### Question 18
 IPSEC is the only solution to establish a VPN
 - a.	True
--b. 	False
+- b. 	False
 
 ---
 
@@ -226,7 +226,7 @@ To avoid buffer overflow, you should use safe functions such as fgets:
 
 ### Question 22
 The following table is a memory management table, choose the correct table for LRU policy:
--a. 	Table 1
+- a. 	Table 1
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
@@ -237,7 +237,7 @@ The following table is a memory management table, choose the correct table for L
 
 	
 
--b. 	Table 2
+- b. 	Table 2
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
@@ -246,7 +246,7 @@ The following table is a memory management table, choose the correct table for L
 |PP3	|	|	|c	|c	|c	|c	|c	|a	|a	|a	|a	| a|
 |Fault?	|*	|*	|*	|	|	|*	|*	|*	|	|	|*	|  |
 
--c. 	Table 3
+- c. 	Table 3
 
 
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
@@ -257,7 +257,7 @@ The following table is a memory management table, choose the correct table for L
 | PP3    |   |   | c | c | c | e | e | e | e | e  | e  | e  |
 | Fault? | * | * | * |   |   | * | * | * |   |    | *  |    |
 
--d. 	Table 4:
+- d. 	Table 4:
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
@@ -267,7 +267,7 @@ The following table is a memory management table, choose the correct table for L
 |Fault?	|*	|*	|*	|	|	|*	|*	|*	||	|	|*|	||
 
 
--e. 	None of the above
+- e. 	None of the above
 
 
 
