@@ -193,6 +193,7 @@ SSL is recommended by the IETF
 
 ### Question 20
 Consider the following code:
+  ```
 void main(){
 	int count=0;
 	int x;
@@ -203,7 +204,7 @@ void main(){
 	gets(name);
 	printf("your name is: %s", name);
 	return 0;
-}
+}  ```
 Assume that variables are allocated on the stack in the same order as they are declared in the code, i.e. x will be near rbp (ebp) and z wil be near rsp (esp).
 Choose the correct answer:
 
