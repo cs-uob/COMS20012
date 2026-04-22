@@ -237,20 +237,21 @@ b)	Table 2
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
-PP1	a	a	a	a	a	e	e	e	e	e	b	b
-PP2		b	b	b	b	b	d	d	d	d	d	d
-PP3			c	c	c	c	c	a	a	a	a	a
-Fault?	*	*	*			*	*	*			*	
+PP1	a	a|	a|	a|	a|	e|	e|	e|	e|	e|	b|	b|
+|PP2|	|	|b	|b	|b	|b	|b	|d	|d	|d	|d	|d	|d|
+|PP3	|	|	c|	c|	c|	c|	c|	a|	a|	a|	a|	a|
+|Fault?	|*	|*	|*	|	|	|*	|*	|*	|	|	|*|	|
 
 c)	Table 3
+
+
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
-|Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
-|PP1	|a	|a	|a	|a	|a	|a	|d	|d	|d	|d	|d	|d|
-PP2		|b	|b	|b	|b	|b	|b	|a	|a	|a	|b	b|
-|PP3	|	|	|c	|c|	c|	e|	e|	e|	e|	e|	e|	|e|
-|Fault?	|*	|*	|*	|	|	|*	|*	|*|	|	|	|*|	
-
+| Ref    | a | b | c | a | b | e | d | a | e | d  | b  | d  |
+| PP1    | a | a | a | a | a | a | d | d | d | d  | d  | d  |
+| PP2    |   | b | b | b | b | b | b | a | a | a  | b  | b  |
+| PP3    |   |   | c | c | c | e | e | e | e | e  | e  | e  |
+| Fault? | * | * | * |   |   | * | * | * |   |    | *  |    |
 
 d)	Table 4:
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
