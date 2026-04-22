@@ -211,8 +211,7 @@ Choose the correct answer:
 
 - a.	This is a format string
 - b.	There is no memory error
-- c.	This is a memory error and the variables count, x, y and z are corrupted
-  - d.	This is a memory error and the variables count and x are corrupted
+- c.	This is a memory error and the variables count, x, y and z are corrupted - d.	This is a memory error and the variables count and x are corrupted
 - e.	None of the above
 
 ---
