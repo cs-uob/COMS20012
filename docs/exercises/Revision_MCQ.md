@@ -1,5 +1,7 @@
 # Revision Sheet:
 
+Please note that the exercises are in a random order. You can find the answers after the last question.
+
 ---
 
 ### Question 1
@@ -223,15 +225,17 @@ b)	True
 ### Question 22
 The following table is a memory management table, choose the correct table for LRU policy:
 a)	Table 1
-Num	1	2	3	4	5	6	7	8	9	10	11	12
-Ref	a	b	c	a	b	e	d	a	e	d	b	d
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
+|Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
 PP1	a	a	a	a	a	a	d	d	d	d	d	d
 PP2		b	b	b	b	b	b	a	a	a	b	b
 PP3			c	c	c	e	e	e	e	e	e	e
 Fault?	*	*	*	*	*	*	*	*			*	
 
 b)	Table 2
-Num	1	2	3	4	5	6	7	8	9	10	11	12
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
 Ref	a	b	c	a	b	e	d	a	e	d	b	d
 PP1	a	a	a	a	a	e	e	e	e	e	b	b
 PP2		b	b	b	b	b	d	d	d	d	d	d
@@ -239,14 +243,16 @@ PP3			c	c	c	c	c	a	a	a	a	a
 Fault?	*	*	*			*	*	*			*	
 
 c)	Table 3
-Num	1	2	3	4	5	6	7	8	9	10	11	12
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
 Ref	a	b	c	a	b	e	d	a	e	d	b	d
 PP1	a	a	a	a	a	a	d	d	d	d	d	d
 PP2		b	b	b	b	b	b	a	a	a	b	b
 PP3			c	c	c	e	e	e	e	e	e	e
 Fault?	*	*	*			*	*	*			*	
 d)	Table 4:
-Num	1	2	3	4	5	6	7	8	9	10	11	12
+| Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|--------|---|---|---|---|---|---|---|---|---|----|----|----|
 Ref	a	b	c	a	b	e	d	a	e	d	b	d
 PP1	a	a	a	a	a	a	d	d	d	d	d	d
 PP2		b	b	b	b	e	e	a	a	a	b	b
