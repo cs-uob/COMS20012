@@ -126,11 +126,11 @@ What are two common techniques used to protect a password file?
 ### Question 13
 Choose the correct answer: 
  
-a.	A Memory-mapping Unit associates virtual address with base and bound register 
-b.	A Memory-mapping Unit translates virtual addresses to physical addresses 
-c.	A Memory-mapping Unit can be configurable by a user process 
-d.	A Memory-mapping Unit provides a virtual memory for each process 
-e.	None of the above 
+- a.	A Memory-mapping Unit associates virtual address with base and bound register 
+- b.	A Memory-mapping Unit translates virtual addresses to physical addresses 
+- c.	A Memory-mapping Unit can be configurable by a user process 
+- d.	A Memory-mapping Unit provides a virtual memory for each process 
+- e.	None of the above 
 
 ---
 
@@ -138,55 +138,56 @@ e.	None of the above
 ### Question 14
 What is a spatial safety violation: 
  
-a.	An error in the kernel execution leading to data safety violation. 
-b.	An error in associating a virtual address with a physical address. 
-c.	An error in which a pointer is used to access an object that has already been deallocated. 
-d.	An error in which a pointer is used to access the data at a location in memory that is outside the bounds of an allocated object. 
-e.	None of the above 
+- a.	An error in the kernel execution leading to data safety violation. 
+- b.	An error in associating a virtual address with a physical address. 
+- c.	An error in which a pointer is used to access an object that has already been deallocated. 
+- d.	An error in which a pointer is used to access the data at a location in memory that is outside the bounds of an allocated object. 
+-e.	None of the above 
  
 ---
 
 ### Question 15
 Choose the False answer:
-a.	TLS has been deprecated by Internet Engineering Task Force and replaced by SSL
-b.	In  TLS, the data protection phase is implemented by the sub-protocol TLS application data protocol
-c.	Compared to SSL 3.0, TLS 1.0 uses HMAC
-d.	TLS is used to Establish a Virtual Private Network 
-e.	None of the above 
+
+- a.	TLS has been deprecated by Internet Engineering Task Force and replaced by SSL
+- b.	In  TLS, the data protection phase is implemented by the sub-protocol TLS application data protocol
+- c.	Compared to SSL 3.0, TLS 1.0 uses HMAC
+- d.	TLS is used to Establish a Virtual Private Network 
+- e.	None of the above 
 
 ---
 
 ### Question 16
 Which of the following is correct: 
-a)	When division by zero occurs, interrupt is triggered.
-b)	Interrupt do not invoke the kernel
-c)	System call does not allow to interact with the kernel
-d)	When division by zero occurs, trap is triggered.
-e)	None of the above
+- a.	When division by zero occurs, interrupt is triggered.
+- b.	Interrupt do not invoke the kernel
+- c. 	System call does not allow to interact with the kernel
+- d.	When division by zero occurs, trap is triggered.
+-e. 	None of the above
 
 ---
 
 ### Question 17
 Choose the False answer: 
-a)	Operating system abstracts the hardware complexity
-b)	Operating system is a computer program
-c)	Operating system multiplexes hardware resources
-d)	In OS, processes, threads are used to abstract the disk
-e)	None of the above
+- a.	Operating system abstracts the hardware complexity
+- b.	Operating system is a computer program
+- c.	Operating system multiplexes hardware resources
+- d.	In OS, processes, threads are used to abstract the disk
+- e.	None of the above
 
 ---
 
 ### Question 18
 IPSEC is the only solution to establish a VPN
-a)	True
-b)	False
+- a.	True
+-b. 	False
 
 ---
 
 ### Question 19
 SSL is recommended by the IETF
-a)	False
-b)	True 
+- a. 	False
+- b.	True 
 
 ---
 
@@ -206,25 +207,25 @@ void main(){
 Assume that variables are allocated on the stack in the same order as they are declared in the code, i.e. x will be near rbp (ebp) and z wil be near rsp (esp).
 Choose the correct answer:
 
-a)	This is a format string 
-b)	There is no memory error
-c)	This is a memory error and the variables count, x, y and z are corrupted
-d)	This is a memory error and the variables count and x are corrupted
-e)	None of the above
+- a.	This is a format string
+- b.	There is no memory error
+- c.	This is a memory error and the variables count, x, y and z are corrupted
+  - d.	This is a memory error and the variables count and x are corrupted
+- e.	None of the above
 
 ---
 
 ### Question 21
 To avoid buffer overflow, you should use safe functions such as fgets: 
-a)	False 
-b)	True
+- a.	False 
+- b.	True
 
 
 ---
 
 ### Question 22
 The following table is a memory management table, choose the correct table for LRU policy:
-a)	Table 1
+-a. 	Table 1
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
@@ -235,7 +236,7 @@ a)	Table 1
 
 	
 
-b)	Table 2
+-b. 	Table 2
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
@@ -244,7 +245,7 @@ b)	Table 2
 |PP3	|	|	|c	|c	|c	|c	|c	|a	|a	|a	|a	| a|
 |Fault?	|*	|*	|*	|	|	|*	|*	|*	|	|	|*	|  |
 
-c)	Table 3
+-c. 	Table 3
 
 
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
@@ -255,7 +256,7 @@ c)	Table 3
 | PP3    |   |   | c | c | c | e | e | e | e | e  | e  | e  |
 | Fault? | * | * | * |   |   | * | * | * |   |    | *  |    |
 
-d)	Table 4:
+-d. 	Table 4:
 | Num    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |--------|---|---|---|---|---|---|---|---|---|----|----|----|
 |Ref	|a	|b	|c	|a	|b	|e	|d	|a	|e	|d	|b	|d|
@@ -265,7 +266,7 @@ d)	Table 4:
 |Fault?	|*	|*	|*	|	|	|*	|*	|*	||	|	|*|	||
 
 
-e)	None of the above
+-e. 	None of the above
 
 
 
