@@ -142,7 +142,7 @@ What is a spatial safety violation:
 - b.	An error in associating a virtual address with a physical address. 
 - c.	An error in which a pointer is used to access an object that has already been deallocated. 
 - d.	An error in which a pointer is used to access the data at a location in memory that is outside the bounds of an allocated object. 
--e.	None of the above 
+- e.	None of the above 
  
 ---
 
