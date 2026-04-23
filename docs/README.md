@@ -57,7 +57,7 @@ The most effective way to get the help you need is to:
 
 
 ## Revision Exercise Sheet
-We have created a series of questions in MCQ style to help revise for the exam [MCQ Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Revision_MCQ.md.txt)
+We have created a series of questions in MCQ style to help revise for the exam [MCQ Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Revision_MCQ.md)
 
 ## Reading Material
 
