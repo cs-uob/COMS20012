@@ -172,7 +172,7 @@ Choose the False answer:
 - a.	Operating system abstracts the hardware complexity
 - b.	Operating system is a computer program
 - c.	Operating system multiplexes hardware resources
-- d.	In OS, processes, threads are used to abstract the disk
+- d.	In OS, threads are used to abstract the CPU
 - e.	None of the above
 
 ---
