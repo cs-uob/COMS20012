@@ -56,7 +56,7 @@ The most effective way to get the help you need is to:
 |23 (23/04)| [Lecture 10 - Memory Management + OS](https://github.com/cs-uob/COMS20012/blob/master/docs/lectures/2026/Week%2010%20Memory%20Management%20and%20Operating%20Systems.pptx)<br> [Video for Memory replacement policies (Extra content)](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/ESH33e2i3zhfi91a7iVWXrIBWHqD3s087xJufJVGQZvJsA?e=d8nvmG)) <br> [Video for Clock Replacement Policy](https://uob-my.sharepoint.com/:v:/g/personal/fx21441_bristol_ac_uk/EQxrLl0ukoVHns34DxW_r0MBRWdmthrGWDVtTZ3hD932mg?e=gf9xdE) | [Lab 9](https://github.com/cs-uob/COMS20012/blob/master/docs/labs/2026%20Labs/Week%208%20Lab%20.md) | [Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Exercice%208.md) |
 
 
-## Revision Exercice Sheet
+## Revision Exercise Sheet
 We have created a series of questions in MCQ style to help revise for the exam [MCQ Exercice Sheet](https://github.com/cs-uob/COMS20012/blob/master/docs/exercises/Revision_MCQ.md.txt)
 
 ## Reading Material
