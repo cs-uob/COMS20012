@@ -150,7 +150,7 @@ What is a spatial safety violation:
 Choose the False answer:
 
 - a.	TLS has been deprecated by Internet Engineering Task Force and replaced by SSL
-- b.	In  TLS, the data protection phase is implemented by the sub-protocol TLS application data protocol
+- b.	In  TLS, the data protection phase is implemented by the sub-protocol TLS record protocol
 - c.	Compared to SSL 3.0, TLS 1.0 uses HMAC
 - d.	TLS is used to Establish a Virtual Private Network 
 - e.	None of the above 
